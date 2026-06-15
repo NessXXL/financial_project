@@ -1,0 +1,193 @@
+{
+  "ticker": "KSPI",
+  "timestamp": "2026-06-15T11:43:36.043115",
+  "profile": {
+    "name": "Joint Stock Company Kaspi.kz",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 80.56,
+    "change_pct": -2.1498806,
+    "marketCap": 15308596224.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0184,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 10,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "Kaspi.kz (NasdaqGS:KSPI) Stock Valuation Gap After Recent Momentum Cooldown",
+        "label": "neutral",
+        "confidence": 0.7321709990501404,
+        "negative": 0.08083203434944153,
+        "neutral": 0.7321709990501404,
+        "positive": 0.18699704110622406
+      },
+      {
+        "headline": "Down 9.6% in 4 Weeks, Here's Why You Should You Buy the Dip in Joint Stock Company Kaspi.kz Sponsored ADR (KSPI)",
+        "label": "neutral",
+        "confidence": 0.856278121471405,
+        "negative": 0.07319401949644089,
+        "neutral": 0.856278121471405,
+        "positive": 0.07052786648273468
+      },
+      {
+        "headline": "Are Business Services Stocks Lagging  GDS Holdings (GDS) This Year?",
+        "label": "neutral",
+        "confidence": 0.8655050992965698,
+        "negative": 0.06409358978271484,
+        "neutral": 0.8655050992965698,
+        "positive": 0.07040125876665115
+      },
+      {
+        "headline": "Kaspi.kz JSC (KSPI) Q1 2026 Earnings Call Highlights: Strong E-commerce Growth and Strategic ...",
+        "label": "neutral",
+        "confidence": 0.7916704416275024,
+        "negative": 0.06326616555452347,
+        "neutral": 0.7916704416275024,
+        "positive": 0.1450633704662323
+      },
+      {
+        "headline": "3 Stocks Possibly Trading Below Estimated Value",
+        "label": "neutral",
+        "confidence": 0.8791966438293457,
+        "negative": 0.06499965488910675,
+        "neutral": 0.8791966438293457,
+        "positive": 0.05580366402864456
+      },
+      {
+        "headline": "How Investors Are Reacting To Kaspi.kz (KSPI) Q1 Results And Rapid Regional E\u2011Commerce Expansion",
+        "label": "neutral",
+        "confidence": 0.9039442539215088,
+        "negative": 0.04763336479663849,
+        "neutral": 0.9039442539215088,
+        "positive": 0.0484224297106266
+      },
+      {
+        "headline": "Joint Stock Company Kaspi.kz Q1 Earnings Call Highlights",
+        "label": "neutral",
+        "confidence": 0.8906422257423401,
+        "negative": 0.05455745756626129,
+        "neutral": 0.8906422257423401,
+        "positive": 0.054800380021333694
+      },
+      {
+        "headline": "Kaspi.kz: The Market's Biggest Mispriced Monopoly--or a Hidden Fragility?",
+        "label": "neutral",
+        "confidence": 0.879629909992218,
+        "negative": 0.059471048414707184,
+        "neutral": 0.879629909992218,
+        "positive": 0.06089910492300987
+      },
+      {
+        "headline": "Is Joint Stock Company Kaspi.kz (KSPI) A Good Stock To Buy Now?",
+        "label": "neutral",
+        "confidence": 0.9025883078575134,
+        "negative": 0.04856177419424057,
+        "neutral": 0.9025883078575134,
+        "positive": 0.04884985461831093
+      },
+      {
+        "headline": "Is Kaspi.kz\u2019s Heavily Oversubscribed US$600m Bond Issue Altering The Investment Case For Kaspi.kz (KSPI)?",
+        "label": "neutral",
+        "confidence": 0.8969464302062988,
+        "negative": 0.051879625767469406,
+        "neutral": 0.8969464302062988,
+        "positive": 0.05117398872971535
+      }
+    ],
+    "news_score": 0.0184,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.2315,
+    "quick_ratio": 0.1163,
+    "cash_ratio": 0.113,
+    "ocf_ratio": 0.0843,
+    "gross_margin": 47.38,
+    "operating_margin": 32.6148,
+    "net_margin": 26.6441,
+    "roa": 9.6842,
+    "roe": 43.0676,
+    "roce": 42.5485,
+    "ebitda_margin": 32.6148,
+    "de_ratio": 0.1888,
+    "da_ratio": 0.0425,
+    "interest_coverage": null,
+    "dscr": null,
+    "equity_multiplier": 4.4472,
+    "net_debt_ebitda": -0.3293,
+    "asset_turnover": 0.3635,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 152.6905,
+    "dso": 2.3905,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 12.8316,
+    "pe_ratio": 7.2642,
+    "pb_ratio": null,
+    "ev_ebitda": null,
+    "ps_ratio": null,
+    "dividend_yield": 4.46,
+    "dividend_payout": 0.0636,
+    "eps": 11.09,
+    "fcf": 491098000000.0,
+    "fcf_margin": 12.1926,
+    "cf_to_net_income": 0.6277,
+    "capex_to_revenue": 4.5313,
+    "cash_roic": null
+  },
+  "ratio_score": 71.7,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 64.1,
+    "sentiment_score": 50,
+    "ratio_score": 71.7
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 80.56,
+    "horizon": "12 months",
+    "bull_case": 17.8,
+    "base_case": 14.5,
+    "bear_case": -5.0,
+    "price_bull": 94.9,
+    "price_base": 92.24,
+    "price_bear": 76.53,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 94.92,
+        "target_low": 82.8,
+        "target_high": 117.24,
+        "target_median": 95.94,
+        "upside_mean": 17.8,
+        "upside_low": 2.8,
+        "upside_high": 45.5,
+        "n_analysts": 7,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 99.2,
+        "low_52w": 68.59,
+        "range_pct": 44.6,
+        "position_in_range": 39.1,
+        "upside_estimate": 11.2,
+        "downside_estimate": -8.9,
+        "avg_50d": 84.99,
+        "avg_200d": 79.27,
+        "beta": 0.08
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

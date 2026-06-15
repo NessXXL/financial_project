@@ -1,0 +1,141 @@
+{
+  "ticker": "KAP.IL",
+  "timestamp": "2026-06-15T11:44:23.890994",
+  "profile": {
+    "name": "National Atomic Company Kazatomprom JSC",
+    "sector": "Energy"
+  },
+  "quote": {
+    "price": 70.2,
+    "change_pct": 1.0071899,
+    "marketCap": null
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.1092,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 7,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "National Atomic Company Kazatomprom JSC's (LON:KAP) Stock Is Going Strong: Is the Market Following Fundamentals?",
+        "label": "neutral",
+        "confidence": 0.8899514079093933,
+        "negative": 0.054191045463085175,
+        "neutral": 0.8899514079093933,
+        "positive": 0.055857542902231216
+      },
+      {
+        "headline": "National Atomic Company Kazatomprom JSC's (LON:KAP) market cap surged US$1.7b last week, sovereign wealth funds who have a lot riding on the company were rewarded",
+        "label": "neutral",
+        "confidence": 0.9000292420387268,
+        "negative": 0.05114438757300377,
+        "neutral": 0.9000292420387268,
+        "positive": 0.04882640764117241
+      },
+      {
+        "headline": "National Atomic Company Kazatomprom JSC's (LON:KAP) 40% CAGR outpaced the company's earnings growth over the same five-year period",
+        "label": "neutral",
+        "confidence": 0.7906012535095215,
+        "negative": 0.07559576630592346,
+        "neutral": 0.7906012535095215,
+        "positive": 0.13380300998687744
+      },
+      {
+        "headline": "National Atomic Company Kazatomprom JSC (LON:KAP) Is Very Good At Capital Allocation",
+        "label": "neutral",
+        "confidence": 0.8990516066551208,
+        "negative": 0.050474613904953,
+        "neutral": 0.8990516066551208,
+        "positive": 0.050473831593990326
+      },
+      {
+        "headline": "Are Investors Undervaluing National Atomic Company Kazatomprom JSC (LON:KAP) By 46%?",
+        "label": "neutral",
+        "confidence": 0.9002258777618408,
+        "negative": 0.0498233400285244,
+        "neutral": 0.9002258777618408,
+        "positive": 0.04995075985789299
+      },
+      {
+        "headline": "Results: National Atomic Company Kazatomprom JSC Beat Earnings Expectations And Analysts Now Have New Forecasts",
+        "label": "positive",
+        "confidence": 0.8680111169815063,
+        "negative": 0.058453455567359924,
+        "neutral": 0.07353538274765015,
+        "positive": 0.8680111169815063
+      },
+      {
+        "headline": "Is National Atomic Company Kazatomprom JSC's (LON:KAP) Latest Stock Performance A Reflection Of Its Financial Health?",
+        "label": "neutral",
+        "confidence": 0.89936763048172,
+        "negative": 0.049244560301303864,
+        "neutral": 0.89936763048172,
+        "positive": 0.051387835294008255
+      },
+      {
+        "headline": "National Atomic Company Kazatomprom JSC's (LON:KAP) top owners are sovereign wealth funds with 63% stake, while 28% is held by individual investors",
+        "label": "neutral",
+        "confidence": 0.8865758776664734,
+        "negative": 0.05467197299003601,
+        "neutral": 0.8865758776664734,
+        "positive": 0.058752115815877914
+      }
+    ],
+    "news_score": 0.1092,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 3.4753,
+    "quick_ratio": 1.4507,
+    "cash_ratio": 0.7648,
+    "ocf_ratio": 1.4447,
+    "gross_margin": 47.8299,
+    "operating_margin": 56.2638,
+    "net_margin": 31.6386,
+    "roa": 14.1651,
+    "roe": 24.5049,
+    "roce": 28.3924,
+    "ebitda_margin": 56.3871,
+    "de_ratio": 0.0946,
+    "da_ratio": 0.0547,
+    "interest_coverage": 53.9866,
+    "dscr": 34.9229,
+    "equity_multiplier": 1.73,
+    "net_debt_ebitda": -0.1252,
+    "asset_turnover": 0.4477,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 5.7877,
+    "dso": 63.0649,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.0087,
+    "pe_ratio": 11.3961,
+    "pb_ratio": null,
+    "ev_ebitda": null,
+    "ps_ratio": null,
+    "dividend_yield": 5.69,
+    "dividend_payout": 0.1123,
+    "eps": 6.16,
+    "fcf": 426320544000.0,
+    "fcf_margin": 23.6444,
+    "cf_to_net_income": 1.1504,
+    "capex_to_revenue": 12.7515,
+    "cash_roic": null
+  },
+  "ratio_score": 84.6,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 72.5,
+    "sentiment_score": 50,
+    "ratio_score": 84.6
+  },
+  "prediction": {
+    "available": false,
+    "reason": "Insufficient data for prediction"
+  }
+}

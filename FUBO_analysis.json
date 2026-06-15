@@ -1,0 +1,193 @@
+{
+  "ticker": "FUBO",
+  "timestamp": "2026-06-15T11:43:21.248812",
+  "profile": {
+    "name": "FuboTV Inc.",
+    "sector": "Communication Services"
+  },
+  "quote": {
+    "price": 9.83,
+    "change_pct": -6.11271,
+    "marketCap": 289351904.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0274,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 9,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "fuboTV (FUBO) Stock Trades Up, Here Is Why",
+        "label": "neutral",
+        "confidence": 0.9019830226898193,
+        "negative": 0.0475301668047905,
+        "neutral": 0.9019830226898193,
+        "positive": 0.050486885011196136
+      },
+      {
+        "headline": "3 Small-Cap Stocks with Questionable Fundamentals",
+        "label": "neutral",
+        "confidence": 0.89108806848526,
+        "negative": 0.05222982168197632,
+        "neutral": 0.89108806848526,
+        "positive": 0.05668209493160248
+      },
+      {
+        "headline": "FuboTV World Cup 4K Push Tests Sports Streaming Growth Story",
+        "label": "neutral",
+        "confidence": 0.8994964957237244,
+        "negative": 0.05156252533197403,
+        "neutral": 0.8994964957237244,
+        "positive": 0.0489409901201725
+      },
+      {
+        "headline": "fuboTV, Xponential Fitness, and Funko Shares Skyrocket, What You Need To Know",
+        "label": "positive",
+        "confidence": 0.7450291514396667,
+        "negative": 0.0737183690071106,
+        "neutral": 0.18125253915786743,
+        "positive": 0.7450291514396667
+      },
+      {
+        "headline": "Stitch Fix, fuboTV, and Sabre Stocks Trade Down, What You Need To Know",
+        "label": "neutral",
+        "confidence": 0.8982016444206238,
+        "negative": 0.049306225031614304,
+        "neutral": 0.8982016444206238,
+        "positive": 0.05249214917421341
+      },
+      {
+        "headline": "3 of Wall Street\u2019s Favorite Stocks That Concern Us",
+        "label": "neutral",
+        "confidence": 0.5604251027107239,
+        "negative": 0.3495676815509796,
+        "neutral": 0.5604251027107239,
+        "positive": 0.09000719338655472
+      },
+      {
+        "headline": "Charter, fuboTV, and Inspired Shares Plummet, What You Need To Know",
+        "label": "neutral",
+        "confidence": 0.8976975083351135,
+        "negative": 0.05175742506980896,
+        "neutral": 0.8976975083351135,
+        "positive": 0.05054497718811035
+      },
+      {
+        "headline": "Assessing FuboTV (FUBO) Valuation After A Prolonged Share Price Decline And Steep P/S Discount",
+        "label": "neutral",
+        "confidence": 0.6982197165489197,
+        "negative": 0.2313765287399292,
+        "neutral": 0.6982197165489197,
+        "positive": 0.07040369510650635
+      },
+      {
+        "headline": "Top 3 Streaming Stocks to Watch as Monetization Gains Momentum",
+        "label": "neutral",
+        "confidence": 0.9057409763336182,
+        "negative": 0.04777747765183449,
+        "neutral": 0.9057409763336182,
+        "positive": 0.04648149013519287
+      },
+      {
+        "headline": "1 Growth Stock with Explosive Upside and 2 We Brush Off",
+        "label": "neutral",
+        "confidence": 0.8644103407859802,
+        "negative": 0.05873928219079971,
+        "neutral": 0.8644103407859802,
+        "positive": 0.07685037702322006
+      }
+    ],
+    "news_score": 0.0274,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.5318,
+    "quick_ratio": 0.4512,
+    "cash_ratio": 0.3133,
+    "ocf_ratio": -0.1542,
+    "gross_margin": 12.5654,
+    "operating_margin": -9.6295,
+    "net_margin": -10.6146,
+    "roa": -15.9875,
+    "roe": -87.7191,
+    "roce": -27.8003,
+    "ebitda_margin": -7.0083,
+    "de_ratio": 1.9271,
+    "da_ratio": 0.3512,
+    "interest_coverage": -7.4941,
+    "dscr": -3.8115,
+    "equity_multiplier": 5.4867,
+    "net_debt_ebitda": -1.9079,
+    "asset_turnover": 1.5062,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 22.8312,
+    "dso": 15.9869,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 42.7986,
+    "pe_ratio": 2.5599,
+    "pb_ratio": 0.3564,
+    "ev_ebitda": null,
+    "ps_ratio": 0.0546,
+    "dividend_yield": null,
+    "dividend_payout": -0.0,
+    "eps": 3.84,
+    "fcf": -95313000.0,
+    "fcf_margin": -5.8734,
+    "cf_to_net_income": 0.4614,
+    "capex_to_revenue": 0.9758,
+    "cash_roic": null
+  },
+  "ratio_score": 36.0,
+  "final_signal": {
+    "signal": "SELL / AVOID",
+    "emoji": "\ud83d\udcc9",
+    "combined_score": 40.9,
+    "sentiment_score": 50,
+    "ratio_score": 36.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 9.83,
+    "horizon": "12 months",
+    "bull_case": 72.9,
+    "base_case": 52.5,
+    "bear_case": -25.0,
+    "price_bull": 17.0,
+    "price_base": 14.99,
+    "price_bear": 7.37,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 17.0,
+        "target_low": 12.0,
+        "target_high": 23.0,
+        "target_median": 17.0,
+        "upside_mean": 72.9,
+        "upside_low": 22.1,
+        "upside_high": 134.0,
+        "n_analysts": 8,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 56.64,
+        "low_52w": 8.31,
+        "range_pct": 581.6,
+        "position_in_range": 3.1,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 11.03,
+        "avg_200d": 27.48,
+        "beta": 2.39
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

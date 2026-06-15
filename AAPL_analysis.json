@@ -1,0 +1,193 @@
+{
+  "ticker": "AAPL",
+  "timestamp": "2026-06-15T11:42:08.127538",
+  "profile": {
+    "name": "Apple Inc.",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 291.13,
+    "change_pct": -1.5221729,
+    "marketCap": 4275929874432.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0687,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 7,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Tata's iPhone parts factory contaminated farmland water, India pollution body alleges",
+        "label": "neutral",
+        "confidence": 0.897921085357666,
+        "negative": 0.050927262753248215,
+        "neutral": 0.897921085357666,
+        "positive": 0.0511515848338604
+      },
+      {
+        "headline": "Alphabet Ties Search AI And Mobility Closer To Revenue Potential",
+        "label": "positive",
+        "confidence": 0.904833972454071,
+        "negative": 0.04702882841229439,
+        "neutral": 0.04813716188073158,
+        "positive": 0.904833972454071
+      },
+      {
+        "headline": "Apple's iOS 27 surprise could change the AI narrative",
+        "label": "neutral",
+        "confidence": 0.9010542631149292,
+        "negative": 0.05028792843222618,
+        "neutral": 0.9010542631149292,
+        "positive": 0.04865776374936104
+      },
+      {
+        "headline": "Indian Pollution Probe Tests Apple Supply Chain And Valuation Gap",
+        "label": "negative",
+        "confidence": 0.9012444019317627,
+        "negative": 0.9012444019317627,
+        "neutral": 0.04969165474176407,
+        "positive": 0.049063924700021744
+      },
+      {
+        "headline": "TechCrunch Mobility: SpaceX rockets past Tesla",
+        "label": "neutral",
+        "confidence": 0.8943031430244446,
+        "negative": 0.051530368626117706,
+        "neutral": 0.8943031430244446,
+        "positive": 0.05416659638285637
+      },
+      {
+        "headline": "Given the News Out of WWDC, Was Warren Buffett Right to Sell Apple Stock?",
+        "label": "neutral",
+        "confidence": 0.8979504108428955,
+        "negative": 0.05060366541147232,
+        "neutral": 0.8979504108428955,
+        "positive": 0.05144587531685829
+      },
+      {
+        "headline": "Goldman Sachs resets Apple stock forecast after WWDC",
+        "label": "neutral",
+        "confidence": 0.6177042722702026,
+        "negative": 0.09370120614767075,
+        "neutral": 0.6177042722702026,
+        "positive": 0.2885946035385132
+      },
+      {
+        "headline": "Meet the Spectacular Vanguard ETF That Could Buy SpaceX Stock as Soon as June 19",
+        "label": "neutral",
+        "confidence": 0.9023352265357971,
+        "negative": 0.04778518155217171,
+        "neutral": 0.9023352265357971,
+        "positive": 0.04987959563732147
+      },
+      {
+        "headline": "Amazon Expands Satellite, Cloud And Robotics Investments As Valuation Gap Widens",
+        "label": "neutral",
+        "confidence": 0.8862457275390625,
+        "negative": 0.054845258593559265,
+        "neutral": 0.8862457275390625,
+        "positive": 0.05890912190079689
+      },
+      {
+        "headline": "Wall Street\u2019s Top Billionaires Are Changing Their Mind About Apple (AAPL)",
+        "label": "positive",
+        "confidence": 0.5527203679084778,
+        "negative": 0.07460518926382065,
+        "neutral": 0.3726744055747986,
+        "positive": 0.5527203679084778
+      }
+    ],
+    "news_score": 0.0687,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.8933,
+    "quick_ratio": 0.4571,
+    "cash_ratio": 0.217,
+    "ocf_ratio": 0.6731,
+    "gross_margin": 46.9052,
+    "operating_margin": 31.9708,
+    "net_margin": 26.9151,
+    "roa": 31.1796,
+    "roe": 151.913,
+    "roce": 68.7206,
+    "ebitda_margin": 34.7817,
+    "de_ratio": 1.338,
+    "da_ratio": 0.2746,
+    "interest_coverage": null,
+    "dscr": null,
+    "equity_multiplier": 4.8722,
+    "net_debt_ebitda": 0.4333,
+    "asset_turnover": 1.1584,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 10.4624,
+    "dso": 34.887,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 8.3509,
+    "pe_ratio": 35.2031,
+    "pb_ratio": 40.1005,
+    "ev_ebitda": 26.83,
+    "ps_ratio": 9.4717,
+    "dividend_yield": null,
+    "dividend_payout": 14.1615,
+    "eps": 8.27,
+    "fcf": 98767000000.0,
+    "fcf_margin": 23.7329,
+    "cf_to_net_income": 0.9953,
+    "capex_to_revenue": 3.0553,
+    "cash_roic": null
+  },
+  "ratio_score": 67.3,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 61.2,
+    "sentiment_score": 50,
+    "ratio_score": 67.3
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 291.13,
+    "horizon": "12 months",
+    "bull_case": 9.4,
+    "base_case": 8.4,
+    "bear_case": -24.0,
+    "price_bull": 318.5,
+    "price_base": 315.58,
+    "price_bear": 221.26,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 312.72,
+        "target_low": 215.0,
+        "target_high": 400.0,
+        "target_median": 310.0,
+        "upside_mean": 7.4,
+        "upside_low": -26.1,
+        "upside_high": 37.4,
+        "n_analysts": 43,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 317.4,
+        "low_52w": 195.07,
+        "range_pct": 62.7,
+        "position_in_range": 78.5,
+        "upside_estimate": 9.4,
+        "downside_estimate": -21.9,
+        "avg_50d": 285.49,
+        "avg_200d": 266.87,
+        "beta": 1.09
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

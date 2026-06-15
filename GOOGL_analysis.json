@@ -1,0 +1,193 @@
+{
+  "ticker": "GOOGL",
+  "timestamp": "2026-06-15T11:42:37.295802",
+  "profile": {
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services"
+  },
+  "quote": {
+    "price": 359.68,
+    "change_pct": 0.5338636,
+    "marketCap": 4386274148352.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0909,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 7,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market",
+        "label": "neutral",
+        "confidence": 0.897770345211029,
+        "negative": 0.04896661639213562,
+        "neutral": 0.897770345211029,
+        "positive": 0.05326312407851219
+      },
+      {
+        "headline": "Anthropic Block Marks US Reversal, Warning to Silicon Valley",
+        "label": "negative",
+        "confidence": 0.8776894211769104,
+        "negative": 0.8776894211769104,
+        "neutral": 0.06805431842803955,
+        "positive": 0.05425627529621124
+      },
+      {
+        "headline": "A Place Where Some AI Stocks Are Still Cheap: China",
+        "label": "neutral",
+        "confidence": 0.9152843952178955,
+        "negative": 0.042325619608163834,
+        "neutral": 0.9152843952178955,
+        "positive": 0.04238993674516678
+      },
+      {
+        "headline": "Alphabet Ties Search AI And Mobility Closer To Revenue Potential",
+        "label": "positive",
+        "confidence": 0.904833972454071,
+        "negative": 0.04702882841229439,
+        "neutral": 0.04813716188073158,
+        "positive": 0.904833972454071
+      },
+      {
+        "headline": "How \u2018agentic\u2019 is AI shopping today",
+        "label": "neutral",
+        "confidence": 0.816478967666626,
+        "negative": 0.07337779551744461,
+        "neutral": 0.816478967666626,
+        "positive": 0.11014322191476822
+      },
+      {
+        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "label": "neutral",
+        "confidence": 0.9002727270126343,
+        "negative": 0.0510941706597805,
+        "neutral": 0.9002727270126343,
+        "positive": 0.048633042722940445
+      },
+      {
+        "headline": "Anthropic Turns To Google To Back Massive Data Center Push",
+        "label": "neutral",
+        "confidence": 0.8564429879188538,
+        "negative": 0.06598594784736633,
+        "neutral": 0.8564429879188538,
+        "positive": 0.07757112383842468
+      },
+      {
+        "headline": "3 AI Stocks Poised for Long-Term Gains Despite Strong Year-to-Date Performance",
+        "label": "positive",
+        "confidence": 0.8841514587402344,
+        "negative": 0.05561219900846481,
+        "neutral": 0.06023629754781723,
+        "positive": 0.8841514587402344
+      },
+      {
+        "headline": "Mark Zuckerberg's $115 Million Workforce Push Gets A Sunder Pichai Follow Up Act, Alphabet CEO Says Will Train 300,000 American Tradespeople",
+        "label": "neutral",
+        "confidence": 0.9030083417892456,
+        "negative": 0.050138622522354126,
+        "neutral": 0.9030083417892456,
+        "positive": 0.04685302451252937
+      },
+      {
+        "headline": "SpaceX Stock Began Trading. What\u2019s Ahead for It This Week.",
+        "label": "neutral",
+        "confidence": 0.9032474160194397,
+        "negative": 0.048667676746845245,
+        "neutral": 0.9032474160194397,
+        "positive": 0.04808488115668297
+      }
+    ],
+    "news_score": 0.0909,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 2.0053,
+    "quick_ratio": 0.9109,
+    "cash_ratio": 0.2989,
+    "ocf_ratio": 1.6031,
+    "gross_margin": 59.6523,
+    "operating_margin": 39.6097,
+    "net_margin": 32.8099,
+    "roa": 22.203,
+    "roe": 31.8279,
+    "roce": 32.396,
+    "ebitda_margin": 44.8565,
+    "de_ratio": 0.1428,
+    "da_ratio": 0.0996,
+    "interest_coverage": 216.7962,
+    "dscr": 223.7948,
+    "equity_multiplier": 1.4335,
+    "net_debt_ebitda": 0.1582,
+    "asset_turnover": 0.6767,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 6.4058,
+    "dso": 56.9795,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.5386,
+    "pe_ratio": 27.4775,
+    "pb_ratio": 9.1026,
+    "ev_ebitda": 26.823,
+    "ps_ratio": 10.3818,
+    "dividend_yield": 24.0,
+    "dividend_payout": 3.9039,
+    "eps": 13.09,
+    "fcf": 73266000000.0,
+    "fcf_margin": 18.1876,
+    "cf_to_net_income": 1.2462,
+    "capex_to_revenue": 22.7008,
+    "cash_roic": null
+  },
+  "ratio_score": 72.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 64.6,
+    "sentiment_score": 50,
+    "ratio_score": 72.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 359.68,
+    "horizon": "12 months",
+    "bull_case": 20.3,
+    "base_case": 16.1,
+    "bear_case": -16.8,
+    "price_bull": 432.7,
+    "price_base": 417.77,
+    "price_bear": 299.43,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 432.83,
+        "target_low": 340.0,
+        "target_high": 515.0,
+        "target_median": 430.0,
+        "upside_mean": 20.3,
+        "upside_low": -5.5,
+        "upside_high": 43.2,
+        "n_analysts": 53,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 408.61,
+        "low_52w": 162.0,
+        "range_pct": 152.2,
+        "position_in_range": 80.2,
+        "upside_estimate": 12.0,
+        "downside_estimate": -28.0,
+        "avg_50d": 362.26,
+        "avg_200d": 307.94,
+        "beta": 1.24
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

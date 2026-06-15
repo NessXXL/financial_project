@@ -1,0 +1,193 @@
+{
+  "ticker": "VRDN",
+  "timestamp": "2026-06-15T11:44:53.332203",
+  "profile": {
+    "name": "Viridian Therapeutics, Inc.",
+    "sector": "Healthcare"
+  },
+  "quote": {
+    "price": 16.35,
+    "change_pct": 1.3011094,
+    "marketCap": 1805492608.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.2136,
+    "breakdown": {
+      "positive": 4,
+      "neutral": 5,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Viridian Therapeutics (VRDN) Prices Upsized Concurrent Public Offerings Totaling $350M",
+        "label": "neutral",
+        "confidence": 0.8941375613212585,
+        "negative": 0.05429380014538765,
+        "neutral": 0.8941375613212585,
+        "positive": 0.051568593829870224
+      },
+      {
+        "headline": "This Biotech Has a June 30 FDA Catalyst. A Fund Just Cut Its Stake by $7 Million",
+        "label": "negative",
+        "confidence": 0.6497476696968079,
+        "negative": 0.6497476696968079,
+        "neutral": 0.27244335412979126,
+        "positive": 0.07780899107456207
+      },
+      {
+        "headline": "Why Viridian Therapeutics (VRDN) Is Up 25.9% After Phase 3 Elegrobart Win And Fresh Fundraising",
+        "label": "positive",
+        "confidence": 0.6223000884056091,
+        "negative": 0.09353836625814438,
+        "neutral": 0.2841615378856659,
+        "positive": 0.6223000884056091
+      },
+      {
+        "headline": "Earnings Update: Viridian Therapeutics, Inc. (NASDAQ:VRDN) Just Reported And Analysts Are Boosting Their Estimates",
+        "label": "neutral",
+        "confidence": 0.9037398099899292,
+        "negative": 0.04856840521097183,
+        "neutral": 0.9037398099899292,
+        "positive": 0.04769179970026016
+      },
+      {
+        "headline": "Viridian Therapeutics\u2019 stock up 35% after Phase III TED data release",
+        "label": "neutral",
+        "confidence": 0.8935708403587341,
+        "negative": 0.05261475220322609,
+        "neutral": 0.8935708403587341,
+        "positive": 0.053814440965652466
+      },
+      {
+        "headline": "Viridian Therapeutics REVEAL-2 Hits Phase 3 Endpoint, Shows \u201cIV-like\u201d Proptosis Gains in Chronic TED",
+        "label": "neutral",
+        "confidence": 0.7812589406967163,
+        "negative": 0.08228760212659836,
+        "neutral": 0.7812589406967163,
+        "positive": 0.13645341992378235
+      },
+      {
+        "headline": "Viridian (VRDN) Climbs 33% on Looming Drug Commercialization",
+        "label": "positive",
+        "confidence": 0.8962755799293518,
+        "negative": 0.04947055131196976,
+        "neutral": 0.054253846406936646,
+        "positive": 0.8962755799293518
+      },
+      {
+        "headline": "How This Amgen Rival, Up 33%, Plans To Shake Its Grip In Thyroid Eye Disease",
+        "label": "positive",
+        "confidence": 0.9128673076629639,
+        "negative": 0.045570001006126404,
+        "neutral": 0.04156273975968361,
+        "positive": 0.9128673076629639
+      },
+      {
+        "headline": "PDUFA Decision Nears as Viridian Therapeutics (VRDN) Advances TED Pipeline and Reports Q1 Results",
+        "label": "neutral",
+        "confidence": 0.9020695090293884,
+        "negative": 0.04960135370492935,
+        "neutral": 0.9020695090293884,
+        "positive": 0.048329077661037445
+      },
+      {
+        "headline": "Viridian data lift prospects for thyroid eye disease drug",
+        "label": "positive",
+        "confidence": 0.5121934413909912,
+        "negative": 0.09754268079996109,
+        "neutral": 0.3902639150619507,
+        "positive": 0.5121934413909912
+      }
+    ],
+    "news_score": 0.2136,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 12.649,
+    "quick_ratio": 3.0042,
+    "cash_ratio": 3.0042,
+    "ocf_ratio": -3.9096,
+    "gross_margin": -379.2869,
+    "operating_margin": -476.5812,
+    "net_margin": -483.565,
+    "roa": -38.0914,
+    "roe": -47.4407,
+    "roce": -40.7438,
+    "ebitda_margin": -475.9319,
+    "de_ratio": 0.0702,
+    "da_ratio": 0.0564,
+    "interest_coverage": -68.2403,
+    "dscr": -55.8591,
+    "equity_multiplier": 1.2454,
+    "net_debt_ebitda": 0.4795,
+    "asset_turnover": 0.0788,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": null,
+    "dso": null,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 19.416,
+    "pe_ratio": -6.5121,
+    "pb_ratio": 3.3238,
+    "ev_ebitda": null,
+    "ps_ratio": 25.4589,
+    "dividend_yield": null,
+    "dividend_payout": -0.0,
+    "eps": -3.35,
+    "fcf": -276886000.0,
+    "fcf_margin": -390.8114,
+    "cf_to_net_income": 0.8067,
+    "capex_to_revenue": 0.6987,
+    "cash_roic": null
+  },
+  "ratio_score": 41.3,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 61.8,
+    "sentiment_score": 100,
+    "ratio_score": 41.3
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 16.35,
+    "horizon": "12 months",
+    "bull_case": 107.6,
+    "base_case": 69.8,
+    "bear_case": -15.0,
+    "price_bull": 33.94,
+    "price_base": 27.76,
+    "price_bear": 13.9,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 33.94,
+        "target_low": 20.0,
+        "target_high": 50.0,
+        "target_median": 34.5,
+        "upside_mean": 107.6,
+        "upside_low": 22.3,
+        "upside_high": 205.8,
+        "n_analysts": 16,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 34.29,
+        "low_52w": 13.18,
+        "range_pct": 160.2,
+        "position_in_range": 15.0,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 15.79,
+        "avg_200d": 24.2,
+        "beta": 0.9
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

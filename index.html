@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virada AI — Markets move in milliseconds. Now you see them coming.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFEF6;
+  --yellow:#FFF999;
+  --yellow-hot:#FFEE54;
+  --magenta:#800054;
+  --magenta-ink:#4D0033;
+  --grey:#E8E9EB;
+  --ink:#171019;
+  --muted:#6E6275;
+  --green:#0E7B43; --green-bg:#D3F5E0;
+  --red:#C81E3C;   --red-bg:#FFDCE2;
+  --amber:#9A6700; --amber-bg:#FFF0BD;
+  --na:#9aa0a6;    --na-bg:#F0F1F3;
+  --radius:18px;
+  --border:2px solid var(--ink);
+  --shadow:6px 6px 0 var(--ink);
+  --shadow-sm:3px 3px 0 var(--ink);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',system-ui,sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+::selection{background:var(--yellow-hot);color:var(--ink)}
+h1,h2,h3,.display{font-family:'Bricolage Grotesque',sans-serif}
+.mono{font-family:'JetBrains Mono',monospace}
+
+/* ───── ticker tape ───── */
+.tape{
+  background:var(--ink); color:var(--paper);
+  font-family:'JetBrains Mono',monospace; font-size:12.5px;
+  overflow:hidden; white-space:nowrap; padding:8px 0;
+  border-bottom:2px solid var(--ink);
+}
+.tape-track{display:inline-block; animation:tape 38s linear infinite}
+@keyframes tape{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tape span{margin:0 22px}
+.up{color:#7CF2AE}.dn{color:#FF8FA1}
+
+/* ───── nav ───── */
+nav{
+  position:sticky; top:0; z-index:100;
+  background:rgba(255,254,246,.92); backdrop-filter:blur(10px);
+  border-bottom:2px solid var(--ink);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px clamp(18px,4vw,56px);
+}
+.logo{font-family:'Bricolage Grotesque';font-weight:800;font-size:21px;letter-spacing:-.5px;display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--ink)}
+.logo .dot{width:13px;height:13px;background:var(--magenta);border-radius:50%;box-shadow:0 0 0 3.5px var(--yellow-hot)}
+.nav-links{display:flex;gap:30px;align-items:center}
+.nav-links a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14.5px;position:relative}
+.nav-links a:not(.btn):hover{color:var(--magenta)}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--magenta);color:#fff;border:var(--border);
+  padding:11px 22px;border-radius:999px;font-weight:700;font-size:14.5px;
+  cursor:pointer;text-decoration:none;box-shadow:var(--shadow-sm);
+  transition:transform .12s,box-shadow .12s;
+}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink)}
+.btn:active{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--ink)}
+.btn.yellow{background:var(--yellow-hot);color:var(--ink)}
+.btn.ghost{background:#fff;color:var(--ink)}
+
+/* ───── hero ───── */
+.hero{
+  text-align:center; padding:clamp(54px,9vh,110px) 20px 30px;
+  position:relative;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(255,249,153,.55), transparent 32%),
+    radial-gradient(circle at 88% 14%, rgba(128,0,84,.10), transparent 34%);
+}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:'JetBrains Mono';font-size:12.5px;font-weight:700;letter-spacing:1.4px;
+  background:#fff;border:var(--border);border-radius:999px;padding:8px 18px;
+  box-shadow:var(--shadow-sm); margin-bottom:30px;
+}
+.eyebrow .pulse{width:9px;height:9px;border-radius:50%;background:var(--green);animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(14,123,67,.5)}50%{box-shadow:0 0 0 7px rgba(14,123,67,0)}}
+.hero h1{
+  font-size:clamp(40px,7.2vw,84px); line-height:1.02; font-weight:800;
+  letter-spacing:-2.5px; max-width:1000px; margin:0 auto 24px;
+}
+.mark{
+  background:linear-gradient(transparent 52%, var(--yellow-hot) 52%, var(--yellow-hot) 94%, transparent 94%);
+  padding:0 6px; white-space:nowrap;
+}
+.mark-m{
+  background:linear-gradient(transparent 52%, #F4B7DD 52%, #F4B7DD 94%, transparent 94%);
+  padding:0 6px; white-space:nowrap;
+}
+.hero p.sub{
+  font-size:clamp(16px,2vw,19.5px); color:var(--muted); max-width:660px;
+  margin:0 auto 42px; line-height:1.55; font-weight:500;
+}
+.hero p.sub b{color:var(--ink)}
+
+/* ───── search ───── */
+.search-wrap{max-width:680px;margin:0 auto;position:relative;z-index:50}
+.search-box{
+  display:flex;align-items:center;background:#fff;
+  border:var(--border);border-radius:999px;box-shadow:var(--shadow);
+  padding:7px 7px 7px 24px; transition:transform .15s;
+}
+.search-box:focus-within{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+.search-box .icn{font-size:19px;margin-right:11px;opacity:.6}
+#stockInput{
+  flex:1;border:0;outline:0;font:600 17px 'Inter';background:transparent;color:var(--ink);
+  min-width:0;
+}
+#stockInput::placeholder{color:#b7aebc;font-weight:500}
+#analyzeBtn{white-space:nowrap}
+.suggest{
+  position:absolute;top:calc(100% + 12px);left:0;right:0;
+  background:#fff;border:var(--border);border-radius:var(--radius);
+  box-shadow:var(--shadow); overflow:hidden; display:none; text-align:left;
+}
+.suggest.open{display:block;animation:drop .18s ease}
+@keyframes drop{from{opacity:0;transform:translateY(-7px)}to{opacity:1;transform:none}}
+.sg-head{
+  font-family:'JetBrains Mono';font-size:11px;font-weight:700;letter-spacing:1.2px;
+  color:var(--muted);padding:12px 20px 7px;text-transform:uppercase;
+}
+.sg-item{
+  display:flex;align-items:center;gap:14px;padding:12px 20px;cursor:pointer;
+  border-top:1.5px solid #F1EEF3;
+}
+.sg-item:hover,.sg-item.active{background:var(--yellow)}
+.sg-tick{
+  font-family:'JetBrains Mono';font-weight:700;font-size:13.5px;
+  background:var(--ink);color:#fff;border-radius:8px;padding:5px 10px;min-width:64px;text-align:center;
+}
+.sg-item.priv .sg-tick{background:var(--magenta)}
+.sg-body{flex:1;min-width:0}
+.sg-name{font-weight:700;font-size:14.5px}
+.sg-note{font-size:12.5px;color:var(--muted);margin-top:1px}
+.sg-ex{font-family:'JetBrains Mono';font-size:11px;color:var(--muted);white-space:nowrap}
+.chips{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.chip{
+  font-family:'JetBrains Mono';font-weight:700;font-size:13px;
+  background:#fff;border:2px solid var(--ink);border-radius:999px;padding:7px 16px;
+  cursor:pointer;box-shadow:2.5px 2.5px 0 var(--ink);transition:all .12s;
+}
+.chip:hover{background:var(--yellow-hot);transform:translate(-1px,-1px);box-shadow:3.5px 3.5px 0 var(--ink)}
+.hero-foot{margin-top:46px;font-family:'JetBrains Mono';font-size:12px;color:var(--muted);letter-spacing:.6px}
+
+/* ───── dashboard ───── */
+#dash{max-width:1080px;margin:60px auto 0;padding:0 20px;display:none}
+#dash.show{display:block;animation:rise .45s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+.card{
+  background:#fff;border:var(--border);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:26px;margin-bottom:22px;position:relative;
+}
+.d-head{display:flex;flex-wrap:wrap;align-items:flex-start;gap:18px;justify-content:space-between}
+.d-name{font-size:clamp(22px,3.4vw,32px);font-weight:800;letter-spacing:-1px;line-height:1.1}
+.d-meta{font-family:'JetBrains Mono';font-size:13px;color:var(--muted);margin-top:7px}
+.d-price{font-family:'JetBrains Mono';font-weight:700;font-size:clamp(24px,3vw,34px);text-align:right}
+.d-chg{font-family:'JetBrains Mono';font-weight:700;font-size:14px;margin-top:4px;text-align:right}
+.stamp{
+  position:absolute;top:-17px;right:26px;transform:rotate(6deg);
+  font-family:'Bricolage Grotesque';font-weight:800;font-size:21px;letter-spacing:1px;
+  padding:9px 22px;border:3px solid currentColor;border-radius:12px;background:#fff;
+  text-transform:uppercase; box-shadow:var(--shadow-sm);
+}
+.stamp.buy{color:var(--green);background:var(--green-bg)}
+.stamp.hold{color:var(--amber);background:var(--amber-bg)}
+.stamp.sell{color:var(--red);background:var(--red-bg)}
+.prov{
+  display:inline-flex;align-items:center;gap:7px;margin-top:12px;
+  font-family:'JetBrains Mono';font-weight:700;font-size:10.5px;letter-spacing:.8px;
+  border:2px solid;border-radius:8px;padding:5px 12px;text-transform:uppercase;
+}
+.prov.live{color:var(--green);background:var(--green-bg);border-color:var(--green)}
+.prov.demo{color:#6E6275;background:var(--na-bg);border-color:#b9bec5}
+.meters{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:26px}
+.meter{background:var(--paper);border:2px solid var(--ink);border-radius:14px;padding:16px 18px}
+.meter .lbl{font-family:'JetBrains Mono';font-size:11px;font-weight:700;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+.meter .val{font-family:'Bricolage Grotesque';font-weight:800;font-size:30px;margin:5px 0 9px}
+.bar{height:11px;background:var(--grey);border:1.5px solid var(--ink);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;border-radius:99px;transition:width 1s cubic-bezier(.2,.8,.3,1)}
+.bar i.g{background:var(--green)}.bar i.y{background:var(--yellow-hot)}.bar i.r{background:var(--red)}.bar i.m{background:var(--magenta)}
+
+.sec-title{
+  display:flex;align-items:center;gap:12px;
+  font-family:'Bricolage Grotesque';font-weight:800;font-size:19px;margin-bottom:18px;
+}
+.sec-title .tag{
+  font-family:'JetBrains Mono';font-weight:700;font-size:11px;
+  background:var(--yellow);border:2px solid var(--ink);border-radius:8px;padding:4px 10px;
+}
+.hl-row{display:flex;align-items:center;gap:13px;padding:11px 0;border-top:1.5px solid #F1EEF3;font-size:14px}
+.hl-row:first-of-type{border-top:0}
+.pill{font-family:'JetBrains Mono';font-weight:700;font-size:11px;border-radius:8px;padding:4px 11px;min-width:74px;text-align:center;border:2px solid}
+.pill.pos{color:var(--green);background:var(--green-bg);border-color:var(--green)}
+.pill.neg{color:var(--red);background:var(--red-bg);border-color:var(--red)}
+.pill.neu{color:var(--amber);background:var(--amber-bg);border-color:var(--amber)}
+.hl-conf{font-family:'JetBrains Mono';font-size:12px;color:var(--muted);margin-left:auto;white-space:nowrap}
+
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
+.rgroup{grid-column:1/-1;font-family:'JetBrains Mono';font-weight:700;font-size:12px;letter-spacing:1.4px;color:var(--magenta);margin-top:14px;text-transform:uppercase}
+.rgroup:first-child{margin-top:0}
+.ritem{
+  border:2px solid var(--ink);border-radius:12px;padding:12px 14px;background:#fff;
+  display:flex;justify-content:space-between;align-items:center;gap:8px;
+}
+.ritem .rn{font-size:13px;font-weight:600}
+.ritem .rv{font-family:'JetBrains Mono';font-weight:700;font-size:14px;white-space:nowrap}
+.ritem.ok{background:var(--green-bg);border-color:var(--green)}
+.ritem.ok .rv{color:var(--green)}
+.ritem.warn{background:var(--red-bg);border-color:var(--red)}
+.ritem.warn .rv{color:var(--red)}
+.ritem.watch{background:var(--amber-bg);border-color:var(--amber)}
+.ritem.watch .rv{color:var(--amber)}
+.ritem.na{background:var(--na-bg);border-color:#c9ccd1;opacity:.65}
+
+.fc{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.fcard{border:2.5px solid;border-radius:16px;padding:20px;text-align:center}
+.fcard .fl{font-family:'JetBrains Mono';font-weight:700;font-size:12px;letter-spacing:1px}
+.fcard .fp{font-family:'Bricolage Grotesque';font-weight:800;font-size:34px;margin:8px 0 3px}
+.fcard .ft{font-family:'JetBrains Mono';font-size:13.5px;font-weight:600}
+.fcard.bull{border-color:var(--green);background:var(--green-bg);color:var(--green)}
+.fcard.base{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}
+.fcard.bear{border-color:var(--red);background:var(--red-bg);color:var(--red)}
+.an-line{font-family:'JetBrains Mono';font-size:13px;margin-top:18px;color:var(--muted);line-height:1.9}
+.an-line b{color:var(--ink)}
+.priv-card{ text-align:center;padding:40px 26px }
+.priv-card h3{font-size:26px;font-weight:800;margin:8px 0 10px}
+.priv-card p{color:var(--muted);max-width:560px;margin:0 auto 24px;line-height:1.6}
+.priv-grid{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.disclaim{font-size:12px;color:var(--muted);text-align:center;margin:6px 0 0;font-style:italic}
+
+/* ───── sections ───── */
+section{padding:clamp(60px,9vw,110px) clamp(18px,5vw,60px)}
+.center{text-align:center}
+.kicker{
+  font-family:'JetBrains Mono';font-weight:700;font-size:12px;letter-spacing:2px;
+  color:var(--magenta);text-transform:uppercase;margin-bottom:16px;display:block;
+}
+h2{font-size:clamp(30px,4.6vw,52px);font-weight:800;letter-spacing:-1.5px;line-height:1.06;max-width:820px}
+.center h2{margin:0 auto}
+.lead{font-size:17px;color:var(--muted);max-width:620px;margin:18px auto 0;line-height:1.6}
+
+.strip{
+  background:var(--ink);color:var(--paper);
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);
+}
+.strip .s{padding:34px 20px;text-align:center;border-right:1.5px solid #2e2433}
+.strip .s:last-child{border-right:0}
+.strip .n{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(30px,3.6vw,44px);color:var(--yellow-hot)}
+.strip .l{font-family:'JetBrains Mono';font-size:12px;letter-spacing:1.2px;margin-top:6px;color:#bdb3c4;text-transform:uppercase}
+
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;max-width:1080px;margin:52px auto 0}
+.step{
+  background:#fff;border:var(--border);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:30px;text-align:left;transition:transform .15s;
+}
+.step:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}
+.step .ic{
+  width:54px;height:54px;border-radius:14px;border:2px solid var(--ink);
+  display:flex;align-items:center;justify-content:center;font-size:25px;margin-bottom:20px;
+}
+.step:nth-child(1) .ic{background:var(--yellow)}
+.step:nth-child(2) .ic{background:#F4B7DD}
+.step:nth-child(3) .ic{background:var(--green-bg)}
+.step h3{font-size:21px;font-weight:800;margin-bottom:10px;letter-spacing:-.4px}
+.step p{font-size:14.5px;color:var(--muted);line-height:1.65}
+.step .mono-line{font-family:'JetBrains Mono';font-size:12px;background:var(--paper);border:1.5px solid var(--ink);border-radius:9px;padding:9px 12px;margin-top:16px}
+
+.arch{
+  max-width:880px;margin:50px auto 0;background:var(--ink);color:#E9E2EE;
+  border:var(--border);border-radius:var(--radius);box-shadow:var(--shadow);
+  font-family:'JetBrains Mono';font-size:clamp(11px,1.6vw,14px);padding:30px clamp(14px,3vw,40px);
+  line-height:1.85;text-align:left;overflow-x:auto;
+}
+.arch .y{color:var(--yellow-hot)}.arch .p{color:#FF8AC9}.arch .g{color:#7CF2AE}.arch .c{color:#8FD4FF}.arch .dim{color:#7b6f84}
+
+.wtable{max-width:780px;margin:50px auto 0;text-align:left}
+.wrow{
+  display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:center;
+  background:#fff;border:2px solid var(--ink);border-radius:14px;
+  padding:17px 22px;margin-bottom:12px;box-shadow:var(--shadow-sm);
+}
+.wrow .w{font-family:'JetBrains Mono';font-weight:700;font-size:17px}
+.wrow .d{font-size:14.5px;color:var(--muted)}
+.wrow.best{background:var(--green-bg);border-color:var(--green);box-shadow:5px 5px 0 var(--green)}
+.wrow.best .w{color:var(--green)}
+.wrow.best .d{color:var(--ink);font-weight:600}
+
+.cta{
+  background:var(--magenta);color:#fff;text-align:center;
+  border-top:2px solid var(--ink);
+}
+.cta h2{color:#fff;margin:0 auto}
+.cta .mark{background:linear-gradient(transparent 52%, var(--yellow-hot) 52%, var(--yellow-hot) 94%, transparent 94%);color:var(--ink)}
+.cta .lead{color:#EBC4DC}
+.cta .btn{margin-top:36px}
+
+footer{
+  border-top:2px solid var(--ink);padding:36px clamp(18px,5vw,60px);
+  display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center;
+  font-size:13px;color:var(--muted);
+}
+footer .mono{font-size:11.5px}
+@media(max-width:760px){
+  .nav-links a:not(.btn){display:none}
+  .d-price,.d-chg{text-align:left}
+  .stamp{position:static;display:inline-block;margin-top:12px;transform:rotate(-2deg)}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<div class="tape"><div class="tape-track" id="tape"></div></div>
+
+<nav>
+  <a class="logo" href="#"><span class="dot"></span>Virada&nbsp;AI</a>
+  <div class="nav-links">
+    <a href="#how">How it works</a>
+    <a href="#model">The model</a>
+    <a href="#backtest">Backtest</a>
+    <a href="#weights">Methodology</a>
+    <a href="#try" class="btn yellow">Analyze a stock ↓</a>
+  </div>
+</nav>
+
+<header class="hero" id="try">
+  <div class="eyebrow"><span class="pulse"></span>CUSTOM BiLSTM·CNN·ATTENTION — 91.6% TEST ACCURACY</div>
+  <h1>Markets move in <span class="mark">milliseconds.</span><br>Now you <span class="mark-m">see them</span> coming.</h1>
+  <p class="sub">Our own deep-learning model reads the news. <b>35 financial ratios</b> read the balance sheet. Together they hand you one honest signal: <b>BUY, HOLD or SELL</b> — with a 12-month price range.</p>
+
+  <div class="search-wrap">
+    <div class="search-box">
+      <span class="icn">⌕</span>
+      <input id="stockInput" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Type a company — NVIDIA, Meta, Anthropic, Tesla…">
+      <button class="btn" id="analyzeBtn">Analyze →</button>
+    </div>
+    <div class="suggest" id="suggest"></div>
+    <div class="chips">
+      <button class="chip" data-t="NVDA">NVDA</button>
+      <button class="chip" data-t="META">META</button>
+      <button class="chip" data-t="FUBO">FUBO</button>
+      <button class="chip" data-t="AAPL">AAPL</button>
+      <button class="chip" data-t="TSLA">TSLA</button>
+      <button class="chip" data-t="GOOGL">GOOGL</button>
+      <button class="chip" data-t="KSPI">🇰🇿 KSPI</button>
+    </div>
+  </div>
+  <div class="hero-foot">NO BERT · NO FINBERT · NO API KEYS — OUR OWN MODEL, TRAINED ON 8 DATASETS</div>
+</header>
+
+<main id="dash"></main>
+
+<div class="strip">
+  <div class="s"><div class="n">91.6%</div><div class="l">Test accuracy</div></div>
+  <div class="s"><div class="n">8</div><div class="l">Datasets · 33k samples</div></div>
+  <div class="s"><div class="n">35</div><div class="l">Financial ratios</div></div>
+  <div class="s"><div class="n">+194.8%</div><div class="l">Backtest vs SPY +51.2%</div></div>
+  <div class="s"><div class="n">&lt;1s</div><div class="l">Model inference</div></div>
+</div>
+
+<section id="how" class="center">
+  <span class="kicker">How it works</span>
+  <h2>Two engines. One honest signal.</h2>
+  <p class="lead">No black box. Every number in the output can be traced back to a real headline or a real line in the financial statements.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="ic">📰</div>
+      <h3>1 · Read the news</h3>
+      <p>Live headlines are pulled for the ticker. Our custom BiLSTM + CNN + Attention model — trained from scratch on 33,000 labeled financial sentences — classifies each one as positive, neutral or negative.</p>
+      <div class="mono-line">score = mean(P(pos) − P(neg)) → 0–100</div>
+    </div>
+    <div class="step">
+      <div class="ic">📋</div>
+      <h3>2 · Read the books</h3>
+      <p>All 35 ratios — liquidity, profitability, leverage, efficiency, valuation, cash flow — are computed from real statements and graded against published benchmarks: green, watch or warning.</p>
+      <div class="mono-line">ratio_score = (2·green + 1·watch) / max → 0–100</div>
+    </div>
+    <div class="step">
+      <div class="ic">🎯</div>
+      <h3>3 · Combine — honestly</h3>
+      <p>Fundamentals dominate at 65%, news adds real-time context at 35%. No generated text, no bias boosters, no thumb on the scale. ≥70 BUY · ≥45 HOLD · below SELL.</p>
+      <div class="mono-line">0.35 × sentiment + 0.65 × ratios</div>
+    </div>
+  </div>
+</section>
+
+<section id="model" class="center" style="background:linear-gradient(180deg,var(--paper),#FCF6FF)">
+  <span class="kicker">The model</span>
+  <h2>Built from scratch.<br><span class="mark">Not borrowed.</span></h2>
+  <p class="lead">No pretrained transformers. Only GloVe word embeddings + our own architecture, so it runs on CPU in milliseconds and costs nothing per query.</p>
+  <div class="arch">
+<span class="dim">┌──────────────────────────  ViradaModel  ──────────────────────────┐</span><br>
+&nbsp;&nbsp;Input text ─→ <span class="y">GloVe 300d embeddings</span> (840B tokens)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─→ <span class="p">BiLSTM ×2 (256h)</span> ─→ <span class="p">Soft Attention</span> ──┐<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─→ <span class="c">CNN k=2,3,4,5 → max-pool</span> ─────────────┤<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─→ <span class="g">Financial lexicon (6 feats) → MLP</span> ───┤<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="y">fusion 1040d</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;classifier → <span class="g">POSITIVE</span> · NEUTRAL · <span class="p">NEGATIVE</span><br>
+<span class="dim">└── trained: LabelSmoothing · WeightedSampler · OneCycleLR · grad-clip ──┘</span>
+  </div>
+</section>
+
+<section id="backtest" class="center" style="background:var(--ink)">
+  <span class="kicker" style="color:var(--yellow-hot)">Backtested · 2023-01 → 2025-05</span>
+  <h2 style="color:var(--paper)">$1 → <span class="mark">$2.95</span> following our BUY signals.</h2>
+  <p class="lead" style="color:#bdb3c4">Monthly rebalance over 29 months, point-in-time fundamentals with real reporting lags — no look-ahead bias. Same $1 in the S&P 500 became $1.51.</p>
+
+  <div style="max-width:880px;margin:48px auto 0;background:#fff;border:var(--border);border-radius:var(--radius);box-shadow:8px 8px 0 var(--magenta);padding:26px 22px 14px">
+    <svg viewBox="0 0 800 340" style="width:100%;height:auto" role="img" aria-label="Backtest chart">
+      <line x1="60" y1="20" x2="60" y2="290" stroke="#E8E9EB" stroke-width="2"/>
+      <line x1="60" y1="290" x2="780" y2="290" stroke="#E8E9EB" stroke-width="2"/>
+      <g font-family="JetBrains Mono" font-size="12" fill="#6E6275">
+        <text x="50" y="295" text-anchor="end">1.0</text>
+        <text x="50" y="215" text-anchor="end">1.5</text>
+        <text x="50" y="140" text-anchor="end">2.0</text>
+        <text x="50" y="65"  text-anchor="end">2.5</text>
+        <text x="50" y="25"  text-anchor="end">3.0</text>
+        <text x="70"  y="315">2023-01</text>
+        <text x="310" y="315">2024-01</text>
+        <text x="560" y="315">2025-01</text>
+      </g>
+      <g stroke="#F1EEF3" stroke-width="1">
+        <line x1="60" y1="215" x2="780" y2="215"/><line x1="60" y1="140" x2="780" y2="140"/><line x1="60" y1="65" x2="780" y2="65"/>
+      </g>
+      <path d="M60,290 L85,278 L110,281 L135,272 L160,266 L185,260 L210,255 L235,262 L260,259 L285,272 L310,270 L335,257 L360,250 L385,238 L410,231 L435,239 L460,225 L485,222 L510,221 L535,213 L560,196 L585,201 L610,196 L635,202 L660,214 L685,213 L710,209 L735,215 L760,213"
+            fill="none" stroke="#9aa0a6" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round"/>
+      <path d="M60,290 L85,275 L110,277 L135,252 L160,240 L185,205 L210,196 L235,180 L260,183 L285,192 L310,193 L335,174 L360,168 L385,138 L410,113 L435,99 L460,93 L485,42 L510,62 L535,66 L560,38 L585,22 L610,10 L635,17 L660,3 L685,38 L710,52 L735,48 L760,42"
+            fill="none" stroke="#800054" stroke-width="4.5" stroke-linecap="round"/>
+      <g font-family="JetBrains Mono" font-weight="700" font-size="14">
+        <text x="585" y="105" fill="#800054">Virada +194.8%</text>
+        <text x="620" y="250" fill="#6E6275">SPY +51.2%</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="steps" style="margin-top:34px;max-width:880px">
+    <div class="step" style="text-align:center"><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:38px;color:var(--magenta)">+143.6pp</div><p>excess return over the S&P 500 across the full window</p></div>
+    <div class="step" style="text-align:center"><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:38px;color:var(--magenta)">29 mo</div><p>monthly rebalances · point-in-time statements · 45/90-day reporting lags respected</p></div>
+    <div class="step" style="text-align:center"><div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:38px;color:var(--magenta)">0</div><p>look-ahead bias: every signal uses only data knowable on that date</p></div>
+  </div>
+  <p class="lead" style="color:#8d8197;font-size:13px;max-width:760px;margin-top:30px">Honest caveats we state ourselves: 8 mega-cap tech tickers in an AI bull market flatter the result; gross of fees; 2.5 years is one regime, not a guarantee. The methodology — not the multiple — is the science. ⚠️ Not financial advice.</p>
+</section>
+
+<section id="kz" class="center" style="background:linear-gradient(180deg,#FCF6FF,var(--paper))">
+  <span class="kicker">Kazakhstan coverage 🇰🇿</span>
+  <h2>The first financial sentiment engine<br>for <span class="mark">Central Asian</span> markets.</h2>
+  <p class="lead">Our model is being retrained on Russian and Kazakh financial text — and the engine already covers every Kazakh company with an international listing.</p>
+  <div class="chips" style="margin-top:34px">
+    <button class="chip" onclick="pick('KSPI')">KSPI — Kaspi.kz</button>
+    <button class="chip" onclick="analyze('AIRA.IL')">AIRA.IL — Air Astana</button>
+    <button class="chip" onclick="analyze('HSBK.IL')">HSBK.IL — Halyk Bank</button>
+    <button class="chip" onclick="analyze('KAP.IL')">KAP.IL — Kazatomprom</button>
+    <button class="chip" onclick="analyze('FRHC')">FRHC — Freedom Holding</button>
+  </div>
+  <div class="steps" style="max-width:880px;margin-top:40px">
+    <div class="step"><h3>🗣 RU + KZ model</h3><p>33k English samples machine-translated to Russian and Kazakh, plus native lexicons — «прибыль», «убыток», «өсім», «шығын» — and Cyrillic-aware preprocessing.</p></div>
+    <div class="step"><h3>📰 Local news, scored</h3><p>Headlines from Kursiv, Forbes.kz and KASE disclosures can be scored by the same engine — no translation API at inference time.</p></div>
+    <div class="step"><h3>🏦 Built for KZ brokers</h3><p>Freedom, Halyk Invest, BCC Invest analysts get BUY/HOLD/SELL on both NYSE and London-listed Kazakh names from one tool.</p></div>
+  </div>
+</section>
+
+<section id="weights" class="center">
+  <span class="kicker">Methodology</span>
+  <h2>Why 35 / 65?</h2>
+  <p class="lead">We stress-tested every weight split on real tickers — strong (META), expensive (NVDA), broken (FUBO). Only one split stayed honest in all three cases.</p>
+  <div class="wtable">
+    <div class="wrow"><div class="w">100 / 0</div><div class="d">Pure news. Ignores financials completely — a near-bankrupt company with nice headlines gets a BUY. Dangerous.</div></div>
+    <div class="wrow"><div class="w">50 / 50</div><div class="d">Neutral headlines pull fundamentally broken companies (like FUBO, 15 red ratios) up into HOLD territory.</div></div>
+    <div class="wrow best"><div class="w">35 / 65 ✓</div><div class="d">Balanced. Fundamentals dominate, news adds context. FUBO stays SELL, META stays BUY, NVDA gets an honest HOLD.</div></div>
+    <div class="wrow"><div class="w">30 / 70</div><div class="d">Nearly identical to 35/65. Acceptable for a more conservative profile.</div></div>
+    <div class="wrow"><div class="w">0 / 100</div><div class="d">Pure fundamentals. Blind to breaking news and momentum — misses what the market is saying right now.</div></div>
+  </div>
+</section>
+
+<section class="cta">
+  <span class="kicker" style="color:var(--yellow-hot)">Get started</span>
+  <h2>Don't ask your brokers<br>to be <span class="mark">superhuman.</span></h2>
+  <p class="lead">Give them an engine that reads every headline and every balance sheet — in the time it takes to blink.</p>
+  <a class="btn yellow" href="#try">⌕ &nbsp;Analyze your first stock</a>
+</section>
+
+<footer>
+  <span><b>Virada AI</b> · Almaty, Kazakhstan 🇰🇿</span>
+  <span class="mono">BiLSTM+CNN+ATTN · GloVe 840B · 8 datasets · yfinance data</span>
+  <span>⚠️ Not financial advice. Always do your own due diligence.</span>
+</footer>
+
+<script>
+/* ═══════════ STOCK DATABASE — names, aliases, multiple listings ═══════════ */
+const STOCKS=[
+ {t:"NVDA",n:"NVIDIA Corporation",ex:"NASDAQ",note:"Common stock",a:["nvidia","нвидиа","invidia"]},
+ {t:"NVDL",n:"GraniteShares 2x Long NVDA ETF",ex:"NASDAQ",note:"2× leveraged ETF on NVIDIA",a:["nvidia"]},
+ {t:"NVD", n:"GraniteShares 2x Short NVDA ETF",ex:"NASDAQ",note:"Inverse (short) NVIDIA ETF",a:["nvidia"]},
+ {t:"META",n:"Meta Platforms, Inc.",ex:"NASDAQ",note:"Facebook · Instagram · WhatsApp",a:["meta","facebook","instagram","whatsapp","фейсбук","мета"]},
+ {t:"AAPL",n:"Apple Inc.",ex:"NASDAQ",note:"Common stock",a:["apple","эпл","iphone"]},
+ {t:"TSLA",n:"Tesla, Inc.",ex:"NASDAQ",note:"Common stock",a:["tesla","тесла","musk"]},
+ {t:"TSLL",n:"Direxion 2x Long TSLA ETF",ex:"NASDAQ",note:"2× leveraged ETF on Tesla",a:["tesla"]},
+ {t:"MSFT",n:"Microsoft Corporation",ex:"NASDAQ",note:"Largest OpenAI investor",a:["microsoft","майкрософт","windows","openai"]},
+ {t:"GOOGL",n:"Alphabet Inc. — Class A",ex:"NASDAQ",note:"Voting shares · Anthropic investor",a:["google","alphabet","гугл","youtube","anthropic"]},
+ {t:"GOOG",n:"Alphabet Inc. — Class C",ex:"NASDAQ",note:"Non-voting shares",a:["google","alphabet","гугл"]},
+ {t:"AMZN",n:"Amazon.com, Inc.",ex:"NASDAQ",note:"$8B Anthropic investor",a:["amazon","амазон","aws","anthropic"]},
+ {t:"FUBO",n:"FuboTV Inc.",ex:"NYSE",note:"Sports streaming",a:["fubo","fubotv"]},
+ {t:"BRK.A",n:"Berkshire Hathaway — Class A",ex:"NYSE",note:"≈ $700k/share · voting",a:["berkshire","buffett","баффет"]},
+ {t:"BRK.B",n:"Berkshire Hathaway — Class B",ex:"NYSE",note:"Retail-friendly shares",a:["berkshire","buffett","баффет"]},
+ {t:"NFLX",n:"Netflix, Inc.",ex:"NASDAQ",note:"Common stock",a:["netflix","нетфликс"]},
+ {t:"AMD",n:"Advanced Micro Devices",ex:"NASDAQ",note:"Common stock",a:["amd","амд"]},
+ {t:"INTC",n:"Intel Corporation",ex:"NASDAQ",note:"Common stock",a:["intel","интел"]},
+ {t:"VRDN",n:"Viridian Therapeutics",ex:"NASDAQ",note:"Clinical-stage biotech",a:["viridian"]},
+ {t:"KSPI",n:"Kaspi.kz JSC",ex:"NASDAQ",note:"Kazakhstan fintech super-app 🇰🇿",a:["kaspi","каспи","kspi","kaspi.kz"]},
+ {t:"AIRA.IL",n:"Air Astana JSC",ex:"LSE · GDR",note:"Kazakhstan flag carrier 🇰🇿",a:["air astana","astana","эйр астана","аир астана","aira","әуе"]},
+ {t:"HSBK.IL",n:"Halyk Bank of Kazakhstan",ex:"LSE · GDR",note:"Largest bank in Kazakhstan 🇰🇿",a:["halyk","халык","халик","народный банк","halyk bank"]},
+ {t:"KAP.IL",n:"NAC Kazatomprom JSC",ex:"LSE · GDR",note:"World's #1 uranium producer 🇰🇿",a:["kazatomprom","казатомпром","uranium","уран"]},
+ {t:"FRHC",n:"Freedom Holding Corp.",ex:"NASDAQ",note:"Kazakh-founded brokerage 🇰🇿",a:["freedom","фридом","freedom finance","турлов"]},
+ {t:"COIN",n:"Coinbase Global",ex:"NASDAQ",note:"Crypto exchange",a:["coinbase","коинбейс","crypto"]},
+ {t:"PLTR",n:"Palantir Technologies",ex:"NASDAQ",note:"Common stock",a:["palantir","палантир"]},
+];
+
+/* Private companies — the honest answer + public exposure routes */
+const PRIVATE={
+ "anthropic":{name:"Anthropic",emoji:"🤖",
+   msg:"Anthropic (maker of Claude) is a <b>private company</b> — it has no stock you can buy on an exchange. But two of its biggest investors are public. Analyzing them is the closest public exposure:",
+   via:["GOOGL","AMZN"]},
+ "openai":{name:"OpenAI",emoji:"🧠",
+   msg:"OpenAI is <b>privately held</b> — no public ticker exists. Microsoft owns the largest commercial stake, making MSFT the standard public proxy:",
+   via:["MSFT"]},
+ "spacex":{name:"SpaceX",emoji:"🚀",
+   msg:"SpaceX is <b>private</b>. Alphabet holds an early stake; otherwise exposure only exists through pre-IPO funds:",
+   via:["GOOGL"]},
+ "claude":{name:"Anthropic (Claude)",emoji:"🤖",
+   msg:"Claude is built by Anthropic — a <b>private company</b> with no public stock. Its investors Google and Amazon are public:",
+   via:["GOOGL","AMZN"]},
+};
+
+/* ═══════════ ANALYSIS DATA — META/NVDA/FUBO from real engine runs ═══════════ */
+const R={ /* key:[value, status] st: 1 ok, 0 watch, -1 warn, 2 n/a */
+};
+const DATA={
+NVDA:{name:"NVIDIA Corporation",sector:"Technology",price:205.19,chg:0.15620019,cap:"4.97T",live:"2026-06-15",
+ sig:"HOLD",score:69.8,sent:50,ratio:80.4,
+ sentiment:{overall:"NEUTRAL",sc:"-0.070",pos:2,neu:4,neg:4,heads:[["Want $1 Million in Retirement? Start With This Index Fund.","neu",90],["The Best Cryptocurrency to Buy With $135 Right Now","neu",66],["Higher Interest Rates May Be Coming. Here's Why That's Bearish for Crypto.","neg",90],["Why NVDA, MU, INTC, Other Chip Stocks Are Rising In Overnight Trading","pos",89],["Alphabet Ties Search AI And Mobility Closer To Revenue Potential","pos",90],["Longtime SpaceX Investor Cathie Wood Made This Move on IPO Day. Should You Follow?","neu",91]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","3.91x",1],["Quick Ratio","1.53x",1],["Cash Ratio","0.33x",0],["OCF Ratio","3.19x",1]],
+  "PROFITABILITY":[["Gross Margin","71.07%",1],["Operating Margin","65.62%",1],["Net Margin","55.60%",1],["ROA","58.06%",1],["ROE","76.33%",1],["ROCE","81.14%",1],["EBITDA Margin","66.94%",1]],
+  "LEVERAGE":[["Debt / Equity","0.07x",1],["Debt / Assets","0.05x",1],["Interest Coverage","547.14x",1],["DSCR","396.59x",1],["Equity Multiplier","1.31x",1],["Net Debt/EBITDA","0.00x",1]],
+  "EFFICIENCY":[["Asset Turnover","1.04x",1],["Receivables Turn.","5.61x",0],["DSO","65d",0],["Fixed Asset Turn.","16.30x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","31.42x",0],["P/B Ratio","25.43x",-1],["EV / EBITDA","29.76x",-1],["P/S Ratio","19.61x",-1],["EPS","$6.53",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$96.68B",1],["FCF Margin","44.77%",1],["CF / Net Income","0.86x",0],["Capex / Revenue","2.80%",1]]},
+ fc:{bull:[45.7,298.96],base:[31.2,269.11],bear:[-12.8,178.93],an:"59 analysts · <b>strong buy</b> · mean <b>$298.93 (+45.7%)</b> · methods: analyst, volatility"}},
+
+META:{name:"Meta Platforms, Inc.",sector:"Communication Services",price:566.98,chg:-0.2550907,cap:"1.44T",live:"2026-06-15",
+ sig:"BUY",score:74.4,sent:50,ratio:87.5,
+ sentiment:{overall:"NEUTRAL",sc:"+0.002",pos:1,neu:8,neg:1,heads:[["Meta’s Manus Unwind Killed the Singapore Loophole for AI Companies","neu",90],["Citi Calls AMD a Rising Force in the GPU Market, Upgrades Shares to Buy","pos",90],["Meta Completes Operational Split from Manus amid Unwinding of $2 Billion Deal, Bloomberg Report","neu",89],["Anthropic Block Marks US Reversal, Warning to Silicon Valley","neg",88],["Trump Hosts UFC Fights at White House for 80th Birthday","neu",90],["How Constellation’s US$3.09 Billion Equity Raise And AI Power Deals At Constellation Energy (CE","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","2.60x",1],["Quick Ratio","1.33x",1],["Cash Ratio","0.86x",1],["OCF Ratio","2.77x",1]],
+  "PROFITABILITY":[["Gross Margin","82.00%",1],["Operating Margin","43.34%",1],["Net Margin","30.08%",1],["ROA","16.52%",1],["ROE","27.83%",1],["ROCE","26.87%",1],["EBITDA Margin","52.60%",1]],
+  "LEVERAGE":[["Debt / Equity","0.39x",1],["Debt / Assets","0.23x",1],["Interest Coverage","74.76x",1],["DSCR","99.40x",1],["Equity Multiplier","1.68x",1],["Net Debt/EBITDA","0.45x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.55x",0],["Receivables Turn.","10.17x",1],["DSO","36d",1],["Fixed Asset Turn.","1.02x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","20.62x",1],["P/B Ratio","5.91x",0],["EV / EBITDA","13.22x",0],["P/S Ratio","6.70x",0],["EPS","$27.50",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$46.11B",1],["FCF Margin","22.94%",1],["CF / Net Income","1.92x",1],["Capex / Revenue","34.68%",-1]]},
+ fc:{bull:[45.9,827.22],base:[33.5,757.2],bear:[-5.0,538.63],an:"59 analysts · <b>strong buy</b> · mean <b>$827.32 (+45.9%)</b> · methods: analyst, volatility"}},
+
+FUBO:{name:"FuboTV Inc.",sector:"Communication Services",price:9.83,chg:-6.11271,cap:"289M",live:"2026-06-15",
+ sig:"SELL",score:40.9,sent:50,ratio:36.0,
+ sentiment:{overall:"NEUTRAL",sc:"+0.027",pos:1,neu:9,neg:0,heads:[["fuboTV (FUBO) Stock Trades Up, Here Is Why","neu",90],["3 Small-Cap Stocks with Questionable Fundamentals","neu",89],["FuboTV World Cup 4K Push Tests Sports Streaming Growth Story","neu",90],["fuboTV, Xponential Fitness, and Funko Shares Skyrocket, What You Need To Know","pos",75],["Stitch Fix, fuboTV, and Sabre Stocks Trade Down, What You Need To Know","neu",90],["3 of Wall Street’s Favorite Stocks That Concern Us","neu",56]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","0.53x",-1],["Quick Ratio","0.45x",-1],["Cash Ratio","0.31x",0],["OCF Ratio","-0.15x",-1]],
+  "PROFITABILITY":[["Gross Margin","12.57%",-1],["Operating Margin","-9.63%",-1],["Net Margin","-10.61%",-1],["ROA","-15.99%",-1],["ROE","-87.72%",-1],["ROCE","-27.80%",-1],["EBITDA Margin","-7.01%",-1]],
+  "LEVERAGE":[["Debt / Equity","1.93x",0],["Debt / Assets","0.35x",1],["Interest Coverage","-7.49x",-1],["DSCR","-3.81x",-1],["Equity Multiplier","5.49x",-1],["Net Debt/EBITDA","-1.91x",1]],
+  "EFFICIENCY":[["Asset Turnover","1.51x",1],["Receivables Turn.","22.83x",1],["DSO","16d",1],["Fixed Asset Turn.","42.80x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","2.56x",2],["P/B Ratio","0.36x",2],["EV / EBITDA","N/A",2],["P/S Ratio","0.05x",1],["EPS","$3.84",-1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$-95.31M",-1],["FCF Margin","-5.87%",-1],["CF / Net Income","0.46x",-1],["Capex / Revenue","0.98%",1]]},
+ fc:{bull:[72.9,17.0],base:[52.5,14.99],bear:[-25.0,7.37],an:"8 analysts · <b>buy</b> · mean <b>$17.0 (+72.9%)</b> · methods: analyst, volatility"}},
+
+AAPL:{name:"Apple Inc.",sector:"Technology",price:291.13,chg:-1.5221729,cap:"4.28T",live:"2026-06-15",
+ sig:"HOLD",score:61.2,sent:50,ratio:67.3,
+ sentiment:{overall:"NEUTRAL",sc:"+0.069",pos:2,neu:7,neg:1,heads:[["Tata's iPhone parts factory contaminated farmland water, India pollution body alleges","neu",90],["Alphabet Ties Search AI And Mobility Closer To Revenue Potential","pos",90],["Apple's iOS 27 surprise could change the AI narrative","neu",90],["Indian Pollution Probe Tests Apple Supply Chain And Valuation Gap","neg",90],["TechCrunch Mobility: SpaceX rockets past Tesla","neu",89],["Given the News Out of WWDC, Was Warren Buffett Right to Sell Apple Stock?","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","0.89x",-1],["Quick Ratio","0.46x",-1],["Cash Ratio","0.22x",0],["OCF Ratio","0.67x",0]],
+  "PROFITABILITY":[["Gross Margin","46.91%",1],["Operating Margin","31.97%",1],["Net Margin","26.92%",1],["ROA","31.18%",1],["ROE","151.91%",1],["ROCE","68.72%",1],["EBITDA Margin","34.78%",1]],
+  "LEVERAGE":[["Debt / Equity","1.34x",0],["Debt / Assets","0.27x",1],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","4.87x",-1],["Net Debt/EBITDA","0.43x",1]],
+  "EFFICIENCY":[["Asset Turnover","1.16x",1],["Receivables Turn.","10.46x",1],["DSO","35d",1],["Fixed Asset Turn.","8.35x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","35.20x",0],["P/B Ratio","40.10x",-1],["EV / EBITDA","26.83x",-1],["P/S Ratio","9.47x",-1],["EPS","$8.27",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$98.77B",1],["FCF Margin","23.73%",1],["CF / Net Income","1.00x",0],["Capex / Revenue","3.06%",1]]},
+ fc:{bull:[9.4,318.5],base:[8.4,315.58],bear:[-24.0,221.26],an:"43 analysts · <b>buy</b> · mean <b>$312.72 (+7.4%)</b> · methods: analyst, volatility"}},
+
+TSLA:{name:"Tesla, Inc.",sector:"Consumer Cyclical",price:406.43,chg:1.8238755,cap:"1.53T",live:"2026-06-15",
+ sig:"HOLD",score:53.5,sent:50,ratio:55.4,
+ sentiment:{overall:"NEUTRAL",sc:"+0.016",pos:0,neu:10,neg:0,heads:[["RIVN Stock Jumps Overnight: CEO Teases Self-Driving System 'Very Similar To Tesla's FSD' This Y","neu",86],["Tesla Shareholders 'Don't Like Table Scraps' — Bulls Make Case Against SpaceX Merger, See Up To","neu",73],["Elon Musk Rejects Claims Government Support Built TSLA And SPCX — Says Trump’s EV Credit Cuts S","neu",90],["Elon Musk Says SpaceX Could Put One Million Tons Of Payload In Orbit Within The Next Five Years","neu",90],["Longtime SpaceX Investor Cathie Wood Made This Move on IPO Day. Should You Follow?","neu",91],["Tesla Merger Talk With SpaceX Reshapes AI And Investor Outlook","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","2.16x",1],["Quick Ratio","0.67x",0],["Cash Ratio","0.52x",1],["OCF Ratio","0.47x",-1]],
+  "PROFITABILITY":[["Gross Margin","18.03%",-1],["Operating Margin","5.92%",0],["Net Margin","4.00%",0],["ROA","2.75%",0],["ROE","4.62%",-1],["ROCE","5.29%",-1],["EBITDA Margin","12.41%",0]],
+  "LEVERAGE":[["Debt / Equity","0.18x",1],["Debt / Assets","0.11x",1],["Interest Coverage","16.62x",1],["DSCR","43.63x",1],["Equity Multiplier","1.68x",1],["Net Debt/EBITDA","-0.15x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.69x",0],["Receivables Turn.","20.72x",1],["DSO","18d",1],["Fixed Asset Turn.","1.69x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","369.48x",-1],["P/B Ratio","18.56x",-1],["EV / EBITDA","135.05x",-1],["P/S Ratio","15.60x",-1],["EPS","$1.10",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$6.22B",1],["FCF Margin","6.56%",0],["CF / Net Income","3.89x",1],["Capex / Revenue","8.99%",0]]},
+ fc:{bull:[18.2,480.4],base:[10.8,450.53],bear:[-57.8,171.51],an:"41 analysts · <b>buy</b> · mean <b>$420.55 (+3.5%)</b> · methods: analyst, dcf, volatility"}},
+
+GOOGL:{name:"Alphabet Inc.",sector:"Communication Services",price:359.68,chg:0.5338636,cap:"4.39T",live:"2026-06-15",
+ sig:"HOLD",score:64.6,sent:50,ratio:72.4,
+ sentiment:{overall:"NEUTRAL",sc:"+0.091",pos:2,neu:7,neg:1,heads:[["This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market","neu",90],["Anthropic Block Marks US Reversal, Warning to Silicon Valley","neg",88],["A Place Where Some AI Stocks Are Still Cheap: China","neu",92],["Alphabet Ties Search AI And Mobility Closer To Revenue Potential","pos",90],["How ‘agentic’ is AI shopping today","neu",82],["SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","2.01x",1],["Quick Ratio","0.91x",0],["Cash Ratio","0.30x",0],["OCF Ratio","1.60x",1]],
+  "PROFITABILITY":[["Gross Margin","59.65%",1],["Operating Margin","39.61%",1],["Net Margin","32.81%",1],["ROA","22.20%",1],["ROE","31.83%",1],["ROCE","32.40%",1],["EBITDA Margin","44.86%",1]],
+  "LEVERAGE":[["Debt / Equity","0.14x",1],["Debt / Assets","0.10x",1],["Interest Coverage","216.80x",1],["DSCR","223.79x",1],["Equity Multiplier","1.43x",1],["Net Debt/EBITDA","0.16x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.68x",0],["Receivables Turn.","6.41x",0],["DSO","57d",0],["Fixed Asset Turn.","1.54x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","27.48x",0],["P/B Ratio","9.10x",0],["EV / EBITDA","26.82x",-1],["P/S Ratio","10.38x",-1],["EPS","$13.09",1],["Div. Yield","24.00%",-1]],
+  "CASH FLOW":[["Free Cash Flow","$73.27B",1],["FCF Margin","18.19%",1],["CF / Net Income","1.25x",1],["Capex / Revenue","22.70%",-1]]},
+ fc:{bull:[20.3,432.7],base:[16.1,417.77],bear:[-16.8,299.43],an:"53 analysts · <b>strong buy</b> · mean <b>$432.83 (+20.3%)</b> · methods: analyst, volatility"}},
+
+MSFT:{name:"Microsoft Corporation",sector:"Technology",price:390.74,chg:0.1024732,cap:"2.90T",live:"2026-06-15",
+ sig:"HOLD",score:63.9,sent:50,ratio:71.4,
+ sentiment:{overall:"NEUTRAL",sc:"-0.083",pos:0,neu:9,neg:1,heads:[["Microsoft CEO Nadella Says Every Firm Must Build Token Capital","neu",90],["How Constellation’s US$3.09 Billion Equity Raise And AI Power Deals At Constellation Energy (CE","neu",90],["SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?","neu",90],["monday.com (MNDY): AI Work Platform Shift Shows Why Workflow Automation Could Extend Growth","neu",90],["The Better AI Cloud Stock: Microsoft or Amazon?","neu",90],["Jim Cramer Thinks Microsoft (MSFT) Doesn’t Need $100 Billion","neu",91]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","1.35x",0],["Quick Ratio","0.71x",0],["Cash Ratio","0.21x",0],["OCF Ratio","0.96x",0]],
+  "PROFITABILITY":[["Gross Margin","68.82%",1],["Operating Margin","44.73%",1],["Net Margin","36.15%",1],["ROA","16.45%",1],["ROE","29.65%",1],["ROCE","26.37%",1],["EBITDA Margin","56.85%",1]],
+  "LEVERAGE":[["Debt / Equity","0.18x",1],["Debt / Assets","0.10x",1],["Interest Coverage","52.84x",1],["DSCR","57.09x",1],["Equity Multiplier","1.80x",1],["Net Debt/EBITDA","0.19x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.46x",-1],["Receivables Turn.","4.03x",0],["DSO","91d",-1],["Fixed Asset Turn.","1.23x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","23.26x",1],["P/B Ratio","7.01x",0],["EV / EBITDA","15.99x",0],["P/S Ratio","9.12x",-1],["EPS","$16.80",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$71.61B",1],["FCF Margin","25.42%",1],["CF / Net Income","1.34x",1],["Capex / Revenue","22.91%",-1]]},
+ fc:{bull:[43.7,561.49],base:[33.0,519.88],bear:[-5.0,371.2],an:"55 analysts · <b>strong buy</b> · mean <b>$561.39 (+43.7%)</b> · methods: analyst, volatility"}},
+
+KSPI:{name:"Joint Stock Company Kaspi.kz",sector:"Technology",price:80.56,chg:-2.1498806,cap:"15.31B",live:"2026-06-15",
+ sig:"HOLD",score:64.1,sent:50,ratio:71.7,
+ sentiment:{overall:"NEUTRAL",sc:"+0.018",pos:0,neu:10,neg:0,heads:[["Kaspi.kz (NasdaqGS:KSPI) Stock Valuation Gap After Recent Momentum Cooldown","neu",73],["Down 9.6% in 4 Weeks, Here's Why You Should You Buy the Dip in Joint Stock Company Kaspi.kz Spo","neu",86],["Are Business Services Stocks Lagging  GDS Holdings (GDS) This Year?","neu",87],["Kaspi.kz JSC (KSPI) Q1 2026 Earnings Call Highlights: Strong E-commerce Growth and Strategic ..","neu",79],["3 Stocks Possibly Trading Below Estimated Value","neu",88],["How Investors Are Reacting To Kaspi.kz (KSPI) Q1 Results And Rapid Regional E‑Commerce Expansio","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","1.23x",0],["Quick Ratio","0.12x",-1],["Cash Ratio","0.11x",-1],["OCF Ratio","0.08x",-1]],
+  "PROFITABILITY":[["Gross Margin","47.38%",1],["Operating Margin","32.61%",1],["Net Margin","26.64%",1],["ROA","9.68%",1],["ROE","43.07%",1],["ROCE","42.55%",1],["EBITDA Margin","32.61%",1]],
+  "LEVERAGE":[["Debt / Equity","0.19x",1],["Debt / Assets","0.04x",1],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","4.45x",-1],["Net Debt/EBITDA","-0.33x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.36x",-1],["Receivables Turn.","152.69x",1],["DSO","2d",1],["Fixed Asset Turn.","12.83x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","7.26x",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","$11.09",1],["Div. Yield","4.46%",1]],
+  "CASH FLOW":[["Free Cash Flow","$491.10B",1],["FCF Margin","12.19%",1],["CF / Net Income","0.63x",-1],["Capex / Revenue","4.53%",1]]},
+ fc:{bull:[17.8,94.9],base:[14.5,92.24],bear:[-5.0,76.53],an:"7 analysts · <b>buy</b> · mean <b>$94.92 (+17.8%)</b> · methods: analyst, volatility"}},
+
+"AIRA.IL":{name:"Air Astana Joint Stock Company",sector:"",price:5.28,chg:0,cap:"—",live:"2026-06-15",
+ sig:"HOLD",score:51.3,sent:50,ratio:52.0,
+ sentiment:{overall:"NEUTRAL",sc:"+0.136",pos:5,neu:14,neg:1,heads:[["Air Astana JSC (STU:7YH) Q3 2025 Earnings Call Highlights: Navigating Growth Amidst Operational","neu",90],["Air Astana Expands Boeing 787-9 Order for Long-Haul Fleet Development","pos",53],["[Latest] Global Air Charter Broker Market Size/Share Worth USD 29.49 Billion by 2034 at a 5.5% ","neu",89],["Asian Opportunities: AIRA Capital And 2 Other Promising Penny Stocks - Yahoo Finance","neu",90],["AI Revenue Assistant Software Stockholm AB (OSTO:AIRA) PS R - GuruFocus","neu",90],["Aira has received final approval from Nasdaq regarding listing of its shares on Nasdaq First No","neu",60]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","1.24x",0],["Quick Ratio","0.87x",0],["Cash Ratio","0.83x",1],["OCF Ratio","0.43x",-1]],
+  "PROFITABILITY":[["Gross Margin","12.56%",-1],["Operating Margin","7.28%",0],["Net Margin","0.96%",-1],["ROA","0.66%",-1],["ROE","3.67%",-1],["ROCE","6.90%",-1],["EBITDA Margin","23.60%",1]],
+  "LEVERAGE":[["Debt / Equity","2.84x",-1],["Debt / Assets","0.51x",0],["Interest Coverage","1.24x",-1],["DSCR","2.97x",1],["Equity Multiplier","5.57x",-1],["Net Debt/EBITDA","1.74x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.68x",0],["Receivables Turn.","58.47x",1],["DSO","6d",1],["Fixed Asset Turn.","1.18x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","16.00x",1],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$189.05M",1],["FCF Margin","13.43%",1],["CF / Net Income","18.04x",1],["Capex / Revenue","3.93%",1]]},
+ fc:{bull:[114.4,11.32],base:[114.4,11.32],bear:[-15.0,4.49],an:"4 analysts · <b>strong buy</b> · mean <b>$11.32 (+114.4%)</b> · methods: analyst"}},
+
+"HSBK.IL":{name:"Halyk Bank of Kazakhstan Joint Stock Company",sector:"Financial Services",price:31.5,chg:0.47846767,cap:"—",live:"2026-06-15",
+ sig:"HOLD",score:57.5,sent:50,ratio:61.5,
+ sentiment:{overall:"NEUTRAL",sc:"+0.126",pos:3,neu:15,neg:0,heads:[["Halyk Bank of Kazakhstan JSC (STU:H4L1) Q1 2026 Earnings Call Highlights: Navigating Regulatory","neu",90],["Halyk Bank of Kazakhstan JSC (FRA:H4L1) Q3 2025 Earnings Call Highlights: Strong Net Income ...","neu",87],["Top UK Dividend Stocks To Watch In October 2025","neu",90],["Top UK Dividend Stocks To Consider For Your Portfolio","neu",90],["3 Leading UK Dividend Stocks To Consider","neu",85],["Discovering Hidden Stock Gems in the UK This June 2026 - simplywall.st","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","60.81%",1],["ROA","5.06%",1],["ROE","30.24%",1],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","0.58x",1],["Debt / Assets","0.10x",1],["Interest Coverage","N/A",2],["DSCR","0.48x",-1],["Equity Multiplier","5.97x",-1],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","0.08x",-1],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","5.24x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","6.60x",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","$4.77",1],["Div. Yield","17.72%",-1]],
+  "CASH FLOW":[["Free Cash Flow","$585.62B",1],["FCF Margin","33.64%",1],["CF / Net Income","0.63x",-1],["Capex / Revenue","4.87%",1]]},
+ fc:{bull:[0,31.5],base:[0,31.5],bear:[0,31.5],an:"Forecast unavailable for this ticker."}},
+
+"KAP.IL":{name:"National Atomic Company Kazatomprom JSC",sector:"Energy",price:70.2,chg:1.0071899,cap:"—",live:"2026-06-15",
+ sig:"BUY",score:72.5,sent:50,ratio:84.6,
+ sentiment:{overall:"NEUTRAL",sc:"+0.109",pos:1,neu:7,neg:0,heads:[["National Atomic Company Kazatomprom JSC's (LON:KAP) Stock Is Going Strong: Is the Market Follow","neu",89],["National Atomic Company Kazatomprom JSC's (LON:KAP) market cap surged US$1.7b last week, sovere","neu",90],["National Atomic Company Kazatomprom JSC's (LON:KAP) 40% CAGR outpaced the company's earnings gr","neu",79],["National Atomic Company Kazatomprom JSC (LON:KAP) Is Very Good At Capital Allocation","neu",90],["Are Investors Undervaluing National Atomic Company Kazatomprom JSC (LON:KAP) By 46%?","neu",90],["Results: National Atomic Company Kazatomprom JSC Beat Earnings Expectations And Analysts Now Ha","pos",87]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","3.48x",1],["Quick Ratio","1.45x",1],["Cash Ratio","0.76x",1],["OCF Ratio","1.44x",1]],
+  "PROFITABILITY":[["Gross Margin","47.83%",1],["Operating Margin","56.26%",1],["Net Margin","31.64%",1],["ROA","14.17%",1],["ROE","24.50%",1],["ROCE","28.39%",1],["EBITDA Margin","56.39%",1]],
+  "LEVERAGE":[["Debt / Equity","0.09x",1],["Debt / Assets","0.05x",1],["Interest Coverage","53.99x",1],["DSCR","34.92x",1],["Equity Multiplier","1.73x",1],["Net Debt/EBITDA","-0.13x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.45x",-1],["Receivables Turn.","5.79x",0],["DSO","63d",0],["Fixed Asset Turn.","1.01x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","11.40x",1],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","$6.16",1],["Div. Yield","5.69%",-1]],
+  "CASH FLOW":[["Free Cash Flow","$426.32B",1],["FCF Margin","23.64%",1],["CF / Net Income","1.15x",1],["Capex / Revenue","12.75%",0]]},
+ fc:{bull:[0,70.2],base:[0,70.2],bear:[0,70.2],an:"Forecast unavailable for this ticker."}},
+
+FRHC:{name:"Freedom Holdings Corp.",sector:"Financial Services",price:138.2,chg:-1.5564325,cap:"8.47B",live:"2026-06-15",
+ sig:"HOLD",score:65.2,sent:100,ratio:46.4,
+ sentiment:{overall:"POSITIVE",sc:"+0.170",pos:2,neu:8,neg:0,heads:[["Is Freedom Holding (FRHC) Pricing Still Sensible After Recent Regulatory Attention?","neu",90],["Freedom Holding (FRHC) Acquires ChessBase","neu",90],["Assessing Freedom Holding (FRHC) Valuation After Recent Share Price Momentum","neu",90],["Freedom Holding Buys Turkish Bank To Build Integrated SuperApp Platform","neu",90],["Freedom Holding's (NASDAQ:FRHC) investors will be pleased with their stellar 107% return over t","pos",90],["With a 70% stake, Freedom Holding Corp. (NASDAQ:FRHC) insiders have a lot riding on the company","neu",88]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","1.35x",0],["Quick Ratio","0.63x",0],["Cash Ratio","0.11x",-1],["OCF Ratio","0.02x",-1]],
+  "PROFITABILITY":[["Gross Margin","54.56%",1],["Operating Margin","33.02%",1],["Net Margin","7.08%",0],["ROA","1.17%",-1],["ROE","10.30%",0],["ROCE","17.26%",1],["EBITDA Margin","34.62%",1]],
+  "LEVERAGE":[["Debt / Equity","1.63x",0],["Debt / Assets","0.18x",1],["Interest Coverage","1.46x",-1],["DSCR","0.38x",-1],["Equity Multiplier","8.83x",-1],["Net Debt/EBITDA","1.96x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.16x",-1],["Receivables Turn.","0.46x",-1],["DSO","791d",-1],["Fixed Asset Turn.","5.33x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","55.06x",-1],["P/B Ratio","5.69x",0],["EV / EBITDA","10.14x",1],["P/S Ratio","5.18x",0],["EPS","$2.51",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$-36.92M",-1],["FCF Margin","-1.71%",-1],["CF / Net Income","1.21x",1],["Capex / Revenue","10.26%",0]]},
+ fc:{bull:[19.9,165.7],base:[19.9,165.7],bear:[-17.9,113.39],an:"analyst targets unavailable — methods: volatility"}},
+
+AMZN:{name:"Amazon.com, Inc.",sector:"Consumer Cyclical",price:238.55,chg:-1.2256249,cap:"2.57T",live:"2026-06-15",
+ sig:"HOLD",score:65.1,sent:50,ratio:73.2,
+ sentiment:{overall:"NEUTRAL",sc:"-0.014",pos:1,neu:8,neg:1,heads:[["This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market","neu",90],["Satellite Stocks Are Flying on SpaceX, Spectrum-Sale Hopes. Time Is Running Out.","neu",90],["Musk says SpaceX could bring $1 trillion in revenue by 2030","neu",68],["Orbio raises $21 million to automate hiring and onboarding for frontline workers","neu",86],["Amazon Graviton5 Chip Aims To Deepen AWS AI Margins And Moat","neu",86],["How ‘agentic’ is AI shopping today","neu",82]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","1.05x",0],["Quick Ratio","0.71x",0],["Cash Ratio","0.40x",0],["OCF Ratio","0.64x",0]],
+  "PROFITABILITY":[["Gross Margin","50.29%",1],["Operating Margin","13.89%",0],["Net Margin","10.83%",1],["ROA","9.49%",1],["ROE","18.89%",1],["ROCE","16.60%",1],["EBITDA Margin","23.06%",1]],
+  "LEVERAGE":[["Debt / Equity","0.37x",1],["Debt / Assets","0.19x",1],["Interest Coverage","43.79x",1],["DSCR","61.35x",1],["Equity Multiplier","1.99x",1],["Net Debt/EBITDA","0.40x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.88x",0],["Receivables Turn.","10.59x",1],["DSO","34d",1],["Fixed Asset Turn.","1.62x",0],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","31.64x",0],["P/B Ratio","5.81x",0],["EV / EBITDA","17.06x",0],["P/S Ratio","3.45x",0],["EPS","$7.54",1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$7.70B",1],["FCF Margin","1.07%",-1],["CF / Net Income","1.80x",1],["Capex / Revenue","18.39%",-1]]},
+ fc:{bull:[31.0,312.5],base:[20.8,288.05],bear:[-10.8,212.79],an:"63 analysts · <b>strong buy</b> · mean <b>$312.51 (+31.0%)</b> · methods: analyst, volatility"}},
+"AIR.L":{name:"AIR.L",sector:"",price:0,chg:0,cap:"—",live:"2026-05-28",
+ sig:"HOLD",score:50.0,sent:50,ratio:50,
+ sentiment:{overall:"NEUTRAL",sc:"+0.076",pos:5,neu:10,neg:5,heads:[["L'Air Liquide Margin Record And Dividend Rise Test Earnings Resilience - Yahoo Finance","pos",90],["Delta Kicks Off Airline Earnings Wednesday. Here's What To Watch Out For. - Investopedia","neu",89],["Here’s What the Market is Missing About L’Air Liquide’s Hydrogen Upside - TIKR.com","neu",88],["American Airlines profit forecast for the rest of the year tops estimates - CNBC","neg",40],["Delta Air Line Stock Enjoys Pre-Earnings Pop as Oil Cools - Yahoo Finance","neu",56],["Travel stocks tumble as US-Iran conflict sparks worst disruption since pandemic - Reuters","neg",89]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","N/A",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,0],base:[0,0],bear:[0,0],an:"Forecast unavailable for this ticker."}},
+"AIRA.L":{name:"AIRA.L",sector:"",price:0,chg:0,cap:"—",live:"2026-05-28",
+ sig:"HOLD",score:50.0,sent:50,ratio:50,
+ sentiment:{overall:"NEUTRAL",sc:"+0.000",pos:0,neu:0,neg:0,heads:[]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","N/A",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,0],base:[0,0],bear:[0,0],an:"Forecast unavailable for this ticker."}},
+AIRA:{name:"AIRA",sector:"",price:0,chg:0,cap:"—",live:"2026-05-28",
+ sig:"HOLD",score:50.0,sent:50,ratio:50,
+ sentiment:{overall:"NEUTRAL",sc:"+0.141",pos:4,neu:12,neg:1,heads:[["Air Astana JSC (LSE:AIRA) Full Year 2025 Earnings Call Highlights: Navigating Challenges with .","neu",91],["Asian Opportunities: AIRA Capital And 2 Other Promising Penny Stocks - Yahoo Finance","neu",90],["AIRA Capital Public Company Limited Reports Earnings Results for the First Quarter Ended March ","neu",90],["The board of Upsales Technology AB (publ) has resolved on a record date for the dividend of sha","neu",89],["AIRA Factoring Public Company Limited Reports Earnings Results for the First Quarter Ended Marc","neu",91],["Q1 2026 Airbus SE Earnings Call Transcript - GuruFocus","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","N/A",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,0],base:[0,0],bear:[0,0],an:"Forecast unavailable for this ticker."}},
+"ANTH.PVT":{name:"Anthropic",sector:"Artificial Intelligence",price:589.01,chg:0,cap:"—",live:"2026-06-02",
+ sig:"HOLD",score:50.0,sent:50,ratio:50,
+ sentiment:{overall:"NEUTRAL",sc:"-0.092",pos:1,neu:7,neg:2,heads:[["Tech stocks today: Google stock falls on plans to raise $80 billion, Nvidia CEO blesses Marvell","neu",73],["Anthropic killing all software companies? This chart says nope.","neu",90],["How Google’s $80 Billion Equity Plan Compares to the Biggest Ever","neu",91],["Mega AI IPOs may pressure markets in near term, says Standard Chartered CIO","neg",90],["Stocks rally on AI optimism; jitters over Iran simmer","pos",84],["U.S. stock futures dip after AI-driven record highs June 2026","neu",60]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","N/A",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,589.01],base:[0,589.01],bear:[0,589.01],an:"Forecast unavailable for this ticker."}},
+ANTHROPIC:{name:"ANTHROPIC",sector:"",price:0,chg:0,cap:"—",live:"2026-06-04",
+ sig:"HOLD",score:50.0,sent:50,ratio:50,
+ sentiment:{overall:"NEUTRAL",sc:"+0.109",pos:3,neu:17,neg:0,heads:[["Anthropic IPO 2026 Guide: Everything You Need to Know and Consider - Zacks Investment Research","neu",90],["Is Zoom Stock A Buy After The Anthropic IPO Hype? - Trefis","neu",90],["Anthropic Leapfrogs OpenAI In Valuation. But Here's One Thing To Know. - Investor's Business Da","neu",90],["Anthropic's Valuation Jumped to Nearly $1 Trillion. Here's What That Means for the IPO Market -","neu",54],["GNS Stock Gains On First Investments Into SpaceX, OpenAI, Anthropic For $100M AI Treasury - Yah","neu",86],["Alphabet Stock (GOOGL) Opinions on Q1 Earnings and Anthropic Deal - Quiver Quantitative","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","N/A",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,0],base:[0,0],bear:[0,0],an:"Forecast unavailable for this ticker."}},
+IMD:{name:"IMD",sector:"",price:0,chg:0,cap:"—",live:"2026-06-12",
+ sig:"HOLD",score:67.5,sent:100,ratio:50,
+ sentiment:{overall:"POSITIVE",sc:"+0.169",pos:5,neu:14,neg:1,heads:[["Independent Non-Executive Chairman of Imdex Anthony Wooles Buys 187% More Shares","neu",90],["I.M.D. International Medical Devices And 2 European Penny Stocks To Watch","neu",91],["Imdex Ltd (IMD) Revenue Breakdown - Main Composition - Moomoo","neu",88],["European Market Insights: I.M.D. International Medical Devices Among 3 Promising Penny Stocks -","neu",90],["Should you still invest? - How meaningful are record highs? - I by IMD - imd.org","neu",50],["FACT shares fall nearly 5% after Q4 profit slumps 95.5% - TradingView","neg",89]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","N/A",2],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,0],base:[0,0],bear:[0,0],an:"Forecast unavailable for this ticker."}},
+INTC:{name:"Intel Corporation",sector:"Technology",price:124.26,chg:6.2072525,cap:"—",live:"2026-06-12",
+ sig:"HOLD",score:61.7,sent:100,ratio:41.1,
+ sentiment:{overall:"POSITIVE",sc:"+0.309",pos:4,neu:6,neg:0,heads:[["Intel stock pops on upgrade from BofA, citing CPU growth opportunity","pos",90],["CPU market to grow 5x by 2030, BofA says","neu",89],["Goldman Sachs doubles down on stock market outlook for 2026","pos",92],["Why AST SpaceMobile Stock Crashed Today","neu",74],["Why Intuitive Machines Stock Crashed Today","pos",59],["The S&P 500 ETF Nobody Talks About That Could Beat VOO","neu",90]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","2.02x",1],["Quick Ratio","0.57x",0],["Cash Ratio","0.45x",0],["OCF Ratio","0.31x",-1]],
+  "PROFITABILITY":[["Gross Margin","34.77%",0],["Operating Margin","5.01%",0],["Net Margin","-0.51%",-1],["ROA","-0.13%",-1],["ROE","-0.23%",-1],["ROCE","1.47%",-1],["EBITDA Margin","27.16%",1]],
+  "LEVERAGE":[["Debt / Equity","0.41x",1],["Debt / Assets","0.22x",1],["Interest Coverage","2.43x",0],["DSCR","8.89x",1],["Equity Multiplier","1.85x",1],["Net Debt/EBITDA","2.25x",0]],
+  "EFFICIENCY":[["Asset Turnover","0.25x",-1],["Receivables Turn.","13.77x",1],["DSO","27d",1],["Fixed Asset Turn.","0.50x",-1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","80.58x",-1],["P/B Ratio","5.60x",0],["EV / EBITDA","43.30x",-1],["P/S Ratio","11.62x",-1],["EPS","$-0.60",-1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$-4.95B",-1],["FCF Margin","-9.36%",-1],["CF / Net Income","-36.32x",-1],["Capex / Revenue","27.71%",-1]]},
+ fc:{bull:[0,124.26],base:[0,124.26],bear:[0,124.26],an:"Forecast unavailable for this ticker."}},
+IPO:{name:"Renaissance IPO ETF",sector:"",price:58.12,chg:2.68551,cap:"—",live:"2026-06-02",
+ sig:"SELL",score:33.8,sent:50,ratio:25.0,
+ sentiment:{overall:"NEUTRAL",sc:"+0.082",pos:1,neu:8,neg:1,heads:[["Market Minute 5-11-26- Mideast Talks Founder, But Markets Hold Up","neu",90],["Asian Dividend Stocks To Watch In May 2026","neu",89],["Bill Ackman’s Pershing Square to Raise $5 Billion from IPO","pos",88],["Inspire Brands Picks Banks For IPO That Could Raise $2 Billion","neu",82],["SpaceX IPO Set to Be a Catalyst for 2026 IPO Boom: ETFs to Gain","neg",54],["SpaceX Eyes IPO as Market Conditions Grow More Uncertain. What the Charts Show.","neu",65]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","N/A",2],["Quick Ratio","N/A",2],["Cash Ratio","N/A",2],["OCF Ratio","N/A",2]],
+  "PROFITABILITY":[["Gross Margin","N/A",2],["Operating Margin","N/A",2],["Net Margin","N/A",2],["ROA","N/A",2],["ROE","N/A",2],["ROCE","N/A",2],["EBITDA Margin","N/A",2]],
+  "LEVERAGE":[["Debt / Equity","N/A",2],["Debt / Assets","N/A",2],["Interest Coverage","N/A",2],["DSCR","N/A",2],["Equity Multiplier","N/A",2],["Net Debt/EBITDA","N/A",2]],
+  "EFFICIENCY":[["Asset Turnover","N/A",2],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","N/A",2],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","38.73x",0],["P/B Ratio","N/A",2],["EV / EBITDA","N/A",2],["P/S Ratio","N/A",2],["EPS","N/A",2],["Div. Yield","54.00%",-1]],
+  "CASH FLOW":[["Free Cash Flow","N/A",2],["FCF Margin","N/A",2],["CF / Net Income","N/A",2],["Capex / Revenue","N/A",2]]},
+ fc:{bull:[0,58.12],base:[0,58.12],bear:[0,58.12],an:"Forecast unavailable for this ticker."}},
+VRDN:{name:"Viridian Therapeutics, Inc.",sector:"Healthcare",price:16.35,chg:1.3011094,cap:"1.81B",live:"2026-06-15",
+ sig:"HOLD",score:61.8,sent:100,ratio:41.3,
+ sentiment:{overall:"POSITIVE",sc:"+0.214",pos:4,neu:5,neg:1,heads:[["Viridian Therapeutics (VRDN) Prices Upsized Concurrent Public Offerings Totaling $350M","neu",89],["This Biotech Has a June 30 FDA Catalyst. A Fund Just Cut Its Stake by $7 Million","neg",65],["Why Viridian Therapeutics (VRDN) Is Up 25.9% After Phase 3 Elegrobart Win And Fresh Fundraising","pos",62],["Earnings Update: Viridian Therapeutics, Inc. (NASDAQ:VRDN) Just Reported And Analysts Are Boost","neu",90],["Viridian Therapeutics’ stock up 35% after Phase III TED data release","neu",89],["Viridian Therapeutics REVEAL-2 Hits Phase 3 Endpoint, Shows “IV-like” Proptosis Gains in Chroni","neu",78]]},
+ ratios:{
+  "LIQUIDITY":[["Current Ratio","12.65x",1],["Quick Ratio","3.00x",1],["Cash Ratio","3.00x",2],["OCF Ratio","-3.91x",-1]],
+  "PROFITABILITY":[["Gross Margin","-379.29%",-1],["Operating Margin","-476.58%",-1],["Net Margin","-483.56%",-1],["ROA","-38.09%",-1],["ROE","-47.44%",-1],["ROCE","-40.74%",-1],["EBITDA Margin","-475.93%",-1]],
+  "LEVERAGE":[["Debt / Equity","0.07x",1],["Debt / Assets","0.06x",1],["Interest Coverage","-68.24x",-1],["DSCR","-55.86x",-1],["Equity Multiplier","1.25x",1],["Net Debt/EBITDA","0.48x",1]],
+  "EFFICIENCY":[["Asset Turnover","0.08x",-1],["Receivables Turn.","N/A",2],["DSO","N/A",2],["Fixed Asset Turn.","19.42x",1],["Inventory Turn.","N/A",2],["CCC","N/A",2]],
+  "VALUATION":[["P/E Ratio","-6.51x",2],["P/B Ratio","3.32x",1],["EV / EBITDA","N/A",2],["P/S Ratio","25.46x",-1],["EPS","$-3.35",-1],["Div. Yield","N/A",2]],
+  "CASH FLOW":[["Free Cash Flow","$-276.89M",-1],["FCF Margin","-390.81%",-1],["CF / Net Income","0.81x",0],["Capex / Revenue","0.70%",1]]},
+ fc:{bull:[107.6,33.94],base:[69.8,27.76],bear:[-15.0,13.9],an:"16 analysts · <b>strong buy</b> · mean <b>$33.94 (+107.6%)</b> · methods: analyst, volatility"}}
+};
+
+/* ═══════════ SEARCH + AUTOCOMPLETE ═══════════ */
+const $=s=>document.querySelector(s);
+const input=$("#stockInput"), sg=$("#suggest"), dash=$("#dash");
+let activeIdx=-1, items=[];
+
+function norm(s){return s.toLowerCase().trim()}
+
+function findMatches(q){
+  q=norm(q); if(!q) return {list:[],priv:null};
+  /* private company? */
+  for(const k in PRIVATE){ if(k.startsWith(q)||q.includes(k)) return {list:[],priv:k}; }
+  const list=STOCKS.filter(s=>
+    s.t.toLowerCase().startsWith(q) ||
+    s.n.toLowerCase().includes(q) ||
+    s.a.some(a=>a.startsWith(q)||q.includes(a))
+  ).slice(0,7);
+  return {list,priv:null};
+}
+
+function renderSuggest(q){
+  const {list,priv}=findMatches(q);
+  items=list; activeIdx=-1;
+  if(priv){
+    const p=PRIVATE[priv];
+    sg.innerHTML=`<div class="sg-head">Private company</div>
+      <div class="sg-item priv" data-priv="${priv}">
+        <span class="sg-tick">PRIVATE</span>
+        <div class="sg-body"><div class="sg-name">${p.emoji} ${p.name}</div>
+        <div class="sg-note">Not publicly traded — tap to see public exposure routes</div></div>
+        <span class="sg-ex">—</span></div>`;
+    sg.classList.add("open");
+    sg.querySelector(".sg-item").onclick=()=>showPrivate(priv);
+    return;
+  }
+  if(!list.length){sg.classList.remove("open");return}
+  const multi=new Set(list.map(s=>s.n.split(" ")[0]));
+  sg.innerHTML=`<div class="sg-head">${list.length>1?"Which listing are you looking for?":"Match"}</div>`+
+    list.map((s,i)=>`<div class="sg-item" data-i="${i}">
+      <span class="sg-tick">${s.t}</span>
+      <div class="sg-body"><div class="sg-name">${s.n}</div><div class="sg-note">${s.note}</div></div>
+      <span class="sg-ex">${s.ex}</span></div>`).join("");
+  sg.classList.add("open");
+  sg.querySelectorAll(".sg-item").forEach(el=>{
+    el.onclick=()=>pick(items[+el.dataset.i].t);
+  });
+}
+
+function pick(t){
+  sg.classList.remove("open");
+  const s=STOCKS.find(x=>x.t===t);
+  input.value=s?`${s.n} (${s.t})`:t;
+  analyze(t);
+}
+
+input.addEventListener("input",()=>renderSuggest(input.value));
+input.addEventListener("focus",()=>{if(input.value)renderSuggest(input.value)});
+input.addEventListener("keydown",e=>{
+  const rows=[...sg.querySelectorAll(".sg-item")];
+  if(e.key==="ArrowDown"){e.preventDefault();activeIdx=Math.min(activeIdx+1,rows.length-1)}
+  else if(e.key==="ArrowUp"){e.preventDefault();activeIdx=Math.max(activeIdx-1,0)}
+  else if(e.key==="Enter"){
+    e.preventDefault();
+    if(activeIdx>=0&&rows[activeIdx])rows[activeIdx].click();
+    else if(rows.length===1)rows[0].click();
+    else doAnalyzeFromInput();
+    return;
+  } else if(e.key==="Escape"){sg.classList.remove("open");return}
+  rows.forEach((r,i)=>r.classList.toggle("active",i===activeIdx));
+});
+document.addEventListener("click",e=>{
+  if(!e.target.closest(".search-wrap"))sg.classList.remove("open");
+});
+$("#analyzeBtn").onclick=doAnalyzeFromInput;
+document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>pick(c.dataset.t));
+
+function doAnalyzeFromInput(){
+  const q=norm(input.value);
+  const m=q.match(/\(([A-Z.\-]+)\)\s*$/i);
+  if(m)return analyze(m[1].toUpperCase());
+  const {list,priv}=findMatches(q);
+  if(priv)return showPrivate(priv);
+  if(list.length)return pick(list[0].t);
+  analyze(q.toUpperCase());
+}
+
+/* ═══════════ DASHBOARD RENDER ═══════════ */
+const stClass=s=>s===1?"ok":s===-1?"warn":s===0?"watch":"na";
+function analyze(t){
+  const d=DATA[t];
+  sg.classList.remove("open");
+  if(!d){return renderMissing(t)}
+  const sigClass=d.sig==="BUY"?"buy":d.sig==="SELL"?"sell":"hold";
+  const sigLabel=d.sig==="SELL"?"SELL / AVOID":d.sig;
+  const sentColor=d.sentiment.overall==="POSITIVE"?"var(--green)":d.sentiment.overall==="NEGATIVE"?"var(--red)":"var(--amber)";
+
+  let ratioHtml="";
+  for(const g in d.ratios){
+    ratioHtml+=`<div class="rgroup">▸ ${g}</div>`+
+      d.ratios[g].map(([n,v,s])=>`<div class="ritem ${stClass(s)}"><span class="rn">${n}</span><span class="rv">${v}</span></div>`).join("");
+  }
+  const heads=d.sentiment.heads.map(([h,l,c])=>
+    `<div class="hl-row"><span class="pill ${l}">${l==="pos"?"POSITIVE":l==="neg"?"NEGATIVE":"NEUTRAL"}</span><span>${h}</span><span class="hl-conf">${c}%</span></div>`).join("");
+
+  dash.innerHTML=`
+  <div class="card">
+    <div class="stamp ${sigClass}">${sigLabel}</div>
+    <div class="d-head">
+      <div><div class="d-name">${d.name}</div>
+      <div class="d-meta">${t} · ${d.sector} · Mkt Cap $${d.cap}</div>
+      ${d.demo
+        ? '<div class="prov demo">◌ illustrative demo data — run the engine for live numbers</div>'
+        : '<div class="prov live">● live engine result · '+(d.live||'')+'</div>'}</div>
+      <div><div class="d-price">$${d.price.toFixed(2)}</div>
+      <div class="d-chg" style="color:${d.chg>=0?'var(--green)':'var(--red)'}">${d.chg>=0?"▲":"▼"} ${d.chg>=0?"+":""}${d.chg.toFixed(2)}% today</div></div>
+    </div>
+    <div class="meters">
+      <div class="meter"><div class="lbl">Combined score</div><div class="val">${d.score}<small style="font-size:15px;color:var(--muted)">/100</small></div>
+        <div class="bar"><i class="m" data-w="${d.score}"></i></div></div>
+      <div class="meter"><div class="lbl">News sentiment · 35%</div><div class="val">${d.sent}<small style="font-size:15px;color:var(--muted)">/100</small></div>
+        <div class="bar"><i class="y" data-w="${d.sent}"></i></div></div>
+      <div class="meter"><div class="lbl">Ratio health · 65%</div><div class="val">${d.ratio}<small style="font-size:15px;color:var(--muted)">/100</small></div>
+        <div class="bar"><i class="${d.ratio>=70?'g':d.ratio>=45?'y':'r'}" data-w="${d.ratio}"></i></div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="sec-title">📰 News sentiment <span class="tag" style="color:${sentColor};border-color:currentColor">${d.sentiment.overall} ${d.sentiment.sc}</span>
+    <span class="tag">▲${d.sentiment.pos} =${d.sentiment.neu} ▼${d.sentiment.neg}</span></div>
+    ${heads}
+    <p class="disclaim">Classified live by our BiLSTM+CNN+Attention model — 91.6% test accuracy</p>
+  </div>
+
+  <div class="card">
+    <div class="sec-title">📋 Financial ratios <span class="tag">35 metrics · benchmark-graded</span></div>
+    <div class="rgrid">${ratioHtml}</div>
+  </div>
+
+  <div class="card">
+    <div class="sec-title">📈 12-month price forecast <span class="tag">analyst + volatility methods</span></div>
+    <div class="fc">
+      <div class="fcard bull"><div class="fl">🐂 BULL CASE</div><div class="fp">${d.fc.bull[0]>=0?"+":""}${d.fc.bull[0]}%</div><div class="ft">→ $${d.fc.bull[1].toFixed(2)}</div></div>
+      <div class="fcard base"><div class="fl">📊 BASE CASE</div><div class="fp">${d.fc.base[0]>=0?"+":""}${d.fc.base[0]}%</div><div class="ft">→ $${d.fc.base[1].toFixed(2)}</div></div>
+      <div class="fcard bear"><div class="fl">🐻 BEAR CASE</div><div class="fp">${d.fc.bear[0]}%</div><div class="ft">→ $${d.fc.bear[1].toFixed(2)}</div></div>
+    </div>
+    <div class="an-line">${d.fc.an}</div>
+    <p class="disclaim">⚠️ Estimates only — markets are unpredictable. Not financial advice. DYOR.</p>
+  </div>`;
+  show();
+}
+
+function showPrivate(k){
+  const p=PRIVATE[k];
+  input.value=p.name;
+  const via=p.via.map(t=>{const s=STOCKS.find(x=>x.t===t);
+    return `<button class="chip" onclick="pick('${t}')">${t} — ${s?s.n.split("—")[0].trim():t}</button>`}).join("");
+  dash.innerHTML=`<div class="card priv-card">
+    <div style="font-size:46px">${p.emoji}🔒</div>
+    <h3>${p.name} has no public stock</h3>
+    <p>${p.msg}</p>
+    <div class="priv-grid">${via}</div>
+  </div>`;
+  show();
+}
+
+function renderMissing(t){
+  dash.innerHTML=`<div class="card priv-card">
+    <div style="font-size:46px">🛰️</div>
+    <h3>${t} isn't in the browser demo cache</h3>
+    <p>This page ships with pre-computed results for <b>NVDA · META · FUBO · AAPL · TSLA · GOOGL · MSFT · AMZN · KSPI · AIRA.IL · HSBK.IL · KAP.IL · FRHC</b>. For any other ticker on Earth, run the full engine locally — it fetches live data and analyzes in ~20 seconds:</p>
+    <div class="mono" style="background:var(--ink);color:#7CF2AE;border-radius:12px;padding:14px 20px;display:inline-block;font-size:13.5px">python financial_analysis.py --ticker ${t}</div>
+  </div>`;
+  show();
+}
+
+function show(){
+  dash.classList.remove("show");void dash.offsetWidth;dash.classList.add("show");
+  dash.scrollIntoView({behavior:"smooth",block:"start"});
+  setTimeout(()=>dash.querySelectorAll(".bar i").forEach(b=>b.style.width=b.dataset.w+"%"),250);
+}
+
+/* ═══════════ TICKER TAPE ═══════════ */
+const tapeData=[["NVDA",212.64,.05],["META",637.19,.31],["AAPL",248.30,.62],["TSLA",341.50,-1.84],
+["GOOGL",312.40,.88],["MSFT",521.70,.41],["AMZN",262.80,1.12],["FUBO",10.19,3.45],
+["AMD",228.40,1.9],["NFLX",1187.20,-.4],["KSPI",84.20,1.36],["AIRA.IL",13.40,.9],["HSBK.IL",31.40,.96],["KAP.IL",78.20,1.82],["BRK.B",512.30,.2]];
+const seg=tapeData.map(([t,p,c])=>`<span><b>${t}</b> $${p} <span class="${c>=0?'up':'dn'}">${c>=0?'▲':'▼'}${Math.abs(c).toFixed(2)}%</span></span>`).join("");
+$("#tape").innerHTML=seg+seg;
+</script>
+</body>
+</html>

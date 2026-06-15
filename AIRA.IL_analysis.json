@@ -1,0 +1,261 @@
+{
+  "ticker": "AIRA.IL",
+  "timestamp": "2026-06-15T11:43:53.173940",
+  "profile": {
+    "name": "Air Astana Joint Stock Company",
+    "sector": ""
+  },
+  "quote": {
+    "price": 5.28,
+    "change_pct": 0.0,
+    "marketCap": null
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.1362,
+    "breakdown": {
+      "positive": 5,
+      "neutral": 14,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Air Astana JSC (STU:7YH) Q3 2025 Earnings Call Highlights: Navigating Growth Amidst Operational ...",
+        "label": "neutral",
+        "confidence": 0.9008603692054749,
+        "negative": 0.04919799417257309,
+        "neutral": 0.9008603692054749,
+        "positive": 0.049941569566726685
+      },
+      {
+        "headline": "Air Astana Expands Boeing 787-9 Order for Long-Haul Fleet Development",
+        "label": "positive",
+        "confidence": 0.5294464826583862,
+        "negative": 0.07095082104206085,
+        "neutral": 0.3996026813983917,
+        "positive": 0.5294464826583862
+      },
+      {
+        "headline": "[Latest] Global Air Charter Broker Market Size/Share Worth USD 29.49 Billion by 2034 at a 5.5% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
+        "label": "neutral",
+        "confidence": 0.8932006359100342,
+        "negative": 0.05186483636498451,
+        "neutral": 0.8932006359100342,
+        "positive": 0.054934583604335785
+      },
+      {
+        "headline": "Asian Opportunities: AIRA Capital And 2 Other Promising Penny Stocks - Yahoo Finance",
+        "label": "neutral",
+        "confidence": 0.8960909843444824,
+        "negative": 0.050944894552230835,
+        "neutral": 0.8960909843444824,
+        "positive": 0.052964091300964355
+      },
+      {
+        "headline": "AI Revenue Assistant Software Stockholm AB (OSTO:AIRA) PS R - GuruFocus",
+        "label": "neutral",
+        "confidence": 0.8989537954330444,
+        "negative": 0.04919515550136566,
+        "neutral": 0.8989537954330444,
+        "positive": 0.05185099318623543
+      },
+      {
+        "headline": "Aira has received final approval from Nasdaq regarding listing of its shares on Nasdaq First North Growth Market - TradingView",
+        "label": "neutral",
+        "confidence": 0.6043801307678223,
+        "negative": 0.11330246180295944,
+        "neutral": 0.6043801307678223,
+        "positive": 0.28231745958328247
+      },
+      {
+        "headline": "Ai Revenue Assistant Software Consensus Estimates (AIRA) - Investing.com South Africa",
+        "label": "neutral",
+        "confidence": 0.8965784907341003,
+        "negative": 0.052222464233636856,
+        "neutral": 0.8965784907341003,
+        "positive": 0.05119906738400459
+      },
+      {
+        "headline": "AIRA - SET",
+        "label": "neutral",
+        "confidence": 0.8723013401031494,
+        "negative": 0.06302350759506226,
+        "neutral": 0.8723013401031494,
+        "positive": 0.0646752342581749
+      },
+      {
+        "headline": "AIRA Capital Public Co., Ltd. Income Statement \u2013 SET:AIRA - TradingView",
+        "label": "neutral",
+        "confidence": 0.9016827344894409,
+        "negative": 0.05000128224492073,
+        "neutral": 0.9016827344894409,
+        "positive": 0.04831594601273537
+      },
+      {
+        "headline": "American Airlines reports first-quarter 2026 financial results - American Airlines",
+        "label": "neutral",
+        "confidence": 0.8965021371841431,
+        "negative": 0.05013623833656311,
+        "neutral": 0.8965021371841431,
+        "positive": 0.05336165428161621
+      },
+      {
+        "headline": "Delta Air Lines announces March quarter 2026 financial results - Delta News Hub",
+        "label": "neutral",
+        "confidence": 0.7367106676101685,
+        "negative": 0.0710076093673706,
+        "neutral": 0.7367106676101685,
+        "positive": 0.19228175282478333
+      },
+      {
+        "headline": "Q1 airline revenues are up, but profitability is less stable - Aircraft Interiors International",
+        "label": "neutral",
+        "confidence": 0.8505057692527771,
+        "negative": 0.0588056817650795,
+        "neutral": 0.8505057692527771,
+        "positive": 0.090688556432724
+      },
+      {
+        "headline": "Delta Air Lines Announces March Quarter 2026 Financial Results - PR Newswire",
+        "label": "neutral",
+        "confidence": 0.8977017402648926,
+        "negative": 0.052157897502183914,
+        "neutral": 0.8977017402648926,
+        "positive": 0.05014045536518097
+      },
+      {
+        "headline": "United Airlines slashes 2026 forecast as fuel costs surge, but demand remains strong - CNBC",
+        "label": "negative",
+        "confidence": 0.9014365673065186,
+        "negative": 0.9014365673065186,
+        "neutral": 0.0515274703502655,
+        "positive": 0.047036003321409225
+      },
+      {
+        "headline": "Southwest Airlines Q1 Earnings Meet Estimates, Revenue Beat - Yahoo Finance",
+        "label": "positive",
+        "confidence": 0.8972938060760498,
+        "negative": 0.049265362322330475,
+        "neutral": 0.053440798074007034,
+        "positive": 0.8972938060760498
+      },
+      {
+        "headline": "Singapore Airlines Posts Record Revenue on Strong Demand, Net Profit Slumps - WSJ",
+        "label": "positive",
+        "confidence": 0.6182017922401428,
+        "negative": 0.26017558574676514,
+        "neutral": 0.12162265181541443,
+        "positive": 0.6182017922401428
+      },
+      {
+        "headline": "American Airlines Premium and Loyalty Push Is Rewriting the Revenue Story. Does the $11 Stock Price Reflect That? - TIKR.com",
+        "label": "neutral",
+        "confidence": 0.8890816569328308,
+        "negative": 0.05598757788538933,
+        "neutral": 0.8890816569328308,
+        "positive": 0.05493078753352165
+      },
+      {
+        "headline": "US Airlines net profit was $1.6 billion in third quarter 2025, a decrease in profit over third quarter 2024 - bts.gov",
+        "label": "positive",
+        "confidence": 0.6317768096923828,
+        "negative": 0.08714479207992554,
+        "neutral": 0.28107839822769165,
+        "positive": 0.6317768096923828
+      },
+      {
+        "headline": "Lufthansa Group increases operating profit by 20 percent and achieves highest revenue in company history - Lufthansa Group Newsroom",
+        "label": "positive",
+        "confidence": 0.8989288210868835,
+        "negative": 0.05042548105120659,
+        "neutral": 0.0506456159055233,
+        "positive": 0.8989288210868835
+      },
+      {
+        "headline": "Delta Air Lines announces December quarter and full year 2025 financial results - Delta News Hub",
+        "label": "neutral",
+        "confidence": 0.6435211896896362,
+        "negative": 0.08283574879169464,
+        "neutral": 0.6435211896896362,
+        "positive": 0.2736430764198303
+      }
+    ],
+    "news_score": 0.1362,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.2383,
+    "quick_ratio": 0.8711,
+    "cash_ratio": 0.8289,
+    "ocf_ratio": 0.4284,
+    "gross_margin": 12.5638,
+    "operating_margin": 7.2833,
+    "net_margin": 0.9627,
+    "roa": 0.659,
+    "roe": 3.6695,
+    "roce": 6.8991,
+    "ebitda_margin": 23.6038,
+    "de_ratio": 2.843,
+    "da_ratio": 0.5105,
+    "interest_coverage": 1.2442,
+    "dscr": 2.966,
+    "equity_multiplier": 5.5687,
+    "net_debt_ebitda": 1.7368,
+    "asset_turnover": 0.6845,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 58.4705,
+    "dso": 6.2425,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.1772,
+    "pe_ratio": 16.0,
+    "pb_ratio": null,
+    "ev_ebitda": null,
+    "ps_ratio": null,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": null,
+    "fcf": 189051000.0,
+    "fcf_margin": 13.43,
+    "cf_to_net_income": 18.0355,
+    "capex_to_revenue": 3.9331,
+    "cash_roic": null
+  },
+  "ratio_score": 52.0,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 51.3,
+    "sentiment_score": 50,
+    "ratio_score": 52.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 5.28,
+    "horizon": "12 months",
+    "bull_case": 114.4,
+    "base_case": 114.4,
+    "bear_case": -15.0,
+    "price_bull": 11.32,
+    "price_base": 11.32,
+    "price_bear": 4.49,
+    "methods_used": [
+      "analyst"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 11.32,
+        "target_low": 10.8,
+        "target_high": 12.3,
+        "target_median": 11.1,
+        "upside_mean": 114.4,
+        "upside_low": 104.5,
+        "upside_high": 133.0,
+        "n_analysts": 4,
+        "recommendation": "strong_buy"
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

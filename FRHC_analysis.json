@@ -1,0 +1,181 @@
+{
+  "ticker": "FRHC",
+  "timestamp": "2026-06-15T11:44:38.596769",
+  "profile": {
+    "name": "Freedom Holdings Corp.",
+    "sector": "Financial Services"
+  },
+  "quote": {
+    "price": 138.2,
+    "change_pct": -1.5564325,
+    "marketCap": 8470634496.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.1701,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 8,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "Is Freedom Holding (FRHC) Pricing Still Sensible After Recent Regulatory Attention?",
+        "label": "neutral",
+        "confidence": 0.9016438126564026,
+        "negative": 0.05001236870884895,
+        "neutral": 0.9016438126564026,
+        "positive": 0.04834386706352234
+      },
+      {
+        "headline": "Freedom Holding (FRHC) Acquires ChessBase",
+        "label": "neutral",
+        "confidence": 0.9019729495048523,
+        "negative": 0.051371775567531586,
+        "neutral": 0.9019729495048523,
+        "positive": 0.046655356884002686
+      },
+      {
+        "headline": "Assessing Freedom Holding (FRHC) Valuation After Recent Share Price Momentum",
+        "label": "neutral",
+        "confidence": 0.8965329527854919,
+        "negative": 0.05208010971546173,
+        "neutral": 0.8965329527854919,
+        "positive": 0.05138689652085304
+      },
+      {
+        "headline": "Freedom Holding Buys Turkish Bank To Build Integrated SuperApp Platform",
+        "label": "neutral",
+        "confidence": 0.9017056226730347,
+        "negative": 0.04946087300777435,
+        "neutral": 0.9017056226730347,
+        "positive": 0.048833440989255905
+      },
+      {
+        "headline": "Freedom Holding's (NASDAQ:FRHC) investors will be pleased with their stellar 107% return over the last five years",
+        "label": "positive",
+        "confidence": 0.8967897295951843,
+        "negative": 0.04587991163134575,
+        "neutral": 0.05733032897114754,
+        "positive": 0.8967897295951843
+      },
+      {
+        "headline": "With a 70% stake, Freedom Holding Corp. (NASDAQ:FRHC) insiders have a lot riding on the company",
+        "label": "neutral",
+        "confidence": 0.8840306997299194,
+        "negative": 0.05633315071463585,
+        "neutral": 0.8840306997299194,
+        "positive": 0.059636104851961136
+      },
+      {
+        "headline": "Assessing Freedom Holding (FRHC) Valuation After Recent Share Price Volatility",
+        "label": "neutral",
+        "confidence": 0.9056254029273987,
+        "negative": 0.048155538737773895,
+        "neutral": 0.9056254029273987,
+        "positive": 0.046219032257795334
+      },
+      {
+        "headline": "Nvidia Strikes $2 Billion AI Chip Deal With Kazakhstan",
+        "label": "positive",
+        "confidence": 0.9025800824165344,
+        "negative": 0.0491127148270607,
+        "neutral": 0.048307184129953384,
+        "positive": 0.9025800824165344
+      },
+      {
+        "headline": "Freedom Holding Corp. (FRHC) Shares Included in The Motley Fool\u2019s TMF Moneyball Portfolio",
+        "label": "neutral",
+        "confidence": 0.8990222215652466,
+        "negative": 0.05018234997987747,
+        "neutral": 0.8990222215652466,
+        "positive": 0.05079543590545654
+      },
+      {
+        "headline": "Freedom Holding (NasdaqCM:FRHC): Reassessing Valuation After Board Shakeup and Push Into Digital Sectors",
+        "label": "neutral",
+        "confidence": 0.897315502166748,
+        "negative": 0.05011793598532677,
+        "neutral": 0.897315502166748,
+        "positive": 0.052566539496183395
+      }
+    ],
+    "news_score": 0.1701,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.3512,
+    "quick_ratio": 0.6277,
+    "cash_ratio": 0.1072,
+    "ocf_ratio": 0.0206,
+    "gross_margin": 54.5583,
+    "operating_margin": 33.0199,
+    "net_margin": 7.0809,
+    "roa": 1.1655,
+    "roe": 10.2955,
+    "roce": 17.2589,
+    "ebitda_margin": 34.616,
+    "de_ratio": 1.6328,
+    "da_ratio": 0.1848,
+    "interest_coverage": 1.4621,
+    "dscr": 0.3787,
+    "equity_multiplier": 8.8333,
+    "net_debt_ebitda": 1.9552,
+    "asset_turnover": 0.1646,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 0.4616,
+    "dso": 790.7876,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 5.3337,
+    "pe_ratio": 55.0598,
+    "pb_ratio": 5.6877,
+    "ev_ebitda": 10.1354,
+    "ps_ratio": 5.1822,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": 2.51,
+    "fcf": -36920000.0,
+    "fcf_margin": -1.705,
+    "cf_to_net_income": 1.208,
+    "capex_to_revenue": 10.2588,
+    "cash_roic": null
+  },
+  "ratio_score": 46.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 65.2,
+    "sentiment_score": 100,
+    "ratio_score": 46.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 138.2,
+    "horizon": "12 months",
+    "bull_case": 19.9,
+    "base_case": 19.9,
+    "bear_case": -17.9,
+    "price_bull": 165.7,
+    "price_base": 165.7,
+    "price_bear": 113.39,
+    "methods_used": [
+      "volatility"
+    ],
+    "detail": {
+      "volatility": {
+        "high_52w": 194.01,
+        "low_52w": 107.97,
+        "range_pct": 79.7,
+        "position_in_range": 35.1,
+        "upside_estimate": 19.9,
+        "downside_estimate": -15.9,
+        "avg_50d": 147.76,
+        "avg_200d": 143.48,
+        "beta": 0.67
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

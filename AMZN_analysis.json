@@ -1,0 +1,193 @@
+{
+  "ticker": "AMZN",
+  "timestamp": "2026-06-15T11:43:06.260807",
+  "profile": {
+    "name": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical"
+  },
+  "quote": {
+    "price": 238.55,
+    "change_pct": -1.2256249,
+    "marketCap": 2566108479488.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0141,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 8,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market",
+        "label": "neutral",
+        "confidence": 0.897770345211029,
+        "negative": 0.04896661639213562,
+        "neutral": 0.897770345211029,
+        "positive": 0.05326312407851219
+      },
+      {
+        "headline": "Satellite Stocks Are Flying on SpaceX, Spectrum-Sale Hopes. Time Is Running Out.",
+        "label": "neutral",
+        "confidence": 0.9036729335784912,
+        "negative": 0.04760759323835373,
+        "neutral": 0.9036729335784912,
+        "positive": 0.04871944710612297
+      },
+      {
+        "headline": "Musk says SpaceX could bring $1 trillion in revenue by 2030",
+        "label": "neutral",
+        "confidence": 0.6796495318412781,
+        "negative": 0.09006564319133759,
+        "neutral": 0.6796495318412781,
+        "positive": 0.23028485476970673
+      },
+      {
+        "headline": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
+        "label": "neutral",
+        "confidence": 0.8612663149833679,
+        "negative": 0.07017002999782562,
+        "neutral": 0.8612663149833679,
+        "positive": 0.06856366246938705
+      },
+      {
+        "headline": "Amazon Graviton5 Chip Aims To Deepen AWS AI Margins And Moat",
+        "label": "neutral",
+        "confidence": 0.8560670018196106,
+        "negative": 0.06682859361171722,
+        "neutral": 0.8560670018196106,
+        "positive": 0.07710439711809158
+      },
+      {
+        "headline": "How \u2018agentic\u2019 is AI shopping today",
+        "label": "neutral",
+        "confidence": 0.816478967666626,
+        "negative": 0.07337779551744461,
+        "neutral": 0.816478967666626,
+        "positive": 0.11014322191476822
+      },
+      {
+        "headline": "Amazon.com Inc. (AMZN) Shows How Logistics Scale Can Become a Broader E-Commerce Service",
+        "label": "positive",
+        "confidence": 0.7209345102310181,
+        "negative": 0.19027568399906158,
+        "neutral": 0.08878980576992035,
+        "positive": 0.7209345102310181
+      },
+      {
+        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "label": "neutral",
+        "confidence": 0.9002727270126343,
+        "negative": 0.0510941706597805,
+        "neutral": 0.9002727270126343,
+        "positive": 0.048633042722940445
+      },
+      {
+        "headline": "The Better AI Cloud Stock: Microsoft or Amazon?",
+        "label": "neutral",
+        "confidence": 0.9017330408096313,
+        "negative": 0.048844680190086365,
+        "neutral": 0.9017330408096313,
+        "positive": 0.04942229762673378
+      },
+      {
+        "headline": "Kohl's CEO triggers major price cuts ahead of summer shopping season",
+        "label": "negative",
+        "confidence": 0.9072110652923584,
+        "negative": 0.9072110652923584,
+        "neutral": 0.04605752229690552,
+        "positive": 0.0467313677072525
+      }
+    ],
+    "news_score": -0.0141,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.0508,
+    "quick_ratio": 0.7089,
+    "cash_ratio": 0.3982,
+    "ocf_ratio": 0.64,
+    "gross_margin": 50.2857,
+    "operating_margin": 13.8906,
+    "net_margin": 10.8338,
+    "roa": 9.4946,
+    "roe": 18.8948,
+    "roce": 16.5965,
+    "ebitda_margin": 23.0626,
+    "de_ratio": 0.3722,
+    "da_ratio": 0.187,
+    "interest_coverage": 43.7929,
+    "dscr": 61.3518,
+    "equity_multiplier": 1.9901,
+    "net_debt_ebitda": 0.4002,
+    "asset_turnover": 0.8764,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 10.5852,
+    "dso": 34.4822,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.6181,
+    "pe_ratio": 31.6379,
+    "pb_ratio": 5.8051,
+    "ev_ebitda": 17.057,
+    "ps_ratio": 3.4548,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": 7.54,
+    "fcf": 7695000000.0,
+    "fcf_margin": 1.0733,
+    "cf_to_net_income": 1.7962,
+    "capex_to_revenue": 18.3867,
+    "cash_roic": null
+  },
+  "ratio_score": 73.2,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 65.1,
+    "sentiment_score": 50,
+    "ratio_score": 73.2
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 238.55,
+    "horizon": "12 months",
+    "bull_case": 31.0,
+    "base_case": 20.8,
+    "bear_case": -10.8,
+    "price_bull": 312.5,
+    "price_base": 288.05,
+    "price_bear": 212.79,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 312.51,
+        "target_low": 207.0,
+        "target_high": 370.0,
+        "target_median": 315.0,
+        "upside_mean": 31.0,
+        "upside_low": -13.2,
+        "upside_high": 55.1,
+        "n_analysts": 63,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 278.56,
+        "low_52w": 196.0,
+        "range_pct": 42.1,
+        "position_in_range": 51.5,
+        "upside_estimate": 10.5,
+        "downside_estimate": -8.4,
+        "avg_50d": 254.77,
+        "avg_200d": 232.51,
+        "beta": 1.44
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

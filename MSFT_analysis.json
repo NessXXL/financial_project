@@ -1,0 +1,193 @@
+{
+  "ticker": "MSFT",
+  "timestamp": "2026-06-15T11:42:51.782131",
+  "profile": {
+    "name": "Microsoft Corporation",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 390.74,
+    "change_pct": 0.1024732,
+    "marketCap": 2902586556416.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0834,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 9,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Microsoft CEO Nadella Says Every Firm Must Build Token Capital",
+        "label": "neutral",
+        "confidence": 0.9016287922859192,
+        "negative": 0.04974290356040001,
+        "neutral": 0.9016287922859192,
+        "positive": 0.0486283004283905
+      },
+      {
+        "headline": "How Constellation\u2019s US$3.09 Billion Equity Raise And AI Power Deals At Constellation Energy (CEG) Has Changed Its Investment Story",
+        "label": "neutral",
+        "confidence": 0.9015210866928101,
+        "negative": 0.05131552740931511,
+        "neutral": 0.9015210866928101,
+        "positive": 0.04716343432664871
+      },
+      {
+        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "label": "neutral",
+        "confidence": 0.9002727270126343,
+        "negative": 0.0510941706597805,
+        "neutral": 0.9002727270126343,
+        "positive": 0.048633042722940445
+      },
+      {
+        "headline": "monday.com (MNDY): AI Work Platform Shift Shows Why Workflow Automation Could Extend Growth",
+        "label": "neutral",
+        "confidence": 0.8971468210220337,
+        "negative": 0.04875076189637184,
+        "neutral": 0.8971468210220337,
+        "positive": 0.05410238355398178
+      },
+      {
+        "headline": "The Better AI Cloud Stock: Microsoft or Amazon?",
+        "label": "neutral",
+        "confidence": 0.9017330408096313,
+        "negative": 0.048844680190086365,
+        "neutral": 0.9017330408096313,
+        "positive": 0.04942229762673378
+      },
+      {
+        "headline": "Jim Cramer Thinks Microsoft (MSFT) Doesn\u2019t Need $100 Billion",
+        "label": "neutral",
+        "confidence": 0.9084451794624329,
+        "negative": 0.04658440127968788,
+        "neutral": 0.9084451794624329,
+        "positive": 0.04497043788433075
+      },
+      {
+        "headline": "TechCrunch Mobility: SpaceX rockets past Tesla",
+        "label": "neutral",
+        "confidence": 0.8943031430244446,
+        "negative": 0.051530368626117706,
+        "neutral": 0.8943031430244446,
+        "positive": 0.05416659638285637
+      },
+      {
+        "headline": "Microsoft Weighs Xbox Restructuring As Investors Focus On Cloud And AI",
+        "label": "neutral",
+        "confidence": 0.8977424502372742,
+        "negative": 0.04971584677696228,
+        "neutral": 0.8977424502372742,
+        "positive": 0.05254164710640907
+      },
+      {
+        "headline": "Is IREN (IREN) Quietly Rewriting Its AI Infrastructure Story With Microsoft-Backed GPU Financing?",
+        "label": "neutral",
+        "confidence": 0.8969355821609497,
+        "negative": 0.04998781904578209,
+        "neutral": 0.8969355821609497,
+        "positive": 0.05307659134268761
+      },
+      {
+        "headline": "Bill Ackman Likes This Indirect AI Play Everyone\u2019s Ignoring",
+        "label": "negative",
+        "confidence": 0.8934558629989624,
+        "negative": 0.8934558629989624,
+        "neutral": 0.052331216633319855,
+        "positive": 0.05421293154358864
+      }
+    ],
+    "news_score": -0.0834,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.3534,
+    "quick_ratio": 0.7092,
+    "cash_ratio": 0.2142,
+    "ocf_ratio": 0.9642,
+    "gross_margin": 68.8237,
+    "operating_margin": 44.7289,
+    "net_margin": 36.146,
+    "roa": 16.451,
+    "roe": 29.6472,
+    "roce": 26.3742,
+    "ebitda_margin": 56.8517,
+    "de_ratio": 0.1764,
+    "da_ratio": 0.0979,
+    "interest_coverage": 52.8352,
+    "dscr": 57.091,
+    "equity_multiplier": 1.8022,
+    "net_debt_ebitda": 0.1895,
+    "asset_turnover": 0.4551,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 4.0301,
+    "dso": 90.5685,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.226,
+    "pe_ratio": 23.2583,
+    "pb_ratio": 7.0054,
+    "ev_ebitda": 15.992,
+    "ps_ratio": 9.1198,
+    "dividend_yield": null,
+    "dividend_payout": 26.5531,
+    "eps": 16.8,
+    "fcf": 71611000000.0,
+    "fcf_margin": 25.4188,
+    "cf_to_net_income": 1.3371,
+    "capex_to_revenue": 22.9129,
+    "cash_roic": null
+  },
+  "ratio_score": 71.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 63.9,
+    "sentiment_score": 50,
+    "ratio_score": 71.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 390.74,
+    "horizon": "12 months",
+    "bull_case": 43.7,
+    "base_case": 33.0,
+    "bear_case": -5.0,
+    "price_bull": 561.49,
+    "price_base": 519.88,
+    "price_bear": 371.2,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 561.39,
+        "target_low": 400.0,
+        "target_high": 870.0,
+        "target_median": 555.0,
+        "upside_mean": 43.7,
+        "upside_low": 2.4,
+        "upside_high": 122.7,
+        "n_analysts": 55,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 555.45,
+        "low_52w": 356.28,
+        "range_pct": 55.9,
+        "position_in_range": 17.3,
+        "upside_estimate": 22.4,
+        "downside_estimate": -11.2,
+        "avg_50d": 411.8,
+        "avg_200d": 453.73,
+        "beta": 1.1
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

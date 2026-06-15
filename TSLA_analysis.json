@@ -1,0 +1,202 @@
+{
+  "ticker": "TSLA",
+  "timestamp": "2026-06-15T11:42:22.539580",
+  "profile": {
+    "name": "Tesla, Inc.",
+    "sector": "Consumer Cyclical"
+  },
+  "quote": {
+    "price": 406.43,
+    "change_pct": 1.8238755,
+    "marketCap": 1526438821888.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0162,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 10,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "RIVN Stock Jumps Overnight: CEO Teases Self-Driving System 'Very Similar To Tesla's FSD' This Year",
+        "label": "neutral",
+        "confidence": 0.8612541556358337,
+        "negative": 0.06609714776277542,
+        "neutral": 0.8612541556358337,
+        "positive": 0.07264862954616547
+      },
+      {
+        "headline": "Tesla Shareholders 'Don't Like Table Scraps' \u2014 Bulls Make Case Against SpaceX Merger, See Up To 800% Upside On Robotaxi And Optimus",
+        "label": "neutral",
+        "confidence": 0.7277892231941223,
+        "negative": 0.07657255977392197,
+        "neutral": 0.7277892231941223,
+        "positive": 0.19563817977905273
+      },
+      {
+        "headline": "Elon Musk Rejects Claims Government Support Built TSLA And SPCX \u2014 Says Trump\u2019s EV Credit Cuts Sent More Buyers To Tesla",
+        "label": "neutral",
+        "confidence": 0.9035685062408447,
+        "negative": 0.0487072579562664,
+        "neutral": 0.9035685062408447,
+        "positive": 0.047724202275276184
+      },
+      {
+        "headline": "Elon Musk Says SpaceX Could Put One Million Tons Of Payload In Orbit Within The Next Five Years",
+        "label": "neutral",
+        "confidence": 0.9000113606452942,
+        "negative": 0.05069365352392197,
+        "neutral": 0.9000113606452942,
+        "positive": 0.04929502680897713
+      },
+      {
+        "headline": "Longtime SpaceX Investor Cathie Wood Made This Move on IPO Day. Should You Follow?",
+        "label": "neutral",
+        "confidence": 0.9068768620491028,
+        "negative": 0.047314953058958054,
+        "neutral": 0.9068768620491028,
+        "positive": 0.04580825939774513
+      },
+      {
+        "headline": "Tesla Merger Talk With SpaceX Reshapes AI And Investor Outlook",
+        "label": "neutral",
+        "confidence": 0.9020586013793945,
+        "negative": 0.048477962613105774,
+        "neutral": 0.9020586013793945,
+        "positive": 0.049463462084531784
+      },
+      {
+        "headline": "Will Elon Musk Merge SpaceX And Tesla In 2026? Crypto Prediction Market Isn't Ruling Out The Possibility",
+        "label": "neutral",
+        "confidence": 0.9082154035568237,
+        "negative": 0.04603535681962967,
+        "neutral": 0.9082154035568237,
+        "positive": 0.04574933275580406
+      },
+      {
+        "headline": "Car owners caught in government fight that could cost them big",
+        "label": "neutral",
+        "confidence": 0.8195874691009521,
+        "negative": 0.11469018459320068,
+        "neutral": 0.8195874691009521,
+        "positive": 0.06572237610816956
+      },
+      {
+        "headline": "Elon Musk Is A Stone's Throw Away From Becoming The World's First Trillionaire As SpaceX IPO Sends His Net Worth Soaring",
+        "label": "neutral",
+        "confidence": 0.8608801960945129,
+        "negative": 0.064673513174057,
+        "neutral": 0.8608801960945129,
+        "positive": 0.07444627583026886
+      },
+      {
+        "headline": "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
+        "label": "neutral",
+        "confidence": 0.3754805326461792,
+        "negative": 0.2726960778236389,
+        "neutral": 0.3754805326461792,
+        "positive": 0.3518233895301819
+      }
+    ],
+    "news_score": 0.0162,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 2.1644,
+    "quick_ratio": 0.665,
+    "cash_ratio": 0.5207,
+    "ocf_ratio": 0.465,
+    "gross_margin": 18.0265,
+    "operating_margin": 5.9224,
+    "net_margin": 4.001,
+    "roa": 2.7531,
+    "roe": 4.6191,
+    "roce": 5.2935,
+    "ebitda_margin": 12.4057,
+    "de_ratio": 0.1792,
+    "da_ratio": 0.1068,
+    "interest_coverage": 16.6154,
+    "dscr": 43.6302,
+    "equity_multiplier": 1.6778,
+    "net_debt_ebitda": -0.1525,
+    "asset_turnover": 0.6881,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 20.7227,
+    "dso": 17.6135,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.6879,
+    "pe_ratio": 369.4818,
+    "pb_ratio": 18.561,
+    "ev_ebitda": 135.052,
+    "ps_ratio": 15.5952,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": 1.1,
+    "fcf": 6220000000.0,
+    "fcf_margin": 6.5593,
+    "cf_to_net_income": 3.8869,
+    "capex_to_revenue": 8.9922,
+    "cash_roic": null
+  },
+  "ratio_score": 55.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 53.5,
+    "sentiment_score": 50,
+    "ratio_score": 55.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 406.43,
+    "horizon": "12 months",
+    "bull_case": 18.2,
+    "base_case": 10.8,
+    "bear_case": -57.8,
+    "price_bull": 480.4,
+    "price_base": 450.53,
+    "price_bear": 171.51,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 420.55,
+        "target_low": 123.0,
+        "target_high": 600.0,
+        "target_median": 460.0,
+        "upside_mean": 3.5,
+        "upside_low": -69.7,
+        "upside_high": 47.6,
+        "n_analysts": 41,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 43.89,
+        "upside": -89.2,
+        "growth_assumed": "6%",
+        "discount_rate": "10%",
+        "fcf_per_share": 1.66,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 498.83,
+        "low_52w": 288.77,
+        "range_pct": 72.7,
+        "position_in_range": 56.0,
+        "upside_estimate": 18.2,
+        "downside_estimate": -14.5,
+        "avg_50d": 398.3,
+        "avg_200d": 415.69,
+        "beta": 1.8
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

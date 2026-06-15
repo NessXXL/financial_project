@@ -1,0 +1,221 @@
+{
+  "ticker": "HSBK.IL",
+  "timestamp": "2026-06-15T11:44:09.470864",
+  "profile": {
+    "name": "Halyk Bank of Kazakhstan Joint Stock Company",
+    "sector": "Financial Services"
+  },
+  "quote": {
+    "price": 31.5,
+    "change_pct": 0.47846767,
+    "marketCap": null
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.1264,
+    "breakdown": {
+      "positive": 3,
+      "neutral": 15,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "Halyk Bank of Kazakhstan JSC (STU:H4L1) Q1 2026 Earnings Call Highlights: Navigating Regulatory ...",
+        "label": "neutral",
+        "confidence": 0.8977259397506714,
+        "negative": 0.05029771104454994,
+        "neutral": 0.8977259397506714,
+        "positive": 0.05197632685303688
+      },
+      {
+        "headline": "Halyk Bank of Kazakhstan JSC (FRA:H4L1) Q3 2025 Earnings Call Highlights: Strong Net Income ...",
+        "label": "neutral",
+        "confidence": 0.8707067966461182,
+        "negative": 0.058136820793151855,
+        "neutral": 0.8707067966461182,
+        "positive": 0.07115636765956879
+      },
+      {
+        "headline": "Top UK Dividend Stocks To Watch In October 2025",
+        "label": "neutral",
+        "confidence": 0.8978801965713501,
+        "negative": 0.051051996648311615,
+        "neutral": 0.8978801965713501,
+        "positive": 0.05106790363788605
+      },
+      {
+        "headline": "Top UK Dividend Stocks To Consider For Your Portfolio",
+        "label": "neutral",
+        "confidence": 0.897829532623291,
+        "negative": 0.051439352333545685,
+        "neutral": 0.897829532623291,
+        "positive": 0.05073108151555061
+      },
+      {
+        "headline": "3 Leading UK Dividend Stocks To Consider",
+        "label": "neutral",
+        "confidence": 0.845226526260376,
+        "negative": 0.0646364614367485,
+        "neutral": 0.845226526260376,
+        "positive": 0.09013691544532776
+      },
+      {
+        "headline": "Discovering Hidden Stock Gems in the UK This June 2026 - simplywall.st",
+        "label": "neutral",
+        "confidence": 0.8967199325561523,
+        "negative": 0.05152031406760216,
+        "neutral": 0.8967199325561523,
+        "positive": 0.05175964534282684
+      },
+      {
+        "headline": "Dividend Fortresses: One High ROE Banker, One Data Insurer, One ESG Cash Engine - simplywall.st",
+        "label": "neutral",
+        "confidence": 0.9081311225891113,
+        "negative": 0.04690111055970192,
+        "neutral": 0.9081311225891113,
+        "positive": 0.04496772587299347
+      },
+      {
+        "headline": "Top UK Dividend Stocks To Consider For Your Portfolio - simplywall.st",
+        "label": "neutral",
+        "confidence": 0.8916493654251099,
+        "negative": 0.05591748654842377,
+        "neutral": 0.8916493654251099,
+        "positive": 0.05243310704827309
+      },
+      {
+        "headline": "AM Best Affirms Credit Ratings of Halyk-Life, JSC - Business Wire",
+        "label": "neutral",
+        "confidence": 0.8929334282875061,
+        "negative": 0.05479583516716957,
+        "neutral": 0.8929334282875061,
+        "positive": 0.05227069929242134
+      },
+      {
+        "headline": "Halyk Bank of Kazakhstan: Net income dropped 14.6% year-over-year as regulatory changes pressured profitability - TradingView",
+        "label": "neutral",
+        "confidence": 0.8916761875152588,
+        "negative": 0.05538184195756912,
+        "neutral": 0.8916761875152588,
+        "positive": 0.052941929548978806
+      },
+      {
+        "headline": "Halyk Bank reports 14.6% decline in first quarter net income - Investing.com",
+        "label": "positive",
+        "confidence": 0.6671461462974548,
+        "negative": 0.11760684102773666,
+        "neutral": 0.2152470201253891,
+        "positive": 0.6671461462974548
+      },
+      {
+        "headline": "Halyk Bank of Kazakhstan Joint Stock Company Reports Earnings Results for the First Quarter Ended March 31, 2026 - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.9074174761772156,
+        "negative": 0.04669549688696861,
+        "neutral": 0.9074174761772156,
+        "positive": 0.04588700830936432
+      },
+      {
+        "headline": "Halyk Bank of Kazakhstan: Q1 2026 net income fell to KZT 234.8bn, but assets and capital adequacy remained robust - TradingView",
+        "label": "neutral",
+        "confidence": 0.9004842638969421,
+        "negative": 0.050812214612960815,
+        "neutral": 0.9004842638969421,
+        "positive": 0.04870358482003212
+      },
+      {
+        "headline": "Halyk Bank reports 14.9% profit rise for 2025 - Investing.com",
+        "label": "positive",
+        "confidence": 0.8986846208572388,
+        "negative": 0.05205982178449631,
+        "neutral": 0.04925554618239403,
+        "positive": 0.8986846208572388
+      },
+      {
+        "headline": "Kazakhstan\u2019s best transaction bank 2025: Halyk Bank - Euromoney",
+        "label": "neutral",
+        "confidence": 0.8390949368476868,
+        "negative": 0.06391040235757828,
+        "neutral": 0.8390949368476868,
+        "positive": 0.09699463844299316
+      },
+      {
+        "headline": "Top UK Dividend Stocks To Consider In December 2025 - Yahoo Finance",
+        "label": "neutral",
+        "confidence": 0.89643794298172,
+        "negative": 0.05162576213479042,
+        "neutral": 0.89643794298172,
+        "positive": 0.05193633586168289
+      },
+      {
+        "headline": "Halyk Bank of Kazakhstan: Net income declined 14.6% year-on-year as regulatory tightening offset strong digital growth - TradingView",
+        "label": "positive",
+        "confidence": 0.8805765509605408,
+        "negative": 0.059246838092803955,
+        "neutral": 0.06017662212252617,
+        "positive": 0.8805765509605408
+      },
+      {
+        "headline": "Why These UK Dividend Stocks Are Back in Focus - Kalkine Media",
+        "label": "neutral",
+        "confidence": 0.8945808410644531,
+        "negative": 0.053372807800769806,
+        "neutral": 0.8945808410644531,
+        "positive": 0.05204634740948677
+      }
+    ],
+    "news_score": 0.1264,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": null,
+    "quick_ratio": null,
+    "cash_ratio": null,
+    "ocf_ratio": null,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": 60.807,
+    "roa": 5.0621,
+    "roe": 30.2376,
+    "roce": null,
+    "ebitda_margin": null,
+    "de_ratio": 0.5829,
+    "da_ratio": 0.0976,
+    "interest_coverage": null,
+    "dscr": 0.4845,
+    "equity_multiplier": 5.9733,
+    "net_debt_ebitda": null,
+    "asset_turnover": 0.0832,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": null,
+    "dso": null,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 5.2439,
+    "pe_ratio": 6.6038,
+    "pb_ratio": null,
+    "ev_ebitda": null,
+    "ps_ratio": null,
+    "dividend_yield": 17.72,
+    "dividend_payout": 0.0578,
+    "eps": 4.77,
+    "fcf": 585623000000.0,
+    "fcf_margin": 33.6446,
+    "cf_to_net_income": 0.6334,
+    "capex_to_revenue": 4.8722,
+    "cash_roic": null
+  },
+  "ratio_score": 61.5,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 57.5,
+    "sentiment_score": 50,
+    "ratio_score": 61.5
+  },
+  "prediction": {
+    "available": false,
+    "reason": "Insufficient data for prediction"
+  }
+}

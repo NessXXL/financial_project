@@ -1,0 +1,193 @@
+{
+  "ticker": "NVDA",
+  "timestamp": "2026-06-15T11:41:38.039107",
+  "profile": {
+    "name": "NVIDIA Corporation",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 205.19,
+    "change_pct": 0.15620019,
+    "marketCap": 4969906831360.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0695,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 4,
+      "negative": 4
+    },
+    "details": [
+      {
+        "headline": "Want $1 Million in Retirement? Start With This Index Fund.",
+        "label": "neutral",
+        "confidence": 0.898256778717041,
+        "negative": 0.05266925320029259,
+        "neutral": 0.898256778717041,
+        "positive": 0.04907389357686043
+      },
+      {
+        "headline": "The Best Cryptocurrency to Buy With $135 Right Now",
+        "label": "neutral",
+        "confidence": 0.6606110334396362,
+        "negative": 0.06916218250989914,
+        "neutral": 0.6606110334396362,
+        "positive": 0.2702268362045288
+      },
+      {
+        "headline": "Higher Interest Rates May Be Coming. Here's Why That's Bearish for Crypto.",
+        "label": "negative",
+        "confidence": 0.9015078544616699,
+        "negative": 0.9015078544616699,
+        "neutral": 0.049654822796583176,
+        "positive": 0.04883741959929466
+      },
+      {
+        "headline": "Why NVDA, MU, INTC, Other Chip Stocks Are Rising In Overnight Trading",
+        "label": "positive",
+        "confidence": 0.8852902054786682,
+        "negative": 0.054421503096818924,
+        "neutral": 0.06028829514980316,
+        "positive": 0.8852902054786682
+      },
+      {
+        "headline": "Alphabet Ties Search AI And Mobility Closer To Revenue Potential",
+        "label": "positive",
+        "confidence": 0.904833972454071,
+        "negative": 0.04702882841229439,
+        "neutral": 0.04813716188073158,
+        "positive": 0.904833972454071
+      },
+      {
+        "headline": "Longtime SpaceX Investor Cathie Wood Made This Move on IPO Day. Should You Follow?",
+        "label": "neutral",
+        "confidence": 0.9068768620491028,
+        "negative": 0.047314953058958054,
+        "neutral": 0.9068768620491028,
+        "positive": 0.04580825939774513
+      },
+      {
+        "headline": "Are You Missing the Boat on This AI Stock That's Up 104% This Year?",
+        "label": "negative",
+        "confidence": 0.914097011089325,
+        "negative": 0.914097011089325,
+        "neutral": 0.04184963181614876,
+        "positive": 0.0440533310174942
+      },
+      {
+        "headline": "Tech Shakeup on the S&P 500",
+        "label": "negative",
+        "confidence": 0.9049462080001831,
+        "negative": 0.9049462080001831,
+        "neutral": 0.047173671424388885,
+        "positive": 0.04788016527891159
+      },
+      {
+        "headline": "Should You Buy VOO While the Market Is Near All-Time Highs?",
+        "label": "neutral",
+        "confidence": 0.5933002829551697,
+        "negative": 0.07106076925992966,
+        "neutral": 0.5933002829551697,
+        "positive": 0.33563897013664246
+      },
+      {
+        "headline": "Here's How to Snag a 20% Dividend Yield",
+        "label": "negative",
+        "confidence": 0.5840592980384827,
+        "negative": 0.5840592980384827,
+        "neutral": 0.09625736624002457,
+        "positive": 0.3196832835674286
+      }
+    ],
+    "news_score": -0.0695,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 3.9053,
+    "quick_ratio": 1.5257,
+    "cash_ratio": 0.3297,
+    "ocf_ratio": 3.1937,
+    "gross_margin": 71.0681,
+    "operating_margin": 65.6249,
+    "net_margin": 55.6025,
+    "roa": 58.0586,
+    "roe": 76.3333,
+    "roce": 81.1435,
+    "ebitda_margin": 66.9414,
+    "de_ratio": 0.0702,
+    "da_ratio": 0.0534,
+    "interest_coverage": 547.139,
+    "dscr": 396.5946,
+    "equity_multiplier": 1.3148,
+    "net_debt_ebitda": 0.003,
+    "asset_turnover": 1.0442,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 5.6137,
+    "dso": 65.0191,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 16.2972,
+    "pe_ratio": 31.4227,
+    "pb_ratio": 25.4263,
+    "ev_ebitda": 29.757,
+    "ps_ratio": 19.6059,
+    "dividend_yield": null,
+    "dividend_payout": 20.1729,
+    "eps": 6.53,
+    "fcf": 96676000000.0,
+    "fcf_margin": 44.7703,
+    "cf_to_net_income": 0.8555,
+    "capex_to_revenue": 2.798,
+    "cash_roic": null
+  },
+  "ratio_score": 80.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 69.8,
+    "sentiment_score": 50,
+    "ratio_score": 80.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 205.19,
+    "horizon": "12 months",
+    "bull_case": 45.7,
+    "base_case": 31.2,
+    "bear_case": -12.8,
+    "price_bull": 298.96,
+    "price_base": 269.11,
+    "price_bear": 178.93,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 298.93,
+        "target_low": 180.0,
+        "target_high": 500.0,
+        "target_median": 288.0,
+        "upside_mean": 45.7,
+        "upside_low": -12.3,
+        "upside_high": 143.7,
+        "n_analysts": 59,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 236.54,
+        "low_52w": 142.03,
+        "range_pct": 66.5,
+        "position_in_range": 66.8,
+        "upside_estimate": 16.6,
+        "downside_estimate": -13.3,
+        "avg_50d": 206.91,
+        "avg_200d": 189.26,
+        "beta": 2.2
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

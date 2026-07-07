@@ -680,6 +680,40 @@ def predict_price_target(ticker_obj, fin: Dict, quote: Dict, ratios: Dict, senti
                 "n_analysts":    int(n_analysts),
                 "recommendation": recommendation,
             }
+            # FX repair (Zhanibek): targets often arrive in the HOME
+            # currency (e.g. tenge) while the quote is USD. Instead of
+            # dropping them immediately, convert via the live FX rate.
+            # Disclosed in the output. If numbers are still inconsistent
+            # after conversion (GDR share-bundle ratios etc.), the sanity
+            # guard below still drops the method — honestly, no guessing.
+            try:
+                _fc = info.get("financialCurrency")
+                _qc = info.get("currency")
+                if _fc and _qc and _fc != _qc and abs(analyst_upside) > 300:
+                    import yfinance as _yf
+                    _fx = None
+                    try:
+                        _fxh = _yf.Ticker(f"{_fc}{_qc}=X").history(period="5d")["Close"].dropna()
+                        if len(_fxh):
+                            _fx = float(_fxh.iloc[-1])
+                    except Exception:
+                        pass
+                    if _fx and _fx > 0:
+                        _a = results["analyst"]
+                        for _k in ("target_mean", "target_low", "target_high", "target_median"):
+                            if _a.get(_k):
+                                _a[_k] = round(_a[_k] * _fx, 2)
+                        analyst_upside = (_a["target_mean"] - current_price) / current_price * 100
+                        _a["upside_mean"] = round(analyst_upside, 1)
+                        if _a.get("target_low"):
+                            _a["upside_low"] = round((_a["target_low"] - current_price) / current_price * 100, 1)
+                        if _a.get("target_high"):
+                            _a["upside_high"] = round((_a["target_high"] - current_price) / current_price * 100, 1)
+                        _a["fx_note"] = f"targets converted {_fc}->{_qc} @ {_fx:.6f}"
+                        print(f"  i analyst targets converted {_fc}->{_qc} @ {_fx:.6f}")
+            except Exception:
+                pass
+
             # Currency/listing sanity check. GDR tickers (KAP.IL, HSBK.IL ...)
             # often get analyst targets quoted in the HOME market currency
             # (e.g. tenge on KASE) while current_price is the USD GDR quote.
@@ -762,6 +796,21 @@ def predict_price_target(ticker_obj, fin: Dict, quote: Dict, ratios: Dict, senti
         avg_50d  = safe(info.get("fiftyDayAverage"))
         avg_200d = safe(info.get("twoHundredDayAverage"))
         beta     = safe(info.get("beta"))
+
+        # Fallback (Zhanibek): LSE GDRs often lack fiftyTwoWeekHigh/Low
+        # in yfinance info. Compute the range from 1y price history —
+        # the GDR history is already in the quote currency (USD), so
+        # there is no FX issue here at all.
+        if not (high_52w and low_52w):
+            try:
+                _h = ticker_obj.history(period="1y")["Close"].dropna()
+                if len(_h) > 30:
+                    high_52w = float(_h.max())
+                    low_52w = float(_h.min())
+                    print("  i 52-week range computed from price history "
+                          "(info fields were empty)")
+            except Exception:
+                pass
 
         if high_52w and low_52w and current_price:
             annual_range_pct = (high_52w - low_52w) / low_52w * 100

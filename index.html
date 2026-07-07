@@ -952,12 +952,19 @@ function analyze(t){
 
   <div class="card">
     <div class="sec-title">📈 12-month price forecast <span class="tag">analyst + volatility methods</span></div>
-    <div class="fc">
-      <div class="fcard bull"><div class="fl">🐂 BULL CASE</div><div class="fp">${d.fc.bull[0]>=0?"+":""}${d.fc.bull[0]}%</div><div class="ft">→ $${d.fc.bull[1].toFixed(2)}</div></div>
-      <div class="fcard base"><div class="fl">📊 BASE CASE</div><div class="fp">${d.fc.base[0]>=0?"+":""}${d.fc.base[0]}%</div><div class="ft">→ $${d.fc.base[1].toFixed(2)}</div></div>
-      <div class="fcard bear"><div class="fl">🐻 BEAR CASE</div><div class="fp">${d.fc.bear[0]}%</div><div class="ft">→ $${d.fc.bear[1].toFixed(2)}</div></div>
-    </div>
-    <div class="an-line">${d.fc.an}</div>
+    ${(d.fc.bull[0]===0 && d.fc.base[0]===0)
+      ? `<div style="background:#f6f5ef;border:2px solid #c9ccd1;border-radius:14px;padding:22px 24px;color:#666;font-size:14px;line-height:1.7">
+          <b style="color:#1a1a1a">⚠️ Price forecast unavailable for this ticker</b><br>
+          Analyst targets are quoted in the home-market currency (not USD) and were dropped by the currency sanity guard.
+          The 52-week price range is unavailable for this listing via the free data source, so the volatility method also cannot run.<br><br>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:12px">This is an honest limitation — not fabricated data.</span>
+        </div>`
+      : `<div class="fc">
+          <div class="fcard bull"><div class="fl">🐂 BULL CASE</div><div class="fp">${d.fc.bull[0]>=0?"+":""}${d.fc.bull[0]}%</div><div class="ft">→ $${d.fc.bull[1].toFixed(2)}</div></div>
+          <div class="fcard base"><div class="fl">📊 BASE CASE</div><div class="fp">${d.fc.base[0]>=0?"+":""}${d.fc.base[0]}%</div><div class="ft">→ $${d.fc.base[1].toFixed(2)}</div></div>
+          <div class="fcard bear"><div class="fl">🐻 BEAR CASE</div><div class="fp">${d.fc.bear[0]}%</div><div class="ft">→ $${d.fc.bear[1].toFixed(2)}</div></div>
+        </div>
+        <div class="an-line">${d.fc.an}</div>`}
     <p class="disclaim">⚠️ Estimates only — markets are unpredictable. Not financial advice. DYOR.</p>
   </div>`;
   show();

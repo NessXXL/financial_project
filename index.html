@@ -1007,5 +1007,75 @@ const tapeData=[["NVDA",212.64,.05],["META",637.19,.31],["AAPL",248.30,.62],["TS
 const seg=tapeData.map(([t,p,c])=>`<span><b>${t}</b> $${p} <span class="${c>=0?'up':'dn'}">${c>=0?'▲':'▼'}${Math.abs(c).toFixed(2)}%</span></span>`).join("");
 $("#tape").innerHTML=seg+seg;
 </script>
+
+<!-- ═══════════ MODEL RESEARCH SECTION (added by fix_add_research) ═══════════ -->
+<style>
+#research-plots{max-width:1100px;margin:26px auto 30px;padding:0 18px;font-family:inherit}
+#research-plots details{background:#fffdf7;border:2px solid #1a1a1a;border-radius:16px;
+  box-shadow:5px 5px 0 #1a1a1a;overflow:hidden}
+#research-plots summary{cursor:pointer;list-style:none;padding:16px 22px;display:flex;
+  align-items:center;gap:12px;font-weight:700;font-size:15px;user-select:none}
+#research-plots summary::-webkit-details-marker{display:none}
+#research-plots summary .rs-tag{font-family:'JetBrains Mono',monospace;font-size:11px;
+  letter-spacing:1px;background:#800054;color:#fff;border-radius:7px;padding:4px 10px}
+#research-plots summary .rs-hint{margin-left:auto;font-size:12px;color:#888;font-weight:400}
+#research-plots details[open] summary .rs-hint .rs-open-txt{display:none}
+#research-plots details:not([open]) summary .rs-hint .rs-close-txt{display:none}
+#research-plots .rs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:14px;padding:6px 18px 20px}
+#research-plots figure{margin:0;background:#fff;border:2px solid #1a1a1a;border-radius:12px;
+  overflow:hidden;cursor:zoom-in;transition:transform .12s}
+#research-plots figure:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 #1a1a1a}
+#research-plots figure img{display:block;width:100%;height:150px;object-fit:cover;object-position:center top;background:#fff}
+#research-plots figcaption{padding:9px 12px 11px;border-top:2px solid #1a1a1a}
+#research-plots figcaption b{display:block;font-size:12.5px}
+#research-plots figcaption span{font-size:11px;color:#777;font-family:'JetBrains Mono',monospace}
+#rs-lightbox{position:fixed;inset:0;background:rgba(20,15,35,.92);display:none;
+  align-items:center;justify-content:center;z-index:9999;cursor:zoom-out;padding:24px}
+#rs-lightbox.rs-show{display:flex}
+#rs-lightbox img{max-width:96vw;max-height:92vh;background:#fff;border-radius:10px}
+</style>
+<section id="research-plots">
+  <details>
+    <summary>
+      <span class="rs-tag">RESEARCH</span>
+      Model training &amp; validation — real experiment results
+      <span class="rs-hint"><span class="rs-open-txt">▼ click to expand</span><span class="rs-close-txt">▲ collapse</span></span>
+    </summary>
+    <div class="rs-grid">
+      <figure>
+        <img src="plots/fig1_accuracy.png" alt="Validation Accuracy" loading="lazy">
+        <figcaption><b>Validation Accuracy</b><span>66% → 91.6% over 30 epochs</span></figcaption>
+      </figure>
+      <figure>
+        <img src="plots/fig2_loss_f1.png" alt="Loss & Macro-F1" loading="lazy">
+        <figcaption><b>Loss & Macro-F1</b><span>healthy convergence, no overfitting</span></figcaption>
+      </figure>
+      <figure>
+        <img src="plots/fig3_confusion_sentiment_english.png" alt="Confusion Matrix" loading="lazy">
+        <figcaption><b>Confusion Matrix</b><span>91.1% test accuracy · macro-F1 0.910</span></figcaption>
+      </figure>
+      <figure>
+        <img src="plots/price_pred_NVDA.png" alt="Price Prediction — NVDA" loading="lazy">
+        <figcaption><b>Price Prediction — NVDA</b><span>walk-forward ridge · MAPE 1.80% · DW 2.01</span></figcaption>
+      </figure>
+      <figure>
+        <img src="plots/price_pred_KSPI.png" alt="Price Prediction — KSPI 🇰🇿" loading="lazy">
+        <figcaption><b>Price Prediction — KSPI 🇰🇿</b><span>walk-forward ridge · MAPE 1.76% · DW 1.85</span></figcaption>
+      </figure>
+    </div>
+  </details>
+</section>
+<div id="rs-lightbox" onclick="this.classList.remove('rs-show')"><img id="rs-lightbox-img" src="" alt=""></div>
+<script>
+document.querySelectorAll('#research-plots figure img').forEach(function(im){
+  im.parentElement.addEventListener('click',function(){
+    document.getElementById('rs-lightbox-img').src=im.src;
+    document.getElementById('rs-lightbox').classList.add('rs-show');
+  });
+});
+</script>
+<!-- ═══════════ END MODEL RESEARCH SECTION ═══════════ -->
+
 </body>
 </html>

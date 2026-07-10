@@ -336,6 +336,16 @@ mark, .hl, .highlight, [class*="highlight"]{
   line-height:1.25;
 }
 </style>
+
+<style>/* mark-fix */
+#backtest .mark, .cta .mark{
+  background:var(--yellow-hot);
+  color:var(--ink);
+  padding:2px 12px;
+  border-radius:8px;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone;
+}
+</style>
 </head>
 <body>
 
@@ -382,7 +392,7 @@ mark, .hl, .highlight, [class*="highlight"]{
 
 <div class="strip">
   <div class="s"><div class="n">91.6%</div><div class="l">Test accuracy</div></div>
-  <div class="s"><div class="n">8</div><div class="l">Datasets · 33k samples</div></div>
+  <div class="s"><div class="n">5</div><div class="l">Datasets · 24k samples</div></div>
   <div class="s"><div class="n">35</div><div class="l">Financial ratios</div></div>
   <div class="s"><div class="n">+194.8%</div><div class="l">Backtest vs SPY +51.2%</div></div>
   <div class="s"><div class="n">&lt;1s</div><div class="l">Model inference</div></div>
@@ -396,7 +406,7 @@ mark, .hl, .highlight, [class*="highlight"]{
     <div class="step">
       <div class="ic">📰</div>
       <h3>1 · Read the news</h3>
-      <p>Live headlines are pulled for the ticker. Our custom BiLSTM + CNN + Attention model — trained from scratch on 33,000 labeled financial sentences — classifies each one as positive, neutral or negative.</p>
+      <p>Live headlines are pulled for the ticker. Our custom BiLSTM + CNN + Attention model — trained from scratch on 24,000 labeled financial sentences — classifies each one as positive, neutral or negative.</p>
       <div class="mono-line">score = mean(P(pos) − P(neg)) → 0–100</div>
     </div>
     <div class="step">

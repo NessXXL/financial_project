@@ -327,6 +327,15 @@ footer .mono{font-size:11.5px}
   *{animation:none!important;transition:none!important}
 }
 </style>
+
+<style>/* highlight-fix */
+mark, .hl, .highlight, [class*="highlight"]{
+  color:#1a1a1a !important;
+  padding:0 .18em;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone;
+  line-height:1.25;
+}
+</style>
 </head>
 <body>
 
@@ -366,7 +375,7 @@ footer .mono{font-size:11.5px}
       <button class="chip" data-t="KSPI">🇰🇿 KSPI</button>
     </div>
   </div>
-  <div class="hero-foot">NO BERT · NO FINBERT · NO API KEYS — OUR OWN MODEL, TRAINED ON 8 DATASETS</div>
+  <div class="hero-foot">NO BERT · NO FINBERT · NO API KEYS — OUR OWN MODEL, TRAINED ON 5 DATASETS</div>
 </header>
 
 <main id="dash"></main>
@@ -407,8 +416,8 @@ footer .mono{font-size:11.5px}
 
 <section id="model" class="center" style="background:linear-gradient(180deg,var(--paper),#FCF6FF)">
   <span class="kicker">The model</span>
-  <h2>Built from scratch.<br><span class="mark">Not borrowed.</span></h2>
-  <p class="lead">No pretrained transformers. Only GloVe word embeddings + our own architecture, so it runs on CPU in milliseconds and costs nothing per query.</p>
+  <h2>Too much news. Too little time.<br><span class="mark">We read it for you.</span></h2>
+  <p class="lead">Hundreds of headlines and 35 financial ratios move every stock. Nobody has time to read them all — Virada does, in seconds, and gives one clear answer: BUY, HOLD or SELL, with the reasons in plain words. And it’s the only engine that also reads Kazakh and Russian financial news.</p>
   <div class="arch">
 <span class="dim">┌──────────────────────────  ViradaModel  ──────────────────────────┐</span><br>
 &nbsp;&nbsp;Input text ─→ <span class="y">GloVe 300d embeddings</span> (840B tokens)<br>
@@ -503,7 +512,7 @@ footer .mono{font-size:11.5px}
 
 <footer>
   <span><b>Virada AI</b> · Almaty, Kazakhstan 🇰🇿</span>
-  <span class="mono">BiLSTM+CNN+ATTN · GloVe 840B · 8 datasets · yfinance data</span>
+  <span class="mono">BiLSTM+CNN+ATTN · GloVe 840B · 5 datasets · yfinance data</span>
   <span>⚠️ Not financial advice. Always do your own due diligence.</span>
 </footer>
 
@@ -1062,6 +1071,10 @@ $("#tape").innerHTML=seg+seg;
       <figure>
         <img src="plots/price_pred_KSPI.png" alt="Price Prediction — KSPI 🇰🇿" loading="lazy">
         <figcaption><b>Price Prediction — KSPI 🇰🇿</b><span>walk-forward ridge · MAPE 1.76% · DW 1.85</span></figcaption>
+      </figure>
+      <figure>
+        <img src="plots/ablation_chart_v3.png" alt="Ablation Study" loading="lazy">
+        <figcaption><b>Ablation Study</b><span>3 random seeds · each branch vs full hybrid</span></figcaption>
       </figure>
     </div>
   </details>

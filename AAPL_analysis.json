@@ -1,106 +1,106 @@
 {
   "ticker": "AAPL",
-  "timestamp": "2026-06-15T11:42:08.127538",
+  "timestamp": "2026-07-09T17:30:57.985622",
   "profile": {
     "name": "Apple Inc.",
     "sector": "Technology"
   },
   "quote": {
-    "price": 291.13,
-    "change_pct": -1.5221729,
-    "marketCap": 4275929874432.0
+    "price": 313.39,
+    "change_pct": 0.878778,
+    "marketCap": 4602870628352.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": 0.0687,
+    "overall": "positive",
+    "score": 0.2955,
     "breakdown": {
-      "positive": 2,
-      "neutral": 7,
-      "negative": 1
+      "positive": 4,
+      "neutral": 6,
+      "negative": 0
     },
     "details": [
       {
-        "headline": "Tata's iPhone parts factory contaminated farmland water, India pollution body alleges",
-        "label": "neutral",
-        "confidence": 0.897921085357666,
-        "negative": 0.050927262753248215,
-        "neutral": 0.897921085357666,
-        "positive": 0.0511515848338604
-      },
-      {
-        "headline": "Alphabet Ties Search AI And Mobility Closer To Revenue Potential",
+        "headline": "Broadcom stock jumps on Apple AI chip deal, while Nvidia's relative stock price drops",
         "label": "positive",
-        "confidence": 0.904833972454071,
-        "negative": 0.04702882841229439,
-        "neutral": 0.04813716188073158,
-        "positive": 0.904833972454071
+        "confidence": 0.53484708070755,
+        "negative": 0.09344466775655746,
+        "neutral": 0.3717082142829895,
+        "positive": 0.53484708070755
       },
       {
-        "headline": "Apple's iOS 27 surprise could change the AI narrative",
-        "label": "neutral",
-        "confidence": 0.9010542631149292,
-        "negative": 0.05028792843222618,
-        "neutral": 0.9010542631149292,
-        "positive": 0.04865776374936104
-      },
-      {
-        "headline": "Indian Pollution Probe Tests Apple Supply Chain And Valuation Gap",
-        "label": "negative",
-        "confidence": 0.9012444019317627,
-        "negative": 0.9012444019317627,
-        "neutral": 0.04969165474176407,
-        "positive": 0.049063924700021744
-      },
-      {
-        "headline": "TechCrunch Mobility: SpaceX rockets past Tesla",
-        "label": "neutral",
-        "confidence": 0.8943031430244446,
-        "negative": 0.051530368626117706,
-        "neutral": 0.8943031430244446,
-        "positive": 0.05416659638285637
-      },
-      {
-        "headline": "Given the News Out of WWDC, Was Warren Buffett Right to Sell Apple Stock?",
-        "label": "neutral",
-        "confidence": 0.8979504108428955,
-        "negative": 0.05060366541147232,
-        "neutral": 0.8979504108428955,
-        "positive": 0.05144587531685829
-      },
-      {
-        "headline": "Goldman Sachs resets Apple stock forecast after WWDC",
-        "label": "neutral",
-        "confidence": 0.6177042722702026,
-        "negative": 0.09370120614767075,
-        "neutral": 0.6177042722702026,
-        "positive": 0.2885946035385132
-      },
-      {
-        "headline": "Meet the Spectacular Vanguard ETF That Could Buy SpaceX Stock as Soon as June 19",
-        "label": "neutral",
-        "confidence": 0.9023352265357971,
-        "negative": 0.04778518155217171,
-        "neutral": 0.9023352265357971,
-        "positive": 0.04987959563732147
-      },
-      {
-        "headline": "Amazon Expands Satellite, Cloud And Robotics Investments As Valuation Gap Widens",
-        "label": "neutral",
-        "confidence": 0.8862457275390625,
-        "negative": 0.054845258593559265,
-        "neutral": 0.8862457275390625,
-        "positive": 0.05890912190079689
-      },
-      {
-        "headline": "Wall Street\u2019s Top Billionaires Are Changing Their Mind About Apple (AAPL)",
+        "headline": "Equity Futures Mostly Rise as Markets Assess Renewed Middle East Tensions",
         "label": "positive",
-        "confidence": 0.5527203679084778,
-        "negative": 0.07460518926382065,
-        "neutral": 0.3726744055747986,
-        "positive": 0.5527203679084778
+        "confidence": 0.901617705821991,
+        "negative": 0.05315963923931122,
+        "neutral": 0.04522264748811722,
+        "positive": 0.901617705821991
+      },
+      {
+        "headline": "Ultra Clean Holdings (UCTT) Appoints Michael Keogh As CFO For Its Next AI Push",
+        "label": "neutral",
+        "confidence": 0.9015414714813232,
+        "negative": 0.050043463706970215,
+        "neutral": 0.9015414714813232,
+        "positive": 0.04841507971286774
+      },
+      {
+        "headline": "The U.S. Tech Selloff Is Over and an Unlikely Hero Can Kickstart the Rally",
+        "label": "neutral",
+        "confidence": 0.90196293592453,
+        "negative": 0.04971211776137352,
+        "neutral": 0.90196293592453,
+        "positive": 0.048324912786483765
+      },
+      {
+        "headline": "Nigerian Stocks Vault Past Korea\u2019s Kospi to Claim World\u2019s Top Returns",
+        "label": "neutral",
+        "confidence": 0.8815867900848389,
+        "negative": 0.058380935341119766,
+        "neutral": 0.8815867900848389,
+        "positive": 0.06003229320049286
+      },
+      {
+        "headline": "Broadcom, Intel, Corning, Salesforce, and More Stocks That Explain Today\u2019s Market",
+        "label": "neutral",
+        "confidence": 0.9154126644134521,
+        "negative": 0.043506838381290436,
+        "neutral": 0.9154126644134521,
+        "positive": 0.04108046740293503
+      },
+      {
+        "headline": "Prediction: TSMC Stock Is Going to Soar After July 16",
+        "label": "positive",
+        "confidence": 0.8904248476028442,
+        "negative": 0.05442032590508461,
+        "neutral": 0.05515480041503906,
+        "positive": 0.8904248476028442
+      },
+      {
+        "headline": "If the \"Magnificent Seven\" Were Recreated, Here's What Stocks I'd Include (Hint: Not SpaceX)",
+        "label": "neutral",
+        "confidence": 0.8975004553794861,
+        "negative": 0.052697136998176575,
+        "neutral": 0.8975004553794861,
+        "positive": 0.04980244114995003
+      },
+      {
+        "headline": "India removes import duty on some electronics, smartphone parts",
+        "label": "neutral",
+        "confidence": 0.9013469219207764,
+        "negative": 0.05082915723323822,
+        "neutral": 0.9013469219207764,
+        "positive": 0.04782390221953392
+      },
+      {
+        "headline": "Apple signs $30bn Broadcom deal to boost US chip production",
+        "label": "positive",
+        "confidence": 0.8931466937065125,
+        "negative": 0.054467130452394485,
+        "neutral": 0.052386119961738586,
+        "positive": 0.8931466937065125
       }
     ],
-    "news_score": 0.0687,
+    "news_score": 0.2955,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,10 +129,10 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 8.3509,
-    "pe_ratio": 35.2031,
-    "pb_ratio": 40.1005,
-    "ev_ebitda": 26.83,
-    "ps_ratio": 9.4717,
+    "pe_ratio": 37.8948,
+    "pb_ratio": 43.1667,
+    "ev_ebitda": 28.874,
+    "ps_ratio": 10.1959,
     "dividend_yield": null,
     "dividend_payout": 14.1615,
     "eps": 8.27,
@@ -144,48 +144,48 @@
   },
   "ratio_score": 67.3,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 61.2,
-    "sentiment_score": 50,
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 78.7,
+    "sentiment_score": 100,
     "ratio_score": 67.3
   },
   "prediction": {
     "available": true,
-    "current_price": 291.13,
+    "current_price": 313.39,
     "horizon": "12 months",
-    "bull_case": 9.4,
-    "base_case": 8.4,
-    "bear_case": -24.0,
-    "price_bull": 318.5,
-    "price_base": 315.58,
-    "price_bear": 221.26,
+    "bull_case": 8.6,
+    "base_case": 4.6,
+    "bear_case": -25.8,
+    "price_bull": 340.34,
+    "price_base": 327.96,
+    "price_bear": 232.69,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 312.72,
+        "target_mean": 315.57,
         "target_low": 215.0,
         "target_high": 400.0,
-        "target_median": 310.0,
-        "upside_mean": 7.4,
-        "upside_low": -26.1,
-        "upside_high": 37.4,
-        "n_analysts": 43,
+        "target_median": 315.0,
+        "upside_mean": 0.7,
+        "upside_low": -31.4,
+        "upside_high": 27.6,
+        "n_analysts": 42,
         "recommendation": "buy"
       },
       "volatility": {
         "high_52w": 317.4,
-        "low_52w": 195.07,
-        "range_pct": 62.7,
-        "position_in_range": 78.5,
-        "upside_estimate": 9.4,
-        "downside_estimate": -21.9,
-        "avg_50d": 285.49,
-        "avg_200d": 266.87,
-        "beta": 1.09
+        "low_52w": 201.5,
+        "range_pct": 57.5,
+        "position_in_range": 96.5,
+        "upside_estimate": 8.6,
+        "downside_estimate": -20.1,
+        "avg_50d": 295.9,
+        "avg_200d": 271.8,
+        "beta": 1.1
       }
     },
     "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."

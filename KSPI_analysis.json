@@ -1,14 +1,14 @@
 {
   "ticker": "KSPI",
-  "timestamp": "2026-06-15T11:43:36.043115",
+  "timestamp": "2026-07-09T17:32:36.344380",
   "profile": {
     "name": "Joint Stock Company Kaspi.kz",
     "sector": "Technology"
   },
   "quote": {
-    "price": 80.56,
-    "change_pct": -2.1498806,
-    "marketCap": 15308596224.0
+    "price": 87.48,
+    "change_pct": -0.816319,
+    "marketCap": 16623585280.0
   },
   "sentiment": {
     "overall": "neutral",
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 12.8316,
-    "pe_ratio": 7.2642,
+    "pe_ratio": 7.8528,
     "pb_ratio": null,
     "ev_ebitda": null,
     "ps_ratio": null,
-    "dividend_yield": 4.46,
+    "dividend_yield": 4.1,
     "dividend_payout": 0.0636,
-    "eps": 11.09,
+    "eps": 11.14,
     "fcf": 491098000000.0,
     "fcf_margin": 12.1926,
     "cf_to_net_income": 0.6277,
@@ -152,40 +152,40 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 80.56,
+    "current_price": 87.48,
     "horizon": "12 months",
-    "bull_case": 17.8,
-    "base_case": 14.5,
+    "bull_case": 12.9,
+    "base_case": 12.1,
     "bear_case": -5.0,
-    "price_bull": 94.9,
-    "price_base": 92.24,
-    "price_bear": 76.53,
+    "price_bull": 98.76,
+    "price_base": 98.02,
+    "price_bear": 83.11,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 94.92,
-        "target_low": 82.8,
-        "target_high": 117.24,
-        "target_median": 95.94,
-        "upside_mean": 17.8,
-        "upside_low": 2.8,
-        "upside_high": 45.5,
+        "target_mean": 98.79,
+        "target_low": 87.4,
+        "target_high": 123.76,
+        "target_median": 94.36,
+        "upside_mean": 12.9,
+        "upside_low": -0.1,
+        "upside_high": 41.5,
         "n_analysts": 7,
-        "recommendation": "buy"
+        "recommendation": "none"
       },
       "volatility": {
         "high_52w": 99.2,
         "low_52w": 68.59,
         "range_pct": 44.6,
-        "position_in_range": 39.1,
+        "position_in_range": 61.7,
         "upside_estimate": 11.2,
         "downside_estimate": -8.9,
-        "avg_50d": 84.99,
-        "avg_200d": 79.27,
-        "beta": 0.08
+        "avg_50d": 86.62,
+        "avg_200d": 79.09,
+        "beta": 0.09
       }
     },
     "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."

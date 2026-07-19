@@ -1,0 +1,273 @@
+{
+  "ticker": "BBCA.JK",
+  "timestamp": "2026-07-19T14:22:36.671674",
+  "profile": {
+    "name": "PT Bank Central Asia Tbk",
+    "sector": "Financial Services"
+  },
+  "quote": {
+    "price": 6475.0,
+    "change_pct": 4.016064,
+    "marketCap": 795623632666624.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.206,
+    "breakdown": {
+      "positive": 6,
+      "neutral": 13,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Digital Edge rebrands Indonesian Operations as Digital Edge Indonesia",
+        "label": "neutral",
+        "confidence": 0.8988909125328064,
+        "negative": 0.05120709910988808,
+        "neutral": 0.8988909125328064,
+        "positive": 0.04990196228027344
+      },
+      {
+        "headline": "Digital Edge Secures Financing to Continue Expansion in Indonesia",
+        "label": "positive",
+        "confidence": 0.9146953821182251,
+        "negative": 0.04404434561729431,
+        "neutral": 0.04126027598977089,
+        "positive": 0.9146953821182251
+      },
+      {
+        "headline": "ASEAN Banks Make Progress on Climate Action but Gaps Remain, ARE Report Reveals",
+        "label": "neutral",
+        "confidence": 0.8977854251861572,
+        "negative": 0.051966313272714615,
+        "neutral": 0.8977854251861572,
+        "positive": 0.05024828761816025
+      },
+      {
+        "headline": "SGX launches three new depository receipts for renowned Indonesian blue chips - Yahoo Finance Singapore",
+        "label": "neutral",
+        "confidence": 0.8979564905166626,
+        "negative": 0.05078935623168945,
+        "neutral": 0.8979564905166626,
+        "positive": 0.05125418305397034
+      },
+      {
+        "headline": "Unlocking China\u2019s Potential: 5 High-Growth Hong Kong Stocks You Can Buy as SGX SDRs - Yahoo Finance Singapore",
+        "label": "neutral",
+        "confidence": 0.9024540185928345,
+        "negative": 0.0490809828042984,
+        "neutral": 0.9024540185928345,
+        "positive": 0.04846496507525444
+      },
+      {
+        "headline": "PT Indika Energy (INDY) Q1 2026 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.8947323560714722,
+        "negative": 0.05280284211039543,
+        "neutral": 0.8947323560714722,
+        "positive": 0.05246472358703613
+      },
+      {
+        "headline": "Disney Revenue Rises 7% in Earnings Beat, Disney+ and Hulu Streaming Income Pops 88% to $582 Million - Variety",
+        "label": "positive",
+        "confidence": 0.8775653839111328,
+        "negative": 0.053085021674633026,
+        "neutral": 0.06934956461191177,
+        "positive": 0.8775653839111328
+      },
+      {
+        "headline": "Hinge Health Q3 revenue jumps 53% as company eyes M&A, new services beyond physical therapy - Fierce Healthcare",
+        "label": "positive",
+        "confidence": 0.8940739631652832,
+        "negative": 0.05069594085216522,
+        "neutral": 0.055230118334293365,
+        "positive": 0.8940739631652832
+      },
+      {
+        "headline": "Tesla (TSLA) releases Q3 2025 financial results: earnings decline despite record revenue - Electrek",
+        "label": "negative",
+        "confidence": 0.6675782203674316,
+        "negative": 0.6675782203674316,
+        "neutral": 0.23384924232959747,
+        "positive": 0.09857264161109924
+      },
+      {
+        "headline": "Meta Q1 Revenue Soars 33% in Q1, Net Profit Hits $26.8 Billion Ahead of Mass Layoffs - Variety",
+        "label": "positive",
+        "confidence": 0.8946823477745056,
+        "negative": 0.05208040773868561,
+        "neutral": 0.05323721468448639,
+        "positive": 0.8946823477745056
+      },
+      {
+        "headline": "PT Siloam International Hospitals (SILO) Q2 2024 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.9034643769264221,
+        "negative": 0.04776737838983536,
+        "neutral": 0.9034643769264221,
+        "positive": 0.0487682931125164
+      },
+      {
+        "headline": "Press Release - PT Astra International Tbk - PT Astra International Tbk",
+        "label": "neutral",
+        "confidence": 0.8972446918487549,
+        "negative": 0.05284484103322029,
+        "neutral": 0.8972446918487549,
+        "positive": 0.04991047456860542
+      },
+      {
+        "headline": "Garuda revenue up 5.36% in early 2026, losses narrow - IDNFinancials.com",
+        "label": "neutral",
+        "confidence": 0.8172941207885742,
+        "negative": 0.07307799905538559,
+        "neutral": 0.8172941207885742,
+        "positive": 0.10962782800197601
+      },
+      {
+        "headline": "PTBA Reports Net Profit of IDR 2.93 Trillion in FY2025, Operational Performance Grows and Profitability Gradually Improves - PT Bukit Asam Tbk",
+        "label": "positive",
+        "confidence": 0.7145326137542725,
+        "negative": 0.07838700711727142,
+        "neutral": 0.20708033442497253,
+        "positive": 0.7145326137542725
+      },
+      {
+        "headline": "Apple reports Q4 2025 earnings, here are the numbers [charts] - 9to5Mac",
+        "label": "positive",
+        "confidence": 0.6943742632865906,
+        "negative": 0.08502651005983353,
+        "neutral": 0.2205992490053177,
+        "positive": 0.6943742632865906
+      },
+      {
+        "headline": "PT Siloam International Hospitals (SILO) Q4 2025 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.9029026031494141,
+        "negative": 0.04850046709179878,
+        "neutral": 0.9029026031494141,
+        "positive": 0.04859689623117447
+      },
+      {
+        "headline": "Meta Rakes in Record Revenue and Profits for Q4, Details Massive AI Investments for 2026 - Variety",
+        "label": "neutral",
+        "confidence": 0.796281099319458,
+        "negative": 0.0662471204996109,
+        "neutral": 0.796281099319458,
+        "positive": 0.1374717801809311
+      },
+      {
+        "headline": "Astra Financial Report for the Third Quarter of 2025 - PT Astra International Tbk",
+        "label": "neutral",
+        "confidence": 0.902661144733429,
+        "negative": 0.04905741289258003,
+        "neutral": 0.902661144733429,
+        "positive": 0.048281479626894
+      },
+      {
+        "headline": "Imax Q1 Revenue and Profit Decline Despite Hits Like \u2018Avatar: Fire and Ash\u2019 and \u2018Project Hail Mary\u2019 - Variety",
+        "label": "neutral",
+        "confidence": 0.8387963175773621,
+        "negative": 0.10005852580070496,
+        "neutral": 0.8387963175773621,
+        "positive": 0.06114521995186806
+      },
+      {
+        "headline": "PT GoTo Gojek Tokopedia (GOTO) Q2 2025 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.9048286080360413,
+        "negative": 0.047400686889886856,
+        "neutral": 0.9048286080360413,
+        "positive": 0.04777070879936218
+      }
+    ],
+    "news_score": 0.206,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": null,
+    "quick_ratio": null,
+    "cash_ratio": null,
+    "ocf_ratio": null,
+    "gross_margin": 92.926,
+    "operating_margin": null,
+    "net_margin": 50.3302,
+    "roa": 3.6259,
+    "roe": 20.442,
+    "roce": null,
+    "ebitda_margin": null,
+    "de_ratio": 0.0085,
+    "da_ratio": 0.0015,
+    "interest_coverage": null,
+    "dscr": 7.4132,
+    "equity_multiplier": 5.6377,
+    "net_debt_ebitda": null,
+    "asset_turnover": 0.072,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": null,
+    "dso": null,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 4.0149,
+    "pe_ratio": 13.7552,
+    "pb_ratio": 3.0703,
+    "ev_ebitda": null,
+    "ps_ratio": 7.3242,
+    "dividend_yield": 5.5,
+    "dividend_payout": 76.0271,
+    "eps": 470.73,
+    "fcf": 75057575000000.0,
+    "fcf_margin": 65.6559,
+    "cf_to_net_income": 1.3471,
+    "capex_to_revenue": 2.1442,
+    "cash_roic": null
+  },
+  "ratio_score": 75.0,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 83.8,
+    "sentiment_score": 100,
+    "ratio_score": 75.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 6475.0,
+    "horizon": "12 months",
+    "bull_case": 28.9,
+    "base_case": 24.4,
+    "bear_case": -15.6,
+    "price_bull": 8346.27,
+    "price_base": 8058.14,
+    "price_bear": 5468.14,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 8346.68,
+        "target_low": 5500.0,
+        "target_high": 10900.0,
+        "target_median": 8600.0,
+        "upside_mean": 28.9,
+        "upside_low": -15.1,
+        "upside_high": 68.3,
+        "n_analysts": 25,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 8975.0,
+        "low_52w": 4820.0,
+        "range_pct": 86.2,
+        "position_in_range": 39.8,
+        "upside_estimate": 20.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 5966.5,
+        "avg_200d": 7134.38,
+        "beta": null
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

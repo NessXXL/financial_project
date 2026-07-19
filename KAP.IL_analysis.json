@@ -1,13 +1,13 @@
 {
   "ticker": "KAP.IL",
-  "timestamp": "2026-06-15T11:44:23.890994",
+  "timestamp": "2026-07-07T17:38:50.871005",
   "profile": {
     "name": "National Atomic Company Kazatomprom JSC",
     "sector": "Energy"
   },
   "quote": {
-    "price": 70.2,
-    "change_pct": 1.0071899,
+    "price": 69.9,
+    "change_pct": -0.85106164,
     "marketCap": null
   },
   "sentiment": {
@@ -113,7 +113,7 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.0087,
-    "pe_ratio": 11.3961,
+    "pe_ratio": 11.3474,
     "pb_ratio": null,
     "ev_ebitda": null,
     "ps_ratio": null,
@@ -135,7 +135,44 @@
     "ratio_score": 84.6
   },
   "prediction": {
-    "available": false,
-    "reason": "Insufficient data for prediction"
+    "available": true,
+    "current_price": 69.9,
+    "horizon": "12 months",
+    "bull_case": 20.0,
+    "base_case": -0.8,
+    "bear_case": -21.3,
+    "price_bull": 83.88,
+    "price_base": 69.38,
+    "price_bear": 55.01,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 54.9,
+        "target_low": 51.28,
+        "target_high": 64.47,
+        "target_median": 52.33,
+        "upside_mean": -21.5,
+        "upside_low": -26.6,
+        "upside_high": -7.8,
+        "n_analysts": 7,
+        "recommendation": "buy",
+        "fx_note": "targets converted KZT->USD @ 0.002125"
+      },
+      "volatility": {
+        "high_52w": 93.8,
+        "low_52w": 41.0,
+        "range_pct": 128.8,
+        "position_in_range": 54.7,
+        "upside_estimate": 20.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 73.68,
+        "avg_200d": 69.27,
+        "beta": 0.16
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
   }
 }

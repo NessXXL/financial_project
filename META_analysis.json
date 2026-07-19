@@ -1,106 +1,106 @@
 {
   "ticker": "META",
-  "timestamp": "2026-06-15T11:41:53.725286",
+  "timestamp": "2026-07-09T17:29:20.080818",
   "profile": {
     "name": "Meta Platforms, Inc.",
     "sector": "Communication Services"
   },
   "quote": {
-    "price": 566.98,
-    "change_pct": -0.2550907,
-    "marketCap": 1439235178496.0
+    "price": 603.12,
+    "change_pct": -2.02411,
+    "marketCap": 1530973782016.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.002,
+    "score": 0.0038,
     "breakdown": {
-      "positive": 1,
-      "neutral": 8,
-      "negative": 1
+      "positive": 0,
+      "neutral": 10,
+      "negative": 0
     },
     "details": [
       {
-        "headline": "Meta\u2019s Manus Unwind Killed the Singapore Loophole for AI Companies",
+        "headline": "Meta is expanding its data center build-out to Canada",
         "label": "neutral",
-        "confidence": 0.9030883312225342,
-        "negative": 0.04898892715573311,
-        "neutral": 0.9030883312225342,
-        "positive": 0.04792278632521629
+        "confidence": 0.7944836616516113,
+        "negative": 0.08310043066740036,
+        "neutral": 0.7944836616516113,
+        "positive": 0.1224159374833107
       },
       {
-        "headline": "Citi Calls AMD a Rising Force in the GPU Market, Upgrades Shares to Buy",
-        "label": "positive",
-        "confidence": 0.9014556407928467,
-        "negative": 0.04841289296746254,
-        "neutral": 0.05013149231672287,
-        "positive": 0.9014556407928467
-      },
-      {
-        "headline": "Meta Completes Operational Split from Manus amid Unwinding of $2 Billion Deal, Bloomberg Reports",
+        "headline": "Meta to start production of Iris AI chip in September 2026",
         "label": "neutral",
-        "confidence": 0.8937517404556274,
-        "negative": 0.05321325734257698,
-        "neutral": 0.8937517404556274,
-        "positive": 0.05303504690527916
+        "confidence": 0.8999714851379395,
+        "negative": 0.04942528158426285,
+        "neutral": 0.8999714851379395,
+        "positive": 0.050603244453668594
       },
       {
-        "headline": "Anthropic Block Marks US Reversal, Warning to Silicon Valley",
-        "label": "negative",
-        "confidence": 0.8776894211769104,
-        "negative": 0.8776894211769104,
-        "neutral": 0.06805431842803955,
-        "positive": 0.05425627529621124
-      },
-      {
-        "headline": "Trump Hosts UFC Fights at White House for 80th Birthday",
+        "headline": "Jim Cramer on Nebius: \u201cThe Stock\u2019s Been a Juggernaut\u201d",
         "label": "neutral",
-        "confidence": 0.9011848568916321,
-        "negative": 0.05147092416882515,
-        "neutral": 0.9011848568916321,
-        "positive": 0.04734419286251068
+        "confidence": 0.8987970948219299,
+        "negative": 0.05024042725563049,
+        "neutral": 0.8987970948219299,
+        "positive": 0.05096258595585823
       },
       {
-        "headline": "How Constellation\u2019s US$3.09 Billion Equity Raise And AI Power Deals At Constellation Energy (CEG) Has Changed Its Investment Story",
+        "headline": "Jim Cramer on CoreWeave: \u201cI Think It\u2019s One of the Stronger Players in the Neocloud Space\u201d",
         "label": "neutral",
-        "confidence": 0.9015210866928101,
-        "negative": 0.05131552740931511,
-        "neutral": 0.9015210866928101,
-        "positive": 0.04716343432664871
+        "confidence": 0.8934578895568848,
+        "negative": 0.05419169366359711,
+        "neutral": 0.8934578895568848,
+        "positive": 0.05235043913125992
       },
       {
-        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "headline": "Jim Cramer Highlights Future Earnings Projections that Make Oracle Look Cheap",
         "label": "neutral",
-        "confidence": 0.9002727270126343,
-        "negative": 0.0510941706597805,
-        "neutral": 0.9002727270126343,
-        "positive": 0.048633042722940445
+        "confidence": 0.9028642177581787,
+        "negative": 0.04990977793931961,
+        "neutral": 0.9028642177581787,
+        "positive": 0.04722605645656586
       },
       {
-        "headline": "SpaceX Stock Began Trading. What\u2019s Ahead for It This Week.",
+        "headline": "Jim Cramer Highlights Meta Entering the Neocloud Business",
         "label": "neutral",
-        "confidence": 0.9032474160194397,
-        "negative": 0.048667676746845245,
-        "neutral": 0.9032474160194397,
-        "positive": 0.04808488115668297
+        "confidence": 0.8986191749572754,
+        "negative": 0.05053607374429703,
+        "neutral": 0.8986191749572754,
+        "positive": 0.05084477365016937
       },
       {
-        "headline": "Corning\u2019s Amazon Deal Validates the AI Optics Boom. What That Means for GLW Stock.",
+        "headline": "Meta falls as massive AI infrastructure spending plans overshadow chip progress",
         "label": "neutral",
-        "confidence": 0.903296172618866,
-        "negative": 0.047819238156080246,
-        "neutral": 0.903296172618866,
-        "positive": 0.04888457432389259
+        "confidence": 0.8980892300605774,
+        "negative": 0.052009906619787216,
+        "neutral": 0.8980892300605774,
+        "positive": 0.049900852143764496
       },
       {
-        "headline": "3 Uranium Stocks Worth Buying as Nuclear Heats up in June",
+        "headline": "Meta Platforms (META) Has A $1.4 Trillion Problem To Solve. Can The Company Survive The Scare?",
         "label": "neutral",
-        "confidence": 0.9049338102340698,
-        "negative": 0.04644559323787689,
-        "neutral": 0.9049338102340698,
-        "positive": 0.048620596528053284
+        "confidence": 0.8925926685333252,
+        "negative": 0.052728019654750824,
+        "neutral": 0.8925926685333252,
+        "positive": 0.054679349064826965
+      },
+      {
+        "headline": "Meta Plans to Sell AI Compute \u2014 So Why Spend $10 Billion to Build Even More Data Centers?",
+        "label": "neutral",
+        "confidence": 0.9055663347244263,
+        "negative": 0.04700550436973572,
+        "neutral": 0.9055663347244263,
+        "positive": 0.04742812737822533
+      },
+      {
+        "headline": "Tech Stock Sell-Off: 1 ETF to Load Up On Right Now",
+        "label": "neutral",
+        "confidence": 0.9049988389015198,
+        "negative": 0.047303300350904465,
+        "neutral": 0.9049988389015198,
+        "positive": 0.047697942703962326
       }
     ],
-    "news_score": 0.002,
+    "news_score": 0.0038,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.0211,
-    "pe_ratio": 20.6175,
-    "pb_ratio": 5.9052,
-    "ev_ebitda": 13.218,
-    "ps_ratio": 6.6953,
+    "pe_ratio": 21.9316,
+    "pb_ratio": 6.2816,
+    "ev_ebitda": 14.057,
+    "ps_ratio": 7.122,
     "dividend_yield": null,
     "dividend_payout": 7.6279,
-    "eps": 27.5,
+    "eps": 26.96,
     "fcf": 46109000000.0,
     "fcf_margin": 22.9437,
     "cf_to_net_income": 1.9154,
@@ -152,40 +152,40 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 566.98,
+    "current_price": 603.12,
     "horizon": "12 months",
-    "bull_case": 45.9,
-    "base_case": 33.5,
+    "bull_case": 37.3,
+    "base_case": 25.3,
     "bear_case": -5.0,
-    "price_bull": 827.22,
-    "price_base": 757.2,
-    "price_bear": 538.63,
+    "price_bull": 828.08,
+    "price_base": 755.71,
+    "price_bear": 572.96,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 827.32,
+        "target_mean": 828.17,
         "target_low": 664.46,
         "target_high": 1015.0,
         "target_median": 825.0,
-        "upside_mean": 45.9,
-        "upside_low": 17.2,
-        "upside_high": 79.0,
-        "n_analysts": 59,
+        "upside_mean": 37.3,
+        "upside_low": 10.2,
+        "upside_high": 68.3,
+        "n_analysts": 58,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 796.25,
         "low_52w": 520.26,
         "range_pct": 53.0,
-        "position_in_range": 16.9,
-        "upside_estimate": 21.2,
+        "position_in_range": 30.0,
+        "upside_estimate": 13.3,
         "downside_estimate": -10.6,
-        "avg_50d": 621.83,
-        "avg_200d": 658.09,
-        "beta": 1.23
+        "avg_50d": 601.43,
+        "avg_200d": 643.93,
+        "beta": 1.25
       }
     },
     "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."

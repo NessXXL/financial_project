@@ -1,0 +1,237 @@
+{
+  "ticker": "KASE",
+  "timestamp": "2026-06-24T23:04:05.569585",
+  "profile": {
+    "name": "KASE",
+    "sector": ""
+  },
+  "quote": {
+    "price": null,
+    "change_pct": 0.0,
+    "marketCap": null
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0095,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 20,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE includes into the official list iShares Bitcoin Trust ETF (IBIT KZ) - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.9007565379142761,
+        "negative": 0.05074140802025795,
+        "neutral": 0.9007565379142761,
+        "positive": 0.04850205034017563
+      },
+      {
+        "headline": "Market Integration: KASE and Armenian Stock Exchange (AMX) signed Memorandum of Understanding - \u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u049b\u043e\u0440 \u0431\u0438\u0440\u0436\u0430\u0441\u044b",
+        "label": "neutral",
+        "confidence": 0.8436875343322754,
+        "negative": 0.06331226229667664,
+        "neutral": 0.8436875343322754,
+        "positive": 0.093000128865242
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE publishes member activity rankings for May 2026 on own website - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.8953619003295898,
+        "negative": 0.05235390365123749,
+        "neutral": 0.8953619003295898,
+        "positive": 0.05228415131568909
+      },
+      {
+        "headline": "Inhibikase opens global PAH Phase 3 trial after 20-country filings - Stock Titan",
+        "label": "neutral",
+        "confidence": 0.8987614512443542,
+        "negative": 0.04960622265934944,
+        "neutral": 0.8987614512443542,
+        "positive": 0.051632240414619446
+      },
+      {
+        "headline": "Top Inhibikase Therapeutics (IKT) Competitors 2026 - MarketBeat",
+        "label": "neutral",
+        "confidence": 0.8775002956390381,
+        "negative": 0.05897388234734535,
+        "neutral": 0.8775002956390381,
+        "positive": 0.06352589279413223
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE Board of Directors extends term of office of KASE Management Board until July 1, 2029 - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.8986256122589111,
+        "negative": 0.05150453373789787,
+        "neutral": 0.8986256122589111,
+        "positive": 0.04986994341015816
+      },
+      {
+        "headline": "KASE Academy held a seminar on currency risk management and hedging instruments for businesses - \u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u049b\u043e\u0440 \u0431\u0438\u0440\u0436\u0430\u0441\u044b",
+        "label": "neutral",
+        "confidence": 0.9014521241188049,
+        "negative": 0.04948873072862625,
+        "neutral": 0.9014521241188049,
+        "positive": 0.04905920848250389
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange: Significant Change to Taxation of Dividends on Certain Shares - Morgan Lewis",
+        "label": "neutral",
+        "confidence": 0.8665477633476257,
+        "negative": 0.06359067559242249,
+        "neutral": 0.8665477633476257,
+        "positive": 0.069861501455307
+      },
+      {
+        "headline": "Dividends: which companies provide investors with stable income - \u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+        "label": "neutral",
+        "confidence": 0.8822566866874695,
+        "negative": 0.057768624275922775,
+        "neutral": 0.8822566866874695,
+        "positive": 0.059974659234285355
+      },
+      {
+        "headline": "Inhibikase Therapeutics (IKT) Stock Forecast and Price Target 2026 $IKT - MarketBeat",
+        "label": "neutral",
+        "confidence": 0.894086480140686,
+        "negative": 0.052244726568460464,
+        "neutral": 0.894086480140686,
+        "positive": 0.05366883799433708
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE presented a platform for issue and circulation of digital financial assets - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.9078078269958496,
+        "negative": 0.04507553204894066,
+        "neutral": 0.9078078269958496,
+        "positive": 0.047116685658693314
+      },
+      {
+        "headline": "Freedom Holding Corp. More Than Doubles Net Income and Reports Record Revenue in Fiscal 2026 - TradingView",
+        "label": "neutral",
+        "confidence": 0.8419378995895386,
+        "negative": 0.060625433921813965,
+        "neutral": 0.8419378995895386,
+        "positive": 0.09743659943342209
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE NOTIFIES OF OPERATING IN THE SECURITIES MARKET UNDER A SPECIAL REGULATORY REGIME AS AN ORGANIZER OF TRADING IN ETFs ON DIGITAL ASSETS - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.8997172117233276,
+        "negative": 0.048605047166347504,
+        "neutral": 0.8997172117233276,
+        "positive": 0.05167770758271217
+      },
+      {
+        "headline": "KASE summarized Q3 2025 results - \u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u049b\u043e\u0440 \u0431\u0438\u0440\u0436\u0430\u0441\u044b",
+        "label": "neutral",
+        "confidence": 0.896918773651123,
+        "negative": 0.05146138370037079,
+        "neutral": 0.896918773651123,
+        "positive": 0.051619794219732285
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE shareholders decided to pay dividends for 2025 - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.8960539698600769,
+        "negative": 0.0517408512532711,
+        "neutral": 0.8960539698600769,
+        "positive": 0.05220523849129677
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE posts on own website March review of PMI of Kazakhstan's service sector by Freedom Holding Corp. - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.5469958782196045,
+        "negative": 0.36525896191596985,
+        "neutral": 0.5469958782196045,
+        "positive": 0.08774511516094208
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : KASE posts on own website April review of PMI of Kazakhstan's manufacturing sector by Freedom Holding Corp. - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.9005993008613586,
+        "negative": 0.047883979976177216,
+        "neutral": 0.9005993008613586,
+        "positive": 0.05151671543717384
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : Amendments to the Listing Rules come into force on June 22 - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.8976390361785889,
+        "negative": 0.05083872377872467,
+        "neutral": 0.8976390361785889,
+        "positive": 0.05152225121855736
+      },
+      {
+        "headline": "Kazakhstan Stock Exchange : Amendments to Regulations on trading and operation of control and collateral system in effect as of April 6 - marketscreener.com",
+        "label": "neutral",
+        "confidence": 0.9001510143280029,
+        "negative": 0.04939204454421997,
+        "neutral": 0.9001510143280029,
+        "positive": 0.0504569485783577
+      },
+      {
+        "headline": "Lotte\u2019s Kazakh factory profit falls 53.4% - Kursiv Media \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d: \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0430 \u0438 \u043c\u0438\u0440\u0430",
+        "label": "neutral",
+        "confidence": 0.8898411989212036,
+        "negative": 0.05574493482708931,
+        "neutral": 0.8898411989212036,
+        "positive": 0.05441388860344887
+      }
+    ],
+    "news_score": -0.0095,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": null,
+    "quick_ratio": null,
+    "cash_ratio": null,
+    "ocf_ratio": null,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "roa": null,
+    "roe": null,
+    "roce": null,
+    "ebitda_margin": null,
+    "de_ratio": null,
+    "da_ratio": null,
+    "interest_coverage": null,
+    "dscr": null,
+    "equity_multiplier": null,
+    "net_debt_ebitda": null,
+    "asset_turnover": null,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": null,
+    "dso": null,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": null,
+    "pe_ratio": null,
+    "pb_ratio": null,
+    "ev_ebitda": null,
+    "ps_ratio": null,
+    "dividend_yield": null,
+    "dividend_payout": null,
+    "eps": null,
+    "fcf": null,
+    "fcf_margin": null,
+    "cf_to_net_income": null,
+    "capex_to_revenue": null,
+    "cash_roic": null
+  },
+  "ratio_score": 50,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 50.0,
+    "sentiment_score": 50,
+    "ratio_score": 50
+  },
+  "prediction": {
+    "available": false,
+    "reason": "No current price data"
+  }
+}

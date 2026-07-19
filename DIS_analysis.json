@@ -1,0 +1,202 @@
+{
+  "ticker": "DIS",
+  "timestamp": "2026-07-19T20:00:36.693747",
+  "profile": {
+    "name": "The Walt Disney Company",
+    "sector": "Communication Services"
+  },
+  "quote": {
+    "price": 97.67,
+    "change_pct": -2.04593,
+    "marketCap": 169605070848.0
+  },
+  "sentiment": {
+    "overall": "negative",
+    "score": -0.159,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 7,
+      "negative": 2
+    },
+    "details": [
+      {
+        "headline": "Price Prediction: Netflix Has 140% Upside Despite the Post-Earnings Dip",
+        "label": "positive",
+        "confidence": 0.49884486198425293,
+        "negative": 0.39810067415237427,
+        "neutral": 0.1030544862151146,
+        "positive": 0.49884486198425293
+      },
+      {
+        "headline": "Disney (DIS) Moves Marvel To Burbank And Backs Five New Cruise Ships",
+        "label": "neutral",
+        "confidence": 0.891825258731842,
+        "negative": 0.05276539921760559,
+        "neutral": 0.891825258731842,
+        "positive": 0.055409420281648636
+      },
+      {
+        "headline": "That $6,000 Disney Trip Actually Costs $9,000. Here\u2019s the Math Nobody Shows You.",
+        "label": "neutral",
+        "confidence": 0.8947395086288452,
+        "negative": 0.05100356042385101,
+        "neutral": 0.8947395086288452,
+        "positive": 0.054256830364465714
+      },
+      {
+        "headline": "Why Trump\u2019s Threat to Revoke ABC, NBC Licenses Isn\u2019t Rattling Media Stocks",
+        "label": "neutral",
+        "confidence": 0.9106559157371521,
+        "negative": 0.04414103180170059,
+        "neutral": 0.9106559157371521,
+        "positive": 0.04520305246114731
+      },
+      {
+        "headline": "Stock Market Today, July 17: Netflix Plunges, but Are Investors Missing the Point?",
+        "label": "negative",
+        "confidence": 0.892320990562439,
+        "negative": 0.892320990562439,
+        "neutral": 0.05386932194232941,
+        "positive": 0.05380970984697342
+      },
+      {
+        "headline": "Netflix Sinks 11% on Soft Q3 Guidance as Analysts Warn It\u2019s \u201cLosing Narrative Control\u201d",
+        "label": "negative",
+        "confidence": 0.9068012237548828,
+        "negative": 0.9068012237548828,
+        "neutral": 0.046150919049978256,
+        "positive": 0.04704783856868744
+      },
+      {
+        "headline": "Circle Gets Street-Low Target as Stablecoin Competition Heats Up",
+        "label": "neutral",
+        "confidence": 0.8966374397277832,
+        "negative": 0.04876641929149628,
+        "neutral": 0.8966374397277832,
+        "positive": 0.05459608882665634
+      },
+      {
+        "headline": "Disney weighs new free offering as consumers ditch paid streaming",
+        "label": "neutral",
+        "confidence": 0.9002341032028198,
+        "negative": 0.05190851166844368,
+        "neutral": 0.9002341032028198,
+        "positive": 0.0478573739528656
+      },
+      {
+        "headline": "Universal Studios gives up on controversial ride",
+        "label": "neutral",
+        "confidence": 0.8907776474952698,
+        "negative": 0.05500440672039986,
+        "neutral": 0.8907776474952698,
+        "positive": 0.05421799048781395
+      },
+      {
+        "headline": "100+ Marvel employees now have just 1 year to uproot their lives and move across the country",
+        "label": "neutral",
+        "confidence": 0.8984183669090271,
+        "negative": 0.05118906497955322,
+        "neutral": 0.8984183669090271,
+        "positive": 0.05039253085851669
+      }
+    ],
+    "news_score": -0.159,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.7104,
+    "quick_ratio": 0.4721,
+    "cash_ratio": 0.1667,
+    "ocf_ratio": 0.5299,
+    "gross_margin": 37.7644,
+    "operating_margin": 14.6307,
+    "net_margin": 13.1364,
+    "roa": 6.2801,
+    "roe": 11.2898,
+    "roce": 8.4572,
+    "ebitda_margin": 20.2711,
+    "de_ratio": 0.4085,
+    "da_ratio": 0.2272,
+    "interest_coverage": 7.6242,
+    "dscr": 9.9895,
+    "equity_multiplier": 1.7977,
+    "net_debt_ebitda": 2.047,
+    "asset_turnover": 0.4781,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 9.0497,
+    "dso": 40.3326,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 2.2888,
+    "pe_ratio": 15.6272,
+    "pb_ratio": 1.5678,
+    "ev_ebitda": 11.049,
+    "ps_ratio": 1.7438,
+    "dividend_yield": 1.54,
+    "dividend_payout": 20.9994,
+    "eps": 6.25,
+    "fcf": 10077000000.0,
+    "fcf_margin": 10.672,
+    "cf_to_net_income": 1.4593,
+    "capex_to_revenue": 8.4977,
+    "cash_roic": null
+  },
+  "ratio_score": 72.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 47.1,
+    "sentiment_score": 0,
+    "ratio_score": 72.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 97.67,
+    "horizon": "12 months",
+    "bull_case": 57.4,
+    "base_case": 33.9,
+    "bear_case": -8.3,
+    "price_bull": 153.73,
+    "price_base": 130.75,
+    "price_bear": 89.51,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 127.64,
+        "target_low": 88.0,
+        "target_high": 163.0,
+        "target_median": 129.5,
+        "upside_mean": 30.7,
+        "upside_low": -9.9,
+        "upside_high": 66.9,
+        "n_analysts": 30,
+        "recommendation": "strong_buy"
+      },
+      "dcf": {
+        "fair_value": 153.78,
+        "upside": 57.4,
+        "growth_assumed": "6%",
+        "discount_rate": "10%",
+        "fcf_per_share": 5.8,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 123.4,
+        "low_52w": 92.19,
+        "range_pct": 33.9,
+        "position_in_range": 17.6,
+        "upside_estimate": 13.5,
+        "downside_estimate": -6.8,
+        "avg_50d": 101.0,
+        "avg_200d": 105.48,
+        "beta": 1.4
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

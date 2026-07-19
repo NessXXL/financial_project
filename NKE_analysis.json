@@ -1,0 +1,202 @@
+{
+  "ticker": "NKE",
+  "timestamp": "2026-07-19T20:00:55.113012",
+  "profile": {
+    "name": "NIKE, Inc.",
+    "sector": "Consumer Cyclical"
+  },
+  "quote": {
+    "price": 43.76,
+    "change_pct": -1.81737,
+    "marketCap": 64917901312.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0554,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 7,
+      "negative": 2
+    },
+    "details": [
+      {
+        "headline": "American sneaker brand closes more stores",
+        "label": "neutral",
+        "confidence": 0.7969272136688232,
+        "negative": 0.12997251749038696,
+        "neutral": 0.7969272136688232,
+        "positive": 0.07310023158788681
+      },
+      {
+        "headline": "Berkshire Hathaway (BRK.A) Could Join The Dow As Nike Faces The Exit",
+        "label": "negative",
+        "confidence": 0.7641910314559937,
+        "negative": 0.7641910314559937,
+        "neutral": 0.0853874683380127,
+        "positive": 0.15042150020599365
+      },
+      {
+        "headline": "Nike Hoped to Score With the World Cup. It Got a Red Card Instead.",
+        "label": "neutral",
+        "confidence": 0.8963310122489929,
+        "negative": 0.05330890044569969,
+        "neutral": 0.8963310122489929,
+        "positive": 0.05036008730530739
+      },
+      {
+        "headline": "2 Stocks Down 44% and 30% to Buy Right Now and Hold for the Next Decade",
+        "label": "positive",
+        "confidence": 0.4700377583503723,
+        "negative": 0.14058035612106323,
+        "neutral": 0.3893817961215973,
+        "positive": 0.4700377583503723
+      },
+      {
+        "headline": "Nike Ran Out of U.S. Soccer Jerseys at the Worst Possible Time",
+        "label": "neutral",
+        "confidence": 0.9009985327720642,
+        "negative": 0.049033671617507935,
+        "neutral": 0.9009985327720642,
+        "positive": 0.049967844039201736
+      },
+      {
+        "headline": "Nasdaq Falls Sharply as Chip-Stock Slump Overshadows TSMC Record",
+        "label": "negative",
+        "confidence": 0.4696033298969269,
+        "negative": 0.4696033298969269,
+        "neutral": 0.31403595209121704,
+        "positive": 0.21636070311069489
+      },
+      {
+        "headline": "Nike Tariff Receivables Put Cash Flow in Focus",
+        "label": "neutral",
+        "confidence": 0.8706893920898438,
+        "negative": 0.06229298934340477,
+        "neutral": 0.8706893920898438,
+        "positive": 0.06701762974262238
+      },
+      {
+        "headline": "Mamdani\u2019s $50 World Cup jersey stunt proves some of the oldest criticisms of socialism correct: \u2018The odds are extremely stacked against you\u2019",
+        "label": "neutral",
+        "confidence": 0.8986241817474365,
+        "negative": 0.051759157329797745,
+        "neutral": 0.8986241817474365,
+        "positive": 0.04961671680212021
+      },
+      {
+        "headline": "NIKE vs. adidas: Which Athleticwear Stock Offers More Upside?",
+        "label": "neutral",
+        "confidence": 0.9044584631919861,
+        "negative": 0.04756549373269081,
+        "neutral": 0.9044584631919861,
+        "positive": 0.04797602444887161
+      },
+      {
+        "headline": "Nike May Soon Be Booted From the Dow Jones Industrial Average, and This Trillion-Dollar Stock That's Rallied 6,100,000% Is the Ideal Replacement",
+        "label": "neutral",
+        "confidence": 0.8006057739257812,
+        "negative": 0.0801018476486206,
+        "neutral": 0.8006057739257812,
+        "positive": 0.11929242312908173
+      }
+    ],
+    "news_score": -0.0554,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.9609,
+    "quick_ratio": 1.0755,
+    "cash_ratio": 0.6028,
+    "ocf_ratio": 0.2286,
+    "gross_margin": 42.9135,
+    "operating_margin": 8.1835,
+    "net_margin": 6.6986,
+    "roa": 8.0916,
+    "roe": 20.9082,
+    "roce": 14.6812,
+    "ebitda_margin": 9.9013,
+    "de_ratio": 0.7422,
+    "da_ratio": 0.2872,
+    "interest_coverage": null,
+    "dscr": null,
+    "equity_multiplier": 2.5839,
+    "net_debt_ebitda": 0.7553,
+    "asset_turnover": 1.208,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 7.823,
+    "dso": 46.6575,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 6.0778,
+    "pe_ratio": 20.8381,
+    "pb_ratio": 4.3647,
+    "ev_ebitda": 13.58,
+    "ps_ratio": 1.3992,
+    "dividend_yield": 3.75,
+    "dividend_payout": 63.4319,
+    "eps": 2.1,
+    "fcf": 2184000000.0,
+    "fcf_margin": 4.7071,
+    "cf_to_net_income": 0.9228,
+    "capex_to_revenue": 1.4742,
+    "cash_roic": null
+  },
+  "ratio_score": 73.2,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 65.1,
+    "sentiment_score": 50,
+    "ratio_score": 73.2
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 43.76,
+    "horizon": "12 months",
+    "bull_case": 32.0,
+    "base_case": 24.4,
+    "bear_case": -34.1,
+    "price_bull": 57.76,
+    "price_base": 54.44,
+    "price_bear": 28.84,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 51.12,
+        "target_low": 23.0,
+        "target_high": 94.0,
+        "target_median": 47.0,
+        "upside_mean": 16.8,
+        "upside_low": -47.4,
+        "upside_high": 114.8,
+        "n_analysts": 34,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 26.73,
+        "upside": -38.9,
+        "growth_assumed": "3%",
+        "discount_rate": "10%",
+        "fcf_per_share": 1.82,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 80.17,
+        "low_52w": 40.0,
+        "range_pct": 100.4,
+        "position_in_range": 9.4,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 43.63,
+        "avg_200d": 55.94,
+        "beta": 1.13
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

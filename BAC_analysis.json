@@ -1,0 +1,193 @@
+{
+  "ticker": "BAC",
+  "timestamp": "2026-07-19T20:01:13.398023",
+  "profile": {
+    "name": "Bank of America Corporation",
+    "sector": "Financial Services"
+  },
+  "quote": {
+    "price": 61.27,
+    "change_pct": -0.357784,
+    "marketCap": 429990871040.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.3108,
+    "breakdown": {
+      "positive": 4,
+      "neutral": 5,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "BofA on GBP",
+        "label": "positive",
+        "confidence": 0.9005076885223389,
+        "negative": 0.05229819566011429,
+        "neutral": 0.047194186598062515,
+        "positive": 0.9005076885223389
+      },
+      {
+        "headline": "Elizabeth Warren Grills Fed Chair Kevin Warsh Over Stanley Druckenmiller Ties: 'Who Gave You $100 Million?'",
+        "label": "neutral",
+        "confidence": 0.9039373397827148,
+        "negative": 0.04813780263066292,
+        "neutral": 0.9039373397827148,
+        "positive": 0.047924939543008804
+      },
+      {
+        "headline": "ECB Stays on War Alert Preparing for Next Rate Hike",
+        "label": "neutral",
+        "confidence": 0.8873925805091858,
+        "negative": 0.05420713126659393,
+        "neutral": 0.8873925805091858,
+        "positive": 0.058400291949510574
+      },
+      {
+        "headline": "Bank of America sends strong verdict on Microsoft stock",
+        "label": "positive",
+        "confidence": 0.8840190768241882,
+        "negative": 0.05732449144124985,
+        "neutral": 0.058656416833400726,
+        "positive": 0.8840190768241882
+      },
+      {
+        "headline": "Wall Street Raises Expectations for Goldman, Other Banks After Strong Earnings",
+        "label": "positive",
+        "confidence": 0.8921382427215576,
+        "negative": 0.05238056927919388,
+        "neutral": 0.05548116937279701,
+        "positive": 0.8921382427215576
+      },
+      {
+        "headline": "BofA sees lost year taking shape for gold",
+        "label": "negative",
+        "confidence": 0.43153780698776245,
+        "negative": 0.43153780698776245,
+        "neutral": 0.17638003826141357,
+        "positive": 0.39208218455314636
+      },
+      {
+        "headline": "Pepsi, convenience stores faces a snack and gas problem",
+        "label": "neutral",
+        "confidence": 0.8990259766578674,
+        "negative": 0.05099236220121384,
+        "neutral": 0.8990259766578674,
+        "positive": 0.04998165741562843
+      },
+      {
+        "headline": "Berkshire\u2019s Equity Portfolio Is Rallying, but the Apple Sales Still Sting",
+        "label": "positive",
+        "confidence": 0.7020123600959778,
+        "negative": 0.07409314811229706,
+        "neutral": 0.22389456629753113,
+        "positive": 0.7020123600959778
+      },
+      {
+        "headline": "Week\u2019s Best: Where to Invest $100,000 of Speculative Money Now",
+        "label": "neutral",
+        "confidence": 0.9131419062614441,
+        "negative": 0.04355717450380325,
+        "neutral": 0.9131419062614441,
+        "positive": 0.04330097883939743
+      },
+      {
+        "headline": "Chip Stocks, Tech IPOs, and Wildfire Smoke Are All Clouding the Outlook",
+        "label": "neutral",
+        "confidence": 0.902980625629425,
+        "negative": 0.04766497388482094,
+        "neutral": 0.902980625629425,
+        "positive": 0.04935446009039879
+      }
+    ],
+    "news_score": 0.3108,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": null,
+    "quick_ratio": null,
+    "cash_ratio": null,
+    "ocf_ratio": null,
+    "gross_margin": 100.7374,
+    "operating_margin": null,
+    "net_margin": 26.976,
+    "roa": 0.8942,
+    "roe": 10.0609,
+    "roce": null,
+    "ebitda_margin": null,
+    "de_ratio": 1.2066,
+    "da_ratio": 0.1072,
+    "interest_coverage": null,
+    "dscr": 0.1607,
+    "equity_multiplier": 11.2508,
+    "net_debt_ebitda": null,
+    "asset_turnover": 0.0331,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 1.1519,
+    "dso": 316.8775,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 9.0362,
+    "pe_ratio": 14.1501,
+    "pb_ratio": 1.5574,
+    "ev_ebitda": null,
+    "ps_ratio": 3.7741,
+    "dividend_yield": 1.83,
+    "dividend_payout": 25.7633,
+    "eps": 4.33,
+    "fcf": 12613000000.0,
+    "fcf_margin": 11.1524,
+    "cf_to_net_income": 0.4134,
+    "capex_to_revenue": 0.0,
+    "cash_roic": null
+  },
+  "ratio_score": 52.6,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 69.2,
+    "sentiment_score": 100,
+    "ratio_score": 52.6
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 61.27,
+    "horizon": "12 months",
+    "bull_case": 10.5,
+    "base_case": 8.2,
+    "bear_case": -15.0,
+    "price_bull": 67.7,
+    "price_base": 66.26,
+    "price_bear": 52.08,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 67.69,
+        "target_low": 62.0,
+        "target_high": 75.0,
+        "target_median": 67.0,
+        "upside_mean": 10.5,
+        "upside_low": 1.2,
+        "upside_high": 22.4,
+        "n_analysts": 21,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 62.12,
+        "low_52w": 44.75,
+        "range_pct": 38.8,
+        "position_in_range": 95.1,
+        "upside_estimate": 5.8,
+        "downside_estimate": -13.6,
+        "avg_50d": 55.12,
+        "avg_200d": 52.99,
+        "beta": 1.18
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

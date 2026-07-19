@@ -1,0 +1,193 @@
+{
+  "ticker": "AMD",
+  "timestamp": "2026-07-19T19:59:59.591132",
+  "profile": {
+    "name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 495.76,
+    "change_pct": -1.03405,
+    "marketCap": 808386560000.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0906,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 9,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
+        "label": "neutral",
+        "confidence": 0.9125027656555176,
+        "negative": 0.044349607080221176,
+        "neutral": 0.9125027656555176,
+        "positive": 0.04314761608839035
+      },
+      {
+        "headline": "AMD Just Passed Nvidia at the Top of a $45 Billion Semiconductor ETF. Micron Is Closing In.",
+        "label": "neutral",
+        "confidence": 0.6220210790634155,
+        "negative": 0.09310263395309448,
+        "neutral": 0.6220210790634155,
+        "positive": 0.2848762571811676
+      },
+      {
+        "headline": "AMD Stock Is a Fraction of Nvidia's Size but Trades on the Same AI Story. Here's Where the Two Actually Diverge.",
+        "label": "neutral",
+        "confidence": 0.6556422114372253,
+        "negative": 0.08606816828250885,
+        "neutral": 0.6556422114372253,
+        "positive": 0.2582896649837494
+      },
+      {
+        "headline": "What Do SpaceX, AMD, and Palantir Have in Common?",
+        "label": "positive",
+        "confidence": 0.46786582469940186,
+        "negative": 0.08617396652698517,
+        "neutral": 0.4459601640701294,
+        "positive": 0.46786582469940186
+      },
+      {
+        "headline": "AMD (AMD) Stock Faces Fresh AI Pressure After China Unveils Kimi K3",
+        "label": "neutral",
+        "confidence": 0.9036465883255005,
+        "negative": 0.048216961324214935,
+        "neutral": 0.9036465883255005,
+        "positive": 0.048136454075574875
+      },
+      {
+        "headline": "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI",
+        "label": "neutral",
+        "confidence": 0.7015014290809631,
+        "negative": 0.08481722325086594,
+        "neutral": 0.7015014290809631,
+        "positive": 0.21368135511875153
+      },
+      {
+        "headline": "This week's AI winners and losers",
+        "label": "neutral",
+        "confidence": 0.9079271554946899,
+        "negative": 0.04477785527706146,
+        "neutral": 0.9079271554946899,
+        "positive": 0.04729495570063591
+      },
+      {
+        "headline": "I Keep Buying Nvidia Because Bears Keep Shouting This False Narrative",
+        "label": "neutral",
+        "confidence": 0.9013988375663757,
+        "negative": 0.051460836082696915,
+        "neutral": 0.9013988375663757,
+        "positive": 0.04714035615324974
+      },
+      {
+        "headline": "The $350-a-Year Tax Trap Inside this Semiconductor ETF Everyone Knows",
+        "label": "neutral",
+        "confidence": 0.9072195291519165,
+        "negative": 0.04752608388662338,
+        "neutral": 0.9072195291519165,
+        "positive": 0.045254360884428024
+      },
+      {
+        "headline": "China\u2019s Kimi K3 Hits US Stock Markets. Is the American AI Boom Over?",
+        "label": "neutral",
+        "confidence": 0.8304588198661804,
+        "negative": 0.06660538166761398,
+        "neutral": 0.8304588198661804,
+        "positive": 0.10293588042259216
+      }
+    ],
+    "news_score": 0.0906,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 2.85,
+    "quick_ratio": 1.2537,
+    "cash_ratio": 0.5858,
+    "ocf_ratio": 0.8153,
+    "gross_margin": 49.5164,
+    "operating_margin": 12.33,
+    "net_margin": 12.5148,
+    "roa": 5.6353,
+    "roe": 6.8811,
+    "roce": 6.3301,
+    "ebitda_margin": 21.0023,
+    "de_ratio": 0.0611,
+    "da_ratio": 0.05,
+    "interest_coverage": 32.6031,
+    "dscr": 58.8473,
+    "equity_multiplier": 1.2211,
+    "net_debt_ebitda": -0.2326,
+    "asset_turnover": 0.4503,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 5.4852,
+    "dso": 66.5428,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 14.9823,
+    "pe_ratio": 164.159,
+    "pb_ratio": 12.536,
+    "ev_ebitda": 107.66,
+    "ps_ratio": 21.5834,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": 3.02,
+    "fcf": 6735000000.0,
+    "fcf_margin": 19.4434,
+    "cf_to_net_income": 1.7783,
+    "capex_to_revenue": 2.8119,
+    "cash_roic": null
+  },
+  "ratio_score": 67.9,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 61.6,
+    "sentiment_score": 50,
+    "ratio_score": 67.9
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 495.76,
+    "horizon": "12 months",
+    "bull_case": 12.0,
+    "base_case": 10.5,
+    "bear_case": -31.8,
+    "price_bull": 555.25,
+    "price_base": 547.81,
+    "price_bear": 338.36,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 540.19,
+        "target_low": 320.0,
+        "target_high": 725.0,
+        "target_median": 540.0,
+        "upside_mean": 9.0,
+        "upside_low": -35.5,
+        "upside_high": 46.2,
+        "n_analysts": 47,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 584.73,
+        "low_52w": 149.22,
+        "range_pct": 291.9,
+        "position_in_range": 79.6,
+        "upside_estimate": 12.0,
+        "downside_estimate": -28.0,
+        "avg_50d": 499.08,
+        "avg_200d": 296.69,
+        "beta": 2.47
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

@@ -1,106 +1,106 @@
 {
   "ticker": "NVDA",
-  "timestamp": "2026-07-09T17:31:50.732019",
+  "timestamp": "2026-07-19T19:54:36.137379",
   "profile": {
     "name": "NVIDIA Corporation",
     "sector": "Technology"
   },
   "quote": {
-    "price": 204.12,
-    "change_pct": 3.65104,
-    "marketCap": 4943990226944.0
+    "price": 202.81,
+    "change_pct": -2.21311,
+    "marketCap": 4912260841472.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": 0.0753,
+    "overall": "positive",
+    "score": 0.1513,
     "breakdown": {
-      "positive": 2,
+      "positive": 3,
       "neutral": 7,
-      "negative": 1
+      "negative": 0
     },
     "details": [
       {
-        "headline": "Nvidia's nearly $1 trillion wipeout could prompt this bullish action",
+        "headline": "'Earnings need to be strong': Wall Street assesses next catalyst for AI trade",
+        "label": "neutral",
+        "confidence": 0.9040749073028564,
+        "negative": 0.0484178252518177,
+        "neutral": 0.9040749073028564,
+        "positive": 0.04750724136829376
+      },
+      {
+        "headline": "Interactive Brokers Grew Its Customer Accounts 34% in a Year. Here's the Bull Case Before Q2 Earnings.",
         "label": "positive",
-        "confidence": 0.874252438545227,
-        "negative": 0.05019622668623924,
-        "neutral": 0.0755513459444046,
-        "positive": 0.874252438545227
+        "confidence": 0.7599452137947083,
+        "negative": 0.15241380035877228,
+        "neutral": 0.08764103800058365,
+        "positive": 0.7599452137947083
       },
       {
-        "headline": "Nvidia's $1 trillion rout: Do you buy or sell the stock here?",
+        "headline": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It\u2019s Winning)",
         "label": "neutral",
-        "confidence": 0.912656843662262,
-        "negative": 0.04046497493982315,
-        "neutral": 0.912656843662262,
-        "positive": 0.046878211200237274
+        "confidence": 0.9174461364746094,
+        "negative": 0.04040177911520004,
+        "neutral": 0.9174461364746094,
+        "positive": 0.04215212166309357
       },
       {
-        "headline": "Nvidia Shares Rise as Nemotron 3 Ultra Challenges Closed AI Models",
+        "headline": "Price Prediction: Netflix Has 140% Upside Despite the Post-Earnings Dip",
         "label": "positive",
-        "confidence": 0.9009847044944763,
-        "negative": 0.05116173252463341,
-        "neutral": 0.04785360395908356,
-        "positive": 0.9009847044944763
+        "confidence": 0.49884486198425293,
+        "negative": 0.39810067415237427,
+        "neutral": 0.1030544862151146,
+        "positive": 0.49884486198425293
       },
       {
-        "headline": "\"Britain's Warren Buffett\" Pared Down Every Single Stock in His Nearly $13 Billion Portfolio in the First Quarter, With One Exception",
+        "headline": "Energy Transfer Looks Poised to Outperform the S&P 500 in the Back Half of 2026",
+        "label": "positive",
+        "confidence": 0.8671225905418396,
+        "negative": 0.07444563508033752,
+        "neutral": 0.05843183398246765,
+        "positive": 0.8671225905418396
+      },
+      {
+        "headline": "Meta Platforms: Is This the Most Undervalued Stock in Big Tech? (NASDAQ: META)",
         "label": "neutral",
-        "confidence": 0.77531498670578,
-        "negative": 0.15530195832252502,
-        "neutral": 0.77531498670578,
-        "positive": 0.06938309222459793
+        "confidence": 0.9022651314735413,
+        "negative": 0.047225289046764374,
+        "neutral": 0.9022651314735413,
+        "positive": 0.05050951614975929
       },
       {
-        "headline": "Meta to start production of Iris AI chip in September 2026",
+        "headline": "1 Overlooked Vanguard ETF Is Outpacing the S&P 500 This Year at a Bargain Cost",
         "label": "neutral",
-        "confidence": 0.8999714851379395,
-        "negative": 0.04942528158426285,
-        "neutral": 0.8999714851379395,
-        "positive": 0.050603244453668594
+        "confidence": 0.8610008358955383,
+        "negative": 0.06815002113580704,
+        "neutral": 0.8610008358955383,
+        "positive": 0.07084909081459045
       },
       {
-        "headline": "Want a Lifetime of Passive Income? Buy Altria Stock in July and Never Sell.",
+        "headline": "TSMC vs. ASML: Which Is the Better AI Semiconductor Ecosystem Stock to Buy?",
         "label": "neutral",
-        "confidence": 0.8976115584373474,
-        "negative": 0.050588373094797134,
-        "neutral": 0.8976115584373474,
-        "positive": 0.05180015414953232
+        "confidence": 0.9053606986999512,
+        "negative": 0.04783513769507408,
+        "neutral": 0.9053606986999512,
+        "positive": 0.04680414870381355
       },
       {
-        "headline": "Jim Cramer on Nebius: \u201cThe Stock\u2019s Been a Juggernaut\u201d",
+        "headline": "Warren Buffett Set a New Goal: Give Away All of His $140 Billion Berkshire Stake by 2034",
         "label": "neutral",
-        "confidence": 0.8987970948219299,
-        "negative": 0.05024042725563049,
-        "neutral": 0.8987970948219299,
-        "positive": 0.05096258595585823
+        "confidence": 0.8888418078422546,
+        "negative": 0.057677775621414185,
+        "neutral": 0.8888418078422546,
+        "positive": 0.05348040908575058
       },
       {
-        "headline": "Jim Cramer Highlights One of the Major Reasons for Sticking With NVIDIA Stock",
+        "headline": "3 Biggest Pharma Giants: Buy, Sell or Hold?",
         "label": "neutral",
-        "confidence": 0.8982329368591309,
-        "negative": 0.047974925488233566,
-        "neutral": 0.8982329368591309,
-        "positive": 0.05379215255379677
-      },
-      {
-        "headline": "Meta falls as massive AI infrastructure spending plans overshadow chip progress",
-        "label": "neutral",
-        "confidence": 0.8980892300605774,
-        "negative": 0.052009906619787216,
-        "neutral": 0.8980892300605774,
-        "positive": 0.049900852143764496
-      },
-      {
-        "headline": "What Prediction Markets Say About 3 of America\u2019s Most At-Risk Brands",
-        "label": "negative",
-        "confidence": 0.8998912572860718,
-        "negative": 0.8998912572860718,
-        "neutral": 0.048814453184604645,
-        "positive": 0.05129425972700119
+        "confidence": 0.9112409353256226,
+        "negative": 0.03925563022494316,
+        "neutral": 0.9112409353256226,
+        "positive": 0.04950346797704697
       }
     ],
-    "news_score": 0.0753,
+    "news_score": 0.1513,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,10 +129,10 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 16.2972,
-    "pe_ratio": 31.2588,
-    "pb_ratio": 25.2937,
-    "ev_ebitda": 29.601,
-    "ps_ratio": 19.5036,
+    "pe_ratio": 31.0582,
+    "pb_ratio": 25.1314,
+    "ev_ebitda": 29.409,
+    "ps_ratio": 19.3784,
     "dividend_yield": null,
     "dividend_payout": 20.1729,
     "eps": 6.53,
@@ -144,47 +144,47 @@
   },
   "ratio_score": 80.4,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 69.8,
-    "sentiment_score": 50,
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 87.3,
+    "sentiment_score": 100,
     "ratio_score": 80.4
   },
   "prediction": {
     "available": true,
-    "current_price": 204.12,
+    "current_price": 202.81,
     "horizon": "12 months",
-    "bull_case": 47.8,
-    "base_case": 29.7,
-    "bear_case": -10.6,
-    "price_bull": 301.69,
-    "price_base": 264.74,
-    "price_bear": 182.59,
+    "bull_case": 49.1,
+    "base_case": 30.1,
+    "bear_case": -10.0,
+    "price_bull": 302.39,
+    "price_base": 263.75,
+    "price_bear": 182.53,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 301.62,
+        "target_mean": 302.31,
         "target_low": 180.0,
         "target_high": 500.0,
         "target_median": 294.0,
-        "upside_mean": 47.8,
-        "upside_low": -11.8,
-        "upside_high": 145.0,
+        "upside_mean": 49.1,
+        "upside_low": -11.2,
+        "upside_high": 146.5,
         "n_analysts": 58,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 236.54,
-        "low_52w": 161.61,
-        "range_pct": 46.4,
-        "position_in_range": 56.7,
-        "upside_estimate": 11.6,
-        "downside_estimate": -9.3,
-        "avg_50d": 209.52,
-        "avg_200d": 191.4,
+        "low_52w": 164.07,
+        "range_pct": 44.2,
+        "position_in_range": 53.5,
+        "upside_estimate": 11.0,
+        "downside_estimate": -8.8,
+        "avg_50d": 209.91,
+        "avg_200d": 192.4,
         "beta": 2.21
       }
     },

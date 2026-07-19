@@ -1,0 +1,193 @@
+{
+  "ticker": "CRM",
+  "timestamp": "2026-07-19T20:01:31.748528",
+  "profile": {
+    "name": "Salesforce, Inc.",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 170.77,
+    "change_pct": -1.10609,
+    "marketCap": 139860639744.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.13,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 6,
+      "negative": 3
+    },
+    "details": [
+      {
+        "headline": "Salesforce vs. Dell Technologies: Which High-Growth Tech Stock Is a Better Buy in 2026?",
+        "label": "neutral",
+        "confidence": 0.6843756437301636,
+        "negative": 0.06007065251469612,
+        "neutral": 0.6843756437301636,
+        "positive": 0.2555536925792694
+      },
+      {
+        "headline": "Salesforce vs. CrowdStrike: Which Technology Growth Stock Is a Better Buy in 2026?",
+        "label": "neutral",
+        "confidence": 0.8971697688102722,
+        "negative": 0.05197592452168465,
+        "neutral": 0.8971697688102722,
+        "positive": 0.05085436627268791
+      },
+      {
+        "headline": "Salesforce (CRM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+        "label": "negative",
+        "confidence": 0.6543458104133606,
+        "negative": 0.6543458104133606,
+        "neutral": 0.2536456882953644,
+        "positive": 0.09200850874185562
+      },
+      {
+        "headline": "Did AI Just Cannibalize Microsoft\u2019s Greatest Narrative?",
+        "label": "neutral",
+        "confidence": 0.9044634103775024,
+        "negative": 0.04939541220664978,
+        "neutral": 0.9044634103775024,
+        "positive": 0.046141061931848526
+      },
+      {
+        "headline": "How to Find the Bargains in the Software Stock Wreckage",
+        "label": "neutral",
+        "confidence": 0.9025868773460388,
+        "negative": 0.04696771129965782,
+        "neutral": 0.9025868773460388,
+        "positive": 0.050445470958948135
+      },
+      {
+        "headline": "ServiceNow Set to Report Q2 Earnings: Buy, Sell or Hold the Stock?",
+        "label": "neutral",
+        "confidence": 0.8944384455680847,
+        "negative": 0.05139518901705742,
+        "neutral": 0.8944384455680847,
+        "positive": 0.05416639894247055
+      },
+      {
+        "headline": "Dan Ives Is Ready to Talk",
+        "label": "neutral",
+        "confidence": 0.8939102292060852,
+        "negative": 0.054553162306547165,
+        "neutral": 0.8939102292060852,
+        "positive": 0.051536645740270615
+      },
+      {
+        "headline": "Oracle is Falling Fast. Here\u2019s Why This Wall Street Firm Believes The Stock Will Triple in 12 Months",
+        "label": "negative",
+        "confidence": 0.8792216181755066,
+        "negative": 0.8792216181755066,
+        "neutral": 0.064405158162117,
+        "positive": 0.056373268365859985
+      },
+      {
+        "headline": "Price Prediction: Two Big Reasons Oracle Stock Could Surge 60% This Year",
+        "label": "positive",
+        "confidence": 0.8275313973426819,
+        "negative": 0.09671899676322937,
+        "neutral": 0.07574954628944397,
+        "positive": 0.8275313973426819
+      },
+      {
+        "headline": "The Real Risk Inside Oracle Stock",
+        "label": "negative",
+        "confidence": 0.8920161128044128,
+        "negative": 0.8920161128044128,
+        "neutral": 0.056161001324653625,
+        "positive": 0.051822785288095474
+      }
+    ],
+    "news_score": -0.13,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.7603,
+    "quick_ratio": 0.5837,
+    "cash_ratio": 0.1974,
+    "ocf_ratio": 0.404,
+    "gross_margin": 77.6761,
+    "operating_margin": 21.4738,
+    "net_margin": 17.9579,
+    "roa": 6.64,
+    "roe": 12.6086,
+    "roce": 11.8598,
+    "ebitda_margin": 30.2179,
+    "de_ratio": 0.2904,
+    "da_ratio": 0.1529,
+    "interest_coverage": null,
+    "dscr": null,
+    "equity_multiplier": 1.8989,
+    "net_debt_ebitda": 0.7849,
+    "asset_turnover": 0.3698,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 2.8959,
+    "dso": 126.0382,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 8.1056,
+    "pe_ratio": 19.8109,
+    "pb_ratio": 4.0853,
+    "ev_ebitda": 13.228,
+    "ps_ratio": 3.2656,
+    "dividend_yield": 1.03,
+    "dividend_payout": 19.33,
+    "eps": 8.62,
+    "fcf": 14402000000.0,
+    "fcf_margin": 34.6827,
+    "cf_to_net_income": 2.011,
+    "capex_to_revenue": 1.4305,
+    "cash_roic": null
+  },
+  "ratio_score": 66.7,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 60.9,
+    "sentiment_score": 50,
+    "ratio_score": 66.7
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 170.77,
+    "horizon": "12 months",
+    "bull_case": 43.6,
+    "base_case": 37.8,
+    "bear_case": -11.2,
+    "price_bull": 245.23,
+    "price_base": 235.32,
+    "price_bear": 151.73,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 245.16,
+        "target_low": 160.0,
+        "target_high": 475.0,
+        "target_median": 238.03,
+        "upside_mean": 43.6,
+        "upside_low": -6.3,
+        "upside_high": 178.2,
+        "n_analysts": 52,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 274.0,
+        "low_52w": 146.32,
+        "range_pct": 87.3,
+        "position_in_range": 19.1,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 171.59,
+        "avg_200d": 208.44,
+        "beta": 1.18
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

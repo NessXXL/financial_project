@@ -1,0 +1,273 @@
+{
+  "ticker": "BMRI.JK",
+  "timestamp": "2026-07-19T20:02:49.214672",
+  "profile": {
+    "name": "PT Bank Mandiri (Persero) Tbk",
+    "sector": "Financial Services"
+  },
+  "quote": {
+    "price": 4480.0,
+    "change_pct": 3.9443154,
+    "marketCap": 418133319876608.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.1512,
+    "breakdown": {
+      "positive": 4,
+      "neutral": 15,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "How the Narrative Around Bank Mandiri Is Shifting Amid Liquidity Support and Market Uncertainty",
+        "label": "neutral",
+        "confidence": 0.8962758779525757,
+        "negative": 0.05061483010649681,
+        "neutral": 0.8962758779525757,
+        "positive": 0.053109221160411835
+      },
+      {
+        "headline": "Tracking the Changing Narrative for Bank Mandiri as Analyst Views and Liquidity Support Shift",
+        "label": "neutral",
+        "confidence": 0.8925137519836426,
+        "negative": 0.05610179528594017,
+        "neutral": 0.8925137519836426,
+        "positive": 0.05138442665338516
+      },
+      {
+        "headline": "Why Analysts See Bank Mandiri\u2019s Outlook Improving After Recent Government Liquidity Support",
+        "label": "neutral",
+        "confidence": 0.6494407057762146,
+        "negative": 0.09741967171430588,
+        "neutral": 0.6494407057762146,
+        "positive": 0.2531396746635437
+      },
+      {
+        "headline": "Looking at the Narrative for Bank Mandiri After Liquidity Support and Analyst Upgrades",
+        "label": "neutral",
+        "confidence": 0.8882396221160889,
+        "negative": 0.0568685345351696,
+        "neutral": 0.8882396221160889,
+        "positive": 0.05489182472229004
+      },
+      {
+        "headline": "The 40th Trade Expo Indonesia is Coming Up, Ministry of Trade Expects Businesses to Maximize Onsite International Buyer Interactions",
+        "label": "neutral",
+        "confidence": 0.8973619937896729,
+        "negative": 0.052628256380558014,
+        "neutral": 0.8973619937896729,
+        "positive": 0.050009727478027344
+      },
+      {
+        "headline": "BBRI Stock Price and Chart \u2014 IDX:BBRI - TradingView",
+        "label": "neutral",
+        "confidence": 0.5603197813034058,
+        "negative": 0.10370098799467087,
+        "neutral": 0.5603197813034058,
+        "positive": 0.33597925305366516
+      },
+      {
+        "headline": "PT Royaltama Mulia Kontraktorindo Tbk Rights 2026-20.07.26 Series -1- for shares Income Statement \u2013 IDX:RMKO-R - TradingView",
+        "label": "neutral",
+        "confidence": 0.8971815705299377,
+        "negative": 0.0520157590508461,
+        "neutral": 0.8971815705299377,
+        "positive": 0.050802674144506454
+      },
+      {
+        "headline": "PT Indika Energy (INDY) Q1 2026 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.8947323560714722,
+        "negative": 0.05280284211039543,
+        "neutral": 0.8947323560714722,
+        "positive": 0.05246472358703613
+      },
+      {
+        "headline": "Disney Revenue Rises 7% in Earnings Beat, Disney+ and Hulu Streaming Income Pops 88% to $582 Million - Variety",
+        "label": "positive",
+        "confidence": 0.8775653839111328,
+        "negative": 0.053085021674633026,
+        "neutral": 0.06934956461191177,
+        "positive": 0.8775653839111328
+      },
+      {
+        "headline": "Hinge Health Q3 revenue jumps 53% as company eyes M&A, new services beyond physical therapy - Fierce Healthcare",
+        "label": "positive",
+        "confidence": 0.8940739631652832,
+        "negative": 0.05069594085216522,
+        "neutral": 0.055230118334293365,
+        "positive": 0.8940739631652832
+      },
+      {
+        "headline": "Tesla (TSLA) releases Q3 2025 financial results: earnings decline despite record revenue - Electrek",
+        "label": "negative",
+        "confidence": 0.6675782203674316,
+        "negative": 0.6675782203674316,
+        "neutral": 0.23384924232959747,
+        "positive": 0.09857264161109924
+      },
+      {
+        "headline": "Meta Q1 Revenue Soars 33% in Q1, Net Profit Hits $26.8 Billion Ahead of Mass Layoffs - Variety",
+        "label": "positive",
+        "confidence": 0.8946823477745056,
+        "negative": 0.05208040773868561,
+        "neutral": 0.05323721468448639,
+        "positive": 0.8946823477745056
+      },
+      {
+        "headline": "PT Siloam International Hospitals (SILO) Q2 2025 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.9034643769264221,
+        "negative": 0.04776737838983536,
+        "neutral": 0.9034643769264221,
+        "positive": 0.0487682931125164
+      },
+      {
+        "headline": "Press Release - PT Astra International Tbk - PT Astra International Tbk",
+        "label": "neutral",
+        "confidence": 0.8972446918487549,
+        "negative": 0.05284484103322029,
+        "neutral": 0.8972446918487549,
+        "positive": 0.04991047456860542
+      },
+      {
+        "headline": "Garuda revenue up 5.36% in early 2026, losses narrow - IDNFinancials.com",
+        "label": "neutral",
+        "confidence": 0.8172941207885742,
+        "negative": 0.07307799905538559,
+        "neutral": 0.8172941207885742,
+        "positive": 0.10962782800197601
+      },
+      {
+        "headline": "PTBA Reports Net Profit of IDR 2.93 Trillion in FY2025, Operational Performance Grows and Profitability Gradually Improves - PT Bukit Asam Tbk",
+        "label": "positive",
+        "confidence": 0.7145326137542725,
+        "negative": 0.07838700711727142,
+        "neutral": 0.20708033442497253,
+        "positive": 0.7145326137542725
+      },
+      {
+        "headline": "PT Siloam International Hospitals (SILO) Q4 2025 earnings summary - Quartr",
+        "label": "neutral",
+        "confidence": 0.9029026031494141,
+        "negative": 0.04850046709179878,
+        "neutral": 0.9029026031494141,
+        "positive": 0.04859689623117447
+      },
+      {
+        "headline": "Meta Rakes in Record Revenue and Profits for Q4, Details Massive AI Investments for 2026 - Variety",
+        "label": "neutral",
+        "confidence": 0.796281099319458,
+        "negative": 0.0662471204996109,
+        "neutral": 0.796281099319458,
+        "positive": 0.1374717801809311
+      },
+      {
+        "headline": "Astra Financial Report for the Third Quarter of 2025 - PT Astra International Tbk",
+        "label": "neutral",
+        "confidence": 0.902661144733429,
+        "negative": 0.04905741289258003,
+        "neutral": 0.902661144733429,
+        "positive": 0.048281479626894
+      },
+      {
+        "headline": "Imax Q1 Revenue and Profit Decline Despite Hits Like \u2018Avatar: Fire and Ash\u2019 and \u2018Project Hail Mary\u2019 - Variety",
+        "label": "neutral",
+        "confidence": 0.8387963175773621,
+        "negative": 0.10005852580070496,
+        "neutral": 0.8387963175773621,
+        "positive": 0.06114521995186806
+      }
+    ],
+    "news_score": 0.1512,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": null,
+    "quick_ratio": null,
+    "cash_ratio": null,
+    "ocf_ratio": null,
+    "gross_margin": 101.8911,
+    "operating_margin": null,
+    "net_margin": 40.1603,
+    "roa": 1.9892,
+    "roe": 19.1639,
+    "roce": null,
+    "ebitda_margin": null,
+    "de_ratio": 0.7448,
+    "da_ratio": 0.0773,
+    "interest_coverage": null,
+    "dscr": 4.197,
+    "equity_multiplier": 9.6338,
+    "net_debt_ebitda": null,
+    "asset_turnover": 0.0495,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": null,
+    "dso": null,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.9452,
+    "pe_ratio": 7.148,
+    "pb_ratio": 1.3698,
+    "ev_ebitda": null,
+    "ps_ratio": 2.8775,
+    "dividend_yield": 10.65,
+    "dividend_payout": 79.0782,
+    "eps": 626.75,
+    "fcf": 199035811000000.0,
+    "fcf_margin": 141.9929,
+    "cf_to_net_income": 3.669,
+    "capex_to_revenue": 5.3536,
+    "cash_roic": null
+  },
+  "ratio_score": 67.6,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 78.9,
+    "sentiment_score": 100,
+    "ratio_score": 67.6
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 4480.0,
+    "horizon": "12 months",
+    "bull_case": 21.6,
+    "base_case": 16.7,
+    "bear_case": -14.7,
+    "price_bull": 5447.68,
+    "price_base": 5228.16,
+    "price_bear": 3823.68,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 5449.5,
+        "target_low": 3593.0,
+        "target_high": 6800.0,
+        "target_median": 5650.0,
+        "upside_mean": 21.6,
+        "upside_low": -19.8,
+        "upside_high": 51.8,
+        "n_analysts": 24,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 5375.0,
+        "low_52w": 3650.0,
+        "range_pct": 47.3,
+        "position_in_range": 48.1,
+        "upside_estimate": 11.8,
+        "downside_estimate": -9.5,
+        "avg_50d": 4150.8,
+        "avg_200d": 4633.12,
+        "beta": -0.01
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

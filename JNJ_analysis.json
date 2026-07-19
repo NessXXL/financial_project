@@ -1,0 +1,193 @@
+{
+  "ticker": "JNJ",
+  "timestamp": "2026-07-19T19:56:47.166319",
+  "profile": {
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare"
+  },
+  "quote": {
+    "price": 253.04,
+    "change_pct": 1.22814,
+    "marketCap": 609122123776.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0536,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 8,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "3 Biggest Pharma Giants: Buy, Sell or Hold?",
+        "label": "neutral",
+        "confidence": 0.9112409353256226,
+        "negative": 0.03925563022494316,
+        "neutral": 0.9112409353256226,
+        "positive": 0.04950346797704697
+      },
+      {
+        "headline": "Would You Rather Earn $55,000 Today or $110,000 in 20 Years?",
+        "label": "neutral",
+        "confidence": 0.49707841873168945,
+        "negative": 0.3423679769039154,
+        "neutral": 0.49707841873168945,
+        "positive": 0.16055355966091156
+      },
+      {
+        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "label": "neutral",
+        "confidence": 0.9083341956138611,
+        "negative": 0.046524450182914734,
+        "neutral": 0.9083341956138611,
+        "positive": 0.04514128714799881
+      },
+      {
+        "headline": "The Portfolio That Lets You Ignore Inflation",
+        "label": "negative",
+        "confidence": 0.8988213539123535,
+        "negative": 0.8988213539123535,
+        "neutral": 0.049554675817489624,
+        "positive": 0.05162395164370537
+      },
+      {
+        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
+        "label": "neutral",
+        "confidence": 0.8124264478683472,
+        "negative": 0.060776084661483765,
+        "neutral": 0.8124264478683472,
+        "positive": 0.12679745256900787
+      },
+      {
+        "headline": "The Portfolio That Lets You Cruise Through the News, Unbothered",
+        "label": "neutral",
+        "confidence": 0.8286098837852478,
+        "negative": 0.07518168538808823,
+        "neutral": 0.8286098837852478,
+        "positive": 0.09620842337608337
+      },
+      {
+        "headline": "3 Dividend Stocks That Have Survived Every Market Crash in July",
+        "label": "neutral",
+        "confidence": 0.9015957117080688,
+        "negative": 0.04865235462784767,
+        "neutral": 0.9015957117080688,
+        "positive": 0.049751896411180496
+      },
+      {
+        "headline": "Here\u2019s the Funding It Takes to Keep Learning Forever",
+        "label": "positive",
+        "confidence": 0.48028087615966797,
+        "negative": 0.07610850781202316,
+        "neutral": 0.4436105787754059,
+        "positive": 0.48028087615966797
+      },
+      {
+        "headline": "MarketBeat Week in Review \u2013 07/13- 07/17",
+        "label": "neutral",
+        "confidence": 0.9010759592056274,
+        "negative": 0.052016064524650574,
+        "neutral": 0.9010759592056274,
+        "positive": 0.04690802842378616
+      },
+      {
+        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
+        "label": "neutral",
+        "confidence": 0.9032374024391174,
+        "negative": 0.050063736736774445,
+        "neutral": 0.9032374024391174,
+        "positive": 0.04669882357120514
+      }
+    ],
+    "news_score": -0.0536,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.0277,
+    "quick_ratio": 0.6815,
+    "cash_ratio": 0.3641,
+    "ocf_ratio": 0.4532,
+    "gross_margin": 67.8787,
+    "operating_margin": 35.6205,
+    "net_margin": 28.4565,
+    "roa": 13.4551,
+    "roe": 32.8706,
+    "roce": 23.1259,
+    "ebitda_margin": 43.586,
+    "de_ratio": 0.5878,
+    "da_ratio": 0.2406,
+    "interest_coverage": 34.5541,
+    "dscr": 25.2626,
+    "equity_multiplier": 2.443,
+    "net_debt_ebitda": 0.6875,
+    "asset_turnover": 0.4728,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 5.4834,
+    "dso": 66.5651,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 4.0655,
+    "pe_ratio": 29.321,
+    "pb_ratio": 7.5008,
+    "ev_ebitda": 18.429,
+    "ps_ratio": 6.22,
+    "dividend_yield": 2.12,
+    "dividend_payout": 48.1372,
+    "eps": 8.63,
+    "fcf": 19313000000.0,
+    "fcf_margin": 20.5036,
+    "cf_to_net_income": 0.9152,
+    "capex_to_revenue": 5.5386,
+    "cash_roic": null
+  },
+  "ratio_score": 73.3,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 65.1,
+    "sentiment_score": 50,
+    "ratio_score": 73.3
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 253.04,
+    "horizon": "12 months",
+    "bull_case": 9.8,
+    "base_case": 8.2,
+    "bear_case": -23.9,
+    "price_bull": 277.84,
+    "price_base": 273.92,
+    "price_bear": 192.56,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 269.95,
+        "target_low": 190.0,
+        "target_high": 305.0,
+        "target_median": 274.0,
+        "upside_mean": 6.7,
+        "upside_low": -24.9,
+        "upside_high": 20.5,
+        "n_analysts": 22,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 269.43,
+        "low_52w": 162.78,
+        "range_pct": 65.5,
+        "position_in_range": 84.6,
+        "upside_estimate": 9.8,
+        "downside_estimate": -22.9,
+        "avg_50d": 238.66,
+        "avg_200d": 222.92,
+        "beta": 0.23
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

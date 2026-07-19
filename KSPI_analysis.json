@@ -1,24 +1,40 @@
 {
   "ticker": "KSPI",
-  "timestamp": "2026-07-09T17:32:36.344380",
+  "timestamp": "2026-07-19T20:02:08.791749",
   "profile": {
     "name": "Joint Stock Company Kaspi.kz",
     "sector": "Technology"
   },
   "quote": {
-    "price": 87.48,
-    "change_pct": -0.816319,
-    "marketCap": 16623585280.0
+    "price": 87.91,
+    "change_pct": 0.491541,
+    "marketCap": 16705297408.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0184,
+    "score": 0.0376,
     "breakdown": {
       "positive": 0,
       "neutral": 10,
       "negative": 0
     },
     "details": [
+      {
+        "headline": "Sezzle Inc. (SEZL) Hits Fresh High: Is There Still Room to Run?",
+        "label": "neutral",
+        "confidence": 0.8534455299377441,
+        "negative": 0.05998234450817108,
+        "neutral": 0.8534455299377441,
+        "positive": 0.08657216280698776
+      },
+      {
+        "headline": "Kaspi.kz (KSPI) Receives Regulatory Approval to Acquire Rabobank A.\u015e.",
+        "label": "neutral",
+        "confidence": 0.6406721472740173,
+        "negative": 0.09714572131633759,
+        "neutral": 0.6406721472740173,
+        "positive": 0.26218217611312866
+      },
       {
         "headline": "Kaspi.kz (NasdaqGS:KSPI) Stock Valuation Gap After Recent Momentum Cooldown",
         "label": "neutral",
@@ -82,25 +98,9 @@
         "negative": 0.059471048414707184,
         "neutral": 0.879629909992218,
         "positive": 0.06089910492300987
-      },
-      {
-        "headline": "Is Joint Stock Company Kaspi.kz (KSPI) A Good Stock To Buy Now?",
-        "label": "neutral",
-        "confidence": 0.9025883078575134,
-        "negative": 0.04856177419424057,
-        "neutral": 0.9025883078575134,
-        "positive": 0.04884985461831093
-      },
-      {
-        "headline": "Is Kaspi.kz\u2019s Heavily Oversubscribed US$600m Bond Issue Altering The Investment Case For Kaspi.kz (KSPI)?",
-        "label": "neutral",
-        "confidence": 0.8969464302062988,
-        "negative": 0.051879625767469406,
-        "neutral": 0.8969464302062988,
-        "positive": 0.05117398872971535
       }
     ],
-    "news_score": 0.0184,
+    "news_score": 0.0376,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 12.8316,
-    "pe_ratio": 7.8528,
+    "pe_ratio": 7.8843,
     "pb_ratio": null,
     "ev_ebitda": null,
     "ps_ratio": null,
-    "dividend_yield": 4.1,
+    "dividend_yield": 4.08,
     "dividend_payout": 0.0636,
-    "eps": 11.14,
+    "eps": 11.15,
     "fcf": 491098000000.0,
     "fcf_margin": 12.1926,
     "cf_to_net_income": 0.6277,
@@ -152,27 +152,27 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 87.48,
+    "current_price": 87.91,
     "horizon": "12 months",
-    "bull_case": 12.9,
-    "base_case": 12.1,
-    "bear_case": -5.0,
-    "price_bull": 98.76,
-    "price_base": 98.02,
-    "price_bear": 83.11,
+    "bull_case": 11.3,
+    "base_case": 11.2,
+    "bear_case": -5.2,
+    "price_bull": 97.84,
+    "price_base": 97.8,
+    "price_bear": 83.34,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 98.79,
-        "target_low": 87.4,
-        "target_high": 123.76,
-        "target_median": 94.36,
-        "upside_mean": 12.9,
-        "upside_low": -0.1,
-        "upside_high": 41.5,
+        "target_mean": 97.87,
+        "target_low": 86.59,
+        "target_high": 122.61,
+        "target_median": 93.48,
+        "upside_mean": 11.3,
+        "upside_low": -1.5,
+        "upside_high": 39.5,
         "n_analysts": 7,
         "recommendation": "none"
       },
@@ -180,11 +180,11 @@
         "high_52w": 99.2,
         "low_52w": 68.59,
         "range_pct": 44.6,
-        "position_in_range": 61.7,
+        "position_in_range": 63.1,
         "upside_estimate": 11.2,
         "downside_estimate": -8.9,
-        "avg_50d": 86.62,
-        "avg_200d": 79.09,
+        "avg_50d": 86.97,
+        "avg_200d": 79.23,
         "beta": 0.09
       }
     },

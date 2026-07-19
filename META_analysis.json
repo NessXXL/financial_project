@@ -1,106 +1,106 @@
 {
   "ticker": "META",
-  "timestamp": "2026-07-09T17:29:20.080818",
+  "timestamp": "2026-07-19T19:54:54.660533",
   "profile": {
     "name": "Meta Platforms, Inc.",
     "sector": "Communication Services"
   },
   "quote": {
-    "price": 603.12,
-    "change_pct": -2.02411,
-    "marketCap": 1530973782016.0
+    "price": 646.01,
+    "change_pct": -2.78839,
+    "marketCap": 1639846903808.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": 0.0038,
+    "overall": "positive",
+    "score": 0.1682,
     "breakdown": {
-      "positive": 0,
-      "neutral": 10,
+      "positive": 2,
+      "neutral": 8,
       "negative": 0
     },
     "details": [
       {
-        "headline": "Meta is expanding its data center build-out to Canada",
+        "headline": "Meta Platforms: Is This the Most Undervalued Stock in Big Tech? (NASDAQ: META)",
         "label": "neutral",
-        "confidence": 0.7944836616516113,
-        "negative": 0.08310043066740036,
-        "neutral": 0.7944836616516113,
-        "positive": 0.1224159374833107
+        "confidence": 0.9022651314735413,
+        "negative": 0.047225289046764374,
+        "neutral": 0.9022651314735413,
+        "positive": 0.05050951614975929
       },
       {
-        "headline": "Meta to start production of Iris AI chip in September 2026",
+        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
         "label": "neutral",
-        "confidence": 0.8999714851379395,
-        "negative": 0.04942528158426285,
-        "neutral": 0.8999714851379395,
-        "positive": 0.050603244453668594
+        "confidence": 0.9132635593414307,
+        "negative": 0.04328992962837219,
+        "neutral": 0.9132635593414307,
+        "positive": 0.04344656690955162
       },
       {
-        "headline": "Jim Cramer on Nebius: \u201cThe Stock\u2019s Been a Juggernaut\u201d",
+        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
         "label": "neutral",
-        "confidence": 0.8987970948219299,
-        "negative": 0.05024042725563049,
-        "neutral": 0.8987970948219299,
-        "positive": 0.05096258595585823
+        "confidence": 0.900339663028717,
+        "negative": 0.04917598143219948,
+        "neutral": 0.900339663028717,
+        "positive": 0.050484344363212585
       },
       {
-        "headline": "Jim Cramer on CoreWeave: \u201cI Think It\u2019s One of the Stronger Players in the Neocloud Space\u201d",
+        "headline": "China\u2019s Moonshot Plans IPO in Six Months After AI Breakthrough",
         "label": "neutral",
-        "confidence": 0.8934578895568848,
-        "negative": 0.05419169366359711,
-        "neutral": 0.8934578895568848,
-        "positive": 0.05235043913125992
+        "confidence": 0.8977491855621338,
+        "negative": 0.05165035277605057,
+        "neutral": 0.8977491855621338,
+        "positive": 0.050600506365299225
       },
       {
-        "headline": "Jim Cramer Highlights Future Earnings Projections that Make Oracle Look Cheap",
+        "headline": "Andrew and Tristan Tate arrested in Miami on UK extradition request",
         "label": "neutral",
-        "confidence": 0.9028642177581787,
-        "negative": 0.04990977793931961,
-        "neutral": 0.9028642177581787,
-        "positive": 0.04722605645656586
+        "confidence": 0.9004606008529663,
+        "negative": 0.049260370433330536,
+        "neutral": 0.9004606008529663,
+        "positive": 0.05027904361486435
       },
       {
-        "headline": "Jim Cramer Highlights Meta Entering the Neocloud Business",
+        "headline": "Mark Zuckerberg's Meta and Other Hyperscalers Face a Major Bottleneck. Here Are 2 Industrial Stocks That Will Benefit",
         "label": "neutral",
-        "confidence": 0.8986191749572754,
-        "negative": 0.05053607374429703,
-        "neutral": 0.8986191749572754,
-        "positive": 0.05084477365016937
+        "confidence": 0.8919015526771545,
+        "negative": 0.054313160479068756,
+        "neutral": 0.8919015526771545,
+        "positive": 0.05378524959087372
       },
       {
-        "headline": "Meta falls as massive AI infrastructure spending plans overshadow chip progress",
-        "label": "neutral",
-        "confidence": 0.8980892300605774,
-        "negative": 0.052009906619787216,
-        "neutral": 0.8980892300605774,
-        "positive": 0.049900852143764496
+        "headline": "Marco Rubio Says President Lula 'Put His Ego Ahead of Making a Deal' as Trump Slaps Brazil With 25% Tariffs",
+        "label": "positive",
+        "confidence": 0.8793700337409973,
+        "negative": 0.055021028965711594,
+        "neutral": 0.06560895591974258,
+        "positive": 0.8793700337409973
       },
       {
-        "headline": "Meta Platforms (META) Has A $1.4 Trillion Problem To Solve. Can The Company Survive The Scare?",
-        "label": "neutral",
-        "confidence": 0.8925926685333252,
-        "negative": 0.052728019654750824,
-        "neutral": 0.8925926685333252,
-        "positive": 0.054679349064826965
+        "headline": "Meta Platforms Is Up 21% This Month, and Here Is What's Driving the Surge",
+        "label": "positive",
+        "confidence": 0.8925800919532776,
+        "negative": 0.05334277078509331,
+        "neutral": 0.054077137261629105,
+        "positive": 0.8925800919532776
       },
       {
-        "headline": "Meta Plans to Sell AI Compute \u2014 So Why Spend $10 Billion to Build Even More Data Centers?",
+        "headline": "This Nuclear Stock Is Down 46%, and It's a Screaming Buy",
         "label": "neutral",
-        "confidence": 0.9055663347244263,
-        "negative": 0.04700550436973572,
-        "neutral": 0.9055663347244263,
-        "positive": 0.04742812737822533
+        "confidence": 0.8803771138191223,
+        "negative": 0.052037954330444336,
+        "neutral": 0.8803771138191223,
+        "positive": 0.06758495420217514
       },
       {
-        "headline": "Tech Stock Sell-Off: 1 ETF to Load Up On Right Now",
+        "headline": "Meta, Anthropic drop bombshell news on AI market",
         "label": "neutral",
-        "confidence": 0.9049988389015198,
-        "negative": 0.047303300350904465,
-        "neutral": 0.9049988389015198,
-        "positive": 0.047697942703962326
+        "confidence": 0.8904953002929688,
+        "negative": 0.0555289164185524,
+        "neutral": 0.8904953002929688,
+        "positive": 0.053975801914930344
       }
     ],
-    "news_score": 0.0038,
+    "news_score": 0.1682,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.0211,
-    "pe_ratio": 21.9316,
-    "pb_ratio": 6.2816,
-    "ev_ebitda": 14.057,
-    "ps_ratio": 7.122,
+    "pe_ratio": 23.4742,
+    "pb_ratio": 6.7284,
+    "ev_ebitda": 15.053,
+    "ps_ratio": 7.6285,
     "dividend_yield": null,
     "dividend_payout": 7.6279,
-    "eps": 26.96,
+    "eps": 27.52,
     "fcf": 46109000000.0,
     "fcf_margin": 22.9437,
     "cf_to_net_income": 1.9154,
@@ -146,33 +146,33 @@
   "final_signal": {
     "signal": "BUY",
     "emoji": "\ud83d\udcc8",
-    "combined_score": 74.4,
-    "sentiment_score": 50,
+    "combined_score": 91.9,
+    "sentiment_score": 100,
     "ratio_score": 87.5
   },
   "prediction": {
     "available": true,
-    "current_price": 603.12,
+    "current_price": 646.01,
     "horizon": "12 months",
-    "bull_case": 37.3,
-    "base_case": 25.3,
+    "bull_case": 27.3,
+    "base_case": 20.3,
     "bear_case": -5.0,
-    "price_bull": 828.08,
-    "price_base": 755.71,
-    "price_bear": 572.96,
+    "price_bull": 822.37,
+    "price_base": 777.15,
+    "price_bear": 613.71,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 828.17,
+        "target_mean": 822.69,
         "target_low": 664.46,
         "target_high": 1015.0,
-        "target_median": 825.0,
-        "upside_mean": 37.3,
-        "upside_low": 10.2,
-        "upside_high": 68.3,
+        "target_median": 821.16,
+        "upside_mean": 27.3,
+        "upside_low": 2.9,
+        "upside_high": 57.1,
         "n_analysts": 58,
         "recommendation": "strong_buy"
       },
@@ -180,11 +180,11 @@
         "high_52w": 796.25,
         "low_52w": 520.26,
         "range_pct": 53.0,
-        "position_in_range": 30.0,
+        "position_in_range": 45.6,
         "upside_estimate": 13.3,
         "downside_estimate": -10.6,
-        "avg_50d": 601.43,
-        "avg_200d": 643.93,
+        "avg_50d": 604.53,
+        "avg_200d": 640.51,
         "beta": 1.25
       }
     },

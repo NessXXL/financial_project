@@ -1,106 +1,106 @@
 {
   "ticker": "TSLA",
-  "timestamp": "2026-06-15T11:42:22.539580",
+  "timestamp": "2026-07-19T19:55:13.556468",
   "profile": {
     "name": "Tesla, Inc.",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 406.43,
-    "change_pct": 1.8238755,
-    "marketCap": 1526438821888.0
+    "price": 380.84,
+    "change_pct": -2.61341,
+    "marketCap": 1430329884672.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0162,
+    "score": 0.0948,
     "breakdown": {
-      "positive": 0,
-      "neutral": 10,
+      "positive": 1,
+      "neutral": 9,
       "negative": 0
     },
     "details": [
       {
-        "headline": "RIVN Stock Jumps Overnight: CEO Teases Self-Driving System 'Very Similar To Tesla's FSD' This Year",
+        "headline": "The Mercedes CLA 250+ is a more luxurious Model 3 \u2014 at a surprisingly good price: Review",
         "label": "neutral",
-        "confidence": 0.8612541556358337,
-        "negative": 0.06609714776277542,
-        "neutral": 0.8612541556358337,
-        "positive": 0.07264862954616547
+        "confidence": 0.9057188034057617,
+        "negative": 0.0478922463953495,
+        "neutral": 0.9057188034057617,
+        "positive": 0.04638887569308281
       },
       {
-        "headline": "Tesla Shareholders 'Don't Like Table Scraps' \u2014 Bulls Make Case Against SpaceX Merger, See Up To 800% Upside On Robotaxi And Optimus",
+        "headline": "Big Tech earnings test tech's big rotation: What to watch this week",
         "label": "neutral",
-        "confidence": 0.7277892231941223,
-        "negative": 0.07657255977392197,
-        "neutral": 0.7277892231941223,
-        "positive": 0.19563817977905273
+        "confidence": 0.9096817970275879,
+        "negative": 0.04348170757293701,
+        "neutral": 0.9096817970275879,
+        "positive": 0.046836499124765396
       },
       {
-        "headline": "Elon Musk Rejects Claims Government Support Built TSLA And SPCX \u2014 Says Trump\u2019s EV Credit Cuts Sent More Buyers To Tesla",
+        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
         "label": "neutral",
-        "confidence": 0.9035685062408447,
-        "negative": 0.0487072579562664,
-        "neutral": 0.9035685062408447,
-        "positive": 0.047724202275276184
+        "confidence": 0.9125027656555176,
+        "negative": 0.044349607080221176,
+        "neutral": 0.9125027656555176,
+        "positive": 0.04314761608839035
       },
       {
-        "headline": "Elon Musk Says SpaceX Could Put One Million Tons Of Payload In Orbit Within The Next Five Years",
+        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
         "label": "neutral",
-        "confidence": 0.9000113606452942,
-        "negative": 0.05069365352392197,
-        "neutral": 0.9000113606452942,
-        "positive": 0.04929502680897713
+        "confidence": 0.9132635593414307,
+        "negative": 0.04328992962837219,
+        "neutral": 0.9132635593414307,
+        "positive": 0.04344656690955162
       },
       {
-        "headline": "Longtime SpaceX Investor Cathie Wood Made This Move on IPO Day. Should You Follow?",
+        "headline": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
         "label": "neutral",
-        "confidence": 0.9068768620491028,
-        "negative": 0.047314953058958054,
-        "neutral": 0.9068768620491028,
-        "positive": 0.04580825939774513
+        "confidence": 0.9011017084121704,
+        "negative": 0.04888951778411865,
+        "neutral": 0.9011017084121704,
+        "positive": 0.05000883713364601
       },
       {
-        "headline": "Tesla Merger Talk With SpaceX Reshapes AI And Investor Outlook",
+        "headline": "Even With Tesla Under $400, I'd Still Rather Buy This Unstoppable Growth Stock in July",
         "label": "neutral",
-        "confidence": 0.9020586013793945,
-        "negative": 0.048477962613105774,
-        "neutral": 0.9020586013793945,
-        "positive": 0.049463462084531784
+        "confidence": 0.560911238193512,
+        "negative": 0.1335614174604416,
+        "neutral": 0.560911238193512,
+        "positive": 0.30552738904953003
       },
       {
-        "headline": "Will Elon Musk Merge SpaceX And Tesla In 2026? Crypto Prediction Market Isn't Ruling Out The Possibility",
+        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
         "label": "neutral",
-        "confidence": 0.9082154035568237,
-        "negative": 0.04603535681962967,
-        "neutral": 0.9082154035568237,
-        "positive": 0.04574933275580406
+        "confidence": 0.900339663028717,
+        "negative": 0.04917598143219948,
+        "neutral": 0.900339663028717,
+        "positive": 0.050484344363212585
       },
       {
-        "headline": "Car owners caught in government fight that could cost them big",
+        "headline": "TSLY Investors Are Missing Tesla\u2019s Rally: How Option Income Strategy Costs You 30% in Upside",
         "label": "neutral",
-        "confidence": 0.8195874691009521,
-        "negative": 0.11469018459320068,
-        "neutral": 0.8195874691009521,
-        "positive": 0.06572237610816956
+        "confidence": 0.8047398924827576,
+        "negative": 0.10564004629850388,
+        "neutral": 0.8047398924827576,
+        "positive": 0.08961997926235199
       },
       {
-        "headline": "Elon Musk Is A Stone's Throw Away From Becoming The World's First Trillionaire As SpaceX IPO Sends His Net Worth Soaring",
-        "label": "neutral",
-        "confidence": 0.8608801960945129,
-        "negative": 0.064673513174057,
-        "neutral": 0.8608801960945129,
-        "positive": 0.07444627583026886
+        "headline": "Tesla stock: How much does an improved auto business matter?",
+        "label": "positive",
+        "confidence": 0.8517957329750061,
+        "negative": 0.06361386179924011,
+        "neutral": 0.08459042012691498,
+        "positive": 0.8517957329750061
       },
       {
-        "headline": "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
+        "headline": "Which \"Magnificent Seven\" Stock Has the Best Risk/Reward Right Now?",
         "label": "neutral",
-        "confidence": 0.3754805326461792,
-        "negative": 0.2726960778236389,
-        "neutral": 0.3754805326461792,
-        "positive": 0.3518233895301819
+        "confidence": 0.9044818878173828,
+        "negative": 0.047680191695690155,
+        "neutral": 0.9044818878173828,
+        "positive": 0.047837983816862106
       }
     ],
-    "news_score": 0.0162,
+    "news_score": 0.0948,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,10 +129,10 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.6879,
-    "pe_ratio": 369.4818,
-    "pb_ratio": 18.561,
-    "ev_ebitda": 135.052,
-    "ps_ratio": 15.5952,
+    "pe_ratio": 346.2182,
+    "pb_ratio": 17.3923,
+    "ev_ebitda": 126.389,
+    "ps_ratio": 14.6132,
     "dividend_yield": null,
     "dividend_payout": 0.0,
     "eps": 1.1,
@@ -152,14 +152,14 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 406.43,
+    "current_price": 380.84,
     "horizon": "12 months",
-    "bull_case": 18.2,
-    "base_case": 10.8,
-    "bear_case": -57.8,
-    "price_bull": 480.4,
-    "price_base": 450.53,
-    "price_bear": 171.51,
+    "bull_case": 16.9,
+    "base_case": 14.3,
+    "bear_case": -56.4,
+    "price_bull": 445.2,
+    "price_base": 435.3,
+    "price_bear": 166.05,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,19 +167,19 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 420.55,
-        "target_low": 123.0,
+        "target_mean": 425.22,
+        "target_low": 125.0,
         "target_high": 600.0,
         "target_median": 460.0,
-        "upside_mean": 3.5,
-        "upside_low": -69.7,
-        "upside_high": 47.6,
-        "n_analysts": 41,
+        "upside_mean": 11.7,
+        "upside_low": -67.2,
+        "upside_high": 57.5,
+        "n_analysts": 39,
         "recommendation": "buy"
       },
       "dcf": {
         "fair_value": 43.89,
-        "upside": -89.2,
+        "upside": -88.5,
         "growth_assumed": "6%",
         "discount_rate": "10%",
         "fcf_per_share": 1.66,
@@ -187,13 +187,13 @@
       },
       "volatility": {
         "high_52w": 498.83,
-        "low_52w": 288.77,
-        "range_pct": 72.7,
-        "position_in_range": 56.0,
-        "upside_estimate": 18.2,
-        "downside_estimate": -14.5,
-        "avg_50d": 398.3,
-        "avg_200d": 415.69,
+        "low_52w": 297.82,
+        "range_pct": 67.5,
+        "position_in_range": 41.3,
+        "upside_estimate": 16.9,
+        "downside_estimate": -13.5,
+        "avg_50d": 409.8,
+        "avg_200d": 417.05,
         "beta": 1.8
       }
     },

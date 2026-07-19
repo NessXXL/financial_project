@@ -1,0 +1,193 @@
+{
+  "ticker": "ORCL",
+  "timestamp": "2026-07-19T19:59:40.553214",
+  "profile": {
+    "name": "Oracle Corporation",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 126.41,
+    "change_pct": 1.7712,
+    "marketCap": 364120342528.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0315,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 6,
+      "negative": 2
+    },
+    "details": [
+      {
+        "headline": "Oracle Crashed 65% From Its Peak. I Just Bought It Anyway. Here's Why.",
+        "label": "positive",
+        "confidence": 0.769374430179596,
+        "negative": 0.0795738622546196,
+        "neutral": 0.15105167031288147,
+        "positive": 0.769374430179596
+      },
+      {
+        "headline": "Bloom Energy\u2019s AI Data Center Growth Story Is Starting to Crack",
+        "label": "neutral",
+        "confidence": 0.8232043385505676,
+        "negative": 0.06972484290599823,
+        "neutral": 0.8232043385505676,
+        "positive": 0.10707085579633713
+      },
+      {
+        "headline": "Big Tech's $182 Billion AI Debt Spree: How META, NVDA and AMZN Are Reshaping Credit Markets",
+        "label": "neutral",
+        "confidence": 0.8931081891059875,
+        "negative": 0.05267976596951485,
+        "neutral": 0.8931081891059875,
+        "positive": 0.05421200767159462
+      },
+      {
+        "headline": "Jim Cramer Says Oracle Is \u201cGoing Down\u201d and Avoid Every Liquor Stock. Here\u2019s What He\u2019d Buy Instead",
+        "label": "neutral",
+        "confidence": 0.9042513966560364,
+        "negative": 0.048041753470897675,
+        "neutral": 0.9042513966560364,
+        "positive": 0.04770692065358162
+      },
+      {
+        "headline": "SpaceX Reportedly In Talks To Supply Pentagon With AI Computing Power Worth Billions",
+        "label": "neutral",
+        "confidence": 0.8933538794517517,
+        "negative": 0.05245625972747803,
+        "neutral": 0.8933538794517517,
+        "positive": 0.05418986827135086
+      },
+      {
+        "headline": "Did AI Just Cannibalize Microsoft\u2019s Greatest Narrative?",
+        "label": "neutral",
+        "confidence": 0.9044634103775024,
+        "negative": 0.04939541220664978,
+        "neutral": 0.9044634103775024,
+        "positive": 0.046141061931848526
+      },
+      {
+        "headline": "Michael Burry Is Skeptical Of NVDA, ORCL And NFLX \u2014 But Bullish On This Sports Betting Stock",
+        "label": "positive",
+        "confidence": 0.45547911524772644,
+        "negative": 0.09871744364500046,
+        "neutral": 0.4458034932613373,
+        "positive": 0.45547911524772644
+      },
+      {
+        "headline": "US stocks sink this week, semiconductors walloped amid sell-off",
+        "label": "negative",
+        "confidence": 0.6617099046707153,
+        "negative": 0.6617099046707153,
+        "neutral": 0.25351282954216003,
+        "positive": 0.08477727323770523
+      },
+      {
+        "headline": "Oracle Data Center Plan Hits New Setback",
+        "label": "negative",
+        "confidence": 0.8820024728775024,
+        "negative": 0.8820024728775024,
+        "neutral": 0.05885079503059387,
+        "positive": 0.05914671719074249
+      },
+      {
+        "headline": "Oracle Data Center Project Hits New Mexico Roadblock",
+        "label": "neutral",
+        "confidence": 0.8935381770133972,
+        "negative": 0.05246017500758171,
+        "neutral": 0.8935381770133972,
+        "positive": 0.054001711308956146
+      }
+    ],
+    "news_score": -0.0315,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.115,
+    "quick_ratio": 0.9978,
+    "cash_ratio": 0.7492,
+    "ocf_ratio": 0.7657,
+    "gross_margin": 65.8224,
+    "operating_margin": 35.8582,
+    "net_margin": 25.3678,
+    "roa": 6.5278,
+    "roe": 40.1971,
+    "roce": 10.9789,
+    "ebitda_margin": 49.6563,
+    "de_ratio": 3.6743,
+    "da_ratio": 0.5967,
+    "interest_coverage": 5.2518,
+    "dscr": 6.953,
+    "equity_multiplier": 6.1579,
+    "net_debt_ebitda": 3.7343,
+    "asset_turnover": 0.2573,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 6.486,
+    "dso": 56.2751,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 0.5195,
+    "pe_ratio": 21.6827,
+    "pb_ratio": 9.694,
+    "ev_ebitda": 16.566,
+    "ps_ratio": 5.4058,
+    "dividend_yield": 1.58,
+    "dividend_payout": 33.7154,
+    "eps": 5.83,
+    "fcf": -23686000000.0,
+    "fcf_margin": -35.1649,
+    "cf_to_net_income": 1.8714,
+    "capex_to_revenue": 82.6388,
+    "cash_roic": null
+  },
+  "ratio_score": 60.0,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 56.5,
+    "sentiment_score": 50,
+    "ratio_score": 60.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 126.41,
+    "horizon": "12 months",
+    "bull_case": 99.2,
+    "base_case": 65.6,
+    "bear_case": -5.0,
+    "price_bull": 251.81,
+    "price_base": 209.33,
+    "price_bear": 120.09,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 251.85,
+        "target_low": 155.0,
+        "target_high": 400.0,
+        "target_median": 240.5,
+        "upside_mean": 99.2,
+        "upside_low": 22.6,
+        "upside_high": 216.4,
+        "n_analysts": 40,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 345.72,
+        "low_52w": 121.5,
+        "range_pct": 184.5,
+        "position_in_range": 2.2,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 178.67,
+        "avg_200d": 191.54,
+        "beta": 1.71
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

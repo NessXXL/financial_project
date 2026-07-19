@@ -1,106 +1,106 @@
 {
   "ticker": "AMZN",
-  "timestamp": "2026-06-15T11:43:06.260807",
+  "timestamp": "2026-07-19T19:54:17.616434",
   "profile": {
     "name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 238.55,
-    "change_pct": -1.2256249,
-    "marketCap": 2566108479488.0
+    "price": 247.23,
+    "change_pct": -1.06447,
+    "marketCap": 2659480240128.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0141,
+    "score": 0.0006,
     "breakdown": {
-      "positive": 1,
-      "neutral": 8,
-      "negative": 1
+      "positive": 0,
+      "neutral": 10,
+      "negative": 0
     },
     "details": [
       {
-        "headline": "This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market",
+        "headline": "Why Worried Investors Should Buy Apple Over Amazon for the Rest of 2026",
         "label": "neutral",
-        "confidence": 0.897770345211029,
-        "negative": 0.04896661639213562,
-        "neutral": 0.897770345211029,
-        "positive": 0.05326312407851219
+        "confidence": 0.8923068642616272,
+        "negative": 0.05087179318070412,
+        "neutral": 0.8923068642616272,
+        "positive": 0.05682133883237839
       },
       {
-        "headline": "Satellite Stocks Are Flying on SpaceX, Spectrum-Sale Hopes. Time Is Running Out.",
+        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
         "label": "neutral",
-        "confidence": 0.9036729335784912,
-        "negative": 0.04760759323835373,
-        "neutral": 0.9036729335784912,
-        "positive": 0.04871944710612297
+        "confidence": 0.9132635593414307,
+        "negative": 0.04328992962837219,
+        "neutral": 0.9132635593414307,
+        "positive": 0.04344656690955162
       },
       {
-        "headline": "Musk says SpaceX could bring $1 trillion in revenue by 2030",
+        "headline": "Andy Jassy Said Amazon Isn't Investing $200 Billion in AI \"On a Hunch.\" Amazon's Own Trainium Chip Business Is Already Running at a $20 Billion Annual Pace.",
         "label": "neutral",
-        "confidence": 0.6796495318412781,
-        "negative": 0.09006564319133759,
-        "neutral": 0.6796495318412781,
-        "positive": 0.23028485476970673
+        "confidence": 0.8959356546401978,
+        "negative": 0.05146487057209015,
+        "neutral": 0.8959356546401978,
+        "positive": 0.052599478513002396
       },
       {
-        "headline": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
+        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
         "label": "neutral",
-        "confidence": 0.8612663149833679,
-        "negative": 0.07017002999782562,
-        "neutral": 0.8612663149833679,
-        "positive": 0.06856366246938705
+        "confidence": 0.900339663028717,
+        "negative": 0.04917598143219948,
+        "neutral": 0.900339663028717,
+        "positive": 0.050484344363212585
       },
       {
-        "headline": "Amazon Graviton5 Chip Aims To Deepen AWS AI Margins And Moat",
+        "headline": "Elon Musk Admits He Underestimated Anthropic's AI, and Amazon and Alphabet Investors Should Take Notice",
         "label": "neutral",
-        "confidence": 0.8560670018196106,
-        "negative": 0.06682859361171722,
-        "neutral": 0.8560670018196106,
-        "positive": 0.07710439711809158
+        "confidence": 0.8943831920623779,
+        "negative": 0.05591125041246414,
+        "neutral": 0.8943831920623779,
+        "positive": 0.049705538898706436
       },
       {
-        "headline": "How \u2018agentic\u2019 is AI shopping today",
+        "headline": "FDA finds outbreak-linked parasite in Taylor Farms lettuce sample",
         "label": "neutral",
-        "confidence": 0.816478967666626,
-        "negative": 0.07337779551744461,
-        "neutral": 0.816478967666626,
-        "positive": 0.11014322191476822
+        "confidence": 0.8930375576019287,
+        "negative": 0.0536138154566288,
+        "neutral": 0.8930375576019287,
+        "positive": 0.0533485971391201
       },
       {
-        "headline": "Amazon.com Inc. (AMZN) Shows How Logistics Scale Can Become a Broader E-Commerce Service",
-        "label": "positive",
-        "confidence": 0.7209345102310181,
-        "negative": 0.19027568399906158,
-        "neutral": 0.08878980576992035,
-        "positive": 0.7209345102310181
-      },
-      {
-        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "headline": "Pok\u00e9mon Cards Beat the S&P 500 by 2.5x, But the Math Is a Lie",
         "label": "neutral",
-        "confidence": 0.9002727270126343,
-        "negative": 0.0510941706597805,
-        "neutral": 0.9002727270126343,
-        "positive": 0.048633042722940445
+        "confidence": 0.8793015480041504,
+        "negative": 0.06009342148900032,
+        "neutral": 0.8793015480041504,
+        "positive": 0.06060502678155899
       },
       {
-        "headline": "The Better AI Cloud Stock: Microsoft or Amazon?",
+        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
         "label": "neutral",
-        "confidence": 0.9017330408096313,
-        "negative": 0.048844680190086365,
-        "neutral": 0.9017330408096313,
-        "positive": 0.04942229762673378
+        "confidence": 0.9028205871582031,
+        "negative": 0.04816388711333275,
+        "neutral": 0.9028205871582031,
+        "positive": 0.049015626311302185
       },
       {
-        "headline": "Kohl's CEO triggers major price cuts ahead of summer shopping season",
-        "label": "negative",
-        "confidence": 0.9072110652923584,
-        "negative": 0.9072110652923584,
-        "neutral": 0.04605752229690552,
-        "positive": 0.0467313677072525
+        "headline": "Jeff Bezos Spent $42 Million Building a 10,000-Year Cuckoo Clock That Ticks Once a Year \u2014 Calls It a \u2018Symbol for Long-Term Thinking\u2019",
+        "label": "neutral",
+        "confidence": 0.8955199122428894,
+        "negative": 0.052210573107004166,
+        "neutral": 0.8955199122428894,
+        "positive": 0.05226961895823479
+      },
+      {
+        "headline": "Buy, Sell, or Hold: Ken Griffin\u2019s 3 Mega-Cap Picks at Current Valuations",
+        "label": "neutral",
+        "confidence": 0.8956184983253479,
+        "negative": 0.05119083821773529,
+        "neutral": 0.8956184983253479,
+        "positive": 0.05319077521562576
       }
     ],
-    "news_score": -0.0141,
+    "news_score": 0.0006,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.6181,
-    "pe_ratio": 31.6379,
-    "pb_ratio": 5.8051,
-    "ev_ebitda": 17.057,
-    "ps_ratio": 3.4548,
+    "pe_ratio": 29.573,
+    "pb_ratio": 6.0164,
+    "ev_ebitda": 17.656,
+    "ps_ratio": 3.5805,
     "dividend_yield": null,
     "dividend_payout": 0.0,
-    "eps": 7.54,
+    "eps": 8.36,
     "fcf": 7695000000.0,
     "fcf_margin": 1.0733,
     "cf_to_net_income": 1.7962,
@@ -152,40 +152,40 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 238.55,
+    "current_price": 247.23,
     "horizon": "12 months",
-    "bull_case": 31.0,
-    "base_case": 20.8,
-    "bear_case": -10.8,
-    "price_bull": 312.5,
-    "price_base": 288.05,
-    "price_bear": 212.79,
+    "bull_case": 27.1,
+    "base_case": 18.8,
+    "bear_case": -12.4,
+    "price_bull": 314.23,
+    "price_base": 293.71,
+    "price_bear": 216.7,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 312.51,
+        "target_mean": 314.23,
         "target_low": 207.0,
         "target_high": 370.0,
         "target_median": 315.0,
-        "upside_mean": 31.0,
-        "upside_low": -13.2,
-        "upside_high": 55.1,
-        "n_analysts": 63,
+        "upside_mean": 27.1,
+        "upside_low": -16.3,
+        "upside_high": 49.7,
+        "n_analysts": 61,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 278.56,
         "low_52w": 196.0,
         "range_pct": 42.1,
-        "position_in_range": 51.5,
+        "position_in_range": 62.1,
         "upside_estimate": 10.5,
         "downside_estimate": -8.4,
-        "avg_50d": 254.77,
-        "avg_200d": 232.51,
-        "beta": 1.44
+        "avg_50d": 252.13,
+        "avg_200d": 234.06,
+        "beta": 1.46
       }
     },
     "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."

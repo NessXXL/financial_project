@@ -1,0 +1,202 @@
+{
+  "ticker": "COST",
+  "timestamp": "2026-07-19T19:59:21.227275",
+  "profile": {
+    "name": "Costco Wholesale Corporation",
+    "sector": "Consumer Defensive"
+  },
+  "quote": {
+    "price": 940.87,
+    "change_pct": -0.497056,
+    "marketCap": 417255915520.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0371,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 8,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Costco makes surprising change that may hurt its bottom line",
+        "label": "negative",
+        "confidence": 0.7752135992050171,
+        "negative": 0.7752135992050171,
+        "neutral": 0.14400362968444824,
+        "positive": 0.08078278601169586
+      },
+      {
+        "headline": "FDA finds outbreak-linked parasite in Taylor Farms lettuce sample",
+        "label": "neutral",
+        "confidence": 0.8930375576019287,
+        "negative": 0.0536138154566288,
+        "neutral": 0.8930375576019287,
+        "positive": 0.0533485971391201
+      },
+      {
+        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
+        "label": "neutral",
+        "confidence": 0.9028205871582031,
+        "negative": 0.04816388711333275,
+        "neutral": 0.9028205871582031,
+        "positive": 0.049015626311302185
+      },
+      {
+        "headline": "How Investors May Respond To Costco Wholesale (COST) Double-Digit June Sales Growth And New Dividend Declaration",
+        "label": "neutral",
+        "confidence": 0.5697881579399109,
+        "negative": 0.10414077341556549,
+        "neutral": 0.5697881579399109,
+        "positive": 0.3260710835456848
+      },
+      {
+        "headline": "Costco Gas Pumps Are So Popular the Retailer Is Building Stand-Alone Stations",
+        "label": "neutral",
+        "confidence": 0.8945150375366211,
+        "negative": 0.053549934178590775,
+        "neutral": 0.8945150375366211,
+        "positive": 0.05193502828478813
+      },
+      {
+        "headline": "Costco Delivers Another Strong Sales Report. Buy COST Stock Now for More Upside Ahead.",
+        "label": "positive",
+        "confidence": 0.8984006643295288,
+        "negative": 0.05108584836125374,
+        "neutral": 0.05051351338624954,
+        "positive": 0.8984006643295288
+      },
+      {
+        "headline": "Popular beverage chain closing multiple locations nationwide",
+        "label": "neutral",
+        "confidence": 0.8965765833854675,
+        "negative": 0.05253778398036957,
+        "neutral": 0.8965765833854675,
+        "positive": 0.05088568478822708
+      },
+      {
+        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
+        "label": "neutral",
+        "confidence": 0.9032374024391174,
+        "negative": 0.050063736736774445,
+        "neutral": 0.9032374024391174,
+        "positive": 0.04669882357120514
+      },
+      {
+        "headline": "Walmart beats Costco at its own game",
+        "label": "neutral",
+        "confidence": 0.8820130228996277,
+        "negative": 0.057013846933841705,
+        "neutral": 0.8820130228996277,
+        "positive": 0.06097307801246643
+      },
+      {
+        "headline": "DGRO\u2019s December Rebalance Could Reshape Healthcare Exposure: Here\u2019s What to Watch",
+        "label": "neutral",
+        "confidence": 0.8318347930908203,
+        "negative": 0.08503267914056778,
+        "neutral": 0.8318347930908203,
+        "positive": 0.0831325426697731
+      }
+    ],
+    "news_score": 0.0371,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.0343,
+    "quick_ratio": 0.4679,
+    "cash_ratio": 0.3816,
+    "ocf_ratio": 0.3594,
+    "gross_margin": 12.8432,
+    "operating_margin": 3.9864,
+    "net_margin": 2.9426,
+    "roa": 10.5047,
+    "roe": 27.7705,
+    "roce": 27.4362,
+    "ebitda_margin": 4.8678,
+    "de_ratio": 0.2802,
+    "da_ratio": 0.106,
+    "interest_coverage": 71.2468,
+    "dscr": 86.5909,
+    "equity_multiplier": 2.6436,
+    "net_debt_ebitda": -0.4469,
+    "asset_turnover": 3.5699,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 85.9304,
+    "dso": 4.2476,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 7.947,
+    "pe_ratio": 47.399,
+    "pb_ratio": 25.2393,
+    "ev_ebitda": 30.137,
+    "ps_ratio": 1.4212,
+    "dividend_yield": null,
+    "dividend_payout": 32.1973,
+    "eps": 19.85,
+    "fcf": 7837000000.0,
+    "fcf_margin": 2.8474,
+    "cf_to_net_income": 1.6465,
+    "capex_to_revenue": 1.9976,
+    "cash_roic": null
+  },
+  "ratio_score": 60.3,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 56.7,
+    "sentiment_score": 50,
+    "ratio_score": 60.3
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 940.87,
+    "horizon": "12 months",
+    "bull_case": 14.5,
+    "base_case": 11.0,
+    "bear_case": -33.2,
+    "price_bull": 1077.3,
+    "price_base": 1044.37,
+    "price_bear": 628.19,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 1076.91,
+        "target_low": 740.0,
+        "target_high": 1315.0,
+        "target_median": 1100.0,
+        "upside_mean": 14.5,
+        "upside_low": -21.3,
+        "upside_high": 39.8,
+        "n_analysts": 35,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 260.03,
+        "upside": -72.4,
+        "growth_assumed": "3%",
+        "discount_rate": "10%",
+        "fcf_per_share": 17.67,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 1096.5,
+        "low_52w": 844.06,
+        "range_pct": 29.9,
+        "position_in_range": 38.3,
+        "upside_estimate": 7.5,
+        "downside_estimate": -6.0,
+        "avg_50d": 977.44,
+        "avg_200d": 956.74,
+        "beta": 0.87
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

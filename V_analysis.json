@@ -1,0 +1,193 @@
+{
+  "ticker": "V",
+  "timestamp": "2026-07-19T19:56:09.639749",
+  "profile": {
+    "name": "Visa Inc.",
+    "sector": "Financial Services"
+  },
+  "quote": {
+    "price": 358.56,
+    "change_pct": -1.80205,
+    "marketCap": 681889234944.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.2079,
+    "breakdown": {
+      "positive": 3,
+      "neutral": 7,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "3 High-Growth Dividend Stocks to Buy in July",
+        "label": "neutral",
+        "confidence": 0.7805238962173462,
+        "negative": 0.07083158195018768,
+        "neutral": 0.7805238962173462,
+        "positive": 0.14864447712898254
+      },
+      {
+        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "label": "neutral",
+        "confidence": 0.9083341956138611,
+        "negative": 0.046524450182914734,
+        "neutral": 0.9083341956138611,
+        "positive": 0.04514128714799881
+      },
+      {
+        "headline": "AI can now access your credit cards \u2014 how to protect yourself from being scammed",
+        "label": "neutral",
+        "confidence": 0.8991329073905945,
+        "negative": 0.04927105829119682,
+        "neutral": 0.8991329073905945,
+        "positive": 0.05159604921936989
+      },
+      {
+        "headline": "American Express (AXP) Joins X402 And Raises Platinum Card Fee To $895",
+        "label": "neutral",
+        "confidence": 0.898196280002594,
+        "negative": 0.054333411157131195,
+        "neutral": 0.898196280002594,
+        "positive": 0.047470349818468094
+      },
+      {
+        "headline": "Down 22% In A Year: Is PayPal A Value Trap Or A Turnaround Play?",
+        "label": "positive",
+        "confidence": 0.48553261160850525,
+        "negative": 0.433404803276062,
+        "neutral": 0.08106257766485214,
+        "positive": 0.48553261160850525
+      },
+      {
+        "headline": "Why Trump Is Going After Brazil\u2019s Beloved Payment System",
+        "label": "neutral",
+        "confidence": 0.9019357562065125,
+        "negative": 0.04887790232896805,
+        "neutral": 0.9019357562065125,
+        "positive": 0.04918636754155159
+      },
+      {
+        "headline": "'Durable' stocks Visa, Aon 'have legs' amid AI jitters, expert says",
+        "label": "neutral",
+        "confidence": 0.8977300524711609,
+        "negative": 0.051457829773426056,
+        "neutral": 0.8977300524711609,
+        "positive": 0.05081212520599365
+      },
+      {
+        "headline": "Can Visa's Stablecoin Platform Accelerate Enterprise Blockchain Use?",
+        "label": "neutral",
+        "confidence": 0.5893939137458801,
+        "negative": 0.07694916427135468,
+        "neutral": 0.5893939137458801,
+        "positive": 0.333656907081604
+      },
+      {
+        "headline": "Can Visa Stock Compound Its Way Higher?",
+        "label": "positive",
+        "confidence": 0.8890854120254517,
+        "negative": 0.05350816994905472,
+        "neutral": 0.057406459003686905,
+        "positive": 0.8890854120254517
+      },
+      {
+        "headline": "Should You Be Bullish on Visa (V)?",
+        "label": "positive",
+        "confidence": 0.9074411988258362,
+        "negative": 0.04465467110276222,
+        "neutral": 0.04790406674146652,
+        "positive": 0.9074411988258362
+      }
+    ],
+    "news_score": 0.2079,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.0776,
+    "quick_ratio": 0.5789,
+    "cash_ratio": 0.4897,
+    "ocf_ratio": 0.6579,
+    "gross_margin": 80.3625,
+    "operating_margin": 61.9575,
+    "net_margin": 50.145,
+    "roa": 20.1331,
+    "roe": 52.9109,
+    "roce": 38.3763,
+    "ebitda_margin": 65.0075,
+    "de_ratio": 0.664,
+    "da_ratio": 0.2527,
+    "interest_coverage": 42.0764,
+    "dscr": 39.1494,
+    "equity_multiplier": 2.6281,
+    "net_debt_ebitda": 0.3079,
+    "asset_turnover": 0.4015,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 12.7959,
+    "dso": 28.5247,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 9.4429,
+    "pe_ratio": 31.2607,
+    "pb_ratio": 19.234,
+    "ev_ebitda": 22.767,
+    "ps_ratio": 15.8479,
+    "dividend_yield": null,
+    "dividend_payout": 22.1758,
+    "eps": 11.47,
+    "fcf": 21577000000.0,
+    "fcf_margin": 53.9425,
+    "cf_to_net_income": 1.1496,
+    "capex_to_revenue": 3.705,
+    "cash_roic": null
+  },
+  "ratio_score": 75.0,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 83.8,
+    "sentiment_score": 100,
+    "ratio_score": 75.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 358.56,
+    "horizon": "12 months",
+    "bull_case": 12.0,
+    "base_case": 7.8,
+    "bear_case": -8.2,
+    "price_bull": 401.59,
+    "price_base": 386.53,
+    "price_bear": 328.98,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 401.47,
+        "target_low": 330.0,
+        "target_high": 450.0,
+        "target_median": 404.0,
+        "upside_mean": 12.0,
+        "upside_low": -8.0,
+        "upside_high": 25.5,
+        "n_analysts": 38,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 365.14,
+        "low_52w": 293.89,
+        "range_pct": 24.2,
+        "position_in_range": 90.8,
+        "upside_estimate": 3.6,
+        "downside_estimate": -8.5,
+        "avg_50d": 333.1,
+        "avg_200d": 329.63,
+        "beta": 0.75
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

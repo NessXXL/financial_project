@@ -1,0 +1,202 @@
+{
+  "ticker": "UNH",
+  "timestamp": "2026-07-19T19:57:42.924738",
+  "profile": {
+    "name": "UnitedHealth Group Incorporated",
+    "sector": "Healthcare"
+  },
+  "quote": {
+    "price": 426.09,
+    "change_pct": 0.640085,
+    "marketCap": 386951249920.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0861,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 6,
+      "negative": 2
+    },
+    "details": [
+      {
+        "headline": "UnitedHealth CFO sends stark warning after earnings",
+        "label": "neutral",
+        "confidence": 0.8304485082626343,
+        "negative": 0.10691200196743011,
+        "neutral": 0.8304485082626343,
+        "positive": 0.06263946741819382
+      },
+      {
+        "headline": "UnitedHealth Group (UNH) Stock Still Looks Cheap Following Raised 2026 Outlook",
+        "label": "neutral",
+        "confidence": 0.8951278328895569,
+        "negative": 0.05287501960992813,
+        "neutral": 0.8951278328895569,
+        "positive": 0.051997169852256775
+      },
+      {
+        "headline": "UnitedHealth Lost Nearly 1 Million Medicare Members. Here's Why Investors Aren't Worried",
+        "label": "negative",
+        "confidence": 0.8450028896331787,
+        "negative": 0.8450028896331787,
+        "neutral": 0.09765134751796722,
+        "positive": 0.057345692068338394
+      },
+      {
+        "headline": "What A Patient Holder Is Really Paying For CVS Health Stock",
+        "label": "neutral",
+        "confidence": 0.8968958854675293,
+        "negative": 0.05093681439757347,
+        "neutral": 0.8968958854675293,
+        "positive": 0.052167315036058426
+      },
+      {
+        "headline": "What's A Strong Quarter Worth When Elevance Health Is Ditching Its Own Markets?",
+        "label": "neutral",
+        "confidence": 0.8111301064491272,
+        "negative": 0.0611109621822834,
+        "neutral": 0.8111301064491272,
+        "positive": 0.1277589499950409
+      },
+      {
+        "headline": "Jim Cramer Says the Market Is \u201cDead Wrong\u201d About These 5 Oversold Stocks",
+        "label": "negative",
+        "confidence": 0.898799479007721,
+        "negative": 0.898799479007721,
+        "neutral": 0.051688991487026215,
+        "positive": 0.049511462450027466
+      },
+      {
+        "headline": "Stocks making big moves this week: HCA Healthcare, UnitedHealth, CrowdStrike, RXO, and Enovis",
+        "label": "neutral",
+        "confidence": 0.8600507378578186,
+        "negative": 0.06777866929769516,
+        "neutral": 0.8600507378578186,
+        "positive": 0.07217064499855042
+      },
+      {
+        "headline": "The First Oral Cholesterol Pill Is Here. Which of These 5 Stocks Benefits Most?",
+        "label": "positive",
+        "confidence": 0.5480262637138367,
+        "negative": 0.0892544612288475,
+        "neutral": 0.36271926760673523,
+        "positive": 0.5480262637138367
+      },
+      {
+        "headline": "UnitedHealth Poised for Further Growth Despite Employer Commercial Pressure, RBC Says",
+        "label": "positive",
+        "confidence": 0.5939186811447144,
+        "negative": 0.30290427803993225,
+        "neutral": 0.10317705571651459,
+        "positive": 0.5939186811447144
+      },
+      {
+        "headline": "UnitedHealth Q2 Earnings Call Focuses on Reset and Durable Growth",
+        "label": "neutral",
+        "confidence": 0.9121481776237488,
+        "negative": 0.044478870928287506,
+        "neutral": 0.9121481776237488,
+        "positive": 0.043372977524995804
+      }
+    ],
+    "news_score": -0.0861,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.7884,
+    "quick_ratio": 0.4124,
+    "cash_ratio": 0.2121,
+    "ocf_ratio": 0.1714,
+    "gross_margin": 18.5262,
+    "operating_margin": 4.1779,
+    "net_margin": 2.6937,
+    "roa": 3.8943,
+    "roe": 12.8105,
+    "roce": 9.6048,
+    "ebitda_margin": 5.1523,
+    "de_ratio": 0.833,
+    "da_ratio": 0.2532,
+    "interest_coverage": 4.6724,
+    "dscr": 4.9218,
+    "equity_multiplier": 3.2896,
+    "net_debt_ebitda": 2.3428,
+    "asset_turnover": 1.4457,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 19.4442,
+    "dso": 18.7716,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 41.5877,
+    "pe_ratio": 32.0609,
+    "pb_ratio": 3.9527,
+    "ev_ebitda": 17.696,
+    "ps_ratio": 0.8596,
+    "dividend_yield": 2.18,
+    "dividend_payout": 69.9036,
+    "eps": 13.29,
+    "fcf": 16075000000.0,
+    "fcf_margin": 3.5916,
+    "cf_to_net_income": 1.6338,
+    "capex_to_revenue": 0.8093,
+    "cash_roic": null
+  },
+  "ratio_score": 60.0,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 56.5,
+    "sentiment_score": 50,
+    "ratio_score": 60.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 426.09,
+    "horizon": "12 months",
+    "bull_case": 12.0,
+    "base_case": 11.3,
+    "bear_case": -31.1,
+    "price_bull": 477.22,
+    "price_base": 474.45,
+    "price_bear": 293.43,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 471.65,
+        "target_low": 313.0,
+        "target_high": 529.0,
+        "target_median": 479.0,
+        "upside_mean": 10.7,
+        "upside_low": -26.5,
+        "upside_high": 24.2,
+        "n_analysts": 26,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 260.46,
+        "upside": -38.9,
+        "growth_assumed": "3%",
+        "discount_rate": "10%",
+        "fcf_per_share": 17.7,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 461.62,
+        "low_52w": 234.6,
+        "range_pct": 96.8,
+        "position_in_range": 84.3,
+        "upside_estimate": 12.0,
+        "downside_estimate": -28.0,
+        "avg_50d": 402.88,
+        "avg_200d": 341.41,
+        "beta": 0.63
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

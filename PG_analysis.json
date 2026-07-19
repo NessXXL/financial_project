@@ -1,0 +1,193 @@
+{
+  "ticker": "PG",
+  "timestamp": "2026-07-19T19:58:04.774226",
+  "profile": {
+    "name": "The Procter & Gamble Company",
+    "sector": "Consumer Defensive"
+  },
+  "quote": {
+    "price": 149.98,
+    "change_pct": -1.0033,
+    "marketCap": 349243277312.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0549,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 8,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Would You Rather Earn $55,000 Today or $110,000 in 20 Years?",
+        "label": "neutral",
+        "confidence": 0.49707841873168945,
+        "negative": 0.3423679769039154,
+        "neutral": 0.49707841873168945,
+        "positive": 0.16055355966091156
+      },
+      {
+        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "label": "neutral",
+        "confidence": 0.9083341956138611,
+        "negative": 0.046524450182914734,
+        "neutral": 0.9083341956138611,
+        "positive": 0.04514128714799881
+      },
+      {
+        "headline": "The Portfolio That Lets You Ignore Inflation",
+        "label": "negative",
+        "confidence": 0.8988213539123535,
+        "negative": 0.8988213539123535,
+        "neutral": 0.049554675817489624,
+        "positive": 0.05162395164370537
+      },
+      {
+        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
+        "label": "neutral",
+        "confidence": 0.8124264478683472,
+        "negative": 0.060776084661483765,
+        "neutral": 0.8124264478683472,
+        "positive": 0.12679745256900787
+      },
+      {
+        "headline": "How P&G\u2019s Latest Dividend Hike Amid Cost Cuts Will Impact Procter & Gamble (PG) Investors",
+        "label": "neutral",
+        "confidence": 0.8903716206550598,
+        "negative": 0.057445164769887924,
+        "neutral": 0.8903716206550598,
+        "positive": 0.0521831139922142
+      },
+      {
+        "headline": "The Portfolio That Lets You Cruise Through the News, Unbothered",
+        "label": "neutral",
+        "confidence": 0.8286098837852478,
+        "negative": 0.07518168538808823,
+        "neutral": 0.8286098837852478,
+        "positive": 0.09620842337608337
+      },
+      {
+        "headline": "3 Dividend Stocks That Have Survived Every Market Crash in July",
+        "label": "neutral",
+        "confidence": 0.9015957117080688,
+        "negative": 0.04865235462784767,
+        "neutral": 0.9015957117080688,
+        "positive": 0.049751896411180496
+      },
+      {
+        "headline": "Here\u2019s the Funding It Takes to Keep Learning Forever",
+        "label": "positive",
+        "confidence": 0.48028087615966797,
+        "negative": 0.07610850781202316,
+        "neutral": 0.4436105787754059,
+        "positive": 0.48028087615966797
+      },
+      {
+        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
+        "label": "neutral",
+        "confidence": 0.9032374024391174,
+        "negative": 0.050063736736774445,
+        "neutral": 0.9032374024391174,
+        "positive": 0.04669882357120514
+      },
+      {
+        "headline": "DGRO\u2019s December Rebalance Could Reshape Healthcare Exposure: Here\u2019s What to Watch",
+        "label": "neutral",
+        "confidence": 0.8318347930908203,
+        "negative": 0.08503267914056778,
+        "neutral": 0.8318347930908203,
+        "positive": 0.0831325426697731
+      }
+    ],
+    "news_score": -0.0549,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.7042,
+    "quick_ratio": 0.4365,
+    "cash_ratio": 0.265,
+    "ocf_ratio": 0.4941,
+    "gross_margin": 51.1604,
+    "operating_margin": 25.0036,
+    "net_margin": 18.9526,
+    "roa": 12.7556,
+    "roe": 30.7121,
+    "roce": 23.6327,
+    "ebitda_margin": 28.3814,
+    "de_ratio": 0.6818,
+    "da_ratio": 0.2832,
+    "interest_coverage": 23.2348,
+    "dscr": 19.6439,
+    "equity_multiplier": 2.4077,
+    "net_debt_ebitda": 1.083,
+    "asset_turnover": 0.673,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 13.6272,
+    "dso": 26.7847,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 3.527,
+    "pe_ratio": 21.9269,
+    "pb_ratio": 6.498,
+    "ev_ebitda": 14.973,
+    "ps_ratio": 4.0274,
+    "dividend_yield": 2.9,
+    "dividend_payout": 63.4118,
+    "eps": 6.84,
+    "fcf": 14044000000.0,
+    "fcf_margin": 16.6627,
+    "cf_to_net_income": 1.1154,
+    "capex_to_revenue": 4.4765,
+    "cash_roic": null
+  },
+  "ratio_score": 78.3,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 68.4,
+    "sentiment_score": 50,
+    "ratio_score": 78.3
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 149.98,
+    "horizon": "12 months",
+    "bull_case": 8.9,
+    "base_case": 7.2,
+    "bear_case": -5.0,
+    "price_bull": 163.33,
+    "price_base": 160.7,
+    "price_bear": 142.48,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 163.35,
+        "target_low": 145.0,
+        "target_high": 186.0,
+        "target_median": 163.0,
+        "upside_mean": 8.9,
+        "upside_low": -3.3,
+        "upside_high": 24.0,
+        "n_analysts": 23,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 167.25,
+        "low_52w": 137.62,
+        "range_pct": 21.5,
+        "position_in_range": 41.7,
+        "upside_estimate": 5.4,
+        "downside_estimate": -4.3,
+        "avg_50d": 146.63,
+        "avg_200d": 148.25,
+        "beta": 0.38
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

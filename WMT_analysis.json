@@ -1,0 +1,202 @@
+{
+  "ticker": "WMT",
+  "timestamp": "2026-07-19T19:57:05.664881",
+  "profile": {
+    "name": "Walmart Inc.",
+    "sector": "Consumer Defensive"
+  },
+  "quote": {
+    "price": 114.24,
+    "change_pct": -0.617659,
+    "marketCap": 909130924032.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0605,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 9,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Cyclospora Parasite Outbreak: Salad Recalls Trigger Sharp Stock Volatility",
+        "label": "neutral",
+        "confidence": 0.8466494679450989,
+        "negative": 0.0949416235089302,
+        "neutral": 0.8466494679450989,
+        "positive": 0.05840891972184181
+      },
+      {
+        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
+        "label": "neutral",
+        "confidence": 0.9028205871582031,
+        "negative": 0.04816388711333275,
+        "neutral": 0.9028205871582031,
+        "positive": 0.049015626311302185
+      },
+      {
+        "headline": "Walmart Removes Four Taylor Farms Salads as Recalls Spread",
+        "label": "neutral",
+        "confidence": 0.6721596717834473,
+        "negative": 0.13886615633964539,
+        "neutral": 0.6721596717834473,
+        "positive": 0.18897420167922974
+      },
+      {
+        "headline": "Giant Eagle drops prices on 300 items before its sale",
+        "label": "negative",
+        "confidence": 0.7546650171279907,
+        "negative": 0.7546650171279907,
+        "neutral": 0.17048871517181396,
+        "positive": 0.0748462826013565
+      },
+      {
+        "headline": "Amazon\u2019s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying",
+        "label": "neutral",
+        "confidence": 0.9141682386398315,
+        "negative": 0.044236261397600174,
+        "neutral": 0.9141682386398315,
+        "positive": 0.04159541428089142
+      },
+      {
+        "headline": "Chewy vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
+        "label": "neutral",
+        "confidence": 0.8959215879440308,
+        "negative": 0.05169317498803139,
+        "neutral": 0.8959215879440308,
+        "positive": 0.05238523334264755
+      },
+      {
+        "headline": "Does \u2018token shock\u2019 hurt AI adoption?",
+        "label": "neutral",
+        "confidence": 0.8816481828689575,
+        "negative": 0.06757462024688721,
+        "neutral": 0.8816481828689575,
+        "positive": 0.050777215510606766
+      },
+      {
+        "headline": "Publix Closes More Stores in 2026 as Walmart Competition, Rising Costs and Online Grocery Shopping Bite: Here are the Locations Affected",
+        "label": "neutral",
+        "confidence": 0.7658684849739075,
+        "negative": 0.08019432425498962,
+        "neutral": 0.7658684849739075,
+        "positive": 0.15393714606761932
+      },
+      {
+        "headline": "Walmart beats Costco at its own game",
+        "label": "neutral",
+        "confidence": 0.8820130228996277,
+        "negative": 0.057013846933841705,
+        "neutral": 0.8820130228996277,
+        "positive": 0.06097307801246643
+      },
+      {
+        "headline": "What A Patient Holder Is Really Paying For CVS Health Stock",
+        "label": "neutral",
+        "confidence": 0.8968958854675293,
+        "negative": 0.05093681439757347,
+        "neutral": 0.8968958854675293,
+        "positive": 0.052167315036058426
+      }
+    ],
+    "news_score": -0.0605,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.7898,
+    "quick_ratio": 0.2038,
+    "cash_ratio": 0.0998,
+    "ocf_ratio": 0.3868,
+    "gross_margin": 24.9267,
+    "operating_margin": 4.5246,
+    "net_margin": 3.0698,
+    "roa": 7.6907,
+    "roe": 21.9772,
+    "roce": 18.21,
+    "ebitda_margin": 6.5162,
+    "de_ratio": 0.6735,
+    "da_ratio": 0.2357,
+    "interest_coverage": 11.5284,
+    "dscr": 14.8499,
+    "equity_multiplier": 2.8576,
+    "net_debt_ebitda": 1.213,
+    "asset_turnover": 2.5052,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 63.8349,
+    "dso": 5.7179,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 4.5437,
+    "pe_ratio": 40.2254,
+    "pb_ratio": 9.6421,
+    "ev_ebitda": 21.87,
+    "ps_ratio": 1.2534,
+    "dividend_yield": null,
+    "dividend_payout": 35.9864,
+    "eps": 2.84,
+    "fcf": 14923000000.0,
+    "fcf_margin": 2.0925,
+    "cf_to_net_income": 1.8986,
+    "capex_to_revenue": 3.7358,
+    "cash_roic": null
+  },
+  "ratio_score": 62.1,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 57.9,
+    "sentiment_score": 50,
+    "ratio_score": 62.1
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 114.24,
+    "horizon": "12 months",
+    "bull_case": 21.3,
+    "base_case": 15.9,
+    "bear_case": -37.8,
+    "price_bull": 138.57,
+    "price_base": 132.4,
+    "price_bear": 71.1,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 138.59,
+        "target_low": 81.0,
+        "target_high": 155.0,
+        "target_median": 140.0,
+        "upside_mean": 21.3,
+        "upside_low": -29.1,
+        "upside_high": 35.7,
+        "n_analysts": 41,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 27.59,
+        "upside": -75.8,
+        "growth_assumed": "3%",
+        "discount_rate": "10%",
+        "fcf_per_share": 1.88,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 135.16,
+        "low_52w": 95.1,
+        "range_pct": 42.1,
+        "position_in_range": 47.8,
+        "upside_estimate": 10.5,
+        "downside_estimate": -8.4,
+        "avg_50d": 119.64,
+        "avg_200d": 117.57,
+        "beta": 0.6
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

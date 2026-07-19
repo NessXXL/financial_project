@@ -1,0 +1,249 @@
+{
+  "ticker": "TLKM.JK",
+  "timestamp": "2026-07-19T20:03:29.660689",
+  "profile": {
+    "name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
+    "sector": "Communication Services"
+  },
+  "quote": {
+    "price": 2660.0,
+    "change_pct": 5.13834,
+    "marketCap": 262540747603968.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0071,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 17,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "TELFY vs. TLK: Which Stock Is the Better Value Option?",
+        "label": "neutral",
+        "confidence": 0.9031304717063904,
+        "negative": 0.047866590321063995,
+        "neutral": 0.9031304717063904,
+        "positive": 0.04900301247835159
+      },
+      {
+        "headline": "What Analysts Think Gives Telekom Indonesia (IDX:TLKM) A New Edge As The Story Shifts",
+        "label": "neutral",
+        "confidence": 0.9004092812538147,
+        "negative": 0.048672717064619064,
+        "neutral": 0.9004092812538147,
+        "positive": 0.050918035209178925
+      },
+      {
+        "headline": "DTEGY or TLK: Which Is the Better Value Stock Right Now?",
+        "label": "neutral",
+        "confidence": 0.8947779536247253,
+        "negative": 0.053518034517765045,
+        "neutral": 0.8947779536247253,
+        "positive": 0.05170406401157379
+      },
+      {
+        "headline": "TLK or CHT: Which Is the Better Value Stock Right Now?",
+        "label": "neutral",
+        "confidence": 0.8947779536247253,
+        "negative": 0.053518034517765045,
+        "neutral": 0.8947779536247253,
+        "positive": 0.05170406401157379
+      },
+      {
+        "headline": "Looking at the Narrative for Telkom Indonesia After Infrastructure Spinoff Plans and Analyst Upgrade",
+        "label": "neutral",
+        "confidence": 0.8979135155677795,
+        "negative": 0.050619903951883316,
+        "neutral": 0.8979135155677795,
+        "positive": 0.05146659165620804
+      },
+      {
+        "headline": "Telkom Indonesia to spin off wholesale fibre connectivity business in $2.16 billion deal",
+        "label": "neutral",
+        "confidence": 0.899479329586029,
+        "negative": 0.05046606808900833,
+        "neutral": 0.899479329586029,
+        "positive": 0.05005458742380142
+      },
+      {
+        "headline": "Asian Equities Traded in the US as American Depositary Receipts Fall in Friday Trading",
+        "label": "neutral",
+        "confidence": 0.6004067659378052,
+        "negative": 0.3149344027042389,
+        "neutral": 0.6004067659378052,
+        "positive": 0.08465886116027832
+      },
+      {
+        "headline": "TelkomMetra Strengthens Its Business Portfolio Restructuring Strategy, AdMedika Group Ready for Distinct Expansion under Fullerton Health",
+        "label": "neutral",
+        "confidence": 0.8920040726661682,
+        "negative": 0.05417507514357567,
+        "neutral": 0.8920040726661682,
+        "positive": 0.05382079631090164
+      },
+      {
+        "headline": "TelkomGroup Launches Pukpuk Submarine Cable: The First Digital Bridge Connecting Indonesia and Papua New Guinea",
+        "label": "neutral",
+        "confidence": 0.8990151882171631,
+        "negative": 0.05119113251566887,
+        "neutral": 0.8990151882171631,
+        "positive": 0.049793656915426254
+      },
+      {
+        "headline": "Indonesia Colocation Data Center Portfolio Report 2026: Detailed Analysis of 87 Existing & 30 Upcoming Data Centers 2025-2029 by White-Floor Area, IT Load (MW), Pricing, Rack Capacity",
+        "label": "neutral",
+        "confidence": 0.8967844843864441,
+        "negative": 0.051284581422805786,
+        "neutral": 0.8967844843864441,
+        "positive": 0.051930904388427734
+      },
+      {
+        "headline": "TelkomMetra Streamlines Business Portfolio, AdMedika Group Poised to Enter a New Growth Phase on Regional Level Under Fullerton Health",
+        "label": "neutral",
+        "confidence": 0.8968943357467651,
+        "negative": 0.05259310454130173,
+        "neutral": 0.8968943357467651,
+        "positive": 0.05051247030496597
+      },
+      {
+        "headline": "StarHub Partners NeutraDC, Indonesia's Leading Data Centre, to Strengthen Regional Quantum-Safe Connectivity",
+        "label": "neutral",
+        "confidence": 0.7153989672660828,
+        "negative": 0.07890687882900238,
+        "neutral": 0.7153989672660828,
+        "positive": 0.20569419860839844
+      },
+      {
+        "headline": "Telin Launch CLS Manado-Minahasa: Bold Step to Strengthen Eastern Indonesia Digital Ecosystem Toward a More Diverse and Opulence Connectivity",
+        "label": "neutral",
+        "confidence": 0.8957870006561279,
+        "negative": 0.05327280983328819,
+        "neutral": 0.8957870006561279,
+        "positive": 0.05094015598297119
+      },
+      {
+        "headline": "Unlocking China\u2019s Potential: 5 High-Growth Hong Kong Stocks You Can Buy as SGX SDRs - Yahoo Finance Singapore",
+        "label": "neutral",
+        "confidence": 0.9024540185928345,
+        "negative": 0.0490809828042984,
+        "neutral": 0.9024540185928345,
+        "positive": 0.04846496507525444
+      },
+      {
+        "headline": "TLKM Stock Price and Chart \u2014 IDX:TLKM - TradingView",
+        "label": "neutral",
+        "confidence": 0.5603197813034058,
+        "negative": 0.10370098799467087,
+        "neutral": 0.5603197813034058,
+        "positive": 0.33597925305366516
+      },
+      {
+        "headline": "Google Finance Dividend Portfolio Template: A Step-by-step Guide - Tawcan",
+        "label": "neutral",
+        "confidence": 0.8952177166938782,
+        "negative": 0.05312827229499817,
+        "neutral": 0.8952177166938782,
+        "positive": 0.05165400356054306
+      },
+      {
+        "headline": "SGX Adds 6 New Hong Kong and Thai Singapore Depository Receipts: Here\u2019s What You Should Know - Yahoo Finance Singapore",
+        "label": "neutral",
+        "confidence": 0.8980843424797058,
+        "negative": 0.050876423716545105,
+        "neutral": 0.8980843424797058,
+        "positive": 0.0510391965508461
+      }
+    ],
+    "news_score": 0.0071,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.8315,
+    "quick_ratio": 0.6117,
+    "cash_ratio": 0.4607,
+    "ocf_ratio": 0.8661,
+    "gross_margin": 67.1178,
+    "operating_margin": 24.34,
+    "net_margin": 11.9162,
+    "roa": 6.0867,
+    "roe": 13.4352,
+    "roce": 16.7704,
+    "ebitda_margin": 49.9993,
+    "de_ratio": 0.5783,
+    "da_ratio": 0.262,
+    "interest_coverage": 6.8581,
+    "dscr": 12.3571,
+    "equity_multiplier": 2.2073,
+    "net_debt_ebitda": 0.5593,
+    "asset_turnover": 0.5108,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 13.0751,
+    "dso": 27.9156,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 0.7925,
+    "pe_ratio": 16.181,
+    "pb_ratio": 1.9554,
+    "ev_ebitda": 4.948,
+    "ps_ratio": 1.7825,
+    "dividend_yield": 8.39,
+    "dividend_payout": 125.9681,
+    "eps": 164.39,
+    "fcf": 38587999678464.0,
+    "fcf_margin": 26.2965,
+    "cf_to_net_income": 3.6804,
+    "capex_to_revenue": 17.5601,
+    "cash_roic": null
+  },
+  "ratio_score": 72.4,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 64.6,
+    "sentiment_score": 50,
+    "ratio_score": 72.4
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 2660.0,
+    "horizon": "12 months",
+    "bull_case": 35.6,
+    "base_case": 31.8,
+    "bear_case": -5.0,
+    "price_bull": 3606.96,
+    "price_base": 3504.55,
+    "price_bear": 2527.0,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 3606.14,
+        "target_low": 2800.0,
+        "target_high": 4150.0,
+        "target_median": 3640.0,
+        "upside_mean": 35.6,
+        "upside_low": 5.3,
+        "upside_high": 56.0,
+        "n_analysts": 22,
+        "recommendation": "strong_buy"
+      },
+      "volatility": {
+        "high_52w": 3990.0,
+        "low_52w": 2350.0,
+        "range_pct": 69.8,
+        "position_in_range": 18.9,
+        "upside_estimate": 27.9,
+        "downside_estimate": -14.0,
+        "avg_50d": 2745.0,
+        "avg_200d": 3187.1,
+        "beta": 0.13
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

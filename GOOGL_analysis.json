@@ -1,106 +1,106 @@
 {
   "ticker": "GOOGL",
-  "timestamp": "2026-06-15T11:42:37.295802",
+  "timestamp": "2026-07-19T19:53:59.392139",
   "profile": {
     "name": "Alphabet Inc.",
     "sector": "Communication Services"
   },
   "quote": {
-    "price": 359.68,
-    "change_pct": 0.5338636,
-    "marketCap": 4386274148352.0
+    "price": 346.77,
+    "change_pct": -2.1695,
+    "marketCap": 4231485980672.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0909,
+    "score": 0.039,
     "breakdown": {
-      "positive": 2,
-      "neutral": 7,
-      "negative": 1
+      "positive": 1,
+      "neutral": 9,
+      "negative": 0
     },
     "details": [
       {
-        "headline": "This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market",
+        "headline": "Big Tech earnings test tech's big rotation: What to watch this week",
         "label": "neutral",
-        "confidence": 0.897770345211029,
-        "negative": 0.04896661639213562,
-        "neutral": 0.897770345211029,
-        "positive": 0.05326312407851219
+        "confidence": 0.9096817970275879,
+        "negative": 0.04348170757293701,
+        "neutral": 0.9096817970275879,
+        "positive": 0.046836499124765396
       },
       {
-        "headline": "Anthropic Block Marks US Reversal, Warning to Silicon Valley",
-        "label": "negative",
-        "confidence": 0.8776894211769104,
-        "negative": 0.8776894211769104,
-        "neutral": 0.06805431842803955,
-        "positive": 0.05425627529621124
-      },
-      {
-        "headline": "A Place Where Some AI Stocks Are Still Cheap: China",
+        "headline": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It\u2019s Winning)",
         "label": "neutral",
-        "confidence": 0.9152843952178955,
-        "negative": 0.042325619608163834,
-        "neutral": 0.9152843952178955,
-        "positive": 0.04238993674516678
+        "confidence": 0.9174461364746094,
+        "negative": 0.04040177911520004,
+        "neutral": 0.9174461364746094,
+        "positive": 0.04215212166309357
       },
       {
-        "headline": "Alphabet Ties Search AI And Mobility Closer To Revenue Potential",
+        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
+        "label": "neutral",
+        "confidence": 0.9125027656555176,
+        "negative": 0.044349607080221176,
+        "neutral": 0.9125027656555176,
+        "positive": 0.04314761608839035
+      },
+      {
+        "headline": "Warren Buffett Is Behind Berkshire Hathaway's Massive Alphabet Investment. Here's What He Likes About the Company.",
         "label": "positive",
-        "confidence": 0.904833972454071,
-        "negative": 0.04702882841229439,
-        "neutral": 0.04813716188073158,
-        "positive": 0.904833972454071
+        "confidence": 0.581271231174469,
+        "negative": 0.3043758273124695,
+        "neutral": 0.11435290426015854,
+        "positive": 0.581271231174469
       },
       {
-        "headline": "How \u2018agentic\u2019 is AI shopping today",
+        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
         "label": "neutral",
-        "confidence": 0.816478967666626,
-        "negative": 0.07337779551744461,
-        "neutral": 0.816478967666626,
-        "positive": 0.11014322191476822
+        "confidence": 0.9132635593414307,
+        "negative": 0.04328992962837219,
+        "neutral": 0.9132635593414307,
+        "positive": 0.04344656690955162
       },
       {
-        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "headline": "Beyond rockets and satellites, SpaceX is quietly building an AI compute business that may become key to its eye-popping valuation",
         "label": "neutral",
-        "confidence": 0.9002727270126343,
-        "negative": 0.0510941706597805,
-        "neutral": 0.9002727270126343,
-        "positive": 0.048633042722940445
+        "confidence": 0.7365648150444031,
+        "negative": 0.07845455408096313,
+        "neutral": 0.7365648150444031,
+        "positive": 0.1849806159734726
       },
       {
-        "headline": "Anthropic Turns To Google To Back Massive Data Center Push",
+        "headline": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
         "label": "neutral",
-        "confidence": 0.8564429879188538,
-        "negative": 0.06598594784736633,
-        "neutral": 0.8564429879188538,
-        "positive": 0.07757112383842468
+        "confidence": 0.9011017084121704,
+        "negative": 0.04888951778411865,
+        "neutral": 0.9011017084121704,
+        "positive": 0.05000883713364601
       },
       {
-        "headline": "3 AI Stocks Poised for Long-Term Gains Despite Strong Year-to-Date Performance",
-        "label": "positive",
-        "confidence": 0.8841514587402344,
-        "negative": 0.05561219900846481,
-        "neutral": 0.06023629754781723,
-        "positive": 0.8841514587402344
-      },
-      {
-        "headline": "Mark Zuckerberg's $115 Million Workforce Push Gets A Sunder Pichai Follow Up Act, Alphabet CEO Says Will Train 300,000 American Tradespeople",
+        "headline": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
         "label": "neutral",
-        "confidence": 0.9030083417892456,
-        "negative": 0.050138622522354126,
-        "neutral": 0.9030083417892456,
-        "positive": 0.04685302451252937
+        "confidence": 0.863185465335846,
+        "negative": 0.06533922255039215,
+        "neutral": 0.863185465335846,
+        "positive": 0.07147525995969772
       },
       {
-        "headline": "SpaceX Stock Began Trading. What\u2019s Ahead for It This Week.",
+        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
         "label": "neutral",
-        "confidence": 0.9032474160194397,
-        "negative": 0.048667676746845245,
-        "neutral": 0.9032474160194397,
-        "positive": 0.04808488115668297
+        "confidence": 0.900339663028717,
+        "negative": 0.04917598143219948,
+        "neutral": 0.900339663028717,
+        "positive": 0.050484344363212585
+      },
+      {
+        "headline": "Elon Musk Admits He Underestimated Anthropic's AI, and Amazon and Alphabet Investors Should Take Notice",
+        "label": "neutral",
+        "confidence": 0.8943831920623779,
+        "negative": 0.05591125041246414,
+        "neutral": 0.8943831920623779,
+        "positive": 0.049705538898706436
       }
     ],
-    "news_score": 0.0909,
+    "news_score": 0.039,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.5386,
-    "pe_ratio": 27.4775,
-    "pb_ratio": 9.1026,
-    "ev_ebitda": 26.823,
-    "ps_ratio": 10.3818,
-    "dividend_yield": 24.0,
-    "dividend_payout": 3.9039,
-    "eps": 13.09,
+    "pe_ratio": 26.4508,
+    "pb_ratio": 8.7759,
+    "ev_ebitda": 25.853,
+    "ps_ratio": 10.0154,
+    "dividend_yield": 25.0,
+    "dividend_payout": 3.9064,
+    "eps": 13.11,
     "fcf": 73266000000.0,
     "fcf_margin": 18.1876,
     "cf_to_net_income": 1.2462,
@@ -152,40 +152,40 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 359.68,
+    "current_price": 346.77,
     "horizon": "12 months",
-    "bull_case": 20.3,
-    "base_case": 16.1,
-    "bear_case": -16.8,
-    "price_bull": 432.7,
-    "price_base": 417.77,
-    "price_bear": 299.43,
+    "bull_case": 25.0,
+    "base_case": 18.5,
+    "bear_case": -15.0,
+    "price_bull": 433.46,
+    "price_base": 410.92,
+    "price_bear": 294.75,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 432.83,
+        "target_mean": 433.51,
         "target_low": 340.0,
         "target_high": 515.0,
-        "target_median": 430.0,
-        "upside_mean": 20.3,
-        "upside_low": -5.5,
-        "upside_high": 43.2,
+        "target_median": 433.0,
+        "upside_mean": 25.0,
+        "upside_low": -2.0,
+        "upside_high": 48.5,
         "n_analysts": 53,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 408.61,
-        "low_52w": 162.0,
-        "range_pct": 152.2,
-        "position_in_range": 80.2,
+        "low_52w": 186.15,
+        "range_pct": 119.5,
+        "position_in_range": 72.2,
         "upside_estimate": 12.0,
         "downside_estimate": -28.0,
-        "avg_50d": 362.26,
-        "avg_200d": 307.94,
-        "beta": 1.24
+        "avg_50d": 370.59,
+        "avg_200d": 321.66,
+        "beta": 1.25
       }
     },
     "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."

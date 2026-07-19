@@ -1,106 +1,106 @@
 {
   "ticker": "AAPL",
-  "timestamp": "2026-07-09T17:30:57.985622",
+  "timestamp": "2026-07-19T19:53:40.474942",
   "profile": {
     "name": "Apple Inc.",
     "sector": "Technology"
   },
   "quote": {
-    "price": 313.39,
-    "change_pct": 0.878778,
-    "marketCap": 4602870628352.0
+    "price": 333.74,
+    "change_pct": 0.144026,
+    "marketCap": 4901757779968.0
   },
   "sentiment": {
     "overall": "positive",
-    "score": 0.2955,
+    "score": 0.1851,
     "breakdown": {
-      "positive": 4,
-      "neutral": 6,
+      "positive": 2,
+      "neutral": 8,
       "negative": 0
     },
     "details": [
       {
-        "headline": "Broadcom stock jumps on Apple AI chip deal, while Nvidia's relative stock price drops",
+        "headline": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It\u2019s Winning)",
+        "label": "neutral",
+        "confidence": 0.9174461364746094,
+        "negative": 0.04040177911520004,
+        "neutral": 0.9174461364746094,
+        "positive": 0.04215212166309357
+      },
+      {
+        "headline": "Why Worried Investors Should Buy Apple Over Amazon for the Rest of 2026",
+        "label": "neutral",
+        "confidence": 0.8923068642616272,
+        "negative": 0.05087179318070412,
+        "neutral": 0.8923068642616272,
+        "positive": 0.05682133883237839
+      },
+      {
+        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+        "label": "neutral",
+        "confidence": 0.9132635593414307,
+        "negative": 0.04328992962837219,
+        "neutral": 0.9132635593414307,
+        "positive": 0.04344656690955162
+      },
+      {
+        "headline": "Alibaba\u2019s Qwen Unveils Preview of Flagship AI Model",
+        "label": "neutral",
+        "confidence": 0.9008521437644958,
+        "negative": 0.0501595214009285,
+        "neutral": 0.9008521437644958,
+        "positive": 0.04898837208747864
+      },
+      {
+        "headline": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
+        "label": "neutral",
+        "confidence": 0.863185465335846,
+        "negative": 0.06533922255039215,
+        "neutral": 0.863185465335846,
+        "positive": 0.07147525995969772
+      },
+      {
+        "headline": "5 big analyst AI moves: Apple upgraded as HSBC flags \u2019operational turning point\u2019",
         "label": "positive",
-        "confidence": 0.53484708070755,
-        "negative": 0.09344466775655746,
-        "neutral": 0.3717082142829895,
-        "positive": 0.53484708070755
+        "confidence": 0.9041025638580322,
+        "negative": 0.04743422940373421,
+        "neutral": 0.048463206738233566,
+        "positive": 0.9041025638580322
       },
       {
-        "headline": "Equity Futures Mostly Rise as Markets Assess Renewed Middle East Tensions",
+        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
+        "label": "neutral",
+        "confidence": 0.900339663028717,
+        "negative": 0.04917598143219948,
+        "neutral": 0.900339663028717,
+        "positive": 0.050484344363212585
+      },
+      {
+        "headline": "Under Greg Abel, Apple and Alphabet Now Make Up Nearly 30% of Berkshire Hathaway's $348 Billion Stock Portfolio. Here's Why.",
+        "label": "neutral",
+        "confidence": 0.7465007305145264,
+        "negative": 0.06453532725572586,
+        "neutral": 0.7465007305145264,
+        "positive": 0.1889639049768448
+      },
+      {
+        "headline": "These 3 Words From Warren Buffett Are Great News for Alphabet Investors",
+        "label": "neutral",
+        "confidence": 0.9016968011856079,
+        "negative": 0.04944009706377983,
+        "neutral": 0.9016968011856079,
+        "positive": 0.04886314645409584
+      },
+      {
+        "headline": "Apple just raised prices again and the big one is still coming",
         "label": "positive",
-        "confidence": 0.901617705821991,
-        "negative": 0.05315963923931122,
-        "neutral": 0.04522264748811722,
-        "positive": 0.901617705821991
-      },
-      {
-        "headline": "Ultra Clean Holdings (UCTT) Appoints Michael Keogh As CFO For Its Next AI Push",
-        "label": "neutral",
-        "confidence": 0.9015414714813232,
-        "negative": 0.050043463706970215,
-        "neutral": 0.9015414714813232,
-        "positive": 0.04841507971286774
-      },
-      {
-        "headline": "The U.S. Tech Selloff Is Over and an Unlikely Hero Can Kickstart the Rally",
-        "label": "neutral",
-        "confidence": 0.90196293592453,
-        "negative": 0.04971211776137352,
-        "neutral": 0.90196293592453,
-        "positive": 0.048324912786483765
-      },
-      {
-        "headline": "Nigerian Stocks Vault Past Korea\u2019s Kospi to Claim World\u2019s Top Returns",
-        "label": "neutral",
-        "confidence": 0.8815867900848389,
-        "negative": 0.058380935341119766,
-        "neutral": 0.8815867900848389,
-        "positive": 0.06003229320049286
-      },
-      {
-        "headline": "Broadcom, Intel, Corning, Salesforce, and More Stocks That Explain Today\u2019s Market",
-        "label": "neutral",
-        "confidence": 0.9154126644134521,
-        "negative": 0.043506838381290436,
-        "neutral": 0.9154126644134521,
-        "positive": 0.04108046740293503
-      },
-      {
-        "headline": "Prediction: TSMC Stock Is Going to Soar After July 16",
-        "label": "positive",
-        "confidence": 0.8904248476028442,
-        "negative": 0.05442032590508461,
-        "neutral": 0.05515480041503906,
-        "positive": 0.8904248476028442
-      },
-      {
-        "headline": "If the \"Magnificent Seven\" Were Recreated, Here's What Stocks I'd Include (Hint: Not SpaceX)",
-        "label": "neutral",
-        "confidence": 0.8975004553794861,
-        "negative": 0.052697136998176575,
-        "neutral": 0.8975004553794861,
-        "positive": 0.04980244114995003
-      },
-      {
-        "headline": "India removes import duty on some electronics, smartphone parts",
-        "label": "neutral",
-        "confidence": 0.9013469219207764,
-        "negative": 0.05082915723323822,
-        "neutral": 0.9013469219207764,
-        "positive": 0.04782390221953392
-      },
-      {
-        "headline": "Apple signs $30bn Broadcom deal to boost US chip production",
-        "label": "positive",
-        "confidence": 0.8931466937065125,
-        "negative": 0.054467130452394485,
-        "neutral": 0.052386119961738586,
-        "positive": 0.8931466937065125
+        "confidence": 0.9042313694953918,
+        "negative": 0.047509171068668365,
+        "neutral": 0.04825947433710098,
+        "positive": 0.9042313694953918
       }
     ],
-    "news_score": 0.2955,
+    "news_score": 0.1851,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,62 +129,62 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 8.3509,
-    "pe_ratio": 37.8948,
-    "pb_ratio": 43.1667,
-    "ev_ebitda": 28.874,
-    "ps_ratio": 10.1959,
+    "pe_ratio": 40.5024,
+    "pb_ratio": 45.9697,
+    "ev_ebitda": 30.742,
+    "ps_ratio": 10.858,
     "dividend_yield": null,
     "dividend_payout": 14.1615,
-    "eps": 8.27,
+    "eps": 8.24,
     "fcf": 98767000000.0,
     "fcf_margin": 23.7329,
     "cf_to_net_income": 0.9953,
     "capex_to_revenue": 3.0553,
     "cash_roic": null
   },
-  "ratio_score": 67.3,
+  "ratio_score": 65.4,
   "final_signal": {
     "signal": "BUY",
     "emoji": "\ud83d\udcc8",
-    "combined_score": 78.7,
+    "combined_score": 77.5,
     "sentiment_score": 100,
-    "ratio_score": 67.3
+    "ratio_score": 65.4
   },
   "prediction": {
     "available": true,
-    "current_price": 313.39,
+    "current_price": 333.74,
     "horizon": "12 months",
-    "bull_case": 8.6,
-    "base_case": 4.6,
-    "bear_case": -25.8,
-    "price_bull": 340.34,
-    "price_base": 327.96,
-    "price_bear": 232.69,
+    "bull_case": 9.9,
+    "base_case": 2.7,
+    "bear_case": -29.4,
+    "price_bull": 366.78,
+    "price_base": 342.58,
+    "price_bear": 235.62,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 315.57,
+        "target_mean": 318.25,
         "target_low": 215.0,
         "target_high": 400.0,
-        "target_median": 315.0,
-        "upside_mean": 0.7,
-        "upside_low": -31.4,
-        "upside_high": 27.6,
-        "n_analysts": 42,
+        "target_median": 325.0,
+        "upside_mean": -4.6,
+        "upside_low": -35.6,
+        "upside_high": 19.9,
+        "n_analysts": 43,
         "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 317.4,
+        "high_52w": 334.99,
         "low_52w": 201.5,
-        "range_pct": 57.5,
-        "position_in_range": 96.5,
-        "upside_estimate": 8.6,
-        "downside_estimate": -20.1,
-        "avg_50d": 295.9,
-        "avg_200d": 271.8,
+        "range_pct": 66.2,
+        "position_in_range": 99.1,
+        "upside_estimate": 9.9,
+        "downside_estimate": -23.2,
+        "avg_50d": 302.65,
+        "avg_200d": 274.22,
         "beta": 1.1
       }
     },

@@ -1,0 +1,193 @@
+{
+  "ticker": "ADBE",
+  "timestamp": "2026-07-19T20:01:50.240979",
+  "profile": {
+    "name": "Adobe Inc.",
+    "sector": "Technology"
+  },
+  "quote": {
+    "price": 237.25,
+    "change_pct": 0.824445,
+    "marketCap": 94306877440.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0141,
+    "breakdown": {
+      "positive": 1,
+      "neutral": 8,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Here's What the Adobe CEO's Sale of Company Shares for Over $900,000 Means for Investors.",
+        "label": "neutral",
+        "confidence": 0.6142321825027466,
+        "negative": 0.16388830542564392,
+        "neutral": 0.6142321825027466,
+        "positive": 0.22187946736812592
+      },
+      {
+        "headline": "Adobe vs. Autodesk: What Revenue Trends Reveal About These Software Stocks",
+        "label": "positive",
+        "confidence": 0.7769048810005188,
+        "negative": 0.07496987283229828,
+        "neutral": 0.14812520146369934,
+        "positive": 0.7769048810005188
+      },
+      {
+        "headline": "How to Find the Bargains in the Software Stock Wreckage",
+        "label": "neutral",
+        "confidence": 0.9025868773460388,
+        "negative": 0.04696771129965782,
+        "neutral": 0.9025868773460388,
+        "positive": 0.050445470958948135
+      },
+      {
+        "headline": "IBM 'did not adapt' and just lost $70B \u2014 is Big Tech (and your portfolio) in trouble? Protect your nest egg now",
+        "label": "neutral",
+        "confidence": 0.8963248133659363,
+        "negative": 0.05193907022476196,
+        "neutral": 0.8963248133659363,
+        "positive": 0.051736123859882355
+      },
+      {
+        "headline": "Price Prediction: Figma Will End The Year at This Price",
+        "label": "neutral",
+        "confidence": 0.9000272750854492,
+        "negative": 0.04927020147442818,
+        "neutral": 0.9000272750854492,
+        "positive": 0.05070247873663902
+      },
+      {
+        "headline": "For Autodesk Stock, Patience Is the Real Catalyst",
+        "label": "neutral",
+        "confidence": 0.8959365487098694,
+        "negative": 0.05121532827615738,
+        "neutral": 0.8959365487098694,
+        "positive": 0.05284815654158592
+      },
+      {
+        "headline": "E-Commerce Update - AI Transforming Digital Retail Through Innovation and Connectivity",
+        "label": "neutral",
+        "confidence": 0.8954708576202393,
+        "negative": 0.05299616605043411,
+        "neutral": 0.8954708576202393,
+        "positive": 0.05153302103281021
+      },
+      {
+        "headline": "What\u2019s Next for IBM Stock After 25% Collapse",
+        "label": "negative",
+        "confidence": 0.9099797010421753,
+        "negative": 0.9099797010421753,
+        "neutral": 0.04332149773836136,
+        "positive": 0.04669881612062454
+      },
+      {
+        "headline": "ADBE Looks Cheap. The Data Says Be Careful",
+        "label": "neutral",
+        "confidence": 0.49060168862342834,
+        "negative": 0.13462452590465546,
+        "neutral": 0.49060168862342834,
+        "positive": 0.3747737407684326
+      },
+      {
+        "headline": "IBM's historic crash exposes a deeper tech divide: Chart of the Day",
+        "label": "neutral",
+        "confidence": 0.889826238155365,
+        "negative": 0.05533522740006447,
+        "neutral": 0.889826238155365,
+        "positive": 0.05483847111463547
+      }
+    ],
+    "news_score": 0.0141,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.9964,
+    "quick_ratio": 0.7623,
+    "cash_ratio": 0.5325,
+    "ocf_ratio": 0.9834,
+    "gross_margin": 89.2675,
+    "operating_margin": 37.8518,
+    "net_margin": 29.9971,
+    "roa": 24.1728,
+    "roe": 61.3439,
+    "roce": 46.6262,
+    "ebitda_margin": 41.2933,
+    "de_ratio": 0.572,
+    "da_ratio": 0.2254,
+    "interest_coverage": 34.2091,
+    "dscr": 38.1407,
+    "equity_multiplier": 2.5377,
+    "net_debt_ebitda": 0.124,
+    "asset_turnover": 0.8058,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 10.1404,
+    "dso": 35.9948,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 10.8783,
+    "pe_ratio": 13.5649,
+    "pb_ratio": 8.2187,
+    "ev_ebitda": 9.843,
+    "ps_ratio": 3.7426,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": 17.49,
+    "fcf": 9852000000.0,
+    "fcf_margin": 41.4489,
+    "cf_to_net_income": 1.4069,
+    "capex_to_revenue": 0.7531,
+    "cash_roic": null
+  },
+  "ratio_score": 85.7,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 73.2,
+    "sentiment_score": 50,
+    "ratio_score": 85.7
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 237.25,
+    "horizon": "12 months",
+    "bull_case": 32.0,
+    "base_case": 23.4,
+    "bear_case": -17.9,
+    "price_bull": 313.17,
+    "price_base": 292.77,
+    "price_bear": 194.66,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 272.48,
+        "target_low": 190.0,
+        "target_high": 380.0,
+        "target_median": 250.0,
+        "upside_mean": 14.8,
+        "upside_low": -19.9,
+        "upside_high": 60.2,
+        "n_analysts": 33,
+        "recommendation": "hold"
+      },
+      "volatility": {
+        "high_52w": 376.16,
+        "low_52w": 190.12,
+        "range_pct": 97.9,
+        "position_in_range": 25.3,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 230.57,
+        "avg_200d": 281.95,
+        "beta": 1.43
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

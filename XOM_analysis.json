@@ -1,0 +1,202 @@
+{
+  "ticker": "XOM",
+  "timestamp": "2026-07-19T19:57:24.539330",
+  "profile": {
+    "name": "ExxonMobil Holdings Corporation",
+    "sector": "Energy"
+  },
+  "quote": {
+    "price": 147.36,
+    "change_pct": 0.966087,
+    "marketCap": 610799452160.0
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.2228,
+    "breakdown": {
+      "positive": 3,
+      "neutral": 6,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "Higher Oil Prices Could Boost ExxonMobil's Profits By $5 Billion in the Second Quarter. Here's What Investors Need to Know.",
+        "label": "positive",
+        "confidence": 0.8996564149856567,
+        "negative": 0.05127217248082161,
+        "neutral": 0.04907139018177986,
+        "positive": 0.8996564149856567
+      },
+      {
+        "headline": "Oil and Gas Employment Hits a 2026 Low Even as Production Sets Records",
+        "label": "negative",
+        "confidence": 0.9006420373916626,
+        "negative": 0.9006420373916626,
+        "neutral": 0.05050196498632431,
+        "positive": 0.04885595664381981
+      },
+      {
+        "headline": "ExxonMobil Stock Offers a Different Kind of Fuel",
+        "label": "neutral",
+        "confidence": 0.6194018721580505,
+        "negative": 0.0803869217634201,
+        "neutral": 0.6194018721580505,
+        "positive": 0.30021119117736816
+      },
+      {
+        "headline": "ExxonMobil (XOM) Maps Out A 2040 Plan Built On Oil And Cleaner Energy",
+        "label": "neutral",
+        "confidence": 0.8971961140632629,
+        "negative": 0.05164062976837158,
+        "neutral": 0.8971961140632629,
+        "positive": 0.05116325616836548
+      },
+      {
+        "headline": "Top Stock Reports for Apple, JPMorgan & ExxonMobil",
+        "label": "positive",
+        "confidence": 0.9020280241966248,
+        "negative": 0.05384867265820503,
+        "neutral": 0.044123269617557526,
+        "positive": 0.9020280241966248
+      },
+      {
+        "headline": "S&P 500 Posts Weekly Decline Amid Worries Over Artificial Intelligence, Middle East",
+        "label": "neutral",
+        "confidence": 0.8826910257339478,
+        "negative": 0.06287835538387299,
+        "neutral": 0.8826910257339478,
+        "positive": 0.054430630058050156
+      },
+      {
+        "headline": "Chevron, ConocoPhillips Look to Iraq for Production Growth. Here Are the Risks.",
+        "label": "neutral",
+        "confidence": 0.468863844871521,
+        "negative": 0.1050727590918541,
+        "neutral": 0.468863844871521,
+        "positive": 0.4260633885860443
+      },
+      {
+        "headline": "Will ExxonMobil's Expanding LNG Portfolio Drive Long-Term Growth?",
+        "label": "positive",
+        "confidence": 0.8891406655311584,
+        "negative": 0.05282273888587952,
+        "neutral": 0.05803661420941353,
+        "positive": 0.8891406655311584
+      },
+      {
+        "headline": "Update: US Equity Futures Drop as AI Concerns Weigh on Tech Stocks, Middle East Conflict Continues",
+        "label": "neutral",
+        "confidence": 0.5169252753257751,
+        "negative": 0.3859778344631195,
+        "neutral": 0.5169252753257751,
+        "positive": 0.09709689021110535
+      },
+      {
+        "headline": "Breaking Down The Big 3 Investing Strategies",
+        "label": "neutral",
+        "confidence": 0.5439473390579224,
+        "negative": 0.07603514194488525,
+        "neutral": 0.5439473390579224,
+        "positive": 0.3800175189971924
+      }
+    ],
+    "news_score": 0.2228,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.1528,
+    "quick_ratio": 0.6418,
+    "cash_ratio": 0.1477,
+    "ocf_ratio": 0.7185,
+    "gross_margin": 21.9941,
+    "operating_margin": 12.9269,
+    "net_margin": 8.9051,
+    "roa": 6.4243,
+    "roe": 11.1201,
+    "roce": 11.1167,
+    "ebitda_margin": 20.9518,
+    "de_ratio": null,
+    "da_ratio": null,
+    "interest_coverage": 69.4378,
+    "dscr": 86.1857,
+    "equity_multiplier": 1.7309,
+    "net_debt_ebitda": null,
+    "asset_turnover": 0.7214,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 9.0618,
+    "dso": 40.279,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.0819,
+    "pe_ratio": 24.8081,
+    "pb_ratio": 2.4011,
+    "ev_ebitda": 11.724,
+    "ps_ratio": 1.8736,
+    "dividend_yield": 2.8,
+    "dividend_payout": 59.2053,
+    "eps": 5.94,
+    "fcf": 23612000000.0,
+    "fcf_margin": 7.2898,
+    "cf_to_net_income": 1.8018,
+    "capex_to_revenue": 8.755,
+    "cash_roic": null
+  },
+  "ratio_score": 74.1,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 83.2,
+    "sentiment_score": 100,
+    "ratio_score": 74.1
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 147.36,
+    "horizon": "12 months",
+    "bull_case": 16.8,
+    "base_case": 10.8,
+    "bear_case": -12.6,
+    "price_bull": 172.12,
+    "price_base": 163.32,
+    "price_bear": 128.79,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 166.9,
+        "target_low": 130.0,
+        "target_high": 185.0,
+        "target_median": 168.0,
+        "upside_mean": 13.3,
+        "upside_low": -11.8,
+        "upside_high": 25.5,
+        "n_analysts": 21,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 150.96,
+        "upside": 2.4,
+        "growth_assumed": "6%",
+        "discount_rate": "10%",
+        "fcf_per_share": 5.7,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 176.41,
+        "low_52w": 105.53,
+        "range_pct": 67.2,
+        "position_in_range": 59.0,
+        "upside_estimate": 16.8,
+        "downside_estimate": -13.4,
+        "avg_50d": 146.0,
+        "avg_200d": 137.07,
+        "beta": 0.16
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "ticker": "KO",
+  "timestamp": "2026-07-19T19:58:44.276029",
+  "profile": {
+    "name": "The Coca-Cola Company",
+    "sector": "Consumer Defensive"
+  },
+  "quote": {
+    "price": 81.56,
+    "change_pct": -3.95667,
+    "marketCap": 350910447616.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0924,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 9,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "label": "neutral",
+        "confidence": 0.9083341956138611,
+        "negative": 0.046524450182914734,
+        "neutral": 0.9083341956138611,
+        "positive": 0.04514128714799881
+      },
+      {
+        "headline": "Here's Why Coca-Cola's Magnificent Rise Could Come to an End on July 28",
+        "label": "neutral",
+        "confidence": 0.9029718041419983,
+        "negative": 0.05030626058578491,
+        "neutral": 0.9029718041419983,
+        "positive": 0.046722013503313065
+      },
+      {
+        "headline": "Coca-Cola (KO) Halts Fairlife Production After Ransomware Attack Hits U.S. Systems",
+        "label": "neutral",
+        "confidence": 0.717969536781311,
+        "negative": 0.20603062212467194,
+        "neutral": 0.717969536781311,
+        "positive": 0.07599986344575882
+      },
+      {
+        "headline": "Another popular soda giant closes warehouse operation, cuts 184 jobs",
+        "label": "negative",
+        "confidence": 0.8958480954170227,
+        "negative": 0.8958480954170227,
+        "neutral": 0.05132846161723137,
+        "positive": 0.05282346531748772
+      },
+      {
+        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
+        "label": "neutral",
+        "confidence": 0.8124264478683472,
+        "negative": 0.060776084661483765,
+        "neutral": 0.8124264478683472,
+        "positive": 0.12679745256900787
+      },
+      {
+        "headline": "3 Dividend Stocks That Have Survived Every Market Crash in July",
+        "label": "neutral",
+        "confidence": 0.9015957117080688,
+        "negative": 0.04865235462784767,
+        "neutral": 0.9015957117080688,
+        "positive": 0.049751896411180496
+      },
+      {
+        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
+        "label": "neutral",
+        "confidence": 0.9032374024391174,
+        "negative": 0.050063736736774445,
+        "neutral": 0.9032374024391174,
+        "positive": 0.04669882357120514
+      },
+      {
+        "headline": "Why Coca-Cola Stock Flopped on Friday",
+        "label": "neutral",
+        "confidence": 0.8906452059745789,
+        "negative": 0.054140713065862656,
+        "neutral": 0.8906452059745789,
+        "positive": 0.05521412193775177
+      },
+      {
+        "headline": "Coca-Cola (KO) Falls More Steeply Than Broader Market: What Investors Need to Know",
+        "label": "neutral",
+        "confidence": 0.8981917500495911,
+        "negative": 0.04781579598784447,
+        "neutral": 0.8981917500495911,
+        "positive": 0.05399247258901596
+      },
+      {
+        "headline": "Jim Cramer Says Semiconductor Stocks Are \u201cGoing Down.\u201d Buy These 2 Dividend Stocks Instead",
+        "label": "neutral",
+        "confidence": 0.8642419576644897,
+        "negative": 0.07651050388813019,
+        "neutral": 0.8642419576644897,
+        "positive": 0.05924762040376663
+      }
+    ],
+    "news_score": -0.0924,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.4588,
+    "quick_ratio": 0.6253,
+    "cash_ratio": 0.4826,
+    "ocf_ratio": 0.3481,
+    "gross_margin": 61.6257,
+    "operating_margin": 36.8203,
+    "net_margin": 27.3399,
+    "roa": 12.5048,
+    "roe": 40.7442,
+    "roce": 21.1313,
+    "ebitda_margin": 39.0105,
+    "de_ratio": 1.4142,
+    "da_ratio": 0.434,
+    "interest_coverage": 10.6723,
+    "dscr": 4.4788,
+    "equity_multiplier": 3.2583,
+    "net_debt_ebitda": 1.8833,
+    "asset_turnover": 0.4574,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 15.7804,
+    "dso": 23.1299,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 4.9871,
+    "pe_ratio": 25.6478,
+    "pb_ratio": 10.435,
+    "ev_ebitda": 22.964,
+    "ps_ratio": 7.1202,
+    "dividend_yield": 2.6,
+    "dividend_payout": 69.5908,
+    "eps": 3.18,
+    "fcf": 5296000000.0,
+    "fcf_margin": 11.0469,
+    "cf_to_net_income": 0.5652,
+    "capex_to_revenue": 4.4054,
+    "cash_roic": null
+  },
+  "ratio_score": 70.0,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 63.0,
+    "sentiment_score": 50,
+    "ratio_score": 70.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 81.56,
+    "horizon": "12 months",
+    "bull_case": 7.1,
+    "base_case": 5.9,
+    "bear_case": -27.8,
+    "price_bull": 87.35,
+    "price_base": 86.37,
+    "price_bear": 58.89,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 87.35,
+        "target_low": 71.38,
+        "target_high": 98.0,
+        "target_median": 88.0,
+        "upside_mean": 7.1,
+        "upside_low": -12.5,
+        "upside_high": 20.2,
+        "n_analysts": 24,
+        "recommendation": "buy"
+      },
+      "dcf": {
+        "fair_value": 32.62,
+        "upside": -60.0,
+        "growth_assumed": "6%",
+        "discount_rate": "10%",
+        "fcf_per_share": 1.23,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 85.68,
+        "low_52w": 65.35,
+        "range_pct": 31.1,
+        "position_in_range": 79.7,
+        "upside_estimate": 4.7,
+        "downside_estimate": -10.9,
+        "avg_50d": 81.06,
+        "avg_200d": 75.17,
+        "beta": 0.35
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

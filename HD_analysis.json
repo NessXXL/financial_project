@@ -1,0 +1,202 @@
+{
+  "ticker": "HD",
+  "timestamp": "2026-07-19T19:58:25.369699",
+  "profile": {
+    "name": "The Home Depot, Inc.",
+    "sector": "Consumer Cyclical"
+  },
+  "quote": {
+    "price": 338.87,
+    "change_pct": -2.62916,
+    "marketCap": 337892933632.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.136,
+    "breakdown": {
+      "positive": 3,
+      "neutral": 7,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "So you want to buy a sports franchise? Why entering sports ownership gives the rich a \u2018very elite and exclusive club\u2019 with great tax benefits",
+        "label": "neutral",
+        "confidence": 0.8996171355247498,
+        "negative": 0.051081884652376175,
+        "neutral": 0.8996171355247498,
+        "positive": 0.04930093139410019
+      },
+      {
+        "headline": "3 Dividend Stocks to Buy for Growing Income in July",
+        "label": "neutral",
+        "confidence": 0.8971863389015198,
+        "negative": 0.05232548713684082,
+        "neutral": 0.8971863389015198,
+        "positive": 0.05048825964331627
+      },
+      {
+        "headline": "Home Depot (HD) Rises Higher Than Market: Key Facts",
+        "label": "positive",
+        "confidence": 0.8900043964385986,
+        "negative": 0.05179503187537193,
+        "neutral": 0.058200616389513016,
+        "positive": 0.8900043964385986
+      },
+      {
+        "headline": "LOW Paid Holders $47 Bil While The Stock Went Nowhere",
+        "label": "neutral",
+        "confidence": 0.8951926827430725,
+        "negative": 0.05102904140949249,
+        "neutral": 0.8951926827430725,
+        "positive": 0.053778279572725296
+      },
+      {
+        "headline": "How Lowe's Stock Is Compounding Value Without The Sales Boom",
+        "label": "neutral",
+        "confidence": 0.8791950941085815,
+        "negative": 0.060581594705581665,
+        "neutral": 0.8791950941085815,
+        "positive": 0.060223307460546494
+      },
+      {
+        "headline": "Home Furnishing and Improvement Retail Stocks Q1 Recap: Benchmarking Home Depot (NYSE:HD)",
+        "label": "neutral",
+        "confidence": 0.8542881608009338,
+        "negative": 0.0647106021642685,
+        "neutral": 0.8542881608009338,
+        "positive": 0.08100125193595886
+      },
+      {
+        "headline": "The Home Depot, Inc. (HD) is Attracting Investor Attention: Here is What You Should Know",
+        "label": "neutral",
+        "confidence": 0.9027346968650818,
+        "negative": 0.047153569757938385,
+        "neutral": 0.9027346968650818,
+        "positive": 0.050111692398786545
+      },
+      {
+        "headline": "Should You Buy The Home Depot, Inc. (HD)\u2019s Shares?",
+        "label": "positive",
+        "confidence": 0.40216755867004395,
+        "negative": 0.28745752573013306,
+        "neutral": 0.3103748857975006,
+        "positive": 0.40216755867004395
+      },
+      {
+        "headline": "Home Depot vs. Lowe's: A Look at Recent Revenue Trends for These Home Improvement Giants",
+        "label": "positive",
+        "confidence": 0.6264042258262634,
+        "negative": 0.23268982768058777,
+        "neutral": 0.1409059464931488,
+        "positive": 0.6264042258262634
+      },
+      {
+        "headline": "Is Home Depot (HD) Cheap Following Its Military Exchange Expansion?",
+        "label": "neutral",
+        "confidence": 0.8978959321975708,
+        "negative": 0.05337569862604141,
+        "neutral": 0.8978959321975708,
+        "positive": 0.04872841015458107
+      }
+    ],
+    "news_score": 0.136,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.0607,
+    "quick_ratio": 0.198,
+    "cash_ratio": 0.0428,
+    "ocf_ratio": 0.5035,
+    "gross_margin": 33.3155,
+    "operating_margin": 12.7603,
+    "net_margin": 8.5959,
+    "roa": 13.4697,
+    "roe": 110.4815,
+    "roce": 28.9166,
+    "ebitda_margin": 15.2627,
+    "de_ratio": 5.1003,
+    "da_ratio": 0.6218,
+    "interest_coverage": 8.7123,
+    "dscr": 6.7682,
+    "equity_multiplier": 8.2022,
+    "net_debt_ebitda": 2.5447,
+    "asset_turnover": 1.567,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 32.7402,
+    "dso": 11.1484,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 4.424,
+    "pe_ratio": 24.1017,
+    "pb_ratio": 24.3511,
+    "ev_ebitda": 16.036,
+    "ps_ratio": 2.0283,
+    "dividend_yield": 2.75,
+    "dividend_payout": 65.648,
+    "eps": 14.06,
+    "fcf": 12646000000.0,
+    "fcf_margin": 7.679,
+    "cf_to_net_income": 1.1532,
+    "capex_to_revenue": 2.234,
+    "cash_roic": null
+  },
+  "ratio_score": 65.0,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 59.8,
+    "sentiment_score": 50,
+    "ratio_score": 65.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 338.87,
+    "horizon": "12 months",
+    "bull_case": 11.9,
+    "base_case": 10.6,
+    "bear_case": -6.3,
+    "price_bull": 379.2,
+    "price_base": 374.79,
+    "price_bear": 317.63,
+    "methods_used": [
+      "analyst",
+      "dcf",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 370.34,
+        "target_low": 310.0,
+        "target_high": 430.0,
+        "target_median": 374.5,
+        "upside_mean": 9.3,
+        "upside_low": -8.5,
+        "upside_high": 26.9,
+        "n_analysts": 32,
+        "recommendation": "none"
+      },
+      "dcf": {
+        "fair_value": 336.09,
+        "upside": -0.8,
+        "growth_assumed": "6%",
+        "discount_rate": "10%",
+        "fcf_per_share": 12.68,
+        "fcf_source": "direct"
+      },
+      "volatility": {
+        "high_52w": 426.75,
+        "low_52w": 289.1,
+        "range_pct": 47.6,
+        "position_in_range": 36.2,
+        "upside_estimate": 11.9,
+        "downside_estimate": -9.5,
+        "avg_50d": 326.04,
+        "avg_200d": 351.86,
+        "beta": 0.95
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

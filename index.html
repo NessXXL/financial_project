@@ -1675,5 +1675,114 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
 </script>
 <!-- ═══════════ END MODEL RESEARCH SECTION ═══════════ -->
 
+
+<!-- ═══ search-sync + watchlist (added by fix_search_watchlist) ═══ -->
+<style>
+#wl-btn{display:inline-flex;align-items:center;gap:8px;margin:0 0 14px;
+  padding:8px 16px;background:#fffdf7;border:2px solid #1a1a1a;border-radius:999px;
+  font-weight:700;font-size:14px;cursor:pointer;box-shadow:3px 3px 0 #1a1a1a;
+  transition:transform .1s}
+#wl-btn:hover{transform:translate(-1px,-1px)}
+#wl-btn.on{background:var(--yellow-hot,#F5D90A)}
+#wl-panel{max-width:1100px;margin:10px auto 4px;padding:0 18px;display:none}
+#wl-panel.has{display:block}
+#wl-panel .wl-title{font-family:'JetBrains Mono',monospace;font-size:11px;
+  letter-spacing:2px;color:#800054;font-weight:700;margin-bottom:8px}
+#wl-panel .wl-chips{display:flex;flex-wrap:wrap;gap:8px}
+.wl-chip{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;
+  background:#fffdf7;border:2px solid #1a1a1a;border-radius:999px;font-weight:700;
+  font-size:13px;cursor:pointer;box-shadow:2px 2px 0 #1a1a1a}
+.wl-chip:hover{background:var(--yellow-hot,#F5D90A)}
+.wl-chip .wl-x{opacity:.45;font-weight:900;padding:0 2px}
+.wl-chip .wl-x:hover{opacity:1;color:#A32D2D}
+</style>
+<script>
+(function(){
+  /* ── 1. досыпаем новые тикеры из DATA в подсказки ── */
+  try{
+    if (typeof STOCKS !== "undefined" && typeof DATA !== "undefined"){
+      Object.keys(DATA).forEach(function(t){
+        if (!STOCKS.some(function(s){return s.t === t;})){
+          var nm = (DATA[t] && DATA[t].name) ? DATA[t].name : t;
+          var al = [t.toLowerCase(), t.split(".")[0].toLowerCase(),
+                    nm.toLowerCase()].filter(function(a){return a && a.length > 1;});
+          STOCKS.push({t: t, n: nm, a: al});
+        }
+      });
+    }
+  }catch(e){console.warn("suggest sync:", e);}
+
+  /* ── 2. watchlist ── */
+  var KEY = "virada_watchlist";
+  function wlGet(){ try{return JSON.parse(localStorage.getItem(KEY))||[];}catch(e){return [];} }
+  function wlSet(a){ try{localStorage.setItem(KEY, JSON.stringify(a));}catch(e){} }
+  function wlHas(t){ return wlGet().indexOf(t) !== -1; }
+  function wlToggle(t){
+    var a = wlGet(), i = a.indexOf(t);
+    if (i === -1) a.push(t); else a.splice(i, 1);
+    wlSet(a); renderPanel(); return i === -1;
+  }
+
+  var dashEl = document.getElementById("dash");
+  if (!dashEl) return;
+
+  /* панель сохранённых — над дашбордом */
+  var panel = document.createElement("div");
+  panel.id = "wl-panel";
+  panel.innerHTML = '<div class="wl-title">\u2605 MY WATCHLIST</div><div class="wl-chips"></div>';
+  dashEl.parentElement.insertBefore(panel, dashEl);
+
+  function renderPanel(){
+    var a = wlGet();
+    panel.classList.toggle("has", a.length > 0);
+    var box = panel.querySelector(".wl-chips");
+    box.innerHTML = "";
+    a.forEach(function(t){
+      var ch = document.createElement("span");
+      ch.className = "wl-chip";
+      ch.innerHTML = "\u2605 " + t + ' <span class="wl-x" title="remove">\u00d7</span>';
+      ch.addEventListener("click", function(ev){
+        if (ev.target.classList.contains("wl-x")){
+          ev.stopPropagation(); wlToggle(t); syncBtn();
+        } else if (typeof pick === "function"){ pick(t); }
+        else if (typeof analyze === "function"){ analyze(t); }
+      });
+      box.appendChild(ch);
+    });
+  }
+
+  var currentT = null;
+  function syncBtn(){
+    var b = document.getElementById("wl-btn");
+    if (b && currentT){
+      var on = wlHas(currentT);
+      b.classList.toggle("on", on);
+      b.innerHTML = (on ? "\u2605 Watching" : "\u2606 Watch");
+    }
+  }
+  function addBtn(t){
+    currentT = t;
+    if (document.getElementById("wl-btn")) { syncBtn(); return; }
+    var b = document.createElement("button");
+    b.id = "wl-btn"; b.type = "button";
+    b.addEventListener("click", function(){ wlToggle(t); syncBtn(); });
+    dashEl.insertBefore(b, dashEl.firstChild);
+    syncBtn();
+  }
+
+  /* оборачиваем analyze(): после рендера карточки добавляем кнопку */
+  if (typeof analyze === "function"){
+    var _orig = analyze;
+    analyze = function(t){
+      _orig(t);
+      if (typeof DATA !== "undefined" && DATA[t]) addBtn(t);
+    };
+  }
+
+  renderPanel();
+})();
+</script>
+<!-- ═══ end search-sync + watchlist ═══ -->
+
 </body>
 </html>

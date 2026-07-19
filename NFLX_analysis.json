@@ -1,0 +1,193 @@
+{
+  "ticker": "NFLX",
+  "timestamp": "2026-07-19T16:56:37.597427",
+  "profile": {
+    "name": "Netflix, Inc.",
+    "sector": "Communication Services"
+  },
+  "quote": {
+    "price": 68.95,
+    "change_pct": -7.2629476,
+    "marketCap": 290334539776.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0869,
+    "breakdown": {
+      "positive": 4,
+      "neutral": 3,
+      "negative": 3
+    },
+    "details": [
+      {
+        "headline": "2 Reasons to Buy Netflix Stock on the Dip",
+        "label": "positive",
+        "confidence": 0.5340067148208618,
+        "negative": 0.32535380125045776,
+        "neutral": 0.14063943922519684,
+        "positive": 0.5340067148208618
+      },
+      {
+        "headline": "Comcast (CMCSA) Plans Split That Could Put NBCUniversal In Netflix's Sights",
+        "label": "negative",
+        "confidence": 0.6569157838821411,
+        "negative": 0.6569157838821411,
+        "neutral": 0.26751118898391724,
+        "positive": 0.07557303458452225
+      },
+      {
+        "headline": "Netflix Stock's Last Decade Was Spectacular. But What Will the Next Decade Look Like?",
+        "label": "positive",
+        "confidence": 0.7738770842552185,
+        "negative": 0.12521179020404816,
+        "neutral": 0.10091112554073334,
+        "positive": 0.7738770842552185
+      },
+      {
+        "headline": "Netflix's AI Strategy Has a 25-Year-Old Precedent",
+        "label": "neutral",
+        "confidence": 0.902534008026123,
+        "negative": 0.0484035387635231,
+        "neutral": 0.902534008026123,
+        "positive": 0.049062423408031464
+      },
+      {
+        "headline": "MarketBeat Week in Review \u2013 07/13- 07/17",
+        "label": "neutral",
+        "confidence": 0.9010759592056274,
+        "negative": 0.052016064524650574,
+        "neutral": 0.9010759592056274,
+        "positive": 0.04690802842378616
+      },
+      {
+        "headline": "Why fuboTV (FUBO) Shares Are Sliding Today",
+        "label": "positive",
+        "confidence": 0.47580522298812866,
+        "negative": 0.37622740864753723,
+        "neutral": 0.14796727895736694,
+        "positive": 0.47580522298812866
+      },
+      {
+        "headline": "Review & Preview: It Could Have Been Worse",
+        "label": "negative",
+        "confidence": 0.7695242166519165,
+        "negative": 0.7695242166519165,
+        "neutral": 0.16378065943717957,
+        "positive": 0.06669516861438751
+      },
+      {
+        "headline": "S&P 500, Nasdaq Slide Sharply As Netflix Guidance Disappoints And Chip Stocks Extend Losses \u2014 NFLX, GE, META, AAPL, SPCX In Focus",
+        "label": "neutral",
+        "confidence": 0.7018066644668579,
+        "negative": 0.2105129361152649,
+        "neutral": 0.7018066644668579,
+        "positive": 0.0876803919672966
+      },
+      {
+        "headline": "Netflix, Inc. (NFLX) Is Sinking After Earnings \u2014 Should You Buy the Dip?",
+        "label": "positive",
+        "confidence": 0.6554048657417297,
+        "negative": 0.2317342609167099,
+        "neutral": 0.11286092549562454,
+        "positive": 0.6554048657417297
+      },
+      {
+        "headline": "Stock Market Today, July 17: Netflix Plunges, but Are Investors Missing the Point?",
+        "label": "negative",
+        "confidence": 0.892320990562439,
+        "negative": 0.892320990562439,
+        "neutral": 0.05386932194232941,
+        "positive": 0.05380970984697342
+      }
+    ],
+    "news_score": -0.0869,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.1857,
+    "quick_ratio": 1.0077,
+    "cash_ratio": 0.8227,
+    "ocf_ratio": 0.9243,
+    "gross_margin": 48.4866,
+    "operating_margin": 29.8764,
+    "net_margin": 24.3038,
+    "roa": 19.7514,
+    "roe": 41.2587,
+    "roce": 30.2561,
+    "ebitda_margin": 66.9601,
+    "de_ratio": 0.5434,
+    "da_ratio": 0.2601,
+    "interest_coverage": 17.3843,
+    "dscr": 13.0704,
+    "equity_multiplier": 2.0889,
+    "net_debt_ebitda": 0.1794,
+    "asset_turnover": 0.8127,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 22.2415,
+    "dso": 16.4108,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 22.5425,
+    "pe_ratio": 21.6824,
+    "pb_ratio": 9.3314,
+    "ev_ebitda": 20.006,
+    "ps_ratio": 6.0023,
+    "dividend_yield": null,
+    "dividend_payout": 0.0,
+    "eps": 3.18,
+    "fcf": 9461053000.0,
+    "fcf_margin": 20.9394,
+    "cf_to_net_income": 0.9242,
+    "capex_to_revenue": 1.5232,
+    "cash_roic": null
+  },
+  "ratio_score": 83.9,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 72.0,
+    "sentiment_score": 50,
+    "ratio_score": 83.9
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 68.95,
+    "horizon": "12 months",
+    "bull_case": 42.0,
+    "base_case": 37.0,
+    "bear_case": -7.2,
+    "price_bull": 97.91,
+    "price_base": 94.46,
+    "price_bear": 63.95,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 97.91,
+        "target_low": 70.0,
+        "target_high": 136.32,
+        "target_median": 100.0,
+        "upside_mean": 42.0,
+        "upside_low": 1.5,
+        "upside_high": 97.7,
+        "n_analysts": 43,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 126.71,
+        "low_52w": 65.08,
+        "range_pct": 94.7,
+        "position_in_range": 6.3,
+        "upside_estimate": 32.0,
+        "downside_estimate": -16.0,
+        "avg_50d": 80.56,
+        "avg_200d": 93.74,
+        "beta": 1.52
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

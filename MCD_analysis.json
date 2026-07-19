@@ -1,0 +1,193 @@
+{
+  "ticker": "MCD",
+  "timestamp": "2026-07-19T16:56:04.445293",
+  "profile": {
+    "name": "McDonald's Corporation",
+    "sector": "Consumer Cyclical"
+  },
+  "quote": {
+    "price": 267.71,
+    "change_pct": -2.10268,
+    "marketCap": 190209523712.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": -0.0326,
+    "breakdown": {
+      "positive": 0,
+      "neutral": 9,
+      "negative": 1
+    },
+    "details": [
+      {
+        "headline": "FDA finds outbreak-linked parasite in Taylor Farms lettuce sample",
+        "label": "neutral",
+        "confidence": 0.8930375576019287,
+        "negative": 0.0536138154566288,
+        "neutral": 0.8930375576019287,
+        "positive": 0.0533485971391201
+      },
+      {
+        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
+        "label": "neutral",
+        "confidence": 0.9028205871582031,
+        "negative": 0.04816388711333275,
+        "neutral": 0.9028205871582031,
+        "positive": 0.049015626311302185
+      },
+      {
+        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
+        "label": "neutral",
+        "confidence": 0.8124264478683472,
+        "negative": 0.060776084661483765,
+        "neutral": 0.8124264478683472,
+        "positive": 0.12679745256900787
+      },
+      {
+        "headline": "DGRO\u2019s December Rebalance Could Reshape Healthcare Exposure: Here\u2019s What to Watch",
+        "label": "neutral",
+        "confidence": 0.8318347930908203,
+        "negative": 0.08503267914056778,
+        "neutral": 0.8318347930908203,
+        "positive": 0.0831325426697731
+      },
+      {
+        "headline": "Factbox-US restaurant chains hit by foodborne illness outbreaks",
+        "label": "neutral",
+        "confidence": 0.8410237431526184,
+        "negative": 0.05193391069769859,
+        "neutral": 0.8410237431526184,
+        "positive": 0.10704239457845688
+      },
+      {
+        "headline": "2 Reasons to Like MCD and 1 to Stay Skeptical",
+        "label": "neutral",
+        "confidence": 0.8313389420509338,
+        "negative": 0.06297427415847778,
+        "neutral": 0.8313389420509338,
+        "positive": 0.1056867316365242
+      },
+      {
+        "headline": "Lettuce Grower Taylor Farms to Pull Parasite-Linked Products",
+        "label": "neutral",
+        "confidence": 0.8992335200309753,
+        "negative": 0.05085776746273041,
+        "neutral": 0.8992335200309753,
+        "positive": 0.049908630549907684
+      },
+      {
+        "headline": "Parasite concerns cast a shadow over fast-food stocks",
+        "label": "negative",
+        "confidence": 0.569406270980835,
+        "negative": 0.569406270980835,
+        "neutral": 0.3497943878173828,
+        "positive": 0.08079933375120163
+      },
+      {
+        "headline": "MasTec and Papa John's International have been highlighted as Zacks Bull and Bear of the Day",
+        "label": "neutral",
+        "confidence": 0.8955677151679993,
+        "negative": 0.051384467631578445,
+        "neutral": 0.8955677151679993,
+        "positive": 0.05304782837629318
+      },
+      {
+        "headline": "McDonald's Earnings Preview: What to Expect",
+        "label": "neutral",
+        "confidence": 0.9062219858169556,
+        "negative": 0.047097980976104736,
+        "neutral": 0.9062219858169556,
+        "positive": 0.04668000712990761
+      }
+    ],
+    "news_score": -0.0326,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 0.9546,
+    "quick_ratio": 0.7429,
+    "cash_ratio": 0.1775,
+    "ocf_ratio": 2.4194,
+    "gross_margin": 57.4075,
+    "operating_margin": 46.4162,
+    "net_margin": 31.8505,
+    "roa": 14.388,
+    "roe": -478.3799,
+    "roce": 22.6257,
+    "ebitda_margin": 54.5955,
+    "de_ratio": -30.6223,
+    "da_ratio": 0.921,
+    "interest_coverage": 7.8881,
+    "dscr": 6.6694,
+    "equity_multiplier": -33.2486,
+    "net_debt_ebitda": 3.6817,
+    "asset_turnover": 0.4517,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 10.9023,
+    "dso": 33.4793,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 0.6275,
+    "pe_ratio": 22.0701,
+    "pb_ratio": null,
+    "ev_ebitda": 16.406,
+    "ps_ratio": 6.9303,
+    "dividend_yield": 2.78,
+    "dividend_payout": 61.7326,
+    "eps": 12.13,
+    "fcf": 7186000000.0,
+    "fcf_margin": 26.7287,
+    "cf_to_net_income": 1.2322,
+    "capex_to_revenue": 12.5163,
+    "cash_roic": null
+  },
+  "ratio_score": 69.0,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 62.4,
+    "sentiment_score": 50,
+    "ratio_score": 69.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 267.71,
+    "horizon": "12 months",
+    "bull_case": 22.0,
+    "base_case": 16.9,
+    "bear_case": -6.2,
+    "price_bull": 326.61,
+    "price_base": 312.95,
+    "price_bear": 250.98,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 326.65,
+        "target_low": 250.0,
+        "target_high": 407.0,
+        "target_median": 320.0,
+        "upside_mean": 22.0,
+        "upside_low": -6.6,
+        "upside_high": 52.0,
+        "n_analysts": 31,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 341.75,
+        "low_52w": 264.09,
+        "range_pct": 29.4,
+        "position_in_range": 4.7,
+        "upside_estimate": 11.8,
+        "downside_estimate": -5.9,
+        "avg_50d": 277.01,
+        "avg_200d": 302.03,
+        "beta": 0.42
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

@@ -1,106 +1,106 @@
 {
   "ticker": "MSFT",
-  "timestamp": "2026-06-15T11:42:51.782131",
+  "timestamp": "2026-07-19T16:30:22.416633",
   "profile": {
     "name": "Microsoft Corporation",
     "sector": "Technology"
   },
   "quote": {
-    "price": 390.74,
-    "change_pct": 0.1024732,
-    "marketCap": 2902586556416.0
+    "price": 393.82,
+    "change_pct": -1.81501,
+    "marketCap": 2925466222592.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": -0.0834,
+    "overall": "positive",
+    "score": 0.1661,
     "breakdown": {
-      "positive": 0,
-      "neutral": 9,
-      "negative": 1
+      "positive": 2,
+      "neutral": 8,
+      "negative": 0
     },
     "details": [
       {
-        "headline": "Microsoft CEO Nadella Says Every Firm Must Build Token Capital",
+        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
         "label": "neutral",
-        "confidence": 0.9016287922859192,
-        "negative": 0.04974290356040001,
-        "neutral": 0.9016287922859192,
-        "positive": 0.0486283004283905
+        "confidence": 0.9083341956138611,
+        "negative": 0.046524450182914734,
+        "neutral": 0.9083341956138611,
+        "positive": 0.04514128714799881
       },
       {
-        "headline": "How Constellation\u2019s US$3.09 Billion Equity Raise And AI Power Deals At Constellation Energy (CEG) Has Changed Its Investment Story",
-        "label": "neutral",
-        "confidence": 0.9015210866928101,
-        "negative": 0.05131552740931511,
-        "neutral": 0.9015210866928101,
-        "positive": 0.04716343432664871
+        "headline": "Microsoft Stock Is Down 27% From Its All-Time High. 2 Reasons It Could Double by 2030.",
+        "label": "positive",
+        "confidence": 0.889451265335083,
+        "negative": 0.05335179716348648,
+        "neutral": 0.057196952402591705,
+        "positive": 0.889451265335083
       },
       {
-        "headline": "SMH vs. SOXX vs. SOXQ: Which Semiconductor ETF Is the Best Buy Right Now?",
+        "headline": "Chevron Is Hungry for More Power Deals After Inking a 2.7-Gigawatt Contract With Microsoft. Here's Where the Energy Giant Is Looking Next.",
         "label": "neutral",
-        "confidence": 0.9002727270126343,
-        "negative": 0.0510941706597805,
-        "neutral": 0.9002727270126343,
-        "positive": 0.048633042722940445
+        "confidence": 0.8880552649497986,
+        "negative": 0.05535772442817688,
+        "neutral": 0.8880552649497986,
+        "positive": 0.05658708140254021
       },
       {
-        "headline": "monday.com (MNDY): AI Work Platform Shift Shows Why Workflow Automation Could Extend Growth",
+        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
         "label": "neutral",
-        "confidence": 0.8971468210220337,
-        "negative": 0.04875076189637184,
-        "neutral": 0.8971468210220337,
-        "positive": 0.05410238355398178
+        "confidence": 0.900339663028717,
+        "negative": 0.04917598143219948,
+        "neutral": 0.900339663028717,
+        "positive": 0.050484344363212585
       },
       {
-        "headline": "The Better AI Cloud Stock: Microsoft or Amazon?",
-        "label": "neutral",
-        "confidence": 0.9017330408096313,
-        "negative": 0.048844680190086365,
-        "neutral": 0.9017330408096313,
-        "positive": 0.04942229762673378
+        "headline": "Bank of America sends strong verdict on Microsoft stock",
+        "label": "positive",
+        "confidence": 0.8840190768241882,
+        "negative": 0.05732449144124985,
+        "neutral": 0.058656416833400726,
+        "positive": 0.8840190768241882
       },
       {
-        "headline": "Jim Cramer Thinks Microsoft (MSFT) Doesn\u2019t Need $100 Billion",
+        "headline": "Buy, Sell, or Hold: Ken Griffin\u2019s 3 Mega-Cap Picks at Current Valuations",
         "label": "neutral",
-        "confidence": 0.9084451794624329,
-        "negative": 0.04658440127968788,
-        "neutral": 0.9084451794624329,
-        "positive": 0.04497043788433075
+        "confidence": 0.8956184983253479,
+        "negative": 0.05119083821773529,
+        "neutral": 0.8956184983253479,
+        "positive": 0.05319077521562576
       },
       {
-        "headline": "TechCrunch Mobility: SpaceX rockets past Tesla",
+        "headline": "The AI Capex Question Every QQQ Holder Should Be Asking Right Now",
         "label": "neutral",
-        "confidence": 0.8943031430244446,
-        "negative": 0.051530368626117706,
-        "neutral": 0.8943031430244446,
-        "positive": 0.05416659638285637
+        "confidence": 0.8911913633346558,
+        "negative": 0.0546213798224926,
+        "neutral": 0.8911913633346558,
+        "positive": 0.05418725311756134
       },
       {
-        "headline": "Microsoft Weighs Xbox Restructuring As Investors Focus On Cloud And AI",
+        "headline": "Multiple Compression Is a Real Threat to Microsoft Stock, But Its Core Story Isn\u2019t Broken",
         "label": "neutral",
-        "confidence": 0.8977424502372742,
-        "negative": 0.04971584677696228,
-        "neutral": 0.8977424502372742,
-        "positive": 0.05254164710640907
+        "confidence": 0.9012455344200134,
+        "negative": 0.05058027058839798,
+        "neutral": 0.9012455344200134,
+        "positive": 0.048174094408750534
       },
       {
-        "headline": "Is IREN (IREN) Quietly Rewriting Its AI Infrastructure Story With Microsoft-Backed GPU Financing?",
+        "headline": "The S&P 500 Is Becoming a Tech Index in Disguise \u2014 But That May Not Be the Risk Investors Think",
         "label": "neutral",
-        "confidence": 0.8969355821609497,
-        "negative": 0.04998781904578209,
-        "neutral": 0.8969355821609497,
-        "positive": 0.05307659134268761
+        "confidence": 0.9062531590461731,
+        "negative": 0.0464271605014801,
+        "neutral": 0.9062531590461731,
+        "positive": 0.047319650650024414
       },
       {
-        "headline": "Bill Ackman Likes This Indirect AI Play Everyone\u2019s Ignoring",
-        "label": "negative",
-        "confidence": 0.8934558629989624,
-        "negative": 0.8934558629989624,
-        "neutral": 0.052331216633319855,
-        "positive": 0.05421293154358864
+        "headline": "Amazon\u2019s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying",
+        "label": "neutral",
+        "confidence": 0.9141682386398315,
+        "negative": 0.044236261397600174,
+        "neutral": 0.9141682386398315,
+        "positive": 0.04159541428089142
       }
     ],
-    "news_score": -0.0834,
+    "news_score": 0.1661,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.226,
-    "pe_ratio": 23.2583,
-    "pb_ratio": 7.0054,
-    "ev_ebitda": 15.992,
-    "ps_ratio": 9.1198,
+    "pe_ratio": 23.4696,
+    "pb_ratio": 7.0606,
+    "ev_ebitda": 16.116,
+    "ps_ratio": 9.1917,
     "dividend_yield": null,
     "dividend_payout": 26.5531,
-    "eps": 16.8,
+    "eps": 16.78,
     "fcf": 71611000000.0,
     "fcf_margin": 25.4188,
     "cf_to_net_income": 1.3371,
@@ -144,48 +144,48 @@
   },
   "ratio_score": 71.4,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 63.9,
-    "sentiment_score": 50,
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 81.4,
+    "sentiment_score": 100,
     "ratio_score": 71.4
   },
   "prediction": {
     "available": true,
-    "current_price": 390.74,
+    "current_price": 393.82,
     "horizon": "12 months",
-    "bull_case": 43.7,
-    "base_case": 33.0,
-    "bear_case": -5.0,
-    "price_bull": 561.49,
-    "price_base": 519.88,
-    "price_bear": 371.2,
+    "bull_case": 41.7,
+    "base_case": 32.7,
+    "bear_case": -5.1,
+    "price_bull": 558.04,
+    "price_base": 522.4,
+    "price_bear": 373.74,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 561.39,
+        "target_mean": 558.21,
         "target_low": 400.0,
         "target_high": 870.0,
-        "target_median": 555.0,
-        "upside_mean": 43.7,
-        "upside_low": 2.4,
-        "upside_high": 122.7,
+        "target_median": 550.0,
+        "upside_mean": 41.7,
+        "upside_low": 1.6,
+        "upside_high": 120.9,
         "n_analysts": 55,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 555.45,
-        "low_52w": 356.28,
-        "range_pct": 55.9,
-        "position_in_range": 17.3,
-        "upside_estimate": 22.4,
-        "downside_estimate": -11.2,
-        "avg_50d": 411.8,
-        "avg_200d": 453.73,
-        "beta": 1.1
+        "low_52w": 349.2,
+        "range_pct": 59.1,
+        "position_in_range": 21.6,
+        "upside_estimate": 23.6,
+        "downside_estimate": -11.8,
+        "avg_50d": 401.51,
+        "avg_200d": 439.35,
+        "beta": 1.13
       }
     },
     "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."

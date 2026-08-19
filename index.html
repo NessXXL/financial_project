@@ -1798,45 +1798,46 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
 </style>
 <script>
 (function(){
-  var NS = "virada-ai-kz", KEY = "site-visits";
+  var BASE = "https://countapi.mileshilliard.com/api/v1/";
+  var KEY  = "virada_ai_kz_site_visits_2026";
+
+  var foot = document.querySelector("footer");
+  if (!foot) return;
+
   var wrap = document.createElement("span");
   wrap.id = "vc-wrap";
   wrap.innerHTML = '<span id="vc-dot"></span><span>' +
                    '<span id="vc-num">0</span> visits</span>';
-
-  var foot = document.querySelector("footer");
-  if (!foot) return;
   foot.appendChild(wrap);
 
-  function animateTo(n){
+  function show(n){
     wrap.classList.add("on");
     var el = document.getElementById("vc-num");
-    var start = 0, dur = 900, t0 = performance.now();
-    function step(now){
-      var k = Math.min((now - t0) / dur, 1);
-      k = 1 - Math.pow(1 - k, 3);                 // ease-out
-      el.textContent = Math.round(start + (n - start) * k).toLocaleString("en-US");
+    var t0 = Date.now(), dur = 900;
+    function step(){
+      var k = Math.min((Date.now() - t0) / dur, 1);
+      k = 1 - Math.pow(1 - k, 3);
+      el.textContent = Math.round(n * k).toLocaleString("en-US");
       if (k < 1) requestAnimationFrame(step);
     }
     requestAnimationFrame(step);
   }
 
-  /* в одной вкладке считаем визит один раз: дальше только читаем */
+  /* в одной вкладке инкрементим один раз, дальше только читаем */
   var counted = false;
   try { counted = sessionStorage.getItem("vc_counted") === "1"; } catch(e){}
-  var action = counted ? "" : "/up";
+  var url = BASE + (counted ? "get/" : "hit/") + KEY;
 
-  fetch("https://api.counterapi.dev/v1/" + NS + "/" + KEY + action)
+  fetch(url)
     .then(function(r){ return r.ok ? r.json() : null; })
     .then(function(d){
-      if (!d) return;                              // сервис молчит — блок не показываем
-      var n = (typeof d.count === "number") ? d.count
-            : (d.value != null ? Number(d.value) : null);
-      if (n == null || isNaN(n)) return;
+      if (!d || d.value == null) return;
+      var n = parseInt(d.value, 10);
+      if (isNaN(n)) return;
       try { sessionStorage.setItem("vc_counted", "1"); } catch(e){}
-      animateTo(n);
+      show(n);
     })
-    .catch(function(){ /* офлайн / блокировщик — молча скрываем */ });
+    .catch(function(){ /* офлайн или блокировщик — блок остаётся скрытым */ });
 })();
 </script>
 <!-- ═══ end visitor counter ═══ -->

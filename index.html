@@ -1784,5 +1784,62 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
 </script>
 <!-- ═══ end search-sync + watchlist ═══ -->
 
+
+<!-- ═══ visitor counter (added by fix_visitor_counter) ═══ -->
+<style>
+#vc-wrap{display:none;align-items:center;gap:9px;font-family:'JetBrains Mono',monospace;
+  font-size:12px;color:#6E6275}
+#vc-wrap.on{display:inline-flex}
+#vc-dot{width:7px;height:7px;border-radius:50%;background:#0E7B43;
+  animation:vcPulse 2s infinite}
+@keyframes vcPulse{0%,100%{box-shadow:0 0 0 0 rgba(14,123,67,.45)}
+  50%{box-shadow:0 0 0 6px rgba(14,123,67,0)}}
+#vc-num{font-weight:700;color:#1A1A1A;font-size:13.5px;letter-spacing:.5px}
+</style>
+<script>
+(function(){
+  var NS = "virada-ai-kz", KEY = "site-visits";
+  var wrap = document.createElement("span");
+  wrap.id = "vc-wrap";
+  wrap.innerHTML = '<span id="vc-dot"></span><span>' +
+                   '<span id="vc-num">0</span> visits</span>';
+
+  var foot = document.querySelector("footer");
+  if (!foot) return;
+  foot.appendChild(wrap);
+
+  function animateTo(n){
+    wrap.classList.add("on");
+    var el = document.getElementById("vc-num");
+    var start = 0, dur = 900, t0 = performance.now();
+    function step(now){
+      var k = Math.min((now - t0) / dur, 1);
+      k = 1 - Math.pow(1 - k, 3);                 // ease-out
+      el.textContent = Math.round(start + (n - start) * k).toLocaleString("en-US");
+      if (k < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  /* в одной вкладке считаем визит один раз: дальше только читаем */
+  var counted = false;
+  try { counted = sessionStorage.getItem("vc_counted") === "1"; } catch(e){}
+  var action = counted ? "" : "/up";
+
+  fetch("https://api.counterapi.dev/v1/" + NS + "/" + KEY + action)
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if (!d) return;                              // сервис молчит — блок не показываем
+      var n = (typeof d.count === "number") ? d.count
+            : (d.value != null ? Number(d.value) : null);
+      if (n == null || isNaN(n)) return;
+      try { sessionStorage.setItem("vc_counted", "1"); } catch(e){}
+      animateTo(n);
+    })
+    .catch(function(){ /* офлайн / блокировщик — молча скрываем */ });
+})();
+</script>
+<!-- ═══ end visitor counter ═══ -->
+
 </body>
 </html>

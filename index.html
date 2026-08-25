@@ -9,22 +9,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#FFFEF6;
-  --yellow:#FFF999;
-  --yellow-hot:#FFEE54;
-  --magenta:#800054;
-  --magenta-ink:#4D0033;
-  --grey:#E8E9EB;
-  --ink:#171019;
-  --muted:#6E6275;
-  --green:#0E7B43; --green-bg:#D3F5E0;
-  --red:#C81E3C;   --red-bg:#FFDCE2;
-  --amber:#9A6700; --amber-bg:#FFF0BD;
-  --na:#9aa0a6;    --na-bg:#F0F1F3;
-  --radius:18px;
-  --border:2px solid var(--ink);
-  --shadow:6px 6px 0 var(--ink);
-  --shadow-sm:3px 3px 0 var(--ink);
+  --paper:#FFFFFF;
+  --yellow:#E8F5EC;
+  --yellow-hot:#D6EEDD;
+  --magenta:#0F7B45;
+  --magenta-ink:#0A5C33;
+  --grey:#EDEFF2;
+  --ink:#0D1117;
+  --muted:#5B6472;
+  --line:#E3E7EC;
+  --blue:#1155CC;
+  --green:#0F7B45; --green-bg:#E8F5EC;
+  --red:#C0392B;   --red-bg:#FBEAE7;
+  --amber:#8A6100; --amber-bg:#FDF3DC;
+  --na:#9AA3AE;    --na-bg:#F5F6F8;
+  --radius:12px;
+  --border:1px solid var(--line);
+  --shadow:0 1px 3px rgba(13,17,23,.07), 0 6px 20px rgba(13,17,23,.05);
+  --shadow-sm:0 1px 2px rgba(13,17,23,.06);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -346,6 +348,105 @@ mark, .hl, .highlight, [class*="highlight"]{
   box-decoration-break:clone;-webkit-box-decoration-break:clone;
 }
 </style>
+
+<style>/* clean-redesign */
+body{background:#fff;color:var(--ink)}
+h1,h2,h3{letter-spacing:-.02em}
+
+.btn,.chip,.card,.step,.meter,.ritem,.wrow,.eyebrow,.search-box,.suggest,.fcard,.arch,.stamp{
+  box-shadow:var(--shadow-sm)!important;
+}
+.card,.step,.suggest,.search-box,.arch{border:1px solid var(--line)!important}
+.meter,.ritem,.wrow,.eyebrow,.chip{border:1px solid var(--line)!important}
+.step:hover{transform:translateY(-2px);box-shadow:var(--shadow)!important}
+.chip:hover{background:var(--green-bg);border-color:#BFE2CC!important;transform:none;
+  box-shadow:var(--shadow-sm)!important}
+.search-box:focus-within{transform:none;box-shadow:0 0 0 3px rgba(15,123,69,.12)!important;
+  border-color:#8FCBA6!important}
+.btn{border:1px solid transparent!important;background:var(--ink);color:#fff}
+.btn:hover{transform:none;box-shadow:var(--shadow)!important;background:#1B2430}
+.btn.yellow{background:var(--green);color:#fff}
+.btn.yellow:hover{background:#0C6338}
+.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)!important}
+
+.mark,.mark-m{background:var(--green-bg)!important;color:var(--green)!important;
+  padding:1px 8px;border-radius:6px;box-decoration-break:clone;
+  -webkit-box-decoration-break:clone;white-space:normal}
+#backtest .mark,.cta .mark{background:var(--green-bg)!important;color:var(--green)!important}
+
+.tape{background:#F7F9FA;color:var(--muted);border-bottom:1px solid var(--line)}
+.tape span b{color:var(--ink)}
+.up{color:#0F7B45}.dn{color:#C0392B}
+
+nav{border-bottom:1px solid var(--line);background:rgba(255,255,255,.92)}
+.logo .dot{background:var(--green);box-shadow:0 0 0 3px var(--green-bg)}
+.nav-links a:not(.btn):hover{color:var(--green)}
+
+#backtest{background:#F7F9FA!important}
+#backtest h2{color:var(--ink)!important}
+#backtest .lead{color:var(--muted)!important}
+#backtest .kicker{color:var(--green)!important}
+.cta{background:var(--green-bg)!important;border-top:1px solid var(--line);color:var(--ink)}
+.cta h2{color:var(--ink)!important}
+.cta .lead{color:var(--muted)!important}
+.cta .kicker{color:var(--green)!important}
+.cta .btn.yellow{background:var(--ink);color:#fff}
+.strip{background:#F7F9FA;color:var(--ink);border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line)}
+.strip .s{border-right:1px solid var(--line)}
+.strip .n{color:var(--green)}
+.strip .l{color:var(--muted)}
+.arch{background:#0D1117;color:#D6DEE8}
+.arch .y{color:#8FD9AC}.arch .p{color:#9DC0FF}.arch .g{color:#8FD9AC}
+.arch .c{color:#9DC0FF}.arch .dim{color:#7D8794}
+
+.stamp{border-width:1px!important}
+.stamp.buy{color:var(--green);background:var(--green-bg)}
+.stamp.hold{color:var(--amber);background:var(--amber-bg)}
+.stamp.sell{color:var(--red);background:var(--red-bg)}
+.bar{border:1px solid var(--line)}
+.bar i.m{background:var(--green)}
+.bar i.y{background:#E0B341}
+.sec-title .tag{background:var(--green-bg);border:1px solid #CBE6D6;color:var(--green)}
+.rgroup{color:var(--muted);letter-spacing:1.5px}
+.mono-line{background:#F7F9FA;border:1px solid var(--line)!important;color:var(--muted)}
+.wrow.best{background:var(--green-bg);border-color:#BFE2CC!important;
+  box-shadow:var(--shadow-sm)!important}
+.wrow.best .w{color:var(--green)}
+.sg-item:hover,.sg-item.active{background:var(--green-bg)}
+.sg-tick{background:var(--ink)}
+.sg-item.priv .sg-tick{background:var(--green)}
+
+#research-plots details{background:#fff;border:1px solid var(--line);
+  box-shadow:var(--shadow-sm)}
+#research-plots summary .rs-tag{background:var(--green-bg);color:var(--green)}
+#research-plots figure{border:1px solid var(--line)}
+#research-plots figure:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+#research-plots figcaption{border-top:1px solid var(--line)}
+
+#wl-btn{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+#wl-btn.on{background:var(--green-bg);border-color:#BFE2CC;color:var(--green)}
+#wl-btn:hover{transform:none;box-shadow:var(--shadow)}
+.wl-chip{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-sm)}
+.wl-chip:hover{background:var(--green-bg)}
+#wl-panel .wl-title{color:var(--green)}
+
+footer{border-top:1px solid var(--line);background:#F7F9FA}
+
+#vc-nav{display:flex;align-items:center;gap:7px;margin-left:14px}
+.vc-pill{display:none;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;
+  background:var(--green-bg);border:1px solid #CBE6D6;
+  font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted);
+  white-space:nowrap;opacity:0;transform:translateX(26px);
+  transition:opacity .5s ease,transform .5s cubic-bezier(.22,.9,.3,1)}
+.vc-pill.in{display:inline-flex;opacity:1;transform:translateX(0)}
+.vc-pill b{color:var(--green);font-weight:700;font-size:12.5px}
+.vc-pill .vc-dot{width:6px;height:6px;border-radius:50%;background:var(--green);
+  animation:vcPulse 2.4s infinite}
+@keyframes vcPulse{0%,100%{box-shadow:0 0 0 0 rgba(15,123,69,.4)}
+  50%{box-shadow:0 0 0 5px rgba(15,123,69,0)}}
+@media(max-width:900px){#vc-nav{display:none}}
+</style>
 </head>
 <body>
 
@@ -364,7 +465,7 @@ mark, .hl, .highlight, [class*="highlight"]{
 
 <header class="hero" id="try">
   <div class="eyebrow"><span class="pulse"></span>CUSTOM BiLSTM·CNN·ATTENTION — 91.6% TEST ACCURACY</div>
-  <h1>Markets move in <span class="mark">milliseconds.</span><br>Now you <span class="mark-m">see them</span> coming.</h1>
+  <h1>Accelerate your workflow with<br><span class="mark">AI insights you can trust</span></h1>
   <p class="sub">Our own deep-learning model reads the news. <b>35 financial ratios</b> read the balance sheet. Together they hand you one honest signal: <b>BUY, HOLD or SELL</b> — with a 12-month price range.</p>
 
   <div class="search-wrap">
@@ -1785,62 +1886,78 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
 <!-- ═══ end search-sync + watchlist ═══ -->
 
 
-<!-- ═══ visitor counter (added by fix_visitor_counter) ═══ -->
-<style>
-#vc-wrap{display:none;align-items:center;gap:9px;font-family:'JetBrains Mono',monospace;
-  font-size:12px;color:#6E6275}
-#vc-wrap.on{display:inline-flex}
-#vc-dot{width:7px;height:7px;border-radius:50%;background:#0E7B43;
-  animation:vcPulse 2s infinite}
-@keyframes vcPulse{0%,100%{box-shadow:0 0 0 0 rgba(14,123,67,.45)}
-  50%{box-shadow:0 0 0 6px rgba(14,123,67,0)}}
-#vc-num{font-weight:700;color:#1A1A1A;font-size:13.5px;letter-spacing:.5px}
-</style>
+
+
+<!-- ═══ nav counters (visits + analyses) ═══ -->
 <script>
 (function(){
   var BASE = "https://countapi.mileshilliard.com/api/v1/";
-  var KEY  = "virada_ai_kz_site_visits_2026";
+  var K_VISIT = "virada_ai_kz_site_visits_2026";
+  var K_PRED  = "virada_ai_kz_analyses_2026";
 
-  var foot = document.querySelector("footer");
-  if (!foot) return;
+  var logo = document.querySelector("nav .logo");
+  if (!logo) return;
+  var box = document.createElement("div");
+  box.id = "vc-nav";
+  box.innerHTML =
+    '<span class="vc-pill" id="vc-visits"><span class="vc-dot"></span>' +
+    'visits <b id="vc-visits-n">0</b></span>' +
+    '<span class="vc-pill" id="vc-preds">analyses <b id="vc-preds-n">0</b></span>';
+  logo.parentElement.insertBefore(box, logo.nextSibling);
 
-  var wrap = document.createElement("span");
-  wrap.id = "vc-wrap";
-  wrap.innerHTML = '<span id="vc-dot"></span><span>' +
-                   '<span id="vc-num">0</span> visits</span>';
-  foot.appendChild(wrap);
-
-  function show(n){
-    wrap.classList.add("on");
-    var el = document.getElementById("vc-num");
-    var t0 = Date.now(), dur = 900;
-    function step(){
+  function animate(elId, pillId, n){
+    var pill = document.getElementById(pillId);
+    var el = document.getElementById(elId);
+    if (!pill || !el) return;
+    pill.classList.add("in");
+    var t0 = Date.now(), dur = 850;
+    (function step(){
       var k = Math.min((Date.now() - t0) / dur, 1);
       k = 1 - Math.pow(1 - k, 3);
       el.textContent = Math.round(n * k).toLocaleString("en-US");
       if (k < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
+    })();
   }
 
-  /* в одной вкладке инкрементим один раз, дальше только читаем */
+  function call(key, up){
+    return fetch(BASE + (up ? "hit/" : "get/") + key)
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        if (!d || d.value == null) return null;
+        var n = parseInt(d.value, 10);
+        return isNaN(n) ? null : n;
+      })
+      .catch(function(){ return null; });
+  }
+
   var counted = false;
   try { counted = sessionStorage.getItem("vc_counted") === "1"; } catch(e){}
-  var url = BASE + (counted ? "get/" : "hit/") + KEY;
+  call(K_VISIT, !counted).then(function(n){
+    if (n == null) return;
+    try { sessionStorage.setItem("vc_counted", "1"); } catch(e){}
+    animate("vc-visits-n", "vc-visits", n);
+  });
 
-  fetch(url)
-    .then(function(r){ return r.ok ? r.json() : null; })
-    .then(function(d){
-      if (!d || d.value == null) return;
-      var n = parseInt(d.value, 10);
-      if (isNaN(n)) return;
-      try { sessionStorage.setItem("vc_counted", "1"); } catch(e){}
-      show(n);
-    })
-    .catch(function(){ /* офлайн или блокировщик — блок остаётся скрытым */ });
+  call(K_PRED, false).then(function(n){
+    if (n == null) return;
+    setTimeout(function(){ animate("vc-preds-n", "vc-preds", n); }, 220);
+  });
+
+  if (typeof analyze === "function"){
+    var _prev = analyze;
+    analyze = function(t){
+      _prev(t);
+      if (typeof DATA !== "undefined" && DATA[t]){
+        call(K_PRED, true).then(function(n){
+          if (n == null) return;
+          animate("vc-preds-n", "vc-preds", n);
+        });
+      }
+    };
+  }
 })();
 </script>
-<!-- ═══ end visitor counter ═══ -->
+<!-- ═══ end nav counters ═══ -->
 
 </body>
 </html>

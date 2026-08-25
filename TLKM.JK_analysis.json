@@ -1,21 +1,21 @@
 {
   "ticker": "TLKM.JK",
-  "timestamp": "2026-07-19T20:03:29.660689",
+  "timestamp": "2026-08-25T17:21:28.292125",
   "profile": {
     "name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
     "sector": "Communication Services"
   },
   "quote": {
-    "price": 2660.0,
-    "change_pct": 5.13834,
-    "marketCap": 262540747603968.0
+    "price": 2620.0,
+    "change_pct": 0.38314176,
+    "marketCap": 258282052648960.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0071,
+    "score": 0.0433,
     "breakdown": {
-      "positive": 0,
-      "neutral": 17,
+      "positive": 1,
+      "neutral": 22,
       "negative": 0
     },
     "details": [
@@ -84,20 +84,20 @@
         "positive": 0.05382079631090164
       },
       {
-        "headline": "TelkomGroup Launches Pukpuk Submarine Cable: The First Digital Bridge Connecting Indonesia and Papua New Guinea",
-        "label": "neutral",
-        "confidence": 0.8990151882171631,
-        "negative": 0.05119113251566887,
-        "neutral": 0.8990151882171631,
-        "positive": 0.049793656915426254
-      },
-      {
         "headline": "Indonesia Colocation Data Center Portfolio Report 2026: Detailed Analysis of 87 Existing & 30 Upcoming Data Centers 2025-2029 by White-Floor Area, IT Load (MW), Pricing, Rack Capacity",
         "label": "neutral",
         "confidence": 0.8967844843864441,
         "negative": 0.051284581422805786,
         "neutral": 0.8967844843864441,
         "positive": 0.051930904388427734
+      },
+      {
+        "headline": "TelkomGroup Launches Pukpuk Submarine Cable: The First Digital Bridge Connecting Indonesia and Papua New Guinea",
+        "label": "neutral",
+        "confidence": 0.8990151882171631,
+        "negative": 0.05119113251566887,
+        "neutral": 0.8990151882171631,
+        "positive": 0.049793656915426254
       },
       {
         "headline": "TelkomMetra Streamlines Business Portfolio, AdMedika Group Poised to Enter a New Growth Phase on Regional Level Under Fullerton Health",
@@ -108,36 +108,20 @@
         "positive": 0.05051247030496597
       },
       {
-        "headline": "StarHub Partners NeutraDC, Indonesia's Leading Data Centre, to Strengthen Regional Quantum-Safe Connectivity",
-        "label": "neutral",
-        "confidence": 0.7153989672660828,
-        "negative": 0.07890687882900238,
-        "neutral": 0.7153989672660828,
-        "positive": 0.20569419860839844
-      },
-      {
-        "headline": "Telin Launch CLS Manado-Minahasa: Bold Step to Strengthen Eastern Indonesia Digital Ecosystem Toward a More Diverse and Opulence Connectivity",
-        "label": "neutral",
-        "confidence": 0.8957870006561279,
-        "negative": 0.05327280983328819,
-        "neutral": 0.8957870006561279,
-        "positive": 0.05094015598297119
-      },
-      {
-        "headline": "Unlocking China\u2019s Potential: 5 High-Growth Hong Kong Stocks You Can Buy as SGX SDRs - Yahoo Finance Singapore",
-        "label": "neutral",
-        "confidence": 0.9024540185928345,
-        "negative": 0.0490809828042984,
-        "neutral": 0.9024540185928345,
-        "positive": 0.04846496507525444
-      },
-      {
         "headline": "TLKM Stock Price and Chart \u2014 IDX:TLKM - TradingView",
         "label": "neutral",
         "confidence": 0.5603197813034058,
         "negative": 0.10370098799467087,
         "neutral": 0.5603197813034058,
         "positive": 0.33597925305366516
+      },
+      {
+        "headline": "TLKM taps retained earnings for IDR 21.9 trillion dividend - idnfinancials.com",
+        "label": "neutral",
+        "confidence": 0.8844690918922424,
+        "negative": 0.05772363021969795,
+        "neutral": 0.8844690918922424,
+        "positive": 0.057807255536317825
       },
       {
         "headline": "Google Finance Dividend Portfolio Template: A Step-by-step Guide - Tawcan",
@@ -148,22 +132,86 @@
         "positive": 0.05165400356054306
       },
       {
-        "headline": "SGX Adds 6 New Hong Kong and Thai Singapore Depository Receipts: Here\u2019s What You Should Know - Yahoo Finance Singapore",
+        "headline": "Cisco Reports Second Quarter Earnings - Cisco Newsroom",
         "label": "neutral",
-        "confidence": 0.8980843424797058,
-        "negative": 0.050876423716545105,
-        "neutral": 0.8980843424797058,
-        "positive": 0.0510391965508461
+        "confidence": 0.8332374691963196,
+        "negative": 0.10609004646539688,
+        "neutral": 0.8332374691963196,
+        "positive": 0.06067251041531563
+      },
+      {
+        "headline": "PGAS profit rises 46% despite slower revenue in Q1 - idnfinancials.com",
+        "label": "positive",
+        "confidence": 0.8198332786560059,
+        "negative": 0.08531033247709274,
+        "neutral": 0.09485635161399841,
+        "positive": 0.8198332786560059
+      },
+      {
+        "headline": "Strategy Announces Third Quarter 2025 Financial Results - MSTR Metrics - Strategy",
+        "label": "neutral",
+        "confidence": 0.9037480354309082,
+        "negative": 0.04894978925585747,
+        "neutral": 0.9037480354309082,
+        "positive": 0.047302231192588806
+      },
+      {
+        "headline": "SK hynix Announces 2Q26 Financial Results - SK hynix",
+        "label": "neutral",
+        "confidence": 0.9002376794815063,
+        "negative": 0.05167069286108017,
+        "neutral": 0.9002376794815063,
+        "positive": 0.0480915866792202
+      },
+      {
+        "headline": "Circle Reports Fourth Quarter and Full Fiscal Year 2025 Financial Results - Business Wire",
+        "label": "neutral",
+        "confidence": 0.9011932015419006,
+        "negative": 0.046616069972515106,
+        "neutral": 0.9011932015419006,
+        "positive": 0.05219073221087456
+      },
+      {
+        "headline": "Fortune Southeast Asia 500 \u2013 The largest companies in the region by revenue - Fortune",
+        "label": "neutral",
+        "confidence": 0.717603862285614,
+        "negative": 0.06871283799409866,
+        "neutral": 0.717603862285614,
+        "positive": 0.2136833518743515
+      },
+      {
+        "headline": "Danaher predicts $350M tariff hit, moves to mitigate impact on profits - MedTech Dive",
+        "label": "neutral",
+        "confidence": 0.8341538310050964,
+        "negative": 0.07487590610980988,
+        "neutral": 0.8341538310050964,
+        "positive": 0.09097028523683548
+      },
+      {
+        "headline": "TSMC Q2 earnings expected to beat estimates wit... - Pluang",
+        "label": "neutral",
+        "confidence": 0.850223958492279,
+        "negative": 0.05954664573073387,
+        "neutral": 0.850223958492279,
+        "positive": 0.09022937715053558
+      },
+      {
+        "headline": "Top 10 Most Profitable Companies Globally - Investopedia",
+        "label": "neutral",
+        "confidence": 0.734612762928009,
+        "negative": 0.07432212680578232,
+        "neutral": 0.734612762928009,
+        "positive": 0.19106510281562805
       }
     ],
-    "news_score": 0.0071,
+    "news_score": 0.0433,
     "fin_score": 0.0
   },
   "ratios": {
     "current_ratio": 0.8315,
     "quick_ratio": 0.6117,
     "cash_ratio": 0.4607,
-    "ocf_ratio": 0.8661,
+    "ocf_ratio": 0.89,
     "gross_margin": 67.1178,
     "operating_margin": 24.34,
     "net_margin": 11.9162,
@@ -174,7 +222,7 @@
     "de_ratio": 0.5783,
     "da_ratio": 0.262,
     "interest_coverage": 6.8581,
-    "dscr": 12.3571,
+    "dscr": 12.698,
     "equity_multiplier": 2.2073,
     "net_debt_ebitda": 0.5593,
     "asset_turnover": 0.5108,
@@ -185,16 +233,16 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 0.7925,
-    "pe_ratio": 16.181,
-    "pb_ratio": 1.9554,
-    "ev_ebitda": 4.948,
-    "ps_ratio": 1.7825,
-    "dividend_yield": 8.39,
-    "dividend_payout": 125.9681,
-    "eps": 164.39,
-    "fcf": 38587999678464.0,
-    "fcf_margin": 26.2965,
-    "cf_to_net_income": 3.6804,
+    "pe_ratio": 14.6845,
+    "pb_ratio": 1.926,
+    "ev_ebitda": 4.669,
+    "ps_ratio": 1.7263,
+    "dividend_yield": 8.52,
+    "dividend_payout": 125.8167,
+    "eps": 178.42,
+    "fcf": 40362999771136.0,
+    "fcf_margin": 27.5061,
+    "cf_to_net_income": 3.7819,
     "capex_to_revenue": 17.5601,
     "cash_roic": null
   },
@@ -208,27 +256,27 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 2660.0,
+    "current_price": 2620.0,
     "horizon": "12 months",
-    "bull_case": 35.6,
-    "base_case": 31.8,
-    "bear_case": -5.0,
-    "price_bull": 3606.96,
-    "price_base": 3504.55,
-    "price_bear": 2527.0,
+    "bull_case": 86.6,
+    "base_case": 17.1,
+    "bear_case": -52.3,
+    "price_bull": 4887.61,
+    "price_base": 3069.33,
+    "price_bear": 1251.05,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 3606.14,
-        "target_low": 2800.0,
+        "target_mean": 3518.64,
+        "target_low": 2900.0,
         "target_high": 4150.0,
-        "target_median": 3640.0,
-        "upside_mean": 35.6,
-        "upside_low": 5.3,
-        "upside_high": 56.0,
+        "target_median": 3510.0,
+        "upside_mean": 34.3,
+        "upside_low": 10.7,
+        "upside_high": 58.4,
         "n_analysts": 22,
         "recommendation": "strong_buy"
       },
@@ -236,14 +284,17 @@
         "high_52w": 3990.0,
         "low_52w": 2350.0,
         "range_pct": 69.8,
-        "position_in_range": 18.9,
-        "upside_estimate": 27.9,
-        "downside_estimate": -14.0,
-        "avg_50d": 2745.0,
-        "avg_200d": 3187.1,
-        "beta": 0.13
+        "position_in_range": 16.5,
+        "annual_vol_pct": 44.8,
+        "center_estimate": 0.0,
+        "upside_estimate": 69.4,
+        "downside_estimate": -69.4,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 2603.4,
+        "avg_200d": 3122.5,
+        "beta": 0.11
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

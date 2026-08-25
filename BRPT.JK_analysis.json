@@ -1,22 +1,22 @@
 {
   "ticker": "BRPT.JK",
-  "timestamp": "2026-07-19T20:09:12.997003",
+  "timestamp": "2026-08-25T17:28:59.689068",
   "profile": {
     "name": "PT Barito Pacific Tbk",
     "sector": "Basic Materials"
   },
   "quote": {
-    "price": 1695.0,
-    "change_pct": 0.0,
-    "marketCap": 158841413042176.0
+    "price": 1860.0,
+    "change_pct": -1.5873017,
+    "marketCap": 174303848955904.0
   },
   "sentiment": {
     "overall": "positive",
-    "score": 0.1503,
+    "score": 0.2076,
     "breakdown": {
       "positive": 6,
       "neutral": 11,
-      "negative": 3
+      "negative": 2
     },
     "details": [
       {
@@ -28,28 +28,52 @@
         "positive": 0.33597925305366516
       },
       {
-        "headline": "PT Royaltama Mulia Kontraktorindo Tbk Rights 2026-20.07.26 Series -1- for shares Income Statement \u2013 IDX:RMKO-R - TradingView",
-        "label": "neutral",
-        "confidence": 0.8971815705299377,
-        "negative": 0.0520157590508461,
-        "neutral": 0.8971815705299377,
-        "positive": 0.050802674144506454
-      },
-      {
-        "headline": "PT Indika Energy (INDY) Q1 2026 earnings summary - Quartr",
-        "label": "neutral",
-        "confidence": 0.8947323560714722,
-        "negative": 0.05280284211039543,
-        "neutral": 0.8947323560714722,
-        "positive": 0.05246472358703613
-      },
-      {
-        "headline": "Disney Revenue Rises 7% in Earnings Beat, Disney+ and Hulu Streaming Income Pops 88% to $582 Million - Variety",
+        "headline": "\u3010Space FY2026 Q2 Earnings Call\u3011Revenue declines but operating margin improves 0.4pt; services and other segments expand to 26.8% of total - finance.biggo.com",
         "label": "positive",
-        "confidence": 0.8775653839111328,
-        "negative": 0.053085021674633026,
-        "neutral": 0.06934956461191177,
-        "positive": 0.8775653839111328
+        "confidence": 0.8545510172843933,
+        "negative": 0.05734291672706604,
+        "neutral": 0.08810603618621826,
+        "positive": 0.8545510172843933
+      },
+      {
+        "headline": "U.S. Physical Therapy, Inc. (NASDAQ: USPH) grows revenue as profits soften - Stock Titan",
+        "label": "neutral",
+        "confidence": 0.894835889339447,
+        "negative": 0.05236700177192688,
+        "neutral": 0.894835889339447,
+        "positive": 0.05279702693223953
+      },
+      {
+        "headline": "Roku Q2 Revenue Up 22%, Net Income Zooms to $164 Million in Huge Beat - Variety",
+        "label": "positive",
+        "confidence": 0.8851121664047241,
+        "negative": 0.0528373159468174,
+        "neutral": 0.06205058470368385,
+        "positive": 0.8851121664047241
+      },
+      {
+        "headline": "U.S. Physical Therapy Reports Record First Quarter Revenue, Reaffirms Full Year Guidance - Business Wire",
+        "label": "positive",
+        "confidence": 0.7856552600860596,
+        "negative": 0.06981851905584335,
+        "neutral": 0.14452621340751648,
+        "positive": 0.7856552600860596
+      },
+      {
+        "headline": "[KE Holdings Q2 2026 Earnings Call] BEKE Profit Jumps 74.9% on 6.7pt Margin Expansion as Revenue Slips 5.7% - finance.biggo.com",
+        "label": "neutral",
+        "confidence": 0.8349478244781494,
+        "negative": 0.07567868381738663,
+        "neutral": 0.8349478244781494,
+        "positive": 0.08937343955039978
+      },
+      {
+        "headline": "PT Dian Swastatika Sentosa Tbk Financial Disclosures & Filings - TradingView",
+        "label": "neutral",
+        "confidence": 0.8889670968055725,
+        "negative": 0.055406782776117325,
+        "neutral": 0.8889670968055725,
+        "positive": 0.055626146495342255
       },
       {
         "headline": "Hinge Health Q3 revenue jumps 53% as company eyes M&A, new services beyond physical therapy - Fierce Healthcare",
@@ -60,28 +84,28 @@
         "positive": 0.8940739631652832
       },
       {
+        "headline": "Cita Mineral's H1 profit falls 62% as alumina JV earnings overshadow revenue growth - AL Circle",
+        "label": "neutral",
+        "confidence": 0.8604387044906616,
+        "negative": 0.07192245125770569,
+        "neutral": 0.8604387044906616,
+        "positive": 0.06763878464698792
+      },
+      {
+        "headline": "Disney Revenue Rises 7% in Earnings Beat, Disney+ and Hulu Streaming Income Pops 88% to $582 Million - Variety",
+        "label": "positive",
+        "confidence": 0.8775653839111328,
+        "negative": 0.053085021674633026,
+        "neutral": 0.06934956461191177,
+        "positive": 0.8775653839111328
+      },
+      {
         "headline": "Tesla (TSLA) releases Q3 2025 financial results: earnings decline despite record revenue - Electrek",
         "label": "negative",
         "confidence": 0.6675782203674316,
         "negative": 0.6675782203674316,
         "neutral": 0.23384924232959747,
         "positive": 0.09857264161109924
-      },
-      {
-        "headline": "Meta Q1 Revenue Soars 33% in Q1, Net Profit Hits $26.8 Billion Ahead of Mass Layoffs - Variety",
-        "label": "positive",
-        "confidence": 0.8946823477745056,
-        "negative": 0.05208040773868561,
-        "neutral": 0.05323721468448639,
-        "positive": 0.8946823477745056
-      },
-      {
-        "headline": "PT Siloam International Hospitals (SILO) Q2 2024 earnings summary - Quartr",
-        "label": "neutral",
-        "confidence": 0.9034643769264221,
-        "negative": 0.04776737838983536,
-        "neutral": 0.9034643769264221,
-        "positive": 0.0487682931125164
       },
       {
         "headline": "Press Release - PT Astra International Tbk - PT Astra International Tbk",
@@ -92,14 +116,6 @@
         "positive": 0.04991047456860542
       },
       {
-        "headline": "Garuda revenue up 5.36% in early 2026, losses narrow - IDNFinancials.com",
-        "label": "neutral",
-        "confidence": 0.8172941207885742,
-        "negative": 0.07307799905538559,
-        "neutral": 0.8172941207885742,
-        "positive": 0.10962782800197601
-      },
-      {
         "headline": "PTBA Reports Net Profit of IDR 2.93 Trillion in FY2025, Operational Performance Grows and Profitability Gradually Improves - PT Bukit Asam Tbk",
         "label": "positive",
         "confidence": 0.7145326137542725,
@@ -108,12 +124,12 @@
         "positive": 0.7145326137542725
       },
       {
-        "headline": "PT Siloam International Hospitals (SILO) Q4 2025 earnings summary - Quartr",
+        "headline": "Garuda revenue up 5.36% in early 2026, losses narrow - idnfinancials.com",
         "label": "neutral",
-        "confidence": 0.9029026031494141,
-        "negative": 0.04850046709179878,
-        "neutral": 0.9029026031494141,
-        "positive": 0.04859689623117447
+        "confidence": 0.8172941207885742,
+        "negative": 0.07307799905538559,
+        "neutral": 0.8172941207885742,
+        "positive": 0.10962782800197601
       },
       {
         "headline": "Meta Rakes in Record Revenue and Profits for Q4, Details Massive AI Investments for 2026 - Variety",
@@ -124,12 +140,12 @@
         "positive": 0.1374717801809311
       },
       {
-        "headline": "Astra Financial Report for the Third Quarter of 2025 - PT Astra International Tbk",
+        "headline": "\u3010MinebeaMitsumi FY2026 Q1 Earnings Call\u3011PT Segment Shines with 23.3% Operating Margin, Bearing Production Nears 378 Million Units Monthly; ACE Operating Profit Plunges to \u00a5100 Million on \u00a52 Billion Restructuring Charge - finance.biggo.com",
         "label": "neutral",
-        "confidence": 0.902661144733429,
-        "negative": 0.04905741289258003,
-        "neutral": 0.902661144733429,
-        "positive": 0.048281479626894
+        "confidence": 0.89817214012146,
+        "negative": 0.053834207355976105,
+        "neutral": 0.89817214012146,
+        "positive": 0.04799366742372513
       },
       {
         "headline": "Imax Q1 Revenue and Profit Decline Despite Hits Like \u2018Avatar: Fire and Ash\u2019 and \u2018Project Hail Mary\u2019 - Variety",
@@ -140,54 +156,30 @@
         "positive": 0.06114521995186806
       },
       {
-        "headline": "PT GoTo Gojek Tokopedia (GOTO) Q2 2025 earnings summary - Quartr",
+        "headline": "Astra Financial Report for the Third Quarter of 2025 - PT Astra International Tbk",
         "label": "neutral",
-        "confidence": 0.9048286080360413,
-        "negative": 0.047400686889886856,
-        "neutral": 0.9048286080360413,
-        "positive": 0.04777070879936218
+        "confidence": 0.902661144733429,
+        "negative": 0.04905741289258003,
+        "neutral": 0.902661144733429,
+        "positive": 0.048281479626894
       },
       {
-        "headline": "Disney Quarterly Revenue Flat and Operating Income Drops 5%, but Company Affirms Bullish Earnings Outlook on Streaming Momentum - Variety",
+        "headline": "Disney Q4 2025 Earnings Sees Revenue Flat, Issues Bullish EPS Forecast - Variety",
         "label": "negative",
-        "confidence": 0.8191236257553101,
-        "negative": 0.8191236257553101,
-        "neutral": 0.10306010395288467,
-        "positive": 0.07781630754470825
-      },
-      {
-        "headline": "Roku Q3 Earnings: Revenue Rises 14%, Operating Income Turns Positive For First Time Since 2021 - Variety",
-        "label": "positive",
-        "confidence": 0.9023478031158447,
-        "negative": 0.04816918075084686,
-        "neutral": 0.049482978880405426,
-        "positive": 0.9023478031158447
-      },
-      {
-        "headline": "Sony Pictures Revenue Drops 12%, Music Posts Strong Results as Overall Company Operating Income Jumps Up 22% in December Quarter - Variety",
-        "label": "negative",
-        "confidence": 0.7693930268287659,
-        "negative": 0.7693930268287659,
-        "neutral": 0.11104501038789749,
-        "positive": 0.11956194788217545
-      },
-      {
-        "headline": "Fox Sees Q1 Revenue Grow, But Higher Expenses Cut Profit - Variety",
-        "label": "positive",
-        "confidence": 0.7795517444610596,
-        "negative": 0.1119895875453949,
-        "neutral": 0.10845872014760971,
-        "positive": 0.7795517444610596
+        "confidence": 0.6141957640647888,
+        "negative": 0.6141957640647888,
+        "neutral": 0.2087407261133194,
+        "positive": 0.17706356942653656
       }
     ],
-    "news_score": 0.1503,
+    "news_score": 0.2076,
     "fin_score": 0.0
   },
   "ratios": {
     "current_ratio": 2.3383,
     "quick_ratio": 1.411,
     "cash_ratio": 1.1274,
-    "ocf_ratio": 0.1552,
+    "ocf_ratio": 0.1089,
     "gross_margin": 7.1803,
     "operating_margin": 26.1251,
     "net_margin": 6.4189,
@@ -198,7 +190,7 @@
     "de_ratio": 3.6143,
     "da_ratio": 0.4673,
     "interest_coverage": 5.1046,
-    "dscr": 1.0597,
+    "dscr": 0.7438,
     "equity_multiplier": 7.7352,
     "net_debt_ebitda": 2.2157,
     "asset_turnover": 0.4397,
@@ -209,65 +201,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.1995,
-    "pe_ratio": 15.6006,
-    "pb_ratio": 67800.0,
-    "ev_ebitda": 283572.0,
-    "ps_ratio": 16849.338,
-    "dividend_yield": 10.0,
+    "pe_ratio": 69.9248,
+    "pb_ratio": 71538.46,
+    "ev_ebitda": 178675.56,
+    "ps_ratio": 17278.344,
+    "dividend_yield": 9.0,
     "dividend_payout": 31185.7809,
-    "eps": 108.65,
-    "fcf": -499382008.0,
-    "fcf_margin": -6.5444,
-    "cf_to_net_income": 0.845,
+    "eps": 26.6,
+    "fcf": -622759000.0,
+    "fcf_margin": -8.1613,
+    "cf_to_net_income": 0.5931,
     "capex_to_revenue": 11.9681,
     "cash_roic": null
   },
-  "ratio_score": 50.0,
+  "ratio_score": 43.3,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 67.5,
+    "combined_score": 63.1,
     "sentiment_score": 100,
-    "ratio_score": 50.0
+    "ratio_score": 43.3
   },
   "prediction": {
     "available": true,
-    "current_price": 1695.0,
+    "current_price": 1860.0,
     "horizon": "12 months",
-    "bull_case": 50.6,
-    "base_case": 41.3,
-    "bear_case": -28.2,
-    "price_bull": 2552.67,
-    "price_base": 2395.03,
-    "price_bear": 1216.44,
+    "bull_case": 117.4,
+    "base_case": -2.6,
+    "bear_case": -122.6,
+    "price_bull": 4043.64,
+    "price_base": 1811.64,
+    "price_bear": -420.36,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 2553.22,
+        "target_mean": 1763.47,
         "target_low": 870.0,
-        "target_high": 4100.0,
-        "target_median": 2689.65,
-        "upside_mean": 50.6,
-        "upside_low": -48.7,
-        "upside_high": 141.9,
-        "n_analysts": 3,
+        "target_high": 2656.95,
+        "target_median": 1763.47,
+        "upside_mean": -5.2,
+        "upside_low": -53.2,
+        "upside_high": 42.8,
+        "n_analysts": 2,
         "recommendation": "buy"
       },
       "volatility": {
         "high_52w": 4530.0,
         "low_52w": 1200.0,
         "range_pct": 277.5,
-        "position_in_range": 14.9,
-        "upside_estimate": 32.0,
-        "downside_estimate": -16.0,
-        "avg_50d": 1694.5,
-        "avg_200d": 2466.62,
-        "beta": 0.83
+        "position_in_range": 19.8,
+        "annual_vol_pct": 88.8,
+        "center_estimate": 0.0,
+        "upside_estimate": 120.0,
+        "downside_estimate": -120.0,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 1716.0,
+        "avg_200d": 2223.12,
+        "beta": 0.8
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

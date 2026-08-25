@@ -1609,7 +1609,7 @@ function analyze(t){
       d.ratios[g].map(([n,v,s])=>`<div class="ritem ${stClass(s)}"><span class="rn">${n}</span><span class="rv">${v}</span></div>`).join("");
   }
   const heads=d.sentiment.heads.map(([h,l,c])=>
-    `<div class="hl-row"><span class="pill ${l}">${l==="pos"?"POSITIVE":l==="neg"?"NEGATIVE":"NEUTRAL"}</span><span>${(typeof attnHTML==="function"?attnHTML(h):h)}</span><span class="hl-conf">${c}%</span></div>`).join("");
+    `<div class="hl-row"><span class="pill ${l}">${l==="pos"?"POSITIVE":l==="neg"?"NEGATIVE":"NEUTRAL"}</span><span>${(typeof attnHTML==="function"?attnHTML(h):h)}</span>${(typeof evBadge==="function"?evBadge(h):"")}<span class="hl-conf">${c}%</span></div>`).join("");
 
   dash.innerHTML=`
   <div class="card">
@@ -1637,7 +1637,7 @@ function analyze(t){
     <div class="sec-title">📰 News sentiment <span class="tag" style="color:${sentColor};border-color:currentColor">${d.sentiment.overall} ${d.sentiment.sc}</span>
     <span class="tag">▲${d.sentiment.pos} =${d.sentiment.neu} ▼${d.sentiment.neg}</span></div>
     ${heads}
-    <div class="attn-legend">Highlight = what the model paid attention to <i></i> low → high</div><p class="disclaim">Classified live by our BiLSTM+CNN+Attention model — 91.6% test accuracy</p>
+    ${(typeof evSummary==="function"?evSummary(d.sentiment.heads):"")}<div class="attn-legend">Highlight = what the model paid attention to <i></i> low → high</div><p class="disclaim">Classified live by our BiLSTM+CNN+Attention model — 91.6% test accuracy</p>
   </div>
 
   <div class="card">
@@ -2189,6 +2189,69 @@ table.cmp tr.grp td{background:#F7F9FA;font-family:'JetBrains Mono',monospace;fo
 })();
 </script>
 <!-- ═══ end features ═══ -->
+
+
+<!-- ═══ layout fixes + evidence ═══ -->
+<script src="evidence.js"></script>
+<style>
+/* 1. воздух под кнопками инструментов */
+#tools{margin-bottom:28px}
+#tool-panel.on{margin-bottom:28px}
+/* 2. счётчики вплотную к логотипу, меню остаётся справа */
+#vc-nav{margin-left:48px;margin-right:auto}
+@media(max-width:1100px){#vc-nav{margin-left:24px}}
+/* 3. evidence-бейджи */
+.ev-badge{display:inline-flex;align-items:center;gap:4px;margin-left:8px;padding:2px 8px;
+  border-radius:999px;font-family:'JetBrains Mono',monospace;font-size:10.5px;
+  white-space:nowrap;vertical-align:middle;cursor:help}
+.ev-ok{background:var(--green-bg);color:var(--green);border:1px solid #CBE6D6}
+.ev-weak{background:var(--amber-bg);color:var(--amber);border:1px solid #EBD9AC}
+.ev-none{background:var(--na-bg);color:var(--na);border:1px solid var(--line)}
+.ev-note{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.6}
+</style>
+<script>
+(function(){
+  window.evBadge = function(text){
+    try{
+      if (typeof EVIDENCE === "undefined") return "";
+      var e = EVIDENCE[text];
+      if (!e) return "";
+      var n = e.n || 0;
+      var cls = n >= 3 ? "ev-ok" : (n >= 1 ? "ev-weak" : "ev-none");
+      var label = n >= 3 ? (n + " sources")
+                : (n === 1 ? "1 source only" : (n === 2 ? "2 sources" : "unconfirmed"));
+      var tip = n > 0
+        ? ("Independent outlets reporting the same story: " +
+           (e.domains || []).slice(0, 6).join(", "))
+        : "No independent coverage found in the news archive";
+      return '<span class="ev-badge ' + cls + '" title="' +
+             String(tip).replace(/"/g, "&quot;") + '">\u25c9 ' + label + '</span>';
+    }catch(err){ return ""; }
+  };
+
+  /* сводка под списком заголовков */
+  window.evSummary = function(heads){
+    try{
+      if (typeof EVIDENCE === "undefined" || !heads || !heads.length) return "";
+      var known = 0, corro = 0, single = 0;
+      heads.forEach(function(h){
+        var t = Array.isArray(h) ? h[0] : h;
+        var e = EVIDENCE[t];
+        if (!e) return;
+        known++;
+        if ((e.n || 0) >= 3) corro++;
+        else if ((e.n || 0) <= 1) single++;
+      });
+      if (!known) return "";
+      return '<div class="ev-note"><b>Evidence check:</b> ' + corro + ' of ' + known +
+             ' headlines are confirmed by three or more independent outlets' +
+             (single ? ('; ' + single + ' appear in only one source and should be treated as unverified') : '') +
+             '. This measures how widely a story is reported \u2014 not whether it is true.</div>';
+    }catch(err){ return ""; }
+  };
+})();
+</script>
+<!-- ═══ end layout fixes + evidence ═══ -->
 
 </body>
 </html>

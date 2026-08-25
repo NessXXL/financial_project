@@ -1,145 +1,145 @@
 {
   "ticker": "PG",
-  "timestamp": "2026-07-19T19:58:04.774226",
+  "timestamp": "2026-08-25T17:03:59.989718",
   "profile": {
     "name": "The Procter & Gamble Company",
     "sector": "Consumer Defensive"
   },
   "quote": {
-    "price": 149.98,
-    "change_pct": -1.0033,
-    "marketCap": 349243277312.0
+    "price": 146.6,
+    "change_pct": 1.32708,
+    "marketCap": 341372633088.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0549,
+    "score": -0.0158,
     "breakdown": {
       "positive": 1,
-      "neutral": 8,
-      "negative": 1
+      "neutral": 7,
+      "negative": 2
     },
     "details": [
       {
-        "headline": "Would You Rather Earn $55,000 Today or $110,000 in 20 Years?",
+        "headline": "5 Dividend Aristocrats Boomers Should Own for Life",
         "label": "neutral",
-        "confidence": 0.49707841873168945,
-        "negative": 0.3423679769039154,
-        "neutral": 0.49707841873168945,
-        "positive": 0.16055355966091156
+        "confidence": 0.8945866823196411,
+        "negative": 0.054614339023828506,
+        "neutral": 0.8945866823196411,
+        "positive": 0.05079898238182068
       },
       {
-        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
-        "label": "neutral",
-        "confidence": 0.9083341956138611,
-        "negative": 0.046524450182914734,
-        "neutral": 0.9083341956138611,
-        "positive": 0.04514128714799881
-      },
-      {
-        "headline": "The Portfolio That Lets You Ignore Inflation",
+        "headline": "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
         "label": "negative",
-        "confidence": 0.8988213539123535,
-        "negative": 0.8988213539123535,
-        "neutral": 0.049554675817489624,
-        "positive": 0.05162395164370537
+        "confidence": 0.5140235424041748,
+        "negative": 0.5140235424041748,
+        "neutral": 0.39427852630615234,
+        "positive": 0.09169797599315643
       },
       {
-        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
+        "headline": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
         "label": "neutral",
-        "confidence": 0.8124264478683472,
-        "negative": 0.060776084661483765,
-        "neutral": 0.8124264478683472,
-        "positive": 0.12679745256900787
+        "confidence": 0.8050264120101929,
+        "negative": 0.10760252922773361,
+        "neutral": 0.8050264120101929,
+        "positive": 0.08737099915742874
       },
       {
-        "headline": "How P&G\u2019s Latest Dividend Hike Amid Cost Cuts Will Impact Procter & Gamble (PG) Investors",
-        "label": "neutral",
-        "confidence": 0.8903716206550598,
-        "negative": 0.057445164769887924,
-        "neutral": 0.8903716206550598,
-        "positive": 0.0521831139922142
+        "headline": "Coca-Cola Just Won a Key Consumer Battle",
+        "label": "negative",
+        "confidence": 0.8905228972434998,
+        "negative": 0.8905228972434998,
+        "neutral": 0.057436686009168625,
+        "positive": 0.05204039067029953
       },
       {
-        "headline": "The Portfolio That Lets You Cruise Through the News, Unbothered",
-        "label": "neutral",
-        "confidence": 0.8286098837852478,
-        "negative": 0.07518168538808823,
-        "neutral": 0.8286098837852478,
-        "positive": 0.09620842337608337
-      },
-      {
-        "headline": "3 Dividend Stocks That Have Survived Every Market Crash in July",
-        "label": "neutral",
-        "confidence": 0.9015957117080688,
-        "negative": 0.04865235462784767,
-        "neutral": 0.9015957117080688,
-        "positive": 0.049751896411180496
-      },
-      {
-        "headline": "Here\u2019s the Funding It Takes to Keep Learning Forever",
+        "headline": "Estee Lauder Stock Jumped On A Bigger Margin Promise",
         "label": "positive",
-        "confidence": 0.48028087615966797,
-        "negative": 0.07610850781202316,
-        "neutral": 0.4436105787754059,
-        "positive": 0.48028087615966797
+        "confidence": 0.9015379548072815,
+        "negative": 0.04803891107439995,
+        "neutral": 0.05042312666773796,
+        "positive": 0.9015379548072815
       },
       {
-        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
+        "headline": "3 Dividend Stocks to Buy Before August Ends and Hold for Life",
         "label": "neutral",
-        "confidence": 0.9032374024391174,
-        "negative": 0.050063736736774445,
-        "neutral": 0.9032374024391174,
-        "positive": 0.04669882357120514
+        "confidence": 0.9021096229553223,
+        "negative": 0.0489543080329895,
+        "neutral": 0.9021096229553223,
+        "positive": 0.048936162143945694
       },
       {
-        "headline": "DGRO\u2019s December Rebalance Could Reshape Healthcare Exposure: Here\u2019s What to Watch",
+        "headline": "This Under-the-Radar Healthcare Stock Yields Nearly 8.5%. Here's Whether That Income Is Too Good to Be True.",
         "label": "neutral",
-        "confidence": 0.8318347930908203,
-        "negative": 0.08503267914056778,
-        "neutral": 0.8318347930908203,
-        "positive": 0.0831325426697731
+        "confidence": 0.8082855939865112,
+        "negative": 0.07402192056179047,
+        "neutral": 0.8082855939865112,
+        "positive": 0.11769237369298935
+      },
+      {
+        "headline": "Is P&G\u2019s Everyday Innovation Push With Charmin and Swiffer Quietly Shaping Its Brand Moat (PG)?",
+        "label": "neutral",
+        "confidence": 0.9043909907341003,
+        "negative": 0.047797951847314835,
+        "neutral": 0.9043909907341003,
+        "positive": 0.04781106114387512
+      },
+      {
+        "headline": "How GOJO Could Shape Clorox's Fiscal 2027 Growth and Margin Outlook",
+        "label": "neutral",
+        "confidence": 0.8981735706329346,
+        "negative": 0.050077397376298904,
+        "neutral": 0.8981735706329346,
+        "positive": 0.05174904316663742
+      },
+      {
+        "headline": "Is Clorox Stock Worth Buying as GOJO Growth Meets Margin Pressure?",
+        "label": "neutral",
+        "confidence": 0.6189206838607788,
+        "negative": 0.07655488699674606,
+        "neutral": 0.6189206838607788,
+        "positive": 0.30452436208724976
       }
     ],
-    "news_score": -0.0549,
+    "news_score": -0.0158,
     "fin_score": 0.0
   },
   "ratios": {
-    "current_ratio": 0.7042,
-    "quick_ratio": 0.4365,
-    "cash_ratio": 0.265,
-    "ocf_ratio": 0.4941,
-    "gross_margin": 51.1604,
-    "operating_margin": 25.0036,
-    "net_margin": 18.9526,
-    "roa": 12.7556,
-    "roe": 30.7121,
-    "roce": 23.6327,
-    "ebitda_margin": 28.3814,
-    "de_ratio": 0.6818,
-    "da_ratio": 0.2832,
-    "interest_coverage": 23.2348,
-    "dscr": 19.6439,
-    "equity_multiplier": 2.4077,
-    "net_debt_ebitda": 1.083,
-    "asset_turnover": 0.673,
+    "current_ratio": 0.6773,
+    "quick_ratio": 0.4134,
+    "cash_ratio": 0.2569,
+    "ocf_ratio": 0.5054,
+    "gross_margin": 50.1769,
+    "operating_margin": 24.4209,
+    "net_margin": 18.4369,
+    "roa": 12.6825,
+    "roe": 29.6703,
+    "roce": 24.1998,
+    "ebitda_margin": 28.0518,
+    "de_ratio": 0.6477,
+    "da_ratio": 0.2768,
+    "interest_coverage": 24.2349,
+    "dscr": 22.2987,
+    "equity_multiplier": 2.3395,
+    "net_debt_ebitda": 1.0274,
+    "asset_turnover": 0.6879,
     "inventory_turnover": null,
     "dio": null,
-    "receivables_turnover": 13.6272,
-    "dso": 26.7847,
+    "receivables_turnover": 14.3712,
+    "dso": 25.398,
     "dpo": null,
     "ccc": null,
-    "fixed_asset_turnover": 3.527,
-    "pe_ratio": 21.9269,
-    "pb_ratio": 6.498,
-    "ev_ebitda": 14.973,
-    "ps_ratio": 4.0274,
-    "dividend_yield": 2.9,
-    "dividend_payout": 63.4118,
-    "eps": 6.84,
-    "fcf": 14044000000.0,
-    "fcf_margin": 16.6627,
-    "cf_to_net_income": 1.1154,
-    "capex_to_revenue": 4.4765,
+    "fixed_asset_turnover": 3.4319,
+    "pe_ratio": 22.1116,
+    "pb_ratio": 6.3886,
+    "ev_ebitda": 14.82,
+    "ps_ratio": 3.9154,
+    "dividend_yield": 2.97,
+    "dividend_payout": 63.1273,
+    "eps": 6.63,
+    "fcf": 15147000000.0,
+    "fcf_margin": 17.4039,
+    "cf_to_net_income": 1.2187,
+    "capex_to_revenue": 5.066,
     "cash_roic": null
   },
   "ratio_score": 78.3,
@@ -152,27 +152,27 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 149.98,
+    "current_price": 146.6,
     "horizon": "12 months",
-    "bull_case": 8.9,
-    "base_case": 7.2,
-    "bear_case": -5.0,
-    "price_bull": 163.33,
-    "price_base": 160.7,
-    "price_bear": 142.48,
+    "bull_case": 35.3,
+    "base_case": 4.8,
+    "bear_case": -25.7,
+    "price_bull": 198.35,
+    "price_base": 153.64,
+    "price_bear": 108.92,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 163.35,
-        "target_low": 145.0,
+        "target_mean": 160.61,
+        "target_low": 143.0,
         "target_high": 186.0,
-        "target_median": 163.0,
-        "upside_mean": 8.9,
-        "upside_low": -3.3,
-        "upside_high": 24.0,
+        "target_median": 162.0,
+        "upside_mean": 9.6,
+        "upside_low": -2.5,
+        "upside_high": 26.9,
         "n_analysts": 23,
         "recommendation": "buy"
       },
@@ -180,14 +180,17 @@
         "high_52w": 167.25,
         "low_52w": 137.62,
         "range_pct": 21.5,
-        "position_in_range": 41.7,
-        "upside_estimate": 5.4,
-        "downside_estimate": -4.3,
-        "avg_50d": 146.63,
-        "avg_200d": 148.25,
+        "position_in_range": 30.3,
+        "annual_vol_pct": 19.7,
+        "center_estimate": 0.0,
+        "upside_estimate": 30.5,
+        "downside_estimate": -30.5,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 147.58,
+        "avg_200d": 147.63,
         "beta": 0.38
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

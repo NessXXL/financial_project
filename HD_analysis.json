@@ -1,106 +1,106 @@
 {
   "ticker": "HD",
-  "timestamp": "2026-07-19T19:58:25.369699",
+  "timestamp": "2026-08-25T17:04:25.423072",
   "profile": {
     "name": "The Home Depot, Inc.",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 338.87,
-    "change_pct": -2.62916,
-    "marketCap": 337892933632.0
+    "price": 337.43,
+    "change_pct": 0.542298,
+    "marketCap": 336457072640.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": 0.136,
+    "overall": "positive",
+    "score": 0.1614,
     "breakdown": {
-      "positive": 3,
-      "neutral": 7,
+      "positive": 2,
+      "neutral": 8,
       "negative": 0
     },
     "details": [
       {
-        "headline": "So you want to buy a sports franchise? Why entering sports ownership gives the rich a \u2018very elite and exclusive club\u2019 with great tax benefits",
+        "headline": "Home Depot (HD) Q2 2027 Earnings Call Transcript",
         "label": "neutral",
-        "confidence": 0.8996171355247498,
-        "negative": 0.051081884652376175,
-        "neutral": 0.8996171355247498,
-        "positive": 0.04930093139410019
+        "confidence": 0.9015929102897644,
+        "negative": 0.048674315214157104,
+        "neutral": 0.9015929102897644,
+        "positive": 0.049732811748981476
       },
       {
-        "headline": "3 Dividend Stocks to Buy for Growing Income in July",
-        "label": "neutral",
-        "confidence": 0.8971863389015198,
-        "negative": 0.05232548713684082,
-        "neutral": 0.8971863389015198,
-        "positive": 0.05048825964331627
-      },
-      {
-        "headline": "Home Depot (HD) Rises Higher Than Market: Key Facts",
+        "headline": "The Premium On WMT Stock Vs What Its Peers Deliver",
         "label": "positive",
-        "confidence": 0.8900043964385986,
-        "negative": 0.05179503187537193,
-        "neutral": 0.058200616389513016,
-        "positive": 0.8900043964385986
+        "confidence": 0.688319206237793,
+        "negative": 0.07359928637742996,
+        "neutral": 0.23808152973651886,
+        "positive": 0.688319206237793
       },
       {
-        "headline": "LOW Paid Holders $47 Bil While The Stock Went Nowhere",
+        "headline": "Arctos Adds Another NFL Team With $10.6 Billion Falcons Deal",
         "label": "neutral",
-        "confidence": 0.8951926827430725,
-        "negative": 0.05102904140949249,
-        "neutral": 0.8951926827430725,
-        "positive": 0.053778279572725296
+        "confidence": 0.8798370361328125,
+        "negative": 0.05709264427423477,
+        "neutral": 0.8798370361328125,
+        "positive": 0.06307030469179153
       },
       {
-        "headline": "How Lowe's Stock Is Compounding Value Without The Sales Boom",
+        "headline": "President Trump\u2019s Portfolio Added 2 Stocks Bill Gates and Bill Ackman Also Own",
         "label": "neutral",
-        "confidence": 0.8791950941085815,
-        "negative": 0.060581594705581665,
-        "neutral": 0.8791950941085815,
-        "positive": 0.060223307460546494
+        "confidence": 0.7104927897453308,
+        "negative": 0.08556758612394333,
+        "neutral": 0.7104927897453308,
+        "positive": 0.20393958687782288
       },
       {
-        "headline": "Home Furnishing and Improvement Retail Stocks Q1 Recap: Benchmarking Home Depot (NYSE:HD)",
+        "headline": "Walmart Just Cratered Almost 10% in a Week. This Retail CEO Says the Holidays Will Prove Everyone Wrong.",
         "label": "neutral",
-        "confidence": 0.8542881608009338,
-        "negative": 0.0647106021642685,
-        "neutral": 0.8542881608009338,
-        "positive": 0.08100125193595886
+        "confidence": 0.9077723622322083,
+        "negative": 0.042798593640327454,
+        "neutral": 0.9077723622322083,
+        "positive": 0.04942911118268967
       },
       {
-        "headline": "The Home Depot, Inc. (HD) is Attracting Investor Attention: Here is What You Should Know",
+        "headline": "Trump Just Dumped Over $5 Million Of A Popular Dividend ETF. Here\u2019s What It Means For VIG and SCHD",
         "label": "neutral",
-        "confidence": 0.9027346968650818,
-        "negative": 0.047153569757938385,
-        "neutral": 0.9027346968650818,
-        "positive": 0.050111692398786545
+        "confidence": 0.9037356376647949,
+        "negative": 0.04812254756689072,
+        "neutral": 0.9037356376647949,
+        "positive": 0.048141807317733765
       },
       {
-        "headline": "Should You Buy The Home Depot, Inc. (HD)\u2019s Shares?",
+        "headline": "Jim Cramer Doesn\u2019t Think Home Depot Is Expensive Enough To Be Avoided",
+        "label": "neutral",
+        "confidence": 0.9036135673522949,
+        "negative": 0.04746711626648903,
+        "neutral": 0.9036135673522949,
+        "positive": 0.048919327557086945
+      },
+      {
+        "headline": "Bill Gates makes $180 million bet on backbone of America's economy",
         "label": "positive",
-        "confidence": 0.40216755867004395,
-        "negative": 0.28745752573013306,
-        "neutral": 0.3103748857975006,
-        "positive": 0.40216755867004395
+        "confidence": 0.8701330423355103,
+        "negative": 0.050503190606832504,
+        "neutral": 0.07936382293701172,
+        "positive": 0.8701330423355103
       },
       {
-        "headline": "Home Depot vs. Lowe's: A Look at Recent Revenue Trends for These Home Improvement Giants",
-        "label": "positive",
-        "confidence": 0.6264042258262634,
-        "negative": 0.23268982768058777,
-        "neutral": 0.1409059464931488,
-        "positive": 0.6264042258262634
-      },
-      {
-        "headline": "Is Home Depot (HD) Cheap Following Its Military Exchange Expansion?",
+        "headline": "This S&P 500 Stock Pays a 2.67% Dividend Yield and Has Increased Its Payout in 17 Straight Years. Here's Why None of This Matters to Investors as Much as the Federal Reserve and Kevin Warsh.",
         "label": "neutral",
-        "confidence": 0.8978959321975708,
-        "negative": 0.05337569862604141,
-        "neutral": 0.8978959321975708,
-        "positive": 0.04872841015458107
+        "confidence": 0.836085855960846,
+        "negative": 0.06972811371088028,
+        "neutral": 0.836085855960846,
+        "positive": 0.09418611228466034
+      },
+      {
+        "headline": "How Q2 Earnings, Tariff Refund and CEO Shift At Home Depot (HD) Has Changed Its Investment Story",
+        "label": "neutral",
+        "confidence": 0.8642286062240601,
+        "negative": 0.057132426649332047,
+        "neutral": 0.8642286062240601,
+        "positive": 0.07863903790712357
       }
     ],
-    "news_score": 0.136,
+    "news_score": 0.1614,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 4.424,
-    "pe_ratio": 24.1017,
-    "pb_ratio": 24.3511,
-    "ev_ebitda": 16.036,
-    "ps_ratio": 2.0283,
-    "dividend_yield": 2.75,
+    "pe_ratio": 23.6461,
+    "pb_ratio": 20.1848,
+    "ev_ebitda": 15.627,
+    "ps_ratio": 2.0431,
+    "dividend_yield": 2.76,
     "dividend_payout": 65.648,
-    "eps": 14.06,
+    "eps": 14.27,
     "fcf": 12646000000.0,
     "fcf_margin": 7.679,
     "cf_to_net_income": 1.1532,
@@ -144,22 +144,22 @@
   },
   "ratio_score": 65.0,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 59.8,
-    "sentiment_score": 50,
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 77.2,
+    "sentiment_score": 100,
     "ratio_score": 65.0
   },
   "prediction": {
     "available": true,
-    "current_price": 338.87,
+    "current_price": 337.43,
     "horizon": "12 months",
-    "bull_case": 11.9,
-    "base_case": 10.6,
-    "bear_case": -6.3,
-    "price_bull": 379.2,
-    "price_base": 374.79,
-    "price_bear": 317.63,
+    "bull_case": 44.9,
+    "base_case": 6.0,
+    "bear_case": -32.9,
+    "price_bull": 488.77,
+    "price_base": 357.51,
+    "price_bear": 226.25,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,19 +167,19 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 370.34,
+        "target_mean": 377.5,
         "target_low": 310.0,
-        "target_high": 430.0,
-        "target_median": 374.5,
-        "upside_mean": 9.3,
-        "upside_low": -8.5,
-        "upside_high": 26.9,
+        "target_high": 425.0,
+        "target_median": 379.0,
+        "upside_mean": 11.9,
+        "upside_low": -8.1,
+        "upside_high": 26.0,
         "n_analysts": 32,
-        "recommendation": "none"
+        "recommendation": "buy"
       },
       "dcf": {
         "fair_value": 336.09,
-        "upside": -0.8,
+        "upside": -0.4,
         "growth_assumed": "6%",
         "discount_rate": "10%",
         "fcf_per_share": 12.68,
@@ -189,14 +189,17 @@
         "high_52w": 426.75,
         "low_52w": 289.1,
         "range_pct": 47.6,
-        "position_in_range": 36.2,
-        "upside_estimate": 11.9,
-        "downside_estimate": -9.5,
-        "avg_50d": 326.04,
-        "avg_200d": 351.86,
-        "beta": 0.95
+        "position_in_range": 35.1,
+        "annual_vol_pct": 25.1,
+        "center_estimate": 0.0,
+        "upside_estimate": 38.9,
+        "downside_estimate": -38.9,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 340.31,
+        "avg_200d": 345.81,
+        "beta": 0.96
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

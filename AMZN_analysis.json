@@ -1,106 +1,106 @@
 {
   "ticker": "AMZN",
-  "timestamp": "2026-07-19T19:54:17.616434",
+  "timestamp": "2026-08-25T16:58:57.072212",
   "profile": {
     "name": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 247.23,
-    "change_pct": -1.06447,
-    "marketCap": 2659480240128.0
+    "price": 262.07,
+    "change_pct": 1.33009,
+    "marketCap": 2826769268736.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0006,
+    "score": 0.0503,
     "breakdown": {
-      "positive": 0,
-      "neutral": 10,
+      "positive": 1,
+      "neutral": 9,
       "negative": 0
     },
     "details": [
       {
-        "headline": "Why Worried Investors Should Buy Apple Over Amazon for the Rest of 2026",
+        "headline": "The luxury retail categories that consumers continue to spend the most on",
         "label": "neutral",
-        "confidence": 0.8923068642616272,
-        "negative": 0.05087179318070412,
-        "neutral": 0.8923068642616272,
-        "positive": 0.05682133883237839
+        "confidence": 0.9110071063041687,
+        "negative": 0.044489506632089615,
+        "neutral": 0.9110071063041687,
+        "positive": 0.044503360986709595
       },
       {
-        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+        "headline": "Jim Cramer says data center backlash favors big tech hyperscalers",
         "label": "neutral",
-        "confidence": 0.9132635593414307,
-        "negative": 0.04328992962837219,
-        "neutral": 0.9132635593414307,
-        "positive": 0.04344656690955162
+        "confidence": 0.9035606980323792,
+        "negative": 0.048201389610767365,
+        "neutral": 0.9035606980323792,
+        "positive": 0.048237890005111694
       },
       {
-        "headline": "Andy Jassy Said Amazon Isn't Investing $200 Billion in AI \"On a Hunch.\" Amazon's Own Trainium Chip Business Is Already Running at a $20 Billion Annual Pace.",
+        "headline": "3 Cloud Stocks to Buy Heading Into September",
         "label": "neutral",
-        "confidence": 0.8959356546401978,
-        "negative": 0.05146487057209015,
-        "neutral": 0.8959356546401978,
-        "positive": 0.052599478513002396
+        "confidence": 0.8931865692138672,
+        "negative": 0.05340065434575081,
+        "neutral": 0.8931865692138672,
+        "positive": 0.053412750363349915
       },
       {
-        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
+        "headline": "Coinbase\u2019s Tokenized Stocks Are Live on Base. The SEC\u2019s Framework Isn\u2019t.",
         "label": "neutral",
-        "confidence": 0.900339663028717,
-        "negative": 0.04917598143219948,
-        "neutral": 0.900339663028717,
-        "positive": 0.050484344363212585
+        "confidence": 0.8888296484947205,
+        "negative": 0.05513705313205719,
+        "neutral": 0.8888296484947205,
+        "positive": 0.056033313274383545
       },
       {
-        "headline": "Elon Musk Admits He Underestimated Anthropic's AI, and Amazon and Alphabet Investors Should Take Notice",
+        "headline": "India AI Data Center Firm Orders 9,000 Nvidia Vera Rubin Systems",
         "label": "neutral",
-        "confidence": 0.8943831920623779,
-        "negative": 0.05591125041246414,
-        "neutral": 0.8943831920623779,
-        "positive": 0.049705538898706436
+        "confidence": 0.9078525304794312,
+        "negative": 0.04721406102180481,
+        "neutral": 0.9078525304794312,
+        "positive": 0.044933415949344635
       },
       {
-        "headline": "FDA finds outbreak-linked parasite in Taylor Farms lettuce sample",
+        "headline": "Where is retail drone delivery heading?",
         "label": "neutral",
-        "confidence": 0.8930375576019287,
-        "negative": 0.0536138154566288,
-        "neutral": 0.8930375576019287,
-        "positive": 0.0533485971391201
+        "confidence": 0.70904940366745,
+        "negative": 0.20008566975593567,
+        "neutral": 0.70904940366745,
+        "positive": 0.09086490422487259
       },
       {
-        "headline": "Pok\u00e9mon Cards Beat the S&P 500 by 2.5x, But the Math Is a Lie",
+        "headline": "Andy Jassy Believes AWS Can Hit $1 Trillion in Revenue. Here's When the Math Says It Might Happen.",
         "label": "neutral",
-        "confidence": 0.8793015480041504,
-        "negative": 0.06009342148900032,
-        "neutral": 0.8793015480041504,
-        "positive": 0.06060502678155899
+        "confidence": 0.8983755707740784,
+        "negative": 0.05055958405137062,
+        "neutral": 0.8983755707740784,
+        "positive": 0.05106477066874504
       },
       {
-        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
+        "headline": "The data center era that's reshaping America",
         "label": "neutral",
-        "confidence": 0.9028205871582031,
-        "negative": 0.04816388711333275,
-        "neutral": 0.9028205871582031,
-        "positive": 0.049015626311302185
+        "confidence": 0.8897227644920349,
+        "negative": 0.05592626705765724,
+        "neutral": 0.8897227644920349,
+        "positive": 0.05435097590088844
       },
       {
-        "headline": "Jeff Bezos Spent $42 Million Building a 10,000-Year Cuckoo Clock That Ticks Once a Year \u2014 Calls It a \u2018Symbol for Long-Term Thinking\u2019",
+        "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
         "label": "neutral",
-        "confidence": 0.8955199122428894,
-        "negative": 0.052210573107004166,
-        "neutral": 0.8955199122428894,
-        "positive": 0.05226961895823479
+        "confidence": 0.8915529251098633,
+        "negative": 0.05442050099372864,
+        "neutral": 0.8915529251098633,
+        "positive": 0.054026588797569275
       },
       {
-        "headline": "Buy, Sell, or Hold: Ken Griffin\u2019s 3 Mega-Cap Picks at Current Valuations",
-        "label": "neutral",
-        "confidence": 0.8956184983253479,
-        "negative": 0.05119083821773529,
-        "neutral": 0.8956184983253479,
-        "positive": 0.05319077521562576
+        "headline": "The Premium On WMT Stock Vs What Its Peers Deliver",
+        "label": "positive",
+        "confidence": 0.688319206237793,
+        "negative": 0.07359928637742996,
+        "neutral": 0.23808152973651886,
+        "positive": 0.688319206237793
       }
     ],
-    "news_score": 0.0006,
+    "news_score": 0.0503,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +129,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.6181,
-    "pe_ratio": 29.573,
-    "pb_ratio": 6.0164,
-    "ev_ebitda": 17.656,
-    "ps_ratio": 3.5805,
+    "pe_ratio": 21.1006,
+    "pb_ratio": 5.123,
+    "ev_ebitda": 17.497,
+    "ps_ratio": 3.6442,
     "dividend_yield": null,
     "dividend_payout": 0.0,
-    "eps": 8.36,
+    "eps": 12.42,
     "fcf": 7695000000.0,
     "fcf_margin": 1.0733,
     "cf_to_net_income": 1.7962,
     "capex_to_revenue": 18.3867,
     "cash_roic": null
   },
-  "ratio_score": 73.2,
+  "ratio_score": 75.0,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 65.1,
+    "combined_score": 66.2,
     "sentiment_score": 50,
-    "ratio_score": 73.2
+    "ratio_score": 75.0
   },
   "prediction": {
     "available": true,
-    "current_price": 247.23,
+    "current_price": 262.07,
     "horizon": "12 months",
-    "bull_case": 27.1,
-    "base_case": 18.8,
-    "bear_case": -12.4,
-    "price_bull": 314.23,
-    "price_base": 293.71,
-    "price_bear": 216.7,
+    "bull_case": 64.9,
+    "base_case": 12.4,
+    "bear_case": -40.1,
+    "price_bull": 432.15,
+    "price_base": 294.57,
+    "price_bear": 156.98,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 314.23,
-        "target_low": 207.0,
-        "target_high": 370.0,
-        "target_median": 315.0,
-        "upside_mean": 27.1,
-        "upside_low": -16.3,
-        "upside_high": 49.7,
-        "n_analysts": 61,
+        "target_mean": 327.0,
+        "target_low": 230.0,
+        "target_high": 405.0,
+        "target_median": 325.0,
+        "upside_mean": 24.8,
+        "upside_low": -12.2,
+        "upside_high": 54.5,
+        "n_analysts": 60,
         "recommendation": "strong_buy"
       },
       "volatility": {
-        "high_52w": 278.56,
+        "high_52w": 287.2,
         "low_52w": 196.0,
-        "range_pct": 42.1,
-        "position_in_range": 62.1,
-        "upside_estimate": 10.5,
-        "downside_estimate": -8.4,
-        "avg_50d": 252.13,
-        "avg_200d": 234.06,
-        "beta": 1.46
+        "range_pct": 46.5,
+        "position_in_range": 72.4,
+        "annual_vol_pct": 33.9,
+        "center_estimate": 0.0,
+        "upside_estimate": 52.5,
+        "downside_estimate": -52.5,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 250.14,
+        "avg_200d": 238.39,
+        "beta": 1.45
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

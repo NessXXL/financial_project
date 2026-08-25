@@ -1,106 +1,106 @@
 {
   "ticker": "TSLA",
-  "timestamp": "2026-07-19T19:55:13.556468",
+  "timestamp": "2026-08-25T17:00:02.962162",
   "profile": {
     "name": "Tesla, Inc.",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 380.84,
-    "change_pct": -2.61341,
-    "marketCap": 1430329884672.0
+    "price": 348.95,
+    "change_pct": -3.83343,
+    "marketCap": 1378194685952.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0948,
+    "score": -0.0281,
     "breakdown": {
-      "positive": 1,
-      "neutral": 9,
-      "negative": 0
+      "positive": 2,
+      "neutral": 4,
+      "negative": 4
     },
     "details": [
       {
-        "headline": "The Mercedes CLA 250+ is a more luxurious Model 3 \u2014 at a surprisingly good price: Review",
+        "headline": "Coca-Cola's new CEO can boast about something that billionaire Mag 7 members Elon Musk and Mark Zuckerberg can't",
         "label": "neutral",
-        "confidence": 0.9057188034057617,
-        "negative": 0.0478922463953495,
-        "neutral": 0.9057188034057617,
-        "positive": 0.04638887569308281
+        "confidence": 0.9067808389663696,
+        "negative": 0.04772046208381653,
+        "neutral": 0.9067808389663696,
+        "positive": 0.04549867659807205
       },
       {
-        "headline": "Big Tech earnings test tech's big rotation: What to watch this week",
-        "label": "neutral",
-        "confidence": 0.9096817970275879,
-        "negative": 0.04348170757293701,
-        "neutral": 0.9096817970275879,
-        "positive": 0.046836499124765396
-      },
-      {
-        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
-        "label": "neutral",
-        "confidence": 0.9125027656555176,
-        "negative": 0.044349607080221176,
-        "neutral": 0.9125027656555176,
-        "positive": 0.04314761608839035
-      },
-      {
-        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
-        "label": "neutral",
-        "confidence": 0.9132635593414307,
-        "negative": 0.04328992962837219,
-        "neutral": 0.9132635593414307,
-        "positive": 0.04344656690955162
-      },
-      {
-        "headline": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
-        "label": "neutral",
-        "confidence": 0.9011017084121704,
-        "negative": 0.04888951778411865,
-        "neutral": 0.9011017084121704,
-        "positive": 0.05000883713364601
-      },
-      {
-        "headline": "Even With Tesla Under $400, I'd Still Rather Buy This Unstoppable Growth Stock in July",
-        "label": "neutral",
-        "confidence": 0.560911238193512,
-        "negative": 0.1335614174604416,
-        "neutral": 0.560911238193512,
-        "positive": 0.30552738904953003
-      },
-      {
-        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
-        "label": "neutral",
-        "confidence": 0.900339663028717,
-        "negative": 0.04917598143219948,
-        "neutral": 0.900339663028717,
-        "positive": 0.050484344363212585
-      },
-      {
-        "headline": "TSLY Investors Are Missing Tesla\u2019s Rally: How Option Income Strategy Costs You 30% in Upside",
-        "label": "neutral",
-        "confidence": 0.8047398924827576,
-        "negative": 0.10564004629850388,
-        "neutral": 0.8047398924827576,
-        "positive": 0.08961997926235199
-      },
-      {
-        "headline": "Tesla stock: How much does an improved auto business matter?",
+        "headline": "This Week In Energy Transition - Solar Market Soars: Innovations Drive Global Growth",
         "label": "positive",
-        "confidence": 0.8517957329750061,
-        "negative": 0.06361386179924011,
-        "neutral": 0.08459042012691498,
-        "positive": 0.8517957329750061
+        "confidence": 0.8474764227867126,
+        "negative": 0.07121226191520691,
+        "neutral": 0.08131127059459686,
+        "positive": 0.8474764227867126
       },
       {
-        "headline": "Which \"Magnificent Seven\" Stock Has the Best Risk/Reward Right Now?",
+        "headline": "Cathie Wood Bought SpaceX Stock as Michael Burry Piled Into Palantir Puts. Here's What Each Bet Is Actually Pricing In.",
         "label": "neutral",
-        "confidence": 0.9044818878173828,
-        "negative": 0.047680191695690155,
-        "neutral": 0.9044818878173828,
-        "positive": 0.047837983816862106
+        "confidence": 0.8996785283088684,
+        "negative": 0.05028986558318138,
+        "neutral": 0.8996785283088684,
+        "positive": 0.0500316396355629
+      },
+      {
+        "headline": "TSLA Competitor? Xiaomi Joins NIO in Race to Build In-House Chips for Self-Driving Cars",
+        "label": "neutral",
+        "confidence": 0.8851912021636963,
+        "negative": 0.05759819224476814,
+        "neutral": 0.8851912021636963,
+        "positive": 0.05721066892147064
+      },
+      {
+        "headline": "Monster Run: This Consumer Stock Turned $1,000 Into $1M Over 22 Years",
+        "label": "negative",
+        "confidence": 0.5913804769515991,
+        "negative": 0.5913804769515991,
+        "neutral": 0.16910220682621002,
+        "positive": 0.23951728641986847
+      },
+      {
+        "headline": "Coinbase\u2019s Tokenized Stocks Are Live on Base. The SEC\u2019s Framework Isn\u2019t.",
+        "label": "neutral",
+        "confidence": 0.8888296484947205,
+        "negative": 0.05513705313205719,
+        "neutral": 0.8888296484947205,
+        "positive": 0.056033313274383545
+      },
+      {
+        "headline": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? NVDA, TSLA, BE, GRRR, NVTS, NBIS, SLS, MSTR Stocks In Focus",
+        "label": "positive",
+        "confidence": 0.8988649845123291,
+        "negative": 0.05170011520385742,
+        "neutral": 0.04943494498729706,
+        "positive": 0.8988649845123291
+      },
+      {
+        "headline": "Tesla\u2019s $5,000 Cybertruck Price Hike Sparks A Bigger Question: Is Demand Really Strong?",
+        "label": "negative",
+        "confidence": 0.4428202509880066,
+        "negative": 0.4428202509880066,
+        "neutral": 0.42544928193092346,
+        "positive": 0.13173042237758636
+      },
+      {
+        "headline": "Tesla (TSLA)\u2019s Solar Roof Shutdown Raises Questions About its Energy Ambitions",
+        "label": "negative",
+        "confidence": 0.48728305101394653,
+        "negative": 0.48728305101394653,
+        "neutral": 0.4168556034564972,
+        "positive": 0.09586132317781448
+      },
+      {
+        "headline": "Tesla and Other Electric Vehicle Companies Begin Massive China Recall",
+        "label": "negative",
+        "confidence": 0.8996119499206543,
+        "negative": 0.8996119499206543,
+        "neutral": 0.04917493462562561,
+        "positive": 0.05121314525604248
       }
     ],
-    "news_score": 0.0948,
+    "news_score": -0.0281,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.6879,
-    "pe_ratio": 346.2182,
-    "pb_ratio": 17.3923,
-    "ev_ebitda": 126.389,
-    "ps_ratio": 14.6132,
+    "pe_ratio": 323.1018,
+    "pb_ratio": 15.865,
+    "ev_ebitda": 125.654,
+    "ps_ratio": 13.3006,
     "dividend_yield": null,
     "dividend_payout": 0.0,
-    "eps": 1.1,
+    "eps": 1.08,
     "fcf": 6220000000.0,
     "fcf_margin": 6.5593,
     "cf_to_net_income": 3.8869,
@@ -152,14 +152,14 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 380.84,
+    "current_price": 348.95,
     "horizon": "12 months",
-    "bull_case": 16.9,
-    "base_case": 14.3,
-    "bear_case": -56.4,
-    "price_bull": 445.2,
-    "price_base": 435.3,
-    "price_bear": 166.05,
+    "bull_case": 78.6,
+    "base_case": 5.9,
+    "bear_case": -66.8,
+    "price_bull": 623.22,
+    "price_base": 369.54,
+    "price_bear": 115.85,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,36 +167,39 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 425.22,
+        "target_mean": 390.09,
         "target_low": 125.0,
         "target_high": 600.0,
-        "target_median": 460.0,
-        "upside_mean": 11.7,
-        "upside_low": -67.2,
-        "upside_high": 57.5,
+        "target_median": 410.0,
+        "upside_mean": 11.8,
+        "upside_low": -64.2,
+        "upside_high": 71.9,
         "n_analysts": 39,
         "recommendation": "buy"
       },
       "dcf": {
-        "fair_value": 43.89,
-        "upside": -88.5,
+        "fair_value": 41.73,
+        "upside": -88.0,
         "growth_assumed": "6%",
         "discount_rate": "10%",
-        "fcf_per_share": 1.66,
+        "fcf_per_share": 1.57,
         "fcf_source": "direct"
       },
       "volatility": {
         "high_52w": 498.83,
-        "low_52w": 297.82,
-        "range_pct": 67.5,
-        "position_in_range": 41.3,
-        "upside_estimate": 16.9,
-        "downside_estimate": -13.5,
-        "avg_50d": 409.8,
-        "avg_200d": 417.05,
-        "beta": 1.8
+        "low_52w": 297.38,
+        "range_pct": 67.7,
+        "position_in_range": 25.6,
+        "annual_vol_pct": 46.9,
+        "center_estimate": 0.0,
+        "upside_estimate": 72.7,
+        "downside_estimate": -72.7,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 364.85,
+        "avg_200d": 402.84,
+        "beta": 1.83
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

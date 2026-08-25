@@ -1,106 +1,106 @@
 {
   "ticker": "ADBE",
-  "timestamp": "2026-07-19T20:01:50.240979",
+  "timestamp": "2026-08-25T17:09:42.976863",
   "profile": {
     "name": "Adobe Inc.",
     "sector": "Technology"
   },
   "quote": {
-    "price": 237.25,
-    "change_pct": 0.824445,
-    "marketCap": 94306877440.0
+    "price": 276.27,
+    "change_pct": 0.352343,
+    "marketCap": 109817323520.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": 0.0141,
+    "overall": "positive",
+    "score": 0.219,
     "breakdown": {
-      "positive": 1,
-      "neutral": 8,
-      "negative": 1
+      "positive": 4,
+      "neutral": 4,
+      "negative": 2
     },
     "details": [
       {
-        "headline": "Here's What the Adobe CEO's Sale of Company Shares for Over $900,000 Means for Investors.",
+        "headline": "Bank of America raises price targets on 10 software stocks",
         "label": "neutral",
-        "confidence": 0.6142321825027466,
-        "negative": 0.16388830542564392,
-        "neutral": 0.6142321825027466,
-        "positive": 0.22187946736812592
+        "confidence": 0.8837041854858398,
+        "negative": 0.056211765855550766,
+        "neutral": 0.8837041854858398,
+        "positive": 0.06008409708738327
       },
       {
-        "headline": "Adobe vs. Autodesk: What Revenue Trends Reveal About These Software Stocks",
+        "headline": "Adobe Rises 16% in a Month: Should You Buy, Sell or Hold the Stock?",
         "label": "positive",
-        "confidence": 0.7769048810005188,
-        "negative": 0.07496987283229828,
-        "neutral": 0.14812520146369934,
-        "positive": 0.7769048810005188
+        "confidence": 0.9025665521621704,
+        "negative": 0.04725196957588196,
+        "neutral": 0.05018150061368942,
+        "positive": 0.9025665521621704
       },
       {
-        "headline": "How to Find the Bargains in the Software Stock Wreckage",
-        "label": "neutral",
-        "confidence": 0.9025868773460388,
-        "negative": 0.04696771129965782,
-        "neutral": 0.9025868773460388,
-        "positive": 0.050445470958948135
+        "headline": "Adobe (ADBE) Stock May Be Below Fair Value After Record Revenue",
+        "label": "positive",
+        "confidence": 0.9052276611328125,
+        "negative": 0.045609768480062485,
+        "neutral": 0.0491626113653183,
+        "positive": 0.9052276611328125
       },
       {
-        "headline": "IBM 'did not adapt' and just lost $70B \u2014 is Big Tech (and your portfolio) in trouble? Protect your nest egg now",
-        "label": "neutral",
-        "confidence": 0.8963248133659363,
-        "negative": 0.05193907022476196,
-        "neutral": 0.8963248133659363,
-        "positive": 0.051736123859882355
-      },
-      {
-        "headline": "Price Prediction: Figma Will End The Year at This Price",
-        "label": "neutral",
-        "confidence": 0.9000272750854492,
-        "negative": 0.04927020147442818,
-        "neutral": 0.9000272750854492,
-        "positive": 0.05070247873663902
-      },
-      {
-        "headline": "For Autodesk Stock, Patience Is the Real Catalyst",
-        "label": "neutral",
-        "confidence": 0.8959365487098694,
-        "negative": 0.05121532827615738,
-        "neutral": 0.8959365487098694,
-        "positive": 0.05284815654158592
-      },
-      {
-        "headline": "E-Commerce Update - AI Transforming Digital Retail Through Innovation and Connectivity",
-        "label": "neutral",
-        "confidence": 0.8954708576202393,
-        "negative": 0.05299616605043411,
-        "neutral": 0.8954708576202393,
-        "positive": 0.05153302103281021
-      },
-      {
-        "headline": "What\u2019s Next for IBM Stock After 25% Collapse",
+        "headline": "2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges",
         "label": "negative",
-        "confidence": 0.9099797010421753,
-        "negative": 0.9099797010421753,
-        "neutral": 0.04332149773836136,
-        "positive": 0.04669881612062454
+        "confidence": 0.9070537090301514,
+        "negative": 0.9070537090301514,
+        "neutral": 0.04184603691101074,
+        "positive": 0.0511002317070961
       },
       {
-        "headline": "ADBE Looks Cheap. The Data Says Be Careful",
-        "label": "neutral",
-        "confidence": 0.49060168862342834,
-        "negative": 0.13462452590465546,
-        "neutral": 0.49060168862342834,
-        "positive": 0.3747737407684326
+        "headline": "Is Adobe (ADBE) Losing Its Edge Despite Strong AI Adoption?",
+        "label": "negative",
+        "confidence": 0.8292364478111267,
+        "negative": 0.8292364478111267,
+        "neutral": 0.0905955582857132,
+        "positive": 0.08016806840896606
       },
       {
-        "headline": "IBM's historic crash exposes a deeper tech divide: Chart of the Day",
+        "headline": "Apple vs. Adobe: Seasonal Peaks vs. Steady Growth in Revenue",
+        "label": "positive",
+        "confidence": 0.8842105269432068,
+        "negative": 0.055010076612234116,
+        "neutral": 0.06077936291694641,
+        "positive": 0.8842105269432068
+      },
+      {
+        "headline": "Adobe Stock Looks Cheap for a Reason. Here\u2019s Why I\u2019m Buying.",
         "label": "neutral",
-        "confidence": 0.889826238155365,
-        "negative": 0.05533522740006447,
-        "neutral": 0.889826238155365,
-        "positive": 0.05483847111463547
+        "confidence": 0.5103132724761963,
+        "negative": 0.08019806444644928,
+        "neutral": 0.5103132724761963,
+        "positive": 0.40948861837387085
+      },
+      {
+        "headline": "Stocks making big moves this week: Bally's, Adobe, Novavax, Semtech, and STAAR Surgical",
+        "label": "neutral",
+        "confidence": 0.8952736854553223,
+        "negative": 0.050707947462797165,
+        "neutral": 0.8952736854553223,
+        "positive": 0.05401839315891266
+      },
+      {
+        "headline": "Adobe Systems (ADBE) Outpaces Stock Market Gains: What You Should Know",
+        "label": "neutral",
+        "confidence": 0.8127985000610352,
+        "negative": 0.059635456651449203,
+        "neutral": 0.8127985000610352,
+        "positive": 0.12756597995758057
+      },
+      {
+        "headline": "Adobe Stock Has Soared 45% From Its 2026 Lows, But It May Already Be Too Late to Buy ADBE",
+        "label": "positive",
+        "confidence": 0.8987430334091187,
+        "negative": 0.05219770222902298,
+        "neutral": 0.049059268087148666,
+        "positive": 0.8987430334091187
       }
     ],
-    "news_score": 0.0141,
+    "news_score": 0.219,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 10.8783,
-    "pe_ratio": 13.5649,
-    "pb_ratio": 8.2187,
-    "ev_ebitda": 9.843,
-    "ps_ratio": 3.7426,
+    "pe_ratio": 15.7509,
+    "pb_ratio": 9.5704,
+    "ev_ebitda": 11.437,
+    "ps_ratio": 4.3582,
     "dividend_yield": null,
     "dividend_payout": 0.0,
-    "eps": 17.49,
+    "eps": 17.54,
     "fcf": 9852000000.0,
     "fcf_margin": 41.4489,
     "cf_to_net_income": 1.4069,
@@ -146,48 +146,51 @@
   "final_signal": {
     "signal": "BUY",
     "emoji": "\ud83d\udcc8",
-    "combined_score": 73.2,
-    "sentiment_score": 50,
+    "combined_score": 90.7,
+    "sentiment_score": 100,
     "ratio_score": 85.7
   },
   "prediction": {
     "available": true,
-    "current_price": 237.25,
+    "current_price": 276.27,
     "horizon": "12 months",
-    "bull_case": 32.0,
-    "base_case": 23.4,
-    "bear_case": -17.9,
-    "price_bull": 313.17,
-    "price_base": 292.77,
-    "price_bear": 194.66,
+    "bull_case": 60.0,
+    "base_case": -1.1,
+    "bear_case": -62.0,
+    "price_bull": 441.89,
+    "price_base": 273.37,
+    "price_bear": 104.84,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 272.48,
+        "target_mean": 270.61,
         "target_low": 190.0,
         "target_high": 380.0,
         "target_median": 250.0,
-        "upside_mean": 14.8,
-        "upside_low": -19.9,
-        "upside_high": 60.2,
-        "n_analysts": 33,
+        "upside_mean": -2.1,
+        "upside_low": -31.2,
+        "upside_high": 37.5,
+        "n_analysts": 34,
         "recommendation": "hold"
       },
       "volatility": {
-        "high_52w": 376.16,
+        "high_52w": 370.86,
         "low_52w": 190.12,
-        "range_pct": 97.9,
-        "position_in_range": 25.3,
-        "upside_estimate": 32.0,
-        "downside_estimate": -16.0,
-        "avg_50d": 230.57,
-        "avg_200d": 281.95,
-        "beta": 1.43
+        "range_pct": 95.1,
+        "position_in_range": 47.7,
+        "annual_vol_pct": 39.3,
+        "center_estimate": 0.0,
+        "upside_estimate": 61.0,
+        "downside_estimate": -61.0,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 233.9,
+        "avg_200d": 270.13,
+        "beta": 1.4
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

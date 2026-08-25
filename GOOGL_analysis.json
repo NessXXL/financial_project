@@ -1,106 +1,106 @@
 {
   "ticker": "GOOGL",
-  "timestamp": "2026-07-19T19:53:59.392139",
+  "timestamp": "2026-08-25T16:58:35.795557",
   "profile": {
     "name": "Alphabet Inc.",
     "sector": "Communication Services"
   },
   "quote": {
-    "price": 346.77,
-    "change_pct": -2.1695,
-    "marketCap": 4231485980672.0
+    "price": 348.06,
+    "change_pct": 0.939618,
+    "marketCap": 4256751157248.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.039,
+    "score": -0.0353,
     "breakdown": {
-      "positive": 1,
+      "positive": 0,
       "neutral": 9,
-      "negative": 0
+      "negative": 1
     },
     "details": [
       {
-        "headline": "Big Tech earnings test tech's big rotation: What to watch this week",
+        "headline": "Tesla to launch Cybercabs in Austin starting Sept. 3",
         "label": "neutral",
-        "confidence": 0.9096817970275879,
-        "negative": 0.04348170757293701,
-        "neutral": 0.9096817970275879,
-        "positive": 0.046836499124765396
+        "confidence": 0.9036038517951965,
+        "negative": 0.049975454807281494,
+        "neutral": 0.9036038517951965,
+        "positive": 0.04642076417803764
       },
       {
-        "headline": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It\u2019s Winning)",
+        "headline": "Tesla Cybercab to launch Sept. 3 as robotaxi bet ramps up",
         "label": "neutral",
-        "confidence": 0.9174461364746094,
-        "negative": 0.04040177911520004,
-        "neutral": 0.9174461364746094,
-        "positive": 0.04215212166309357
+        "confidence": 0.8977659344673157,
+        "negative": 0.052670516073703766,
+        "neutral": 0.8977659344673157,
+        "positive": 0.04956362023949623
       },
       {
-        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
+        "headline": "Jim Cramer says data center backlash favors big tech hyperscalers",
         "label": "neutral",
-        "confidence": 0.9125027656555176,
-        "negative": 0.044349607080221176,
-        "neutral": 0.9125027656555176,
-        "positive": 0.04314761608839035
+        "confidence": 0.9035606980323792,
+        "negative": 0.048201389610767365,
+        "neutral": 0.9035606980323792,
+        "positive": 0.048237890005111694
       },
       {
-        "headline": "Warren Buffett Is Behind Berkshire Hathaway's Massive Alphabet Investment. Here's What He Likes About the Company.",
-        "label": "positive",
-        "confidence": 0.581271231174469,
-        "negative": 0.3043758273124695,
-        "neutral": 0.11435290426015854,
-        "positive": 0.581271231174469
+        "headline": "Is Broadcom in Trouble Now That Alphabet Is Getting Chips From Marvell Too?",
+        "label": "negative",
+        "confidence": 0.47154587507247925,
+        "negative": 0.47154587507247925,
+        "neutral": 0.4503714442253113,
+        "positive": 0.0780826210975647
       },
       {
-        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+        "headline": "3 Cloud Stocks to Buy Heading Into September",
         "label": "neutral",
-        "confidence": 0.9132635593414307,
-        "negative": 0.04328992962837219,
-        "neutral": 0.9132635593414307,
-        "positive": 0.04344656690955162
+        "confidence": 0.8931865692138672,
+        "negative": 0.05340065434575081,
+        "neutral": 0.8931865692138672,
+        "positive": 0.053412750363349915
       },
       {
-        "headline": "Beyond rockets and satellites, SpaceX is quietly building an AI compute business that may become key to its eye-popping valuation",
+        "headline": "India AI Data Center Firm Orders 9,000 Nvidia Vera Rubin Systems",
         "label": "neutral",
-        "confidence": 0.7365648150444031,
-        "negative": 0.07845455408096313,
-        "neutral": 0.7365648150444031,
-        "positive": 0.1849806159734726
+        "confidence": 0.9078525304794312,
+        "negative": 0.04721406102180481,
+        "neutral": 0.9078525304794312,
+        "positive": 0.044933415949344635
       },
       {
-        "headline": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
+        "headline": "Forget Nvidia. This ETF Could Be the Next Big Winner From the AI Boom",
         "label": "neutral",
-        "confidence": 0.9011017084121704,
-        "negative": 0.04888951778411865,
-        "neutral": 0.9011017084121704,
-        "positive": 0.05000883713364601
+        "confidence": 0.6040783524513245,
+        "negative": 0.07935541123151779,
+        "neutral": 0.6040783524513245,
+        "positive": 0.3165661692619324
       },
       {
-        "headline": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
+        "headline": "The data center era that's reshaping America",
         "label": "neutral",
-        "confidence": 0.863185465335846,
-        "negative": 0.06533922255039215,
-        "neutral": 0.863185465335846,
-        "positive": 0.07147525995969772
+        "confidence": 0.8897227644920349,
+        "negative": 0.05592626705765724,
+        "neutral": 0.8897227644920349,
+        "positive": 0.05435097590088844
       },
       {
-        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
+        "headline": "5 Billionaire Money Managers Dumped Palantir in the Second Quarter. This Is the AI Applications Stock They're Buying Hand Over Fist Instead.",
         "label": "neutral",
-        "confidence": 0.900339663028717,
-        "negative": 0.04917598143219948,
-        "neutral": 0.900339663028717,
-        "positive": 0.050484344363212585
+        "confidence": 0.9004657864570618,
+        "negative": 0.04971792921423912,
+        "neutral": 0.9004657864570618,
+        "positive": 0.049816254526376724
       },
       {
-        "headline": "Elon Musk Admits He Underestimated Anthropic's AI, and Amazon and Alphabet Investors Should Take Notice",
+        "headline": "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First.",
         "label": "neutral",
-        "confidence": 0.8943831920623779,
-        "negative": 0.05591125041246414,
-        "neutral": 0.8943831920623779,
-        "positive": 0.049705538898706436
+        "confidence": 0.5084698796272278,
+        "negative": 0.33870863914489746,
+        "neutral": 0.5084698796272278,
+        "positive": 0.15282143652439117
       }
     ],
-    "news_score": 0.039,
+    "news_score": -0.0353,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +129,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.5386,
-    "pe_ratio": 26.4508,
-    "pb_ratio": 8.7759,
-    "ev_ebitda": 25.853,
-    "ps_ratio": 10.0154,
+    "pe_ratio": 17.2992,
+    "pb_ratio": 6.8387,
+    "ev_ebitda": 23.984,
+    "ps_ratio": 9.5472,
     "dividend_yield": 25.0,
     "dividend_payout": 3.9064,
-    "eps": 13.11,
+    "eps": 20.12,
     "fcf": 73266000000.0,
     "fcf_margin": 18.1876,
     "cf_to_net_income": 1.2462,
     "capex_to_revenue": 22.7008,
     "cash_roic": null
   },
-  "ratio_score": 72.4,
+  "ratio_score": 74.1,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 64.6,
+    "combined_score": 65.7,
     "sentiment_score": 50,
-    "ratio_score": 72.4
+    "ratio_score": 74.1
   },
   "prediction": {
     "available": true,
-    "current_price": 346.77,
+    "current_price": 348.06,
     "horizon": "12 months",
-    "bull_case": 25.0,
-    "base_case": 18.5,
-    "bear_case": -15.0,
-    "price_bull": 433.46,
-    "price_base": 410.92,
-    "price_bear": 294.75,
+    "bull_case": 61.7,
+    "base_case": 11.5,
+    "bear_case": -38.7,
+    "price_bull": 562.81,
+    "price_base": 388.09,
+    "price_bear": 213.36,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 433.51,
+        "target_mean": 428.07,
         "target_low": 340.0,
         "target_high": 515.0,
-        "target_median": 433.0,
-        "upside_mean": 25.0,
-        "upside_low": -2.0,
-        "upside_high": 48.5,
-        "n_analysts": 53,
+        "target_median": 429.0,
+        "upside_mean": 23.0,
+        "upside_low": -2.3,
+        "upside_high": 48.0,
+        "n_analysts": 54,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 408.61,
-        "low_52w": 186.15,
-        "range_pct": 119.5,
-        "position_in_range": 72.2,
-        "upside_estimate": 12.0,
-        "downside_estimate": -28.0,
-        "avg_50d": 370.59,
-        "avg_200d": 321.66,
-        "beta": 1.25
+        "low_52w": 205.65,
+        "range_pct": 98.7,
+        "position_in_range": 70.2,
+        "annual_vol_pct": 32.4,
+        "center_estimate": 0.0,
+        "upside_estimate": 50.2,
+        "downside_estimate": -50.2,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 351.57,
+        "avg_200d": 333.38,
+        "beta": 1.24
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

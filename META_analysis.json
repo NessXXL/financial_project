@@ -1,106 +1,106 @@
 {
   "ticker": "META",
-  "timestamp": "2026-07-19T19:54:54.660533",
+  "timestamp": "2026-08-25T16:59:41.654675",
   "profile": {
     "name": "Meta Platforms, Inc.",
     "sector": "Communication Services"
   },
   "quote": {
-    "price": 646.01,
-    "change_pct": -2.78839,
-    "marketCap": 1639846903808.0
+    "price": 559.02,
+    "change_pct": 1.65848,
+    "marketCap": 1424106979328.0
   },
   "sentiment": {
-    "overall": "positive",
-    "score": 0.1682,
+    "overall": "neutral",
+    "score": 0.0868,
     "breakdown": {
-      "positive": 2,
-      "neutral": 8,
+      "positive": 1,
+      "neutral": 9,
       "negative": 0
     },
     "details": [
       {
-        "headline": "Meta Platforms: Is This the Most Undervalued Stock in Big Tech? (NASDAQ: META)",
+        "headline": "Coca-Cola's new CEO can boast about something that billionaire Mag 7 members Elon Musk and Mark Zuckerberg can't",
         "label": "neutral",
-        "confidence": 0.9022651314735413,
-        "negative": 0.047225289046764374,
-        "neutral": 0.9022651314735413,
-        "positive": 0.05050951614975929
+        "confidence": 0.9067808389663696,
+        "negative": 0.04772046208381653,
+        "neutral": 0.9067808389663696,
+        "positive": 0.04549867659807205
       },
       {
-        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+        "headline": "Tech stocks today: All eyes on Nvidia as Meta trial resumes",
         "label": "neutral",
-        "confidence": 0.9132635593414307,
-        "negative": 0.04328992962837219,
-        "neutral": 0.9132635593414307,
-        "positive": 0.04344656690955162
+        "confidence": 0.9047541618347168,
+        "negative": 0.0483531691133976,
+        "neutral": 0.9047541618347168,
+        "positive": 0.046892713755369186
       },
       {
-        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
+        "headline": "Jim Cramer says data center backlash favors big tech hyperscalers",
         "label": "neutral",
-        "confidence": 0.900339663028717,
-        "negative": 0.04917598143219948,
-        "neutral": 0.900339663028717,
-        "positive": 0.050484344363212585
+        "confidence": 0.9035606980323792,
+        "negative": 0.048201389610767365,
+        "neutral": 0.9035606980323792,
+        "positive": 0.048237890005111694
       },
       {
-        "headline": "China\u2019s Moonshot Plans IPO in Six Months After AI Breakthrough",
-        "label": "neutral",
-        "confidence": 0.8977491855621338,
-        "negative": 0.05165035277605057,
-        "neutral": 0.8977491855621338,
-        "positive": 0.050600506365299225
-      },
-      {
-        "headline": "Andrew and Tristan Tate arrested in Miami on UK extradition request",
-        "label": "neutral",
-        "confidence": 0.9004606008529663,
-        "negative": 0.049260370433330536,
-        "neutral": 0.9004606008529663,
-        "positive": 0.05027904361486435
-      },
-      {
-        "headline": "Mark Zuckerberg's Meta and Other Hyperscalers Face a Major Bottleneck. Here Are 2 Industrial Stocks That Will Benefit",
-        "label": "neutral",
-        "confidence": 0.8919015526771545,
-        "negative": 0.054313160479068756,
-        "neutral": 0.8919015526771545,
-        "positive": 0.05378524959087372
-      },
-      {
-        "headline": "Marco Rubio Says President Lula 'Put His Ego Ahead of Making a Deal' as Trump Slaps Brazil With 25% Tariffs",
+        "headline": "Nvidia Vs. Meta Platforms: Why Wall Street Expects Their Q3 Performance to Lead The Magnificent Seven",
         "label": "positive",
-        "confidence": 0.8793700337409973,
-        "negative": 0.055021028965711594,
-        "neutral": 0.06560895591974258,
-        "positive": 0.8793700337409973
+        "confidence": 0.7731545567512512,
+        "negative": 0.08288108557462692,
+        "neutral": 0.14396439492702484,
+        "positive": 0.7731545567512512
       },
       {
-        "headline": "Meta Platforms Is Up 21% This Month, and Here Is What's Driving the Surge",
-        "label": "positive",
-        "confidence": 0.8925800919532776,
-        "negative": 0.05334277078509331,
-        "neutral": 0.054077137261629105,
-        "positive": 0.8925800919532776
-      },
-      {
-        "headline": "This Nuclear Stock Is Down 46%, and It's a Screaming Buy",
+        "headline": "Meta\u2019s Hatch Agent Platform and Watermelon Model Signal a Consumer AI Monetization Push",
         "label": "neutral",
-        "confidence": 0.8803771138191223,
-        "negative": 0.052037954330444336,
-        "neutral": 0.8803771138191223,
-        "positive": 0.06758495420217514
+        "confidence": 0.8833088874816895,
+        "negative": 0.05801800265908241,
+        "neutral": 0.8833088874816895,
+        "positive": 0.058673176914453506
       },
       {
-        "headline": "Meta, Anthropic drop bombshell news on AI market",
+        "headline": "The data center era that's reshaping America",
         "label": "neutral",
-        "confidence": 0.8904953002929688,
-        "negative": 0.0555289164185524,
-        "neutral": 0.8904953002929688,
-        "positive": 0.053975801914930344
+        "confidence": 0.8897227644920349,
+        "negative": 0.05592626705765724,
+        "neutral": 0.8897227644920349,
+        "positive": 0.05435097590088844
+      },
+      {
+        "headline": "Routing is coming for the frontier AI labs",
+        "label": "neutral",
+        "confidence": 0.9011130332946777,
+        "negative": 0.04943662881851196,
+        "neutral": 0.9011130332946777,
+        "positive": 0.04945026710629463
+      },
+      {
+        "headline": "Meta Targets Early September for Hatch, Its Consumer AI Agent",
+        "label": "neutral",
+        "confidence": 0.8988603353500366,
+        "negative": 0.05060936510562897,
+        "neutral": 0.8988603353500366,
+        "positive": 0.05053023621439934
+      },
+      {
+        "headline": "AMD Is Winning Nvidia (NVDA) Customers But Investors May Be Missing The Catch",
+        "label": "neutral",
+        "confidence": 0.6569481492042542,
+        "negative": 0.0811643972992897,
+        "neutral": 0.6569481492042542,
+        "positive": 0.26188749074935913
+      },
+      {
+        "headline": "Prediction: This Artificial Intelligence (AI) Stock Will Be Worth More than SpaceX Before 2026 is Over",
+        "label": "neutral",
+        "confidence": 0.8883450031280518,
+        "negative": 0.05513816326856613,
+        "neutral": 0.8883450031280518,
+        "positive": 0.056516773998737335
       }
     ],
-    "news_score": 0.1682,
+    "news_score": 0.0868,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.0211,
-    "pe_ratio": 23.4742,
-    "pb_ratio": 6.7284,
-    "ev_ebitda": 15.053,
-    "ps_ratio": 7.6285,
+    "pe_ratio": 21.0554,
+    "pb_ratio": 5.4528,
+    "ev_ebitda": 13.188,
+    "ps_ratio": 6.2393,
     "dividend_yield": null,
-    "dividend_payout": 7.6279,
-    "eps": 27.52,
+    "dividend_payout": 7.6595,
+    "eps": 26.55,
     "fcf": 46109000000.0,
     "fcf_margin": 22.9437,
     "cf_to_net_income": 1.9154,
@@ -146,48 +146,51 @@
   "final_signal": {
     "signal": "BUY",
     "emoji": "\ud83d\udcc8",
-    "combined_score": 91.9,
-    "sentiment_score": 100,
+    "combined_score": 74.4,
+    "sentiment_score": 50,
     "ratio_score": 87.5
   },
   "prediction": {
     "available": true,
-    "current_price": 646.01,
+    "current_price": 559.02,
     "horizon": "12 months",
-    "bull_case": 27.3,
-    "base_case": 20.3,
-    "bear_case": -5.0,
-    "price_bull": 822.37,
-    "price_base": 777.15,
-    "price_bear": 613.71,
+    "bull_case": 77.8,
+    "base_case": 17.4,
+    "bear_case": -42.8,
+    "price_bull": 993.66,
+    "price_base": 656.57,
+    "price_bear": 319.48,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 822.69,
-        "target_low": 664.46,
-        "target_high": 1015.0,
-        "target_median": 821.16,
-        "upside_mean": 27.3,
-        "upside_low": 2.9,
-        "upside_high": 57.1,
-        "n_analysts": 58,
+        "target_mean": 754.14,
+        "target_low": 580.0,
+        "target_high": 1000.0,
+        "target_median": 750.0,
+        "upside_mean": 34.9,
+        "upside_low": 3.8,
+        "upside_high": 78.9,
+        "n_analysts": 57,
         "recommendation": "strong_buy"
       },
       "volatility": {
-        "high_52w": 796.25,
+        "high_52w": 790.8,
         "low_52w": 520.26,
-        "range_pct": 53.0,
-        "position_in_range": 45.6,
-        "upside_estimate": 13.3,
-        "downside_estimate": -10.6,
-        "avg_50d": 604.53,
-        "avg_200d": 640.51,
-        "beta": 1.25
+        "range_pct": 52.0,
+        "position_in_range": 14.3,
+        "annual_vol_pct": 38.9,
+        "center_estimate": 0.0,
+        "upside_estimate": 60.3,
+        "downside_estimate": -60.3,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 592.8,
+        "avg_200d": 623.79,
+        "beta": 1.24
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

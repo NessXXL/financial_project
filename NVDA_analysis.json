@@ -1,18 +1,18 @@
 {
   "ticker": "NVDA",
-  "timestamp": "2026-07-19T19:54:36.137379",
+  "timestamp": "2026-08-25T16:59:19.242636",
   "profile": {
     "name": "NVIDIA Corporation",
     "sector": "Technology"
   },
   "quote": {
-    "price": 202.81,
-    "change_pct": -2.21311,
-    "marketCap": 4912260841472.0
+    "price": 208.48,
+    "change_pct": -2.90611,
+    "marketCap": 5049593888768.0
   },
   "sentiment": {
     "overall": "positive",
-    "score": 0.1513,
+    "score": 0.2043,
     "breakdown": {
       "positive": 3,
       "neutral": 7,
@@ -20,87 +20,87 @@
     },
     "details": [
       {
-        "headline": "'Earnings need to be strong': Wall Street assesses next catalyst for AI trade",
+        "headline": "Earnings live updates: Dick's Sporting Goods stock tanks after retailer slashes outlook amid 'challenging conditions'",
         "label": "neutral",
-        "confidence": 0.9040749073028564,
-        "negative": 0.0484178252518177,
-        "neutral": 0.9040749073028564,
-        "positive": 0.04750724136829376
+        "confidence": 0.5386388301849365,
+        "negative": 0.3806931674480438,
+        "neutral": 0.5386388301849365,
+        "positive": 0.08066803216934204
       },
       {
-        "headline": "Interactive Brokers Grew Its Customer Accounts 34% in a Year. Here's the Bull Case Before Q2 Earnings.",
+        "headline": "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
+        "label": "neutral",
+        "confidence": 0.9037240743637085,
+        "negative": 0.04931497573852539,
+        "neutral": 0.9037240743637085,
+        "positive": 0.0469609834253788
+      },
+      {
+        "headline": "Tech stocks today: All eyes on Nvidia as Meta trial resumes",
+        "label": "neutral",
+        "confidence": 0.9047541618347168,
+        "negative": 0.0483531691133976,
+        "neutral": 0.9047541618347168,
+        "positive": 0.046892713755369186
+      },
+      {
+        "headline": "Nvidia, software giants' earnings: What to watch the week of August 24th",
+        "label": "neutral",
+        "confidence": 0.8853804469108582,
+        "negative": 0.056117407977581024,
+        "neutral": 0.8853804469108582,
+        "positive": 0.05850210413336754
+      },
+      {
+        "headline": "For Investors in Their 30s, Here's 1 Glorious Growth ETF to Buy Hand Over Fist and Hold Forever",
+        "label": "neutral",
+        "confidence": 0.8967117071151733,
+        "negative": 0.051862116903066635,
+        "neutral": 0.8967117071151733,
+        "positive": 0.05142616853117943
+      },
+      {
+        "headline": "Softer Bond Yields, Oil Prices Boost European Bourse Midday",
+        "label": "neutral",
+        "confidence": 0.891208827495575,
+        "negative": 0.05093429982662201,
+        "neutral": 0.891208827495575,
+        "positive": 0.05785694718360901
+      },
+      {
+        "headline": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Advanced Micro Devices, Dynatrace, Five Below, Fortune Brands, Klarna Group, Jersey Mike\u2019s Subs, Moderna, Sherwin-Williams, and More",
+        "label": "neutral",
+        "confidence": 0.9052401781082153,
+        "negative": 0.047251950949430466,
+        "neutral": 0.9052401781082153,
+        "positive": 0.04750782996416092
+      },
+      {
+        "headline": "Premarket movers: AMD upgraded, Bloom energy surges",
         "label": "positive",
-        "confidence": 0.7599452137947083,
-        "negative": 0.15241380035877228,
-        "neutral": 0.08764103800058365,
-        "positive": 0.7599452137947083
+        "confidence": 0.8936976194381714,
+        "negative": 0.052783314138650894,
+        "neutral": 0.053519077599048615,
+        "positive": 0.8936976194381714
       },
       {
-        "headline": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It\u2019s Winning)",
-        "label": "neutral",
-        "confidence": 0.9174461364746094,
-        "negative": 0.04040177911520004,
-        "neutral": 0.9174461364746094,
-        "positive": 0.04215212166309357
-      },
-      {
-        "headline": "Price Prediction: Netflix Has 140% Upside Despite the Post-Earnings Dip",
+        "headline": "Stocks rise, oil down as traders weigh Iran sanctions threat",
         "label": "positive",
-        "confidence": 0.49884486198425293,
-        "negative": 0.39810067415237427,
-        "neutral": 0.1030544862151146,
-        "positive": 0.49884486198425293
+        "confidence": 0.8683186173439026,
+        "negative": 0.06212741881608963,
+        "neutral": 0.06955394893884659,
+        "positive": 0.8683186173439026
       },
       {
-        "headline": "Energy Transfer Looks Poised to Outperform the S&P 500 in the Back Half of 2026",
+        "headline": "Nvidia Vs. Meta Platforms: Why Wall Street Expects Their Q3 Performance to Lead The Magnificent Seven",
         "label": "positive",
-        "confidence": 0.8671225905418396,
-        "negative": 0.07444563508033752,
-        "neutral": 0.05843183398246765,
-        "positive": 0.8671225905418396
-      },
-      {
-        "headline": "Meta Platforms: Is This the Most Undervalued Stock in Big Tech? (NASDAQ: META)",
-        "label": "neutral",
-        "confidence": 0.9022651314735413,
-        "negative": 0.047225289046764374,
-        "neutral": 0.9022651314735413,
-        "positive": 0.05050951614975929
-      },
-      {
-        "headline": "1 Overlooked Vanguard ETF Is Outpacing the S&P 500 This Year at a Bargain Cost",
-        "label": "neutral",
-        "confidence": 0.8610008358955383,
-        "negative": 0.06815002113580704,
-        "neutral": 0.8610008358955383,
-        "positive": 0.07084909081459045
-      },
-      {
-        "headline": "TSMC vs. ASML: Which Is the Better AI Semiconductor Ecosystem Stock to Buy?",
-        "label": "neutral",
-        "confidence": 0.9053606986999512,
-        "negative": 0.04783513769507408,
-        "neutral": 0.9053606986999512,
-        "positive": 0.04680414870381355
-      },
-      {
-        "headline": "Warren Buffett Set a New Goal: Give Away All of His $140 Billion Berkshire Stake by 2034",
-        "label": "neutral",
-        "confidence": 0.8888418078422546,
-        "negative": 0.057677775621414185,
-        "neutral": 0.8888418078422546,
-        "positive": 0.05348040908575058
-      },
-      {
-        "headline": "3 Biggest Pharma Giants: Buy, Sell or Hold?",
-        "label": "neutral",
-        "confidence": 0.9112409353256226,
-        "negative": 0.03925563022494316,
-        "neutral": 0.9112409353256226,
-        "positive": 0.04950346797704697
+        "confidence": 0.7731545567512512,
+        "negative": 0.08288108557462692,
+        "neutral": 0.14396439492702484,
+        "positive": 0.7731545567512512
       }
     ],
-    "news_score": 0.1513,
+    "news_score": 0.2043,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,10 +129,10 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 16.2972,
-    "pe_ratio": 31.0582,
-    "pb_ratio": 25.1314,
-    "ev_ebitda": 29.409,
-    "ps_ratio": 19.3784,
+    "pe_ratio": 31.9265,
+    "pb_ratio": 25.834,
+    "ev_ebitda": 30.238,
+    "ps_ratio": 19.9202,
     "dividend_yield": null,
     "dividend_payout": 20.1729,
     "eps": 6.53,
@@ -152,42 +152,45 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 202.81,
+    "current_price": 208.48,
     "horizon": "12 months",
-    "bull_case": 49.1,
-    "base_case": 30.1,
-    "bear_case": -10.0,
-    "price_bull": 302.39,
-    "price_base": 263.75,
-    "price_bear": 182.53,
+    "bull_case": 80.2,
+    "base_case": 23.1,
+    "bear_case": -34.0,
+    "price_bull": 375.68,
+    "price_base": 256.64,
+    "price_bear": 137.6,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 302.31,
+        "target_mean": 304.73,
         "target_low": 180.0,
         "target_high": 500.0,
-        "target_median": 294.0,
-        "upside_mean": 49.1,
-        "upside_low": -11.2,
-        "upside_high": 146.5,
-        "n_analysts": 58,
+        "target_median": 300.0,
+        "upside_mean": 46.2,
+        "upside_low": -13.7,
+        "upside_high": 139.8,
+        "n_analysts": 59,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 236.54,
         "low_52w": 164.07,
         "range_pct": 44.2,
-        "position_in_range": 53.5,
-        "upside_estimate": 11.0,
-        "downside_estimate": -8.8,
-        "avg_50d": 209.91,
-        "avg_200d": 192.4,
+        "position_in_range": 61.3,
+        "annual_vol_pct": 36.8,
+        "center_estimate": 0.0,
+        "upside_estimate": 57.1,
+        "downside_estimate": -57.1,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 207.65,
+        "avg_200d": 195.34,
         "beta": 2.21
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

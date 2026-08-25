@@ -1,0 +1,193 @@
+{
+  "ticker": "2222.SR",
+  "timestamp": "2026-08-07T23:27:12.305373",
+  "profile": {
+    "name": "Saudi Arabian Oil Company",
+    "sector": "Energy"
+  },
+  "quote": {
+    "price": 26.5,
+    "change_pct": -0.8975309,
+    "marketCap": 6410545922048.0
+  },
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.0084,
+    "breakdown": {
+      "positive": 2,
+      "neutral": 5,
+      "negative": 3
+    },
+    "details": [
+      {
+        "headline": "Aramco Flags 'Historical Supply Constraints'",
+        "label": "neutral",
+        "confidence": 0.908531129360199,
+        "negative": 0.04685191437602043,
+        "neutral": 0.908531129360199,
+        "positive": 0.044616878032684326
+      },
+      {
+        "headline": "Saudis Cut Main Oil Price to Asia Amid Talk of Hormuz Deal",
+        "label": "negative",
+        "confidence": 0.7108194231987,
+        "negative": 0.7108194231987,
+        "neutral": 0.20701992511749268,
+        "positive": 0.08216071873903275
+      },
+      {
+        "headline": "Aramco's Record Profits Hide a Growing Cash Flow Crisis",
+        "label": "negative",
+        "confidence": 0.7597213387489319,
+        "negative": 0.7597213387489319,
+        "neutral": 0.06946072727441788,
+        "positive": 0.17081795632839203
+      },
+      {
+        "headline": "Saudi Aramco backs India\u2019s Mitti Labs to make Asia\u2019s rice farming more water-resilient",
+        "label": "neutral",
+        "confidence": 0.9036516547203064,
+        "negative": 0.04769524559378624,
+        "neutral": 0.9036516547203064,
+        "positive": 0.04865320771932602
+      },
+      {
+        "headline": "Strong cash flow + blue-chip customers = long-term growth",
+        "label": "positive",
+        "confidence": 0.8905487060546875,
+        "negative": 0.05294997617602348,
+        "neutral": 0.056501343846321106,
+        "positive": 0.8905487060546875
+      },
+      {
+        "headline": "U.S. Stocks Jump, Oil Drops After Bessent Says Iran Deal Could Be Close",
+        "label": "positive",
+        "confidence": 0.7704253196716309,
+        "negative": 0.06387563049793243,
+        "neutral": 0.16569900512695312,
+        "positive": 0.7704253196716309
+      },
+      {
+        "headline": "Big oil companies continue to post banner profits as fighting in Iran drives prices higher",
+        "label": "neutral",
+        "confidence": 0.7684382796287537,
+        "negative": 0.06838937848806381,
+        "neutral": 0.7684382796287537,
+        "positive": 0.1631723791360855
+      },
+      {
+        "headline": "Oil companies are profiting from the US-Iran war. That\u2019s a political headache for Trump",
+        "label": "neutral",
+        "confidence": 0.8908208608627319,
+        "negative": 0.05211533606052399,
+        "neutral": 0.8908208608627319,
+        "positive": 0.057063836604356766
+      },
+      {
+        "headline": "Saudi Aramco Q2 2026 earnings beat as Iran war lifts oil prices",
+        "label": "neutral",
+        "confidence": 0.7169317603111267,
+        "negative": 0.08318609744310379,
+        "neutral": 0.7169317603111267,
+        "positive": 0.19988207519054413
+      },
+      {
+        "headline": "Aramco Sees Oil Refineries Running Flat Out as Buffers Run Thin",
+        "label": "negative",
+        "confidence": 0.5480074286460876,
+        "negative": 0.5480074286460876,
+        "neutral": 0.3613216280937195,
+        "positive": 0.09067103266716003
+      }
+    ],
+    "news_score": 0.0084,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": 1.7367,
+    "quick_ratio": 1.1899,
+    "cash_ratio": 0.7081,
+    "ocf_ratio": 1.4878,
+    "gross_margin": 50.1631,
+    "operating_margin": 42.7208,
+    "net_margin": 20.8258,
+    "roa": 13.6382,
+    "roe": 23.3273,
+    "roce": 32.3255,
+    "ebitda_margin": 48.2911,
+    "de_ratio": 0.2437,
+    "da_ratio": 0.1425,
+    "interest_coverage": 64.3721,
+    "dscr": 46.0552,
+    "equity_multiplier": 1.7104,
+    "net_debt_ebitda": 0.1493,
+    "asset_turnover": 0.6549,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": 10.1013,
+    "dso": 36.1339,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": 1.0366,
+    "pe_ratio": 17.2078,
+    "pb_ratio": 4.1034,
+    "ev_ebitda": 7.562,
+    "ps_ratio": 3.5156,
+    "dividend_yield": 5.12,
+    "dividend_payout": 94.5271,
+    "eps": 1.54,
+    "fcf": 320354000000.0,
+    "fcf_margin": 19.1691,
+    "cf_to_net_income": 1.4676,
+    "capex_to_revenue": 11.3956,
+    "cash_roic": null
+  },
+  "ratio_score": 85.0,
+  "final_signal": {
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 72.8,
+    "sentiment_score": 50,
+    "ratio_score": 85.0
+  },
+  "prediction": {
+    "available": true,
+    "current_price": 26.5,
+    "horizon": "12 months",
+    "bull_case": 13.7,
+    "base_case": 8.4,
+    "bear_case": -5.0,
+    "price_bull": 30.13,
+    "price_base": 28.74,
+    "price_bear": 25.17,
+    "methods_used": [
+      "analyst",
+      "volatility"
+    ],
+    "detail": {
+      "analyst": {
+        "target_mean": 30.12,
+        "target_low": 26.8,
+        "target_high": 35.0,
+        "target_median": 29.8,
+        "upside_mean": 13.7,
+        "upside_low": 1.1,
+        "upside_high": 32.1,
+        "n_analysts": 18,
+        "recommendation": "buy"
+      },
+      "volatility": {
+        "high_52w": 27.96,
+        "low_52w": 23.04,
+        "range_pct": 21.4,
+        "position_in_range": 70.3,
+        "upside_estimate": 3.2,
+        "downside_estimate": -7.5,
+        "avg_50d": 26.74,
+        "avg_200d": 26.11,
+        "beta": 0.01
+      }
+    },
+    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+  }
+}

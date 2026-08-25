@@ -1,106 +1,106 @@
 {
   "ticker": "BRK-B",
-  "timestamp": "2026-07-19T19:55:31.741000",
+  "timestamp": "2026-08-25T17:00:27.111401",
   "profile": {
     "name": "Berkshire Hathaway Inc.",
     "sector": "Financial Services"
   },
   "quote": {
-    "price": 490.91,
-    "change_pct": -0.448165,
-    "marketCap": 1058821111808.0
+    "price": 504.32,
+    "change_pct": 1.71433,
+    "marketCap": 1079602774016.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0451,
+    "score": 0.1001,
     "breakdown": {
-      "positive": 1,
-      "neutral": 9,
-      "negative": 0
+      "positive": 2,
+      "neutral": 7,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "How effective is value investing during the market's present uncertainty?",
-        "label": "neutral",
-        "confidence": 0.8082206845283508,
-        "negative": 0.1220308393239975,
-        "neutral": 0.8082206845283508,
-        "positive": 0.06974849849939346
+        "headline": "2 Cash-Heavy Stocks to Consider Right Now and 1 Facing Challenges",
+        "label": "negative",
+        "confidence": 0.7933833599090576,
+        "negative": 0.7933833599090576,
+        "neutral": 0.14035344123840332,
+        "positive": 0.06626323610544205
       },
       {
-        "headline": "Warren Buffett Set a New Goal: Give Away All of His $140 Billion Berkshire Stake by 2034",
+        "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
         "label": "neutral",
-        "confidence": 0.8888418078422546,
-        "negative": 0.057677775621414185,
-        "neutral": 0.8888418078422546,
-        "positive": 0.05348040908575058
+        "confidence": 0.8915529251098633,
+        "negative": 0.05442050099372864,
+        "neutral": 0.8915529251098633,
+        "positive": 0.054026588797569275
       },
       {
-        "headline": "Warren Buffet delivers powerful 2-word judgment on Fed\u2019s Warsh",
-        "label": "neutral",
-        "confidence": 0.9024254679679871,
-        "negative": 0.05053563416004181,
-        "neutral": 0.9024254679679871,
-        "positive": 0.04703889414668083
-      },
-      {
-        "headline": "Warren Buffett Is Behind Berkshire Hathaway's Massive Alphabet Investment. Here's What He Likes About the Company.",
+        "headline": "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
         "label": "positive",
-        "confidence": 0.581271231174469,
-        "negative": 0.3043758273124695,
-        "neutral": 0.11435290426015854,
-        "positive": 0.581271231174469
+        "confidence": 0.8845731616020203,
+        "negative": 0.05558222904801369,
+        "neutral": 0.059844620525836945,
+        "positive": 0.8845731616020203
       },
       {
-        "headline": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
-        "label": "neutral",
-        "confidence": 0.863185465335846,
-        "negative": 0.06533922255039215,
-        "neutral": 0.863185465335846,
-        "positive": 0.07147525995969772
+        "headline": "Berkshire Hathaway Hasn\u2019t Done This in Over 3 Years",
+        "label": "positive",
+        "confidence": 0.8301733732223511,
+        "negative": 0.11218292266130447,
+        "neutral": 0.05764373764395714,
+        "positive": 0.8301733732223511
       },
       {
-        "headline": "Under Greg Abel, Apple and Alphabet Now Make Up Nearly 30% of Berkshire Hathaway's $348 Billion Stock Portfolio. Here's Why.",
+        "headline": "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
         "label": "neutral",
-        "confidence": 0.7465007305145264,
-        "negative": 0.06453532725572586,
-        "neutral": 0.7465007305145264,
-        "positive": 0.1889639049768448
+        "confidence": 0.6736013293266296,
+        "negative": 0.08316358923912048,
+        "neutral": 0.6736013293266296,
+        "positive": 0.24323506653308868
       },
       {
-        "headline": "Warren Buffett Made a Move That Should Have Every Investor Watching This Stock",
+        "headline": "Michael Burry Says He Would Buy Alibaba Stock When It Crashes 50%. You Shouldn\u2019t Wait That Long.",
         "label": "neutral",
-        "confidence": 0.7480306029319763,
-        "negative": 0.07396864145994186,
-        "neutral": 0.7480306029319763,
-        "positive": 0.17800085246562958
+        "confidence": 0.8964622616767883,
+        "negative": 0.052651677280664444,
+        "neutral": 0.8964622616767883,
+        "positive": 0.05088607594370842
       },
       {
-        "headline": "These 3 Words From Warren Buffett Are Great News for Alphabet Investors",
+        "headline": "Berkshire Hathaway (BRK-B)\u2019s Cash Pile Just Shrank for the First Time in Years. Is Greg Abel Finally Spending?",
         "label": "neutral",
-        "confidence": 0.9016968011856079,
-        "negative": 0.04944009706377983,
-        "neutral": 0.9016968011856079,
-        "positive": 0.04886314645409584
+        "confidence": 0.8635597229003906,
+        "negative": 0.054554715752601624,
+        "neutral": 0.8635597229003906,
+        "positive": 0.08188550919294357
       },
       {
-        "headline": "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
+        "headline": "Warren Buffett Called Airlines the \u201cWorst Sort of Business.\u201d His Successor Just Built a $5.4 Billion Position Anyway.",
         "label": "neutral",
-        "confidence": 0.8934733867645264,
-        "negative": 0.05199483409523964,
-        "neutral": 0.8934733867645264,
-        "positive": 0.05453180894255638
+        "confidence": 0.8974351286888123,
+        "negative": 0.05180801823735237,
+        "neutral": 0.8974351286888123,
+        "positive": 0.05075685307383537
       },
       {
-        "headline": "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
+        "headline": "Fidelity's Magellan Fund Manager Peter Lynch Was a Stock-Picking Rock Star in the 1980s, Averaging an Annual Return of 29%. Could His Top Rule Then Work for You Now?",
         "label": "neutral",
-        "confidence": 0.904140830039978,
-        "negative": 0.048928968608379364,
-        "neutral": 0.904140830039978,
-        "positive": 0.04693020135164261
+        "confidence": 0.8972054123878479,
+        "negative": 0.052138425409793854,
+        "neutral": 0.8972054123878479,
+        "positive": 0.050656113773584366
+      },
+      {
+        "headline": "Trump June stock disclosure: 1,000+ trades worth up to $263M",
+        "label": "neutral",
+        "confidence": 0.9080232977867126,
+        "negative": 0.04673902690410614,
+        "neutral": 0.9080232977867126,
+        "positive": 0.04523766040802002
       }
     ],
-    "news_score": 0.0451,
+    "news_score": 0.1001,
     "fin_score": 0.0
   },
   "ratios": {
@@ -108,19 +108,19 @@
     "quick_ratio": null,
     "cash_ratio": null,
     "ocf_ratio": null,
-    "gross_margin": 25.4025,
+    "gross_margin": 28.4236,
     "operating_margin": 21.3211,
     "net_margin": 16.3129,
     "roa": 5.4794,
     "roe": 9.3346,
     "roce": null,
-    "ebitda_margin": 28.7449,
+    "ebitda_margin": 31.8334,
     "de_ratio": 0.1799,
     "da_ratio": 0.1056,
     "interest_coverage": 17.2673,
     "dscr": 9.0687,
     "equity_multiplier": 1.7036,
-    "net_debt_ebitda": 0.6542,
+    "net_debt_ebitda": 0.5908,
     "asset_turnover": 0.3359,
     "inventory_turnover": null,
     "dio": null,
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.7457,
-    "pe_ratio": 14.6191,
+    "pe_ratio": 12.6745,
     "pb_ratio": null,
     "ev_ebitda": null,
-    "ps_ratio": 2.8206,
+    "ps_ratio": 2.8064,
     "dividend_yield": null,
     "dividend_payout": 0.0,
-    "eps": 33.58,
+    "eps": 39.79,
     "fcf": 25042000000.0,
     "fcf_margin": 6.1,
     "cf_to_net_income": 0.6864,
@@ -152,14 +152,14 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 490.91,
+    "current_price": 504.32,
     "horizon": "12 months",
-    "bull_case": 6.0,
-    "base_case": 4.7,
-    "bear_case": -5.0,
-    "price_bull": 520.36,
-    "price_base": 513.98,
-    "price_bear": 466.36,
+    "bull_case": 27.2,
+    "base_case": 4.3,
+    "bear_case": -18.6,
+    "price_bull": 641.5,
+    "price_base": 526.01,
+    "price_bear": 410.52,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,36 +167,39 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 520.33,
-        "target_low": 481.0,
-        "target_high": 570.0,
-        "target_median": 510.0,
-        "upside_mean": 6.0,
-        "upside_low": -2.0,
-        "upside_high": 16.1,
+        "target_mean": 547.67,
+        "target_low": 510.0,
+        "target_high": 604.0,
+        "target_median": 529.0,
+        "upside_mean": 8.6,
+        "upside_low": 1.1,
+        "upside_high": 19.8,
         "n_analysts": 3,
         "recommendation": "buy"
       },
       "dcf": {
-        "fair_value": 474.58,
-        "upside": -3.3,
+        "fair_value": 471.3,
+        "upside": -6.5,
         "growth_assumed": "6%",
         "discount_rate": "10%",
-        "fcf_per_share": 17.91,
+        "fcf_per_share": 17.79,
         "fcf_source": "direct"
       },
       "volatility": {
-        "high_52w": 516.85,
-        "low_52w": 455.19,
-        "range_pct": 13.5,
-        "position_in_range": 57.9,
-        "upside_estimate": 3.4,
-        "downside_estimate": -2.7,
-        "avg_50d": 487.59,
-        "avg_200d": 490.29,
+        "high_52w": 537.74,
+        "low_52w": 464.01,
+        "range_pct": 15.9,
+        "position_in_range": 54.7,
+        "annual_vol_pct": 14.8,
+        "center_estimate": 0.0,
+        "upside_estimate": 22.9,
+        "downside_estimate": -22.9,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 500.76,
+        "avg_200d": 492.21,
         "beta": 0.61
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

@@ -1,106 +1,106 @@
 {
   "ticker": "NKE",
-  "timestamp": "2026-07-19T20:00:55.113012",
+  "timestamp": "2026-08-25T17:08:31.387610",
   "profile": {
     "name": "NIKE, Inc.",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 43.76,
-    "change_pct": -1.81737,
-    "marketCap": 64917901312.0
+    "price": 40.75,
+    "change_pct": -0.0245297,
+    "marketCap": 60452573184.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": -0.0554,
+    "overall": "negative",
+    "score": -0.2611,
     "breakdown": {
-      "positive": 1,
-      "neutral": 7,
-      "negative": 2
+      "positive": 2,
+      "neutral": 4,
+      "negative": 4
     },
     "details": [
       {
-        "headline": "American sneaker brand closes more stores",
-        "label": "neutral",
-        "confidence": 0.7969272136688232,
-        "negative": 0.12997251749038696,
-        "neutral": 0.7969272136688232,
-        "positive": 0.07310023158788681
-      },
-      {
-        "headline": "Berkshire Hathaway (BRK.A) Could Join The Dow As Nike Faces The Exit",
+        "headline": "Dick\u2019s Lowers Outlook Amid Foot Locker Weakness, More Discounts",
         "label": "negative",
-        "confidence": 0.7641910314559937,
-        "negative": 0.7641910314559937,
-        "neutral": 0.0853874683380127,
-        "positive": 0.15042150020599365
+        "confidence": 0.8942995071411133,
+        "negative": 0.8942995071411133,
+        "neutral": 0.05496019124984741,
+        "positive": 0.050740357488393784
       },
       {
-        "headline": "Nike Hoped to Score With the World Cup. It Got a Red Card Instead.",
+        "headline": "Jobs at risk as Nike foam supplier offshores production",
         "label": "neutral",
-        "confidence": 0.8963310122489929,
-        "negative": 0.05330890044569969,
-        "neutral": 0.8963310122489929,
-        "positive": 0.05036008730530739
+        "confidence": 0.5706727504730225,
+        "negative": 0.3511747121810913,
+        "neutral": 0.5706727504730225,
+        "positive": 0.07815255969762802
       },
       {
-        "headline": "2 Stocks Down 44% and 30% to Buy Right Now and Hold for the Next Decade",
+        "headline": "NIKE Running Gains Momentum: Can It Offset Lifestyle Weakness?",
         "label": "positive",
-        "confidence": 0.4700377583503723,
-        "negative": 0.14058035612106323,
-        "neutral": 0.3893817961215973,
-        "positive": 0.4700377583503723
+        "confidence": 0.5267003774642944,
+        "negative": 0.370694100856781,
+        "neutral": 0.10260550677776337,
+        "positive": 0.5267003774642944
       },
       {
-        "headline": "Nike Ran Out of U.S. Soccer Jerseys at the Worst Possible Time",
-        "label": "neutral",
-        "confidence": 0.9009985327720642,
-        "negative": 0.049033671617507935,
-        "neutral": 0.9009985327720642,
-        "positive": 0.049967844039201736
-      },
-      {
-        "headline": "Nasdaq Falls Sharply as Chip-Stock Slump Overshadows TSMC Record",
+        "headline": "3 Consumer Stocks That Fall Short",
         "label": "negative",
-        "confidence": 0.4696033298969269,
-        "negative": 0.4696033298969269,
-        "neutral": 0.31403595209121704,
-        "positive": 0.21636070311069489
+        "confidence": 0.9007688164710999,
+        "negative": 0.9007688164710999,
+        "neutral": 0.04983550310134888,
+        "positive": 0.0493956096470356
       },
       {
-        "headline": "Nike Tariff Receivables Put Cash Flow in Focus",
+        "headline": "Target, Starbucks and Nike are writing the 2026 turnaround playbook. Here are the key lessons",
         "label": "neutral",
-        "confidence": 0.8706893920898438,
-        "negative": 0.06229298934340477,
-        "neutral": 0.8706893920898438,
-        "positive": 0.06701762974262238
+        "confidence": 0.8967875242233276,
+        "negative": 0.05127345770597458,
+        "neutral": 0.8967875242233276,
+        "positive": 0.05193902924656868
       },
       {
-        "headline": "Mamdani\u2019s $50 World Cup jersey stunt proves some of the oldest criticisms of socialism correct: \u2018The odds are extremely stacked against you\u2019",
+        "headline": "NIKE, Inc. (NYSE:NKE) Vs On Holding (NYSE:ONON) \u2013 Here\u2019s What Jim Cramer Thinks",
         "label": "neutral",
-        "confidence": 0.8986241817474365,
-        "negative": 0.051759157329797745,
-        "neutral": 0.8986241817474365,
-        "positive": 0.04961671680212021
+        "confidence": 0.900543749332428,
+        "negative": 0.047371428459882736,
+        "neutral": 0.900543749332428,
+        "positive": 0.05208487808704376
       },
       {
-        "headline": "NIKE vs. adidas: Which Athleticwear Stock Offers More Upside?",
-        "label": "neutral",
-        "confidence": 0.9044584631919861,
-        "negative": 0.04756549373269081,
-        "neutral": 0.9044584631919861,
-        "positive": 0.04797602444887161
+        "headline": "Nike Now Yields More Than Coca-Cola. Is the Turnaround Finally Priced In?",
+        "label": "negative",
+        "confidence": 0.8132391571998596,
+        "negative": 0.8132391571998596,
+        "neutral": 0.09280303865671158,
+        "positive": 0.09395784139633179
       },
       {
-        "headline": "Nike May Soon Be Booted From the Dow Jones Industrial Average, and This Trillion-Dollar Stock That's Rallied 6,100,000% Is the Ideal Replacement",
+        "headline": "Nike (NKE) Could Be 9% Overvalued Following Community Push And Ongoing Headwinds",
         "label": "neutral",
-        "confidence": 0.8006057739257812,
-        "negative": 0.0801018476486206,
-        "neutral": 0.8006057739257812,
-        "positive": 0.11929242312908173
+        "confidence": 0.6671492457389832,
+        "negative": 0.2014409750699997,
+        "neutral": 0.6671492457389832,
+        "positive": 0.13140985369682312
+      },
+      {
+        "headline": "Nike Just Hit a 12-Year Low. Does History Say Now Is the Time to Buy?",
+        "label": "positive",
+        "confidence": 0.8868924379348755,
+        "negative": 0.056774888187646866,
+        "neutral": 0.05633268505334854,
+        "positive": 0.8868924379348755
+      },
+      {
+        "headline": "Nike Stock Sinks to Multi-Year Lows: There\u2019s No Quick Fix for NKE Here",
+        "label": "negative",
+        "confidence": 0.8971614837646484,
+        "negative": 0.8971614837646484,
+        "neutral": 0.05062902718782425,
+        "positive": 0.05220949649810791
       }
     ],
-    "news_score": -0.0554,
+    "news_score": -0.2611,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,11 +129,11 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 6.0778,
-    "pe_ratio": 20.8381,
-    "pb_ratio": 4.3647,
-    "ev_ebitda": 13.58,
-    "ps_ratio": 1.3992,
-    "dividend_yield": 3.75,
+    "pe_ratio": 19.4048,
+    "pb_ratio": 4.0652,
+    "ev_ebitda": 12.674,
+    "ps_ratio": 1.3029,
+    "dividend_yield": 4.02,
     "dividend_payout": 63.4319,
     "eps": 2.1,
     "fcf": 2184000000.0,
@@ -146,20 +146,20 @@
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 65.1,
-    "sentiment_score": 50,
+    "combined_score": 47.6,
+    "sentiment_score": 0,
     "ratio_score": 73.2
   },
   "prediction": {
     "available": true,
-    "current_price": 43.76,
+    "current_price": 40.75,
     "horizon": "12 months",
-    "bull_case": 32.0,
-    "base_case": 24.4,
-    "bear_case": -34.1,
-    "price_bull": 57.76,
-    "price_base": 54.44,
-    "price_bear": 28.84,
+    "bull_case": 69.0,
+    "base_case": 12.2,
+    "bear_case": -44.8,
+    "price_bull": 68.89,
+    "price_base": 45.7,
+    "price_bear": 22.51,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,36 +167,39 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 51.12,
+        "target_mean": 50.66,
         "target_low": 23.0,
         "target_high": 94.0,
         "target_median": 47.0,
-        "upside_mean": 16.8,
-        "upside_low": -47.4,
-        "upside_high": 114.8,
+        "upside_mean": 24.3,
+        "upside_low": -43.6,
+        "upside_high": 130.7,
         "n_analysts": 34,
-        "recommendation": "buy"
+        "recommendation": "hold"
       },
       "dcf": {
         "fair_value": 26.73,
-        "upside": -38.9,
+        "upside": -34.4,
         "growth_assumed": "3%",
         "discount_rate": "10%",
         "fcf_per_share": 1.82,
         "fcf_source": "direct"
       },
       "volatility": {
-        "high_52w": 80.17,
-        "low_52w": 40.0,
-        "range_pct": 100.4,
-        "position_in_range": 9.4,
-        "upside_estimate": 32.0,
-        "downside_estimate": -16.0,
-        "avg_50d": 43.63,
-        "avg_200d": 55.94,
-        "beta": 1.13
+        "high_52w": 79.51,
+        "low_52w": 38.86,
+        "range_pct": 104.6,
+        "position_in_range": 4.6,
+        "annual_vol_pct": 36.7,
+        "center_estimate": 0.0,
+        "upside_estimate": 56.9,
+        "downside_estimate": -56.9,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 42.39,
+        "avg_200d": 52.51,
+        "beta": 1.12
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

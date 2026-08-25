@@ -1,106 +1,106 @@
 {
   "ticker": "AMD",
-  "timestamp": "2026-07-19T19:59:59.591132",
+  "timestamp": "2026-08-25T17:06:56.041066",
   "profile": {
     "name": "Advanced Micro Devices, Inc.",
     "sector": "Technology"
   },
   "quote": {
-    "price": 495.76,
-    "change_pct": -1.03405,
-    "marketCap": 808386560000.0
+    "price": 456.745,
+    "change_pct": -3.48759,
+    "marketCap": 745624764416.0
   },
   "sentiment": {
-    "overall": "neutral",
-    "score": 0.0906,
+    "overall": "positive",
+    "score": 0.4477,
     "breakdown": {
-      "positive": 1,
-      "neutral": 9,
-      "negative": 0
+      "positive": 5,
+      "neutral": 4,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
-        "label": "neutral",
-        "confidence": 0.9125027656555176,
-        "negative": 0.044349607080221176,
-        "neutral": 0.9125027656555176,
-        "positive": 0.04314761608839035
-      },
-      {
-        "headline": "AMD Just Passed Nvidia at the Top of a $45 Billion Semiconductor ETF. Micron Is Closing In.",
-        "label": "neutral",
-        "confidence": 0.6220210790634155,
-        "negative": 0.09310263395309448,
-        "neutral": 0.6220210790634155,
-        "positive": 0.2848762571811676
-      },
-      {
-        "headline": "AMD Stock Is a Fraction of Nvidia's Size but Trades on the Same AI Story. Here's Where the Two Actually Diverge.",
-        "label": "neutral",
-        "confidence": 0.6556422114372253,
-        "negative": 0.08606816828250885,
-        "neutral": 0.6556422114372253,
-        "positive": 0.2582896649837494
-      },
-      {
-        "headline": "What Do SpaceX, AMD, and Palantir Have in Common?",
+        "headline": "How investors should approach Nvidia\u2019s earnings",
         "label": "positive",
-        "confidence": 0.46786582469940186,
-        "negative": 0.08617396652698517,
-        "neutral": 0.4459601640701294,
-        "positive": 0.46786582469940186
+        "confidence": 0.9112163186073303,
+        "negative": 0.04302293434739113,
+        "neutral": 0.045760732144117355,
+        "positive": 0.9112163186073303
       },
       {
-        "headline": "AMD (AMD) Stock Faces Fresh AI Pressure After China Unveils Kimi K3",
+        "headline": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Advanced Micro Devices, Dynatrace, Five Below, Fortune Brands, Klarna Group, Jersey Mike\u2019s Subs, Moderna, Sherwin-Williams, and More",
         "label": "neutral",
-        "confidence": 0.9036465883255005,
-        "negative": 0.048216961324214935,
-        "neutral": 0.9036465883255005,
-        "positive": 0.048136454075574875
+        "confidence": 0.9052401781082153,
+        "negative": 0.047251950949430466,
+        "neutral": 0.9052401781082153,
+        "positive": 0.04750782996416092
       },
       {
-        "headline": "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI",
-        "label": "neutral",
-        "confidence": 0.7015014290809631,
-        "negative": 0.08481722325086594,
-        "neutral": 0.7015014290809631,
-        "positive": 0.21368135511875153
+        "headline": "Premarket movers: AMD upgraded, Bloom energy surges",
+        "label": "positive",
+        "confidence": 0.8936976194381714,
+        "negative": 0.052783314138650894,
+        "neutral": 0.053519077599048615,
+        "positive": 0.8936976194381714
       },
       {
-        "headline": "This week's AI winners and losers",
-        "label": "neutral",
-        "confidence": 0.9079271554946899,
-        "negative": 0.04477785527706146,
-        "neutral": 0.9079271554946899,
-        "positive": 0.04729495570063591
+        "headline": "Intel\u2019s Skid Continues: One of The Biggest Global Banks Says It Will Provide 130% Returns From Here",
+        "label": "negative",
+        "confidence": 0.5593666434288025,
+        "negative": 0.5593666434288025,
+        "neutral": 0.2562963366508484,
+        "positive": 0.1843370944261551
       },
       {
-        "headline": "I Keep Buying Nvidia Because Bears Keep Shouting This False Narrative",
-        "label": "neutral",
-        "confidence": 0.9013988375663757,
-        "negative": 0.051460836082696915,
-        "neutral": 0.9013988375663757,
-        "positive": 0.04714035615324974
+        "headline": "Advanced Micro Devices Shares Rise After Raymond James Upgrades Stock to Strong Buy",
+        "label": "positive",
+        "confidence": 0.9001592397689819,
+        "negative": 0.048756930977106094,
+        "neutral": 0.051083892583847046,
+        "positive": 0.9001592397689819
       },
       {
-        "headline": "The $350-a-Year Tax Trap Inside this Semiconductor ETF Everyone Knows",
+        "headline": "This Hedge Fund Just Sold Nvidia and Bought AMD Stock. Which Artificial Intelligence (AI) Chipmaker Is the Better Buy?",
         "label": "neutral",
-        "confidence": 0.9072195291519165,
-        "negative": 0.04752608388662338,
-        "neutral": 0.9072195291519165,
-        "positive": 0.045254360884428024
+        "confidence": 0.8043262958526611,
+        "negative": 0.06346429884433746,
+        "neutral": 0.8043262958526611,
+        "positive": 0.13220934569835663
       },
       {
-        "headline": "China\u2019s Kimi K3 Hits US Stock Markets. Is the American AI Boom Over?",
+        "headline": "These 8 chip stocks now offer enhanced buying opportunities, BofA says",
         "label": "neutral",
-        "confidence": 0.8304588198661804,
-        "negative": 0.06660538166761398,
-        "neutral": 0.8304588198661804,
-        "positive": 0.10293588042259216
+        "confidence": 0.4638921022415161,
+        "negative": 0.08539535105228424,
+        "neutral": 0.4638921022415161,
+        "positive": 0.45071256160736084
+      },
+      {
+        "headline": "AMD Stock Gains After Upgrade: Analyst Sees \u2018Strongest Combination\u2019 Of Earnings Leverage, Data Center Gains",
+        "label": "positive",
+        "confidence": 0.8983646035194397,
+        "negative": 0.0491129569709301,
+        "neutral": 0.05252246931195259,
+        "positive": 0.8983646035194397
+      },
+      {
+        "headline": "Prediction: TSMC Stock Will Soar After Aug. 26 Thanks to Nvidia\u2019s Historic Quarter",
+        "label": "positive",
+        "confidence": 0.8860620260238647,
+        "negative": 0.058485645800828934,
+        "neutral": 0.05545233190059662,
+        "positive": 0.8860620260238647
+      },
+      {
+        "headline": "AMD Is Winning Nvidia (NVDA) Customers But Investors May Be Missing The Catch",
+        "label": "neutral",
+        "confidence": 0.6569481492042542,
+        "negative": 0.0811643972992897,
+        "neutral": 0.6569481492042542,
+        "positive": 0.26188749074935913
       }
     ],
-    "news_score": 0.0906,
+    "news_score": 0.4477,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 14.9823,
-    "pe_ratio": 164.159,
-    "pb_ratio": 12.536,
-    "ev_ebitda": 107.66,
-    "ps_ratio": 21.5834,
+    "pe_ratio": 116.2201,
+    "pb_ratio": 11.0885,
+    "ev_ebitda": 77.054,
+    "ps_ratio": 18.0517,
     "dividend_yield": null,
     "dividend_payout": 0.0,
-    "eps": 3.02,
+    "eps": 3.93,
     "fcf": 6735000000.0,
     "fcf_margin": 19.4434,
     "cf_to_net_income": 1.7783,
@@ -144,50 +144,53 @@
   },
   "ratio_score": 67.9,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 61.6,
-    "sentiment_score": 50,
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 79.1,
+    "sentiment_score": 100,
     "ratio_score": 67.9
   },
   "prediction": {
     "available": true,
-    "current_price": 495.76,
+    "current_price": 456.75,
     "horizon": "12 months",
-    "bull_case": 12.0,
-    "base_case": 10.5,
-    "bear_case": -31.8,
-    "price_bull": 555.25,
-    "price_base": 547.81,
-    "price_bear": 338.36,
+    "bull_case": 126.5,
+    "base_case": 17.1,
+    "bear_case": -92.3,
+    "price_bull": 1034.53,
+    "price_base": 534.85,
+    "price_bear": 35.17,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 540.19,
-        "target_low": 320.0,
-        "target_high": 725.0,
-        "target_median": 540.0,
-        "upside_mean": 9.0,
-        "upside_low": -35.5,
-        "upside_high": 46.2,
-        "n_analysts": 47,
+        "target_mean": 613.09,
+        "target_low": 365.0,
+        "target_high": 1250.0,
+        "target_median": 605.0,
+        "upside_mean": 34.2,
+        "upside_low": -20.1,
+        "upside_high": 173.7,
+        "n_analysts": 48,
         "recommendation": "strong_buy"
       },
       "volatility": {
         "high_52w": 584.73,
         "low_52w": 149.22,
         "range_pct": 291.9,
-        "position_in_range": 79.6,
-        "upside_estimate": 12.0,
-        "downside_estimate": -28.0,
-        "avg_50d": 499.08,
-        "avg_200d": 296.69,
-        "beta": 2.47
+        "position_in_range": 70.6,
+        "annual_vol_pct": 70.6,
+        "center_estimate": 0.0,
+        "upside_estimate": 109.4,
+        "downside_estimate": -109.4,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 509.6,
+        "avg_200d": 330.9,
+        "beta": 2.49
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

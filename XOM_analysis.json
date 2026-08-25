@@ -1,106 +1,106 @@
 {
   "ticker": "XOM",
-  "timestamp": "2026-07-19T19:57:24.539330",
+  "timestamp": "2026-08-25T17:03:07.099710",
   "profile": {
     "name": "ExxonMobil Holdings Corporation",
     "sector": "Energy"
   },
   "quote": {
-    "price": 147.36,
-    "change_pct": 0.966087,
-    "marketCap": 610799452160.0
+    "price": 164.05,
+    "change_pct": -0.641995,
+    "marketCap": 674559164416.0
   },
   "sentiment": {
-    "overall": "positive",
-    "score": 0.2228,
+    "overall": "neutral",
+    "score": -0.0874,
     "breakdown": {
-      "positive": 3,
-      "neutral": 6,
-      "negative": 1
+      "positive": 2,
+      "neutral": 5,
+      "negative": 3
     },
     "details": [
       {
-        "headline": "Higher Oil Prices Could Boost ExxonMobil's Profits By $5 Billion in the Second Quarter. Here's What Investors Need to Know.",
-        "label": "positive",
-        "confidence": 0.8996564149856567,
-        "negative": 0.05127217248082161,
-        "neutral": 0.04907139018177986,
-        "positive": 0.8996564149856567
+        "headline": "Democrats: Trump oil and gas stocks gained $15.5M amid Iran war",
+        "label": "neutral",
+        "confidence": 0.9085153341293335,
+        "negative": 0.046115368604660034,
+        "neutral": 0.9085153341293335,
+        "positive": 0.04536929726600647
       },
       {
-        "headline": "Oil and Gas Employment Hits a 2026 Low Even as Production Sets Records",
+        "headline": "Zacks Market Edge Highlights:  ExxonMobil, TotalEnergies, Chevron",
+        "label": "positive",
+        "confidence": 0.8043041825294495,
+        "negative": 0.06216306984424591,
+        "neutral": 0.13353277742862701,
+        "positive": 0.8043041825294495
+      },
+      {
+        "headline": "Shell\u2019s Chemicals Exit Attracts XOM and LYB: Capital Discipline or Missed Opportunity?",
+        "label": "neutral",
+        "confidence": 0.9096021056175232,
+        "negative": 0.0457034558057785,
+        "neutral": 0.9096021056175232,
+        "positive": 0.044694431126117706
+      },
+      {
+        "headline": "ExxonMobil Is Eyeing a Potential $8 Billion Bet on Shell's U.S. Chemical Plants. Here's What It Means for XOM Stock.",
+        "label": "positive",
+        "confidence": 0.9022190570831299,
+        "negative": 0.04818843677639961,
+        "neutral": 0.04959249123930931,
+        "positive": 0.9022190570831299
+      },
+      {
+        "headline": "These 3 Sectors Will Outperform if the Fed Hikes Rates",
+        "label": "neutral",
+        "confidence": 0.9115228652954102,
+        "negative": 0.04514851048588753,
+        "neutral": 0.9115228652954102,
+        "positive": 0.04332859814167023
+      },
+      {
+        "headline": "How a Negative Beta Bet Can Protect Your Portfolio From an AI Selloff",
         "label": "negative",
-        "confidence": 0.9006420373916626,
-        "negative": 0.9006420373916626,
-        "neutral": 0.05050196498632431,
-        "positive": 0.04885595664381981
+        "confidence": 0.8211232423782349,
+        "negative": 0.8211232423782349,
+        "neutral": 0.10697543621063232,
+        "positive": 0.07190132141113281
       },
       {
-        "headline": "ExxonMobil Stock Offers a Different Kind of Fuel",
+        "headline": "Sector Update: Energy Stocks Decline Monday",
+        "label": "negative",
+        "confidence": 0.8979414105415344,
+        "negative": 0.8979414105415344,
+        "neutral": 0.05114484950900078,
+        "positive": 0.05091375112533569
+      },
+      {
+        "headline": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
         "label": "neutral",
-        "confidence": 0.6194018721580505,
-        "negative": 0.0803869217634201,
-        "neutral": 0.6194018721580505,
-        "positive": 0.30021119117736816
+        "confidence": 0.8050264120101929,
+        "negative": 0.10760252922773361,
+        "neutral": 0.8050264120101929,
+        "positive": 0.08737099915742874
       },
       {
-        "headline": "ExxonMobil (XOM) Maps Out A 2040 Plan Built On Oil And Cleaner Energy",
+        "headline": "Exxon Drops as Oil Retreats From $94",
+        "label": "negative",
+        "confidence": 0.8994280099868774,
+        "negative": 0.8994280099868774,
+        "neutral": 0.05050830543041229,
+        "positive": 0.05006370320916176
+      },
+      {
+        "headline": "3 Dividend Stocks to Buy and Hold for the Next Decade, Starting With Chevron",
         "label": "neutral",
-        "confidence": 0.8971961140632629,
-        "negative": 0.05164062976837158,
-        "neutral": 0.8971961140632629,
-        "positive": 0.05116325616836548
-      },
-      {
-        "headline": "Top Stock Reports for Apple, JPMorgan & ExxonMobil",
-        "label": "positive",
-        "confidence": 0.9020280241966248,
-        "negative": 0.05384867265820503,
-        "neutral": 0.044123269617557526,
-        "positive": 0.9020280241966248
-      },
-      {
-        "headline": "S&P 500 Posts Weekly Decline Amid Worries Over Artificial Intelligence, Middle East",
-        "label": "neutral",
-        "confidence": 0.8826910257339478,
-        "negative": 0.06287835538387299,
-        "neutral": 0.8826910257339478,
-        "positive": 0.054430630058050156
-      },
-      {
-        "headline": "Chevron, ConocoPhillips Look to Iraq for Production Growth. Here Are the Risks.",
-        "label": "neutral",
-        "confidence": 0.468863844871521,
-        "negative": 0.1050727590918541,
-        "neutral": 0.468863844871521,
-        "positive": 0.4260633885860443
-      },
-      {
-        "headline": "Will ExxonMobil's Expanding LNG Portfolio Drive Long-Term Growth?",
-        "label": "positive",
-        "confidence": 0.8891406655311584,
-        "negative": 0.05282273888587952,
-        "neutral": 0.05803661420941353,
-        "positive": 0.8891406655311584
-      },
-      {
-        "headline": "Update: US Equity Futures Drop as AI Concerns Weigh on Tech Stocks, Middle East Conflict Continues",
-        "label": "neutral",
-        "confidence": 0.5169252753257751,
-        "negative": 0.3859778344631195,
-        "neutral": 0.5169252753257751,
-        "positive": 0.09709689021110535
-      },
-      {
-        "headline": "Breaking Down The Big 3 Investing Strategies",
-        "label": "neutral",
-        "confidence": 0.5439473390579224,
-        "negative": 0.07603514194488525,
-        "neutral": 0.5439473390579224,
-        "positive": 0.3800175189971924
+        "confidence": 0.9074262976646423,
+        "negative": 0.04667151719331741,
+        "neutral": 0.9074262976646423,
+        "positive": 0.045902151614427567
       }
     ],
-    "news_score": 0.2228,
+    "news_score": -0.0874,
     "fin_score": 0.0
   },
   "ratios": {
@@ -115,12 +115,12 @@
     "roe": 11.1201,
     "roce": 11.1167,
     "ebitda_margin": 20.9518,
-    "de_ratio": null,
-    "da_ratio": null,
+    "de_ratio": 0.1678,
+    "da_ratio": 0.097,
     "interest_coverage": 69.4378,
     "dscr": 86.1857,
     "equity_multiplier": 1.7309,
-    "net_debt_ebitda": null,
+    "net_debt_ebitda": 0.4841,
     "asset_turnover": 0.7214,
     "inventory_turnover": null,
     "dio": null,
@@ -129,37 +129,37 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 1.0819,
-    "pe_ratio": 24.8081,
-    "pb_ratio": 2.4011,
-    "ev_ebitda": 11.724,
-    "ps_ratio": 1.8736,
-    "dividend_yield": 2.8,
-    "dividend_payout": 59.2053,
-    "eps": 5.94,
+    "pe_ratio": 21.0861,
+    "pb_ratio": 2.6007,
+    "ev_ebitda": 10.496,
+    "ps_ratio": 1.8683,
+    "dividend_yield": 2.51,
+    "dividend_payout": 58.7335,
+    "eps": 7.78,
     "fcf": 23612000000.0,
     "fcf_margin": 7.2898,
     "cf_to_net_income": 1.8018,
     "capex_to_revenue": 8.755,
     "cash_roic": null
   },
-  "ratio_score": 74.1,
+  "ratio_score": 76.7,
   "final_signal": {
-    "signal": "BUY",
-    "emoji": "\ud83d\udcc8",
-    "combined_score": 83.2,
-    "sentiment_score": 100,
-    "ratio_score": 74.1
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 67.4,
+    "sentiment_score": 50,
+    "ratio_score": 76.7
   },
   "prediction": {
     "available": true,
-    "current_price": 147.36,
+    "current_price": 164.05,
     "horizon": "12 months",
-    "bull_case": 16.8,
-    "base_case": 10.8,
-    "bear_case": -12.6,
-    "price_bull": 172.12,
-    "price_base": 163.32,
-    "price_bear": 128.79,
+    "bull_case": 41.3,
+    "base_case": 1.7,
+    "bear_case": -37.9,
+    "price_bull": 231.8,
+    "price_base": 166.84,
+    "price_bear": 101.88,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,36 +167,39 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 166.9,
-        "target_low": 130.0,
-        "target_high": 185.0,
-        "target_median": 168.0,
-        "upside_mean": 13.3,
-        "upside_low": -11.8,
-        "upside_high": 25.5,
-        "n_analysts": 21,
+        "target_mean": 169.68,
+        "target_low": 142.0,
+        "target_high": 200.0,
+        "target_median": 170.0,
+        "upside_mean": 3.4,
+        "upside_low": -13.4,
+        "upside_high": 21.9,
+        "n_analysts": 22,
         "recommendation": "buy"
       },
       "dcf": {
-        "fair_value": 150.96,
-        "upside": 2.4,
+        "fair_value": 152.17,
+        "upside": -7.2,
         "growth_assumed": "6%",
         "discount_rate": "10%",
-        "fcf_per_share": 5.7,
+        "fcf_per_share": 5.74,
         "fcf_source": "direct"
       },
       "volatility": {
         "high_52w": 176.41,
-        "low_52w": 105.53,
-        "range_pct": 67.2,
-        "position_in_range": 59.0,
-        "upside_estimate": 16.8,
-        "downside_estimate": -13.4,
-        "avg_50d": 146.0,
-        "avg_200d": 137.07,
-        "beta": 0.16
+        "low_52w": 108.35,
+        "range_pct": 62.8,
+        "position_in_range": 81.8,
+        "annual_vol_pct": 25.5,
+        "center_estimate": 0.0,
+        "upside_estimate": 39.6,
+        "downside_estimate": -39.6,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 149.31,
+        "avg_200d": 142.81,
+        "beta": 0.17
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

@@ -1,106 +1,106 @@
 {
   "ticker": "JPM",
-  "timestamp": "2026-07-19T19:55:50.243237",
+  "timestamp": "2026-08-25T17:00:52.115572",
   "profile": {
     "name": "JPMorgan Chase & Co.",
     "sector": "Financial Services"
   },
   "quote": {
-    "price": 341.1,
-    "change_pct": -0.597403,
-    "marketCap": 906712055808.0
+    "price": 356.39,
+    "change_pct": 1.36812,
+    "marketCap": 947351060480.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0985,
+    "score": 0.085,
     "breakdown": {
-      "positive": 3,
-      "neutral": 5,
-      "negative": 2
+      "positive": 2,
+      "neutral": 7,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "Bunzl (LSE:BNZL) Stock Sees Modest Fair Value Lift As Analysts Raise Targets",
-        "label": "positive",
-        "confidence": 0.9103188514709473,
-        "negative": 0.046198662370443344,
-        "neutral": 0.043482568114995956,
-        "positive": 0.9103188514709473
-      },
-      {
-        "headline": "Bernie Sanders Says Trump 'Lied' About 10% Credit Card Rate Cap, Points to Big Banks Making Billions Charging 25-30% Interest Rates",
+        "headline": "Should JPMorgan Diversified Return U.S. Mid Cap Equity ETF (JPME) Be on Your Investing Radar?",
         "label": "neutral",
-        "confidence": 0.8985954523086548,
-        "negative": 0.05008748173713684,
-        "neutral": 0.8985954523086548,
-        "positive": 0.051317036151885986
+        "confidence": 0.9154286980628967,
+        "negative": 0.04237595573067665,
+        "neutral": 0.9154286980628967,
+        "positive": 0.04219529405236244
       },
       {
-        "headline": "Korea\u2019s AI-Heavy Market Now Sets the Tone for Global Stocks",
+        "headline": "2 Mega-Cap Stocks to Own for Decades and 1 That Underwhelm",
+        "label": "neutral",
+        "confidence": 0.8908785581588745,
+        "negative": 0.05305534601211548,
+        "neutral": 0.8908785581588745,
+        "positive": 0.056066062301397324
+      },
+      {
+        "headline": "Big Banks Commit Billions to Boost US Housing Supply",
+        "label": "neutral",
+        "confidence": 0.8945945501327515,
+        "negative": 0.04929110035300255,
+        "neutral": 0.8945945501327515,
+        "positive": 0.056114308536052704
+      },
+      {
+        "headline": "What Could JPMorgan Chase (JPM) Lawsuits Mean For Future M And A Deals?",
         "label": "negative",
-        "confidence": 0.8230858445167542,
-        "negative": 0.8230858445167542,
-        "neutral": 0.09811946749687195,
-        "positive": 0.07879466563463211
+        "confidence": 0.8875711560249329,
+        "negative": 0.8875711560249329,
+        "neutral": 0.0580611489713192,
+        "positive": 0.05436771363019943
       },
       {
-        "headline": "JPMorgan Chase CEO Jamie Dimon Thinks AI Spending Is Going to Reach $1 Trillion Next Year",
+        "headline": "JPMorgan Jumps as Banks Power the Dow Higher",
         "label": "positive",
-        "confidence": 0.8751292824745178,
-        "negative": 0.0597367100417614,
-        "neutral": 0.0651339665055275,
-        "positive": 0.8751292824745178
+        "confidence": 0.8995355367660522,
+        "negative": 0.04802170768380165,
+        "neutral": 0.05244274064898491,
+        "positive": 0.8995355367660522
       },
       {
-        "headline": "Wall Street Raises Expectations for Goldman, Other Banks After Strong Earnings",
+        "headline": "EverQuote (EVER) Shares Skyrocket, What You Need To Know",
+        "label": "neutral",
+        "confidence": 0.7687332034111023,
+        "negative": 0.07004237920045853,
+        "neutral": 0.7687332034111023,
+        "positive": 0.16122443974018097
+      },
+      {
+        "headline": "Market Chatter: JPMorgan, Morgan Stanley Sued Over Role in Multibillion-Dollar Buyout Deals",
+        "label": "neutral",
+        "confidence": 0.8927926421165466,
+        "negative": 0.05431506782770157,
+        "neutral": 0.8927926421165466,
+        "positive": 0.0528922900557518
+      },
+      {
+        "headline": "JPMorgan sends stark warning on AI stocks, cites dotcom worries",
+        "label": "neutral",
+        "confidence": 0.9011334180831909,
+        "negative": 0.0512215755879879,
+        "neutral": 0.9011334180831909,
+        "positive": 0.04764501377940178
+      },
+      {
+        "headline": "Broadcom Credit Risk Soars on Mega AI Debt Financing Backstops",
+        "label": "neutral",
+        "confidence": 0.8957087397575378,
+        "negative": 0.05592462047934532,
+        "neutral": 0.8957087397575378,
+        "positive": 0.04836655035614967
+      },
+      {
+        "headline": "JPMorgan, Morgan Stanley Fight Suits Over Role in Buyout Deals",
         "label": "positive",
-        "confidence": 0.8921382427215576,
-        "negative": 0.05238056927919388,
-        "neutral": 0.05548116937279701,
-        "positive": 0.8921382427215576
-      },
-      {
-        "headline": "Jamie Dimon Backs Philadelphia Navy Yard With $24 Million as US Defense Spending Surges, Says 'The Arsenal of Democracy Has Been Reignited'",
-        "label": "neutral",
-        "confidence": 0.8692749738693237,
-        "negative": 0.06584513187408447,
-        "neutral": 0.8692749738693237,
-        "positive": 0.06487994641065598
-      },
-      {
-        "headline": "If AI Is Doing More of the Work, Why Are You Paying a Financial Adviser?",
-        "label": "neutral",
-        "confidence": 0.9073874950408936,
-        "negative": 0.046980828046798706,
-        "neutral": 0.9073874950408936,
-        "positive": 0.045631613582372665
-      },
-      {
-        "headline": "Volkswagen (XTRA:VOW3) Stock Fair Value Edges Lower As Analysts Weigh Rivian Partnership",
-        "label": "neutral",
-        "confidence": 0.9046136140823364,
-        "negative": 0.048442475497722626,
-        "neutral": 0.9046136140823364,
-        "positive": 0.04694391414523125
-      },
-      {
-        "headline": "The Bull Case For JPMorgan Chase (JPM) Could Change Following Record-Breaking Q2 2026 Profit And Guidance",
-        "label": "negative",
-        "confidence": 0.8603360652923584,
-        "negative": 0.8603360652923584,
-        "neutral": 0.06679826229810715,
-        "positive": 0.07286565750837326
-      },
-      {
-        "headline": "Jim Cramer Says Oracle Is \u201cGoing Down\u201d and Avoid Every Liquor Stock. Here\u2019s What He\u2019d Buy Instead",
-        "label": "neutral",
-        "confidence": 0.9042513966560364,
-        "negative": 0.048041753470897675,
-        "neutral": 0.9042513966560364,
-        "positive": 0.04770692065358162
+        "confidence": 0.8145210146903992,
+        "negative": 0.07154683023691177,
+        "neutral": 0.11393214017152786,
+        "positive": 0.8145210146903992
       }
     ],
-    "news_score": 0.0985,
+    "news_score": 0.085,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 5.0173,
-    "pe_ratio": 14.6207,
-    "pb_ratio": 2.5645,
+    "pe_ratio": 15.063,
+    "pb_ratio": 2.6795,
     "ev_ebitda": null,
-    "ps_ratio": 4.8662,
-    "dividend_yield": 1.76,
-    "dividend_payout": 27.9575,
-    "eps": 23.33,
+    "ps_ratio": 5.0843,
+    "dividend_yield": 1.68,
+    "dividend_payout": 27.9574,
+    "eps": 23.66,
     "fcf": -147782000000.0,
     "fcf_margin": -81.2672,
     "cf_to_net_income": -2.5905,
@@ -152,42 +152,45 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 341.1,
+    "current_price": 356.39,
     "horizon": "12 months",
-    "bull_case": 7.8,
-    "base_case": 5.8,
-    "bear_case": -15.0,
-    "price_bull": 367.71,
-    "price_base": 361.05,
-    "price_bear": 289.94,
+    "bull_case": 37.3,
+    "base_case": 2.5,
+    "bear_case": -32.2,
+    "price_bull": 489.5,
+    "price_base": 365.48,
+    "price_bear": 241.45,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 367.57,
+        "target_mean": 374.57,
         "target_low": 305.0,
         "target_high": 420.0,
-        "target_median": 370.0,
-        "upside_mean": 7.8,
-        "upside_low": -10.6,
-        "upside_high": 23.1,
+        "target_median": 372.0,
+        "upside_mean": 5.1,
+        "upside_low": -14.4,
+        "upside_high": 17.8,
         "n_analysts": 21,
         "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 351.24,
+        "high_52w": 366.5,
         "low_52w": 279.1,
-        "range_pct": 25.8,
-        "position_in_range": 85.9,
-        "upside_estimate": 3.9,
-        "downside_estimate": -9.0,
-        "avg_50d": 318.21,
-        "avg_200d": 309.77,
+        "range_pct": 31.3,
+        "position_in_range": 88.4,
+        "annual_vol_pct": 22.4,
+        "center_estimate": 0.0,
+        "upside_estimate": 34.8,
+        "downside_estimate": -34.8,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 344.8,
+        "avg_200d": 316.31,
         "beta": 0.98
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

@@ -1,106 +1,106 @@
 {
   "ticker": "INTC",
-  "timestamp": "2026-07-19T20:00:18.021509",
+  "timestamp": "2026-08-25T17:07:20.203618",
   "profile": {
     "name": "Intel Corporation",
     "sector": "Technology"
   },
   "quote": {
-    "price": 95.04,
-    "change_pct": -2.00041,
-    "marketCap": 477671030784.0
+    "price": 87.26,
+    "change_pct": -3.11979,
+    "marketCap": 461265534976.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0863,
+    "score": 0.1314,
     "breakdown": {
-      "positive": 1,
+      "positive": 2,
       "neutral": 7,
-      "negative": 2
+      "negative": 1
     },
     "details": [
       {
-        "headline": "Big Tech earnings test tech's big rotation: What to watch this week",
-        "label": "neutral",
-        "confidence": 0.9096817970275879,
-        "negative": 0.04348170757293701,
-        "neutral": 0.9096817970275879,
-        "positive": 0.046836499124765396
+        "headline": "Intel\u2019s Skid Continues: One of The Biggest Global Banks Says It Will Provide 130% Returns From Here",
+        "label": "negative",
+        "confidence": 0.5593666434288025,
+        "negative": 0.5593666434288025,
+        "neutral": 0.2562963366508484,
+        "positive": 0.1843370944261551
       },
       {
-        "headline": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
+        "headline": "These 8 chip stocks now offer enhanced buying opportunities, BofA says",
         "label": "neutral",
-        "confidence": 0.9125027656555176,
-        "negative": 0.044349607080221176,
-        "neutral": 0.9125027656555176,
-        "positive": 0.04314761608839035
+        "confidence": 0.4638921022415161,
+        "negative": 0.08539535105228424,
+        "neutral": 0.4638921022415161,
+        "positive": 0.45071256160736084
       },
       {
-        "headline": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
+        "headline": "Nancy Pelosi Made Millions On Nvidia Options. Now She\u2019s Betting $3 Million On 1 AI Energy Stock",
         "label": "neutral",
-        "confidence": 0.9011017084121704,
-        "negative": 0.04888951778411865,
-        "neutral": 0.9011017084121704,
-        "positive": 0.05000883713364601
+        "confidence": 0.9033003449440002,
+        "negative": 0.04916791617870331,
+        "neutral": 0.9033003449440002,
+        "positive": 0.04753173142671585
       },
       {
-        "headline": "Intel Stock Soared About 278% in the First Half of 2026, Then Fell 10% in a Single Day. Buy the Dip or Run for the Hills?",
+        "headline": "Stock Market Today: Futures Rise After Losing Day for S&P 500, Nasdaq; Oil Prices Pull Back; Bitcoin Tops $80K",
+        "label": "neutral",
+        "confidence": 0.5363509058952332,
+        "negative": 0.28643345832824707,
+        "neutral": 0.5363509058952332,
+        "positive": 0.1772155463695526
+      },
+      {
+        "headline": "Coinbase\u2019s Tokenized Stocks Are Live on Base. The SEC\u2019s Framework Isn\u2019t.",
+        "label": "neutral",
+        "confidence": 0.8888296484947205,
+        "negative": 0.05513705313205719,
+        "neutral": 0.8888296484947205,
+        "positive": 0.056033313274383545
+      },
+      {
+        "headline": "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First.",
+        "label": "neutral",
+        "confidence": 0.5084698796272278,
+        "negative": 0.33870863914489746,
+        "neutral": 0.5084698796272278,
+        "positive": 0.15282143652439117
+      },
+      {
+        "headline": "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
         "label": "positive",
-        "confidence": 0.870783805847168,
-        "negative": 0.0686272531747818,
-        "neutral": 0.060588959604501724,
-        "positive": 0.870783805847168
+        "confidence": 0.8845731616020203,
+        "negative": 0.05558222904801369,
+        "neutral": 0.059844620525836945,
+        "positive": 0.8845731616020203
       },
       {
-        "headline": "Intel and Google deepen AI ties for chip design",
+        "headline": "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week \u2014 AVGO, INTC, BE, NVDA, PSKY In Focus",
         "label": "neutral",
-        "confidence": 0.7519884705543518,
-        "negative": 0.17193593084812164,
-        "neutral": 0.7519884705543518,
-        "positive": 0.07607556134462357
+        "confidence": 0.9139398336410522,
+        "negative": 0.04478416219353676,
+        "neutral": 0.9139398336410522,
+        "positive": 0.04127601906657219
       },
       {
-        "headline": "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI",
+        "headline": "What You Actually Pay To Join The MU Run",
+        "label": "positive",
+        "confidence": 0.846524715423584,
+        "negative": 0.061894115060567856,
+        "neutral": 0.09158110618591309,
+        "positive": 0.846524715423584
+      },
+      {
+        "headline": "Stocks to Watch Recap: Alibaba, Marvell Technology, Expedia",
         "label": "neutral",
-        "confidence": 0.7015014290809631,
-        "negative": 0.08481722325086594,
-        "neutral": 0.7015014290809631,
-        "positive": 0.21368135511875153
-      },
-      {
-        "headline": "Dear Intel Stock Fans, Mark Your Calendars for July 23",
-        "label": "neutral",
-        "confidence": 0.862311601638794,
-        "negative": 0.06477084755897522,
-        "neutral": 0.862311601638794,
-        "positive": 0.07291748374700546
-      },
-      {
-        "headline": "I Keep Buying Nvidia Because Bears Keep Shouting This False Narrative",
-        "label": "neutral",
-        "confidence": 0.9013988375663757,
-        "negative": 0.051460836082696915,
-        "neutral": 0.9013988375663757,
-        "positive": 0.04714035615324974
-      },
-      {
-        "headline": "19 (mostly) tech stocks that have fallen at least 25% in July",
-        "label": "negative",
-        "confidence": 0.9078192710876465,
-        "negative": 0.9078192710876465,
-        "neutral": 0.04729929938912392,
-        "positive": 0.04488140717148781
-      },
-      {
-        "headline": "Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens",
-        "label": "negative",
-        "confidence": 0.8940290808677673,
-        "negative": 0.8940290808677673,
-        "neutral": 0.05378132686018944,
-        "positive": 0.05218958482146263
+        "confidence": 0.43758469820022583,
+        "negative": 0.2762956917285919,
+        "neutral": 0.43758469820022583,
+        "positive": 0.28611961007118225
       }
     ],
-    "news_score": -0.0863,
+    "news_score": 0.1314,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +129,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 0.5014,
-    "pe_ratio": 58.8972,
-    "pb_ratio": 4.2855,
-    "ev_ebitda": 35.523,
-    "ps_ratio": 8.8848,
+    "pe_ratio": 42.7718,
+    "pb_ratio": 5.0268,
+    "ev_ebitda": 28.299,
+    "ps_ratio": 8.0878,
     "dividend_yield": null,
     "dividend_payout": -0.0,
-    "eps": -0.6,
+    "eps": -2.09,
     "fcf": -4949000000.0,
     "fcf_margin": -9.3637,
     "cf_to_net_income": -36.3184,
     "capex_to_revenue": 27.7108,
     "cash_roic": null
   },
-  "ratio_score": 42.9,
+  "ratio_score": 41.1,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 45.4,
+    "signal": "SELL / AVOID",
+    "emoji": "\ud83d\udcc9",
+    "combined_score": 44.2,
     "sentiment_score": 50,
-    "ratio_score": 42.9
+    "ratio_score": 41.1
   },
   "prediction": {
     "available": true,
-    "current_price": 95.04,
+    "current_price": 87.26,
     "horizon": "12 months",
-    "bull_case": 20.0,
-    "base_case": 16.1,
-    "bear_case": -29.6,
-    "price_bull": 114.05,
-    "price_base": 110.39,
-    "price_bear": 66.94,
+    "bull_case": 135.6,
+    "base_case": 15.8,
+    "bear_case": -103.9,
+    "price_bull": 205.54,
+    "price_base": 101.09,
+    "price_bear": -3.36,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 106.7,
-        "target_low": 45.0,
+        "target_mean": 114.88,
+        "target_low": 75.0,
         "target_high": 200.0,
-        "target_median": 100.0,
-        "upside_mean": 12.3,
-        "upside_low": -52.7,
-        "upside_high": 110.4,
+        "target_median": 110.0,
+        "upside_mean": 31.7,
+        "upside_low": -14.0,
+        "upside_high": 129.2,
         "n_analysts": 41,
         "recommendation": "hold"
       },
       "volatility": {
         "high_52w": 142.35,
-        "low_52w": 18.97,
-        "range_pct": 650.4,
-        "position_in_range": 61.7,
-        "upside_estimate": 20.0,
-        "downside_estimate": -16.0,
-        "avg_50d": 117.27,
-        "avg_200d": 64.17,
-        "beta": 2.19
+        "low_52w": 23.68,
+        "range_pct": 501.1,
+        "position_in_range": 53.6,
+        "annual_vol_pct": 77.2,
+        "center_estimate": 0.0,
+        "upside_estimate": 119.7,
+        "downside_estimate": -119.7,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 107.59,
+        "avg_200d": 71.76,
+        "beta": 2.24
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

@@ -1,106 +1,106 @@
 {
   "ticker": "JNJ",
-  "timestamp": "2026-07-19T19:56:47.166319",
+  "timestamp": "2026-08-25T17:02:18.349125",
   "profile": {
     "name": "Johnson & Johnson",
     "sector": "Healthcare"
   },
   "quote": {
-    "price": 253.04,
-    "change_pct": 1.22814,
-    "marketCap": 609122123776.0
+    "price": 273.04,
+    "change_pct": 1.03612,
+    "marketCap": 657998675968.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0536,
+    "score": 0.1296,
     "breakdown": {
-      "positive": 1,
-      "neutral": 8,
+      "positive": 2,
+      "neutral": 7,
       "negative": 1
     },
     "details": [
       {
-        "headline": "3 Biggest Pharma Giants: Buy, Sell or Hold?",
+        "headline": "5 Dividend Aristocrats Boomers Should Own for Life",
         "label": "neutral",
-        "confidence": 0.9112409353256226,
-        "negative": 0.03925563022494316,
-        "neutral": 0.9112409353256226,
-        "positive": 0.04950346797704697
+        "confidence": 0.8945866823196411,
+        "negative": 0.054614339023828506,
+        "neutral": 0.8945866823196411,
+        "positive": 0.05079898238182068
       },
       {
-        "headline": "Would You Rather Earn $55,000 Today or $110,000 in 20 Years?",
+        "headline": "Solvonis CEO: 'Strong tailwinds' for CNS as \u00a31.3m fuels drug pipeline",
         "label": "neutral",
-        "confidence": 0.49707841873168945,
-        "negative": 0.3423679769039154,
-        "neutral": 0.49707841873168945,
-        "positive": 0.16055355966091156
+        "confidence": 0.8831111192703247,
+        "negative": 0.05930114537477493,
+        "neutral": 0.8831111192703247,
+        "positive": 0.05758773535490036
       },
       {
-        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "headline": "Does Louisiana\u2019s US$10 Million Talc Verdict Shift the Legal Risk Bull Case For Johnson & Johnson (JNJ)?",
         "label": "neutral",
-        "confidence": 0.9083341956138611,
-        "negative": 0.046524450182914734,
-        "neutral": 0.9083341956138611,
-        "positive": 0.04514128714799881
+        "confidence": 0.8998851776123047,
+        "negative": 0.052369408309459686,
+        "neutral": 0.8998851776123047,
+        "positive": 0.04774539917707443
       },
       {
-        "headline": "The Portfolio That Lets You Ignore Inflation",
-        "label": "negative",
-        "confidence": 0.8988213539123535,
-        "negative": 0.8988213539123535,
-        "neutral": 0.049554675817489624,
-        "positive": 0.05162395164370537
-      },
-      {
-        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
-        "label": "neutral",
-        "confidence": 0.8124264478683472,
-        "negative": 0.060776084661483765,
-        "neutral": 0.8124264478683472,
-        "positive": 0.12679745256900787
-      },
-      {
-        "headline": "The Portfolio That Lets You Cruise Through the News, Unbothered",
-        "label": "neutral",
-        "confidence": 0.8286098837852478,
-        "negative": 0.07518168538808823,
-        "neutral": 0.8286098837852478,
-        "positive": 0.09620842337608337
-      },
-      {
-        "headline": "3 Dividend Stocks That Have Survived Every Market Crash in July",
-        "label": "neutral",
-        "confidence": 0.9015957117080688,
-        "negative": 0.04865235462784767,
-        "neutral": 0.9015957117080688,
-        "positive": 0.049751896411180496
-      },
-      {
-        "headline": "Here\u2019s the Funding It Takes to Keep Learning Forever",
+        "headline": "Eli Lilly Stock Raised Its Forecast, So Why Is The Market Shrugging?",
         "label": "positive",
-        "confidence": 0.48028087615966797,
-        "negative": 0.07610850781202316,
-        "neutral": 0.4436105787754059,
-        "positive": 0.48028087615966797
+        "confidence": 0.8758372664451599,
+        "negative": 0.06032821163535118,
+        "neutral": 0.06383456289768219,
+        "positive": 0.8758372664451599
       },
       {
-        "headline": "MarketBeat Week in Review \u2013 07/13- 07/17",
-        "label": "neutral",
-        "confidence": 0.9010759592056274,
-        "negative": 0.052016064524650574,
-        "neutral": 0.9010759592056274,
-        "positive": 0.04690802842378616
+        "headline": "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
+        "label": "negative",
+        "confidence": 0.5140235424041748,
+        "negative": 0.5140235424041748,
+        "neutral": 0.39427852630615234,
+        "positive": 0.09169797599315643
       },
       {
-        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
+        "headline": "Q2 Earnings Season Winds Down: 3 Companies That Broke Records",
         "label": "neutral",
-        "confidence": 0.9032374024391174,
-        "negative": 0.050063736736774445,
-        "neutral": 0.9032374024391174,
-        "positive": 0.04669882357120514
+        "confidence": 0.849643349647522,
+        "negative": 0.058541469275951385,
+        "neutral": 0.849643349647522,
+        "positive": 0.09181515872478485
+      },
+      {
+        "headline": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
+        "label": "neutral",
+        "confidence": 0.8050264120101929,
+        "negative": 0.10760252922773361,
+        "neutral": 0.8050264120101929,
+        "positive": 0.08737099915742874
+      },
+      {
+        "headline": "Johnson & Johnson Rises 1.3% as Investors Seek Stability",
+        "label": "positive",
+        "confidence": 0.8843381404876709,
+        "negative": 0.05497540533542633,
+        "neutral": 0.06068647652864456,
+        "positive": 0.8843381404876709
+      },
+      {
+        "headline": "Will LQDA's Differentiated PAH Approach Drive Growth?",
+        "label": "neutral",
+        "confidence": 0.7914278507232666,
+        "negative": 0.0673467367887497,
+        "neutral": 0.7914278507232666,
+        "positive": 0.14122538268566132
+      },
+      {
+        "headline": "Is SYRE a Buy Now as Clinical Catalysts Clash With Valuation Risk?",
+        "label": "neutral",
+        "confidence": 0.8929567337036133,
+        "negative": 0.05501687526702881,
+        "neutral": 0.8929567337036133,
+        "positive": 0.052026402205228806
       }
     ],
-    "news_score": -0.0536,
+    "news_score": 0.1296,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,12 +129,12 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 4.0655,
-    "pe_ratio": 29.321,
-    "pb_ratio": 7.5008,
-    "ev_ebitda": 18.429,
-    "ps_ratio": 6.22,
-    "dividend_yield": 2.12,
-    "dividend_payout": 48.1372,
+    "pe_ratio": 31.6385,
+    "pb_ratio": 7.7384,
+    "ev_ebitda": 19.68,
+    "ps_ratio": 6.7191,
+    "dividend_yield": 1.96,
+    "dividend_payout": 48.1908,
     "eps": 8.63,
     "fcf": 19313000000.0,
     "fcf_margin": 20.5036,
@@ -142,52 +142,55 @@
     "capex_to_revenue": 5.5386,
     "cash_roic": null
   },
-  "ratio_score": 73.3,
+  "ratio_score": 71.7,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 65.1,
+    "combined_score": 64.1,
     "sentiment_score": 50,
-    "ratio_score": 73.3
+    "ratio_score": 71.7
   },
   "prediction": {
     "available": true,
-    "current_price": 253.04,
+    "current_price": 273.04,
     "horizon": "12 months",
-    "bull_case": 9.8,
-    "base_case": 8.2,
-    "bear_case": -23.9,
-    "price_bull": 277.84,
-    "price_base": 273.92,
-    "price_bear": 192.56,
+    "bull_case": 28.9,
+    "base_case": -0.1,
+    "bear_case": -29.1,
+    "price_bull": 351.95,
+    "price_base": 272.77,
+    "price_bear": 193.59,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 269.95,
+        "target_mean": 272.5,
         "target_low": 190.0,
         "target_high": 305.0,
-        "target_median": 274.0,
-        "upside_mean": 6.7,
-        "upside_low": -24.9,
-        "upside_high": 20.5,
+        "target_median": 280.0,
+        "upside_mean": -0.2,
+        "upside_low": -30.4,
+        "upside_high": 11.7,
         "n_analysts": 22,
         "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 269.43,
-        "low_52w": 162.78,
-        "range_pct": 65.5,
-        "position_in_range": 84.6,
-        "upside_estimate": 9.8,
-        "downside_estimate": -22.9,
-        "avg_50d": 238.66,
-        "avg_200d": 222.92,
+        "high_52w": 276.47,
+        "low_52w": 173.33,
+        "range_pct": 59.5,
+        "position_in_range": 96.7,
+        "annual_vol_pct": 18.7,
+        "center_estimate": 0.0,
+        "upside_estimate": 29.0,
+        "downside_estimate": -29.0,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 255.52,
+        "avg_200d": 232.24,
         "beta": 0.23
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

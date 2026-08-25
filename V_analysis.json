@@ -1,106 +1,106 @@
 {
   "ticker": "V",
-  "timestamp": "2026-07-19T19:56:09.639749",
+  "timestamp": "2026-08-25T17:01:20.339996",
   "profile": {
     "name": "Visa Inc.",
     "sector": "Financial Services"
   },
   "quote": {
-    "price": 358.56,
-    "change_pct": -1.80205,
-    "marketCap": 681889234944.0
+    "price": 382.41,
+    "change_pct": 3.06436,
+    "marketCap": 713977561088.0
   },
   "sentiment": {
-    "overall": "positive",
-    "score": 0.2079,
+    "overall": "neutral",
+    "score": 0.1448,
     "breakdown": {
       "positive": 3,
-      "neutral": 7,
-      "negative": 0
+      "neutral": 6,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "3 High-Growth Dividend Stocks to Buy in July",
+        "headline": "Stablecoin card spending triples to $1 billion",
         "label": "neutral",
-        "confidence": 0.7805238962173462,
-        "negative": 0.07083158195018768,
-        "neutral": 0.7805238962173462,
-        "positive": 0.14864447712898254
+        "confidence": 0.8992757797241211,
+        "negative": 0.05142785236239433,
+        "neutral": 0.8992757797241211,
+        "positive": 0.049296386539936066
       },
       {
-        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "headline": "HIMS Stock Posts Worst Day In A Month As Visa Flags Disputes \u2014 But Analyst Says GLP-1 Users Are Sticking Around",
         "label": "neutral",
-        "confidence": 0.9083341956138611,
-        "negative": 0.046524450182914734,
-        "neutral": 0.9083341956138611,
-        "positive": 0.04514128714799881
+        "confidence": 0.895648717880249,
+        "negative": 0.05266343057155609,
+        "neutral": 0.895648717880249,
+        "positive": 0.05168794095516205
       },
       {
-        "headline": "AI can now access your credit cards \u2014 how to protect yourself from being scammed",
+        "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
         "label": "neutral",
-        "confidence": 0.8991329073905945,
-        "negative": 0.04927105829119682,
-        "neutral": 0.8991329073905945,
-        "positive": 0.05159604921936989
+        "confidence": 0.8915529251098633,
+        "negative": 0.05442050099372864,
+        "neutral": 0.8915529251098633,
+        "positive": 0.054026588797569275
       },
       {
-        "headline": "American Express (AXP) Joins X402 And Raises Platinum Card Fee To $895",
+        "headline": "Cathie Wood Says Analysts Can\u2019t \u2018Fathom\u2019 Circle, Calls CRCL a 'Prime Beneficiary\u2019 of Payments Disruption",
         "label": "neutral",
-        "confidence": 0.898196280002594,
-        "negative": 0.054333411157131195,
-        "neutral": 0.898196280002594,
-        "positive": 0.047470349818468094
+        "confidence": 0.9039376378059387,
+        "negative": 0.04951708763837814,
+        "neutral": 0.9039376378059387,
+        "positive": 0.046545322984457016
       },
       {
-        "headline": "Down 22% In A Year: Is PayPal A Value Trap Or A Turnaround Play?",
+        "headline": "Will PYPL Stock's Multiple Catch Up?",
         "label": "positive",
-        "confidence": 0.48553261160850525,
-        "negative": 0.433404803276062,
-        "neutral": 0.08106257766485214,
-        "positive": 0.48553261160850525
+        "confidence": 0.6838154196739197,
+        "negative": 0.2369646281003952,
+        "neutral": 0.07921990752220154,
+        "positive": 0.6838154196739197
       },
       {
-        "headline": "Why Trump Is Going After Brazil\u2019s Beloved Payment System",
-        "label": "neutral",
-        "confidence": 0.9019357562065125,
-        "negative": 0.04887790232896805,
-        "neutral": 0.9019357562065125,
-        "positive": 0.04918636754155159
-      },
-      {
-        "headline": "'Durable' stocks Visa, Aon 'have legs' amid AI jitters, expert says",
-        "label": "neutral",
-        "confidence": 0.8977300524711609,
-        "negative": 0.051457829773426056,
-        "neutral": 0.8977300524711609,
-        "positive": 0.05081212520599365
-      },
-      {
-        "headline": "Can Visa's Stablecoin Platform Accelerate Enterprise Blockchain Use?",
-        "label": "neutral",
-        "confidence": 0.5893939137458801,
-        "negative": 0.07694916427135468,
-        "neutral": 0.5893939137458801,
-        "positive": 0.333656907081604
-      },
-      {
-        "headline": "Can Visa Stock Compound Its Way Higher?",
+        "headline": "Visa Charges Toward New All-Time Closing High",
         "label": "positive",
-        "confidence": 0.8890854120254517,
-        "negative": 0.05350816994905472,
-        "neutral": 0.057406459003686905,
-        "positive": 0.8890854120254517
+        "confidence": 0.8975944519042969,
+        "negative": 0.050775445997714996,
+        "neutral": 0.05163011699914932,
+        "positive": 0.8975944519042969
       },
       {
-        "headline": "Should You Be Bullish on Visa (V)?",
+        "headline": "Stock Market Today: Dow Up As Trump Says This On Canada; Nvidia Shares Skid Despite AI Move",
+        "label": "negative",
+        "confidence": 0.908959686756134,
+        "negative": 0.908959686756134,
+        "neutral": 0.04626595601439476,
+        "positive": 0.044774387031793594
+      },
+      {
+        "headline": "Why Hims & Hers Health (HIMS) Stock Is Nosediving",
+        "label": "neutral",
+        "confidence": 0.8219062089920044,
+        "negative": 0.07454414665699005,
+        "neutral": 0.8219062089920044,
+        "positive": 0.10354966670274734
+      },
+      {
+        "headline": "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
+        "label": "neutral",
+        "confidence": 0.6736013293266296,
+        "negative": 0.08316358923912048,
+        "neutral": 0.6736013293266296,
+        "positive": 0.24323506653308868
+      },
+      {
+        "headline": "Visa Surges 2.4% as Payment Stocks Seize Market Leadership",
         "label": "positive",
-        "confidence": 0.9074411988258362,
-        "negative": 0.04465467110276222,
-        "neutral": 0.04790406674146652,
-        "positive": 0.9074411988258362
+        "confidence": 0.8908003568649292,
+        "negative": 0.05493323877453804,
+        "neutral": 0.05426643788814545,
+        "positive": 0.8908003568649292
       }
     ],
-    "news_score": 0.2079,
+    "news_score": 0.1448,
     "fin_score": 0.0
   },
   "ratios": {
@@ -109,15 +109,15 @@
     "cash_ratio": 0.4897,
     "ocf_ratio": 0.6579,
     "gross_margin": 80.3625,
-    "operating_margin": 61.9575,
+    "operating_margin": 66.39,
     "net_margin": 50.145,
     "roa": 20.1331,
     "roe": 52.9109,
-    "roce": 38.3763,
+    "roce": 41.1217,
     "ebitda_margin": 65.0075,
     "de_ratio": 0.664,
     "da_ratio": 0.2527,
-    "interest_coverage": 42.0764,
+    "interest_coverage": 45.0866,
     "dscr": 39.1494,
     "equity_multiplier": 2.6281,
     "net_debt_ebitda": 0.3079,
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 9.4429,
-    "pe_ratio": 31.2607,
-    "pb_ratio": 19.234,
-    "ev_ebitda": 22.767,
-    "ps_ratio": 15.8479,
+    "pe_ratio": 32.5733,
+    "pb_ratio": 20.2655,
+    "ev_ebitda": 22.945,
+    "ps_ratio": 16.0488,
     "dividend_yield": null,
-    "dividend_payout": 22.1758,
-    "eps": 11.47,
+    "dividend_payout": 22.7691,
+    "eps": 11.74,
     "fcf": 21577000000.0,
     "fcf_margin": 53.9425,
     "cf_to_net_income": 1.1496,
@@ -144,50 +144,53 @@
   },
   "ratio_score": 75.0,
   "final_signal": {
-    "signal": "BUY",
-    "emoji": "\ud83d\udcc8",
-    "combined_score": 83.8,
-    "sentiment_score": 100,
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 66.2,
+    "sentiment_score": 50,
     "ratio_score": 75.0
   },
   "prediction": {
     "available": true,
-    "current_price": 358.56,
+    "current_price": 382.41,
     "horizon": "12 months",
-    "bull_case": 12.0,
-    "base_case": 7.8,
-    "bear_case": -8.2,
-    "price_bull": 401.59,
-    "price_base": 386.53,
-    "price_bear": 328.98,
+    "bull_case": 38.9,
+    "base_case": 4.7,
+    "bear_case": -29.5,
+    "price_bull": 531.17,
+    "price_base": 400.38,
+    "price_bear": 269.6,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 401.47,
+        "target_mean": 418.22,
         "target_low": 330.0,
         "target_high": 450.0,
-        "target_median": 404.0,
-        "upside_mean": 12.0,
-        "upside_low": -8.0,
-        "upside_high": 25.5,
-        "n_analysts": 38,
+        "target_median": 421.0,
+        "upside_mean": 9.4,
+        "upside_low": -13.7,
+        "upside_high": 17.7,
+        "n_analysts": 36,
         "recommendation": "strong_buy"
       },
       "volatility": {
-        "high_52w": 365.14,
+        "high_52w": 383.43,
         "low_52w": 293.89,
-        "range_pct": 24.2,
-        "position_in_range": 90.8,
-        "upside_estimate": 3.6,
-        "downside_estimate": -8.5,
-        "avg_50d": 333.1,
-        "avg_200d": 329.63,
-        "beta": 0.75
+        "range_pct": 30.5,
+        "position_in_range": 98.9,
+        "annual_vol_pct": 22.1,
+        "center_estimate": 0.0,
+        "upside_estimate": 34.2,
+        "downside_estimate": -34.2,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 354.02,
+        "avg_200d": 332.09,
+        "beta": 0.76
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

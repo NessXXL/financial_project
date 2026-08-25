@@ -1,0 +1,237 @@
+{
+  "ticker": "ADNOCGAS.AE",
+  "timestamp": "2026-08-07T23:26:38.437504",
+  "profile": {
+    "name": "ADNOCGAS.AE",
+    "sector": ""
+  },
+  "quote": {
+    "price": null,
+    "change_pct": 0.0,
+    "marketCap": null
+  },
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.1866,
+    "breakdown": {
+      "positive": 5,
+      "neutral": 15,
+      "negative": 0
+    },
+    "details": [
+      {
+        "headline": "ADNOC Gas Delivers Record $5.2bn Net Income in 2025 - Adnoc Gas",
+        "label": "positive",
+        "confidence": 0.6750849485397339,
+        "negative": 0.09008590131998062,
+        "neutral": 0.23482918739318848,
+        "positive": 0.6750849485397339
+      },
+      {
+        "headline": "ADNOC Gas Leads These 3 Middle Eastern Penny Stocks To Consider - Yahoo Finance",
+        "label": "neutral",
+        "confidence": 0.8914730548858643,
+        "negative": 0.05318102240562439,
+        "neutral": 0.8914730548858643,
+        "positive": 0.05534595623612404
+      },
+      {
+        "headline": "Adnoc Gas Expects Strait of Hormuz Closure to Hit Full-Year Profit - WSJ",
+        "label": "neutral",
+        "confidence": 0.5887892842292786,
+        "negative": 0.11589950323104858,
+        "neutral": 0.5887892842292786,
+        "positive": 0.29531121253967285
+      },
+      {
+        "headline": "Morgan Stanley upgrades ADNOC Gas on Strait of Hormuz reopening expectations - Investing.com",
+        "label": "neutral",
+        "confidence": 0.8245993256568909,
+        "negative": 0.07207433134317398,
+        "neutral": 0.8245993256568909,
+        "positive": 0.1033262312412262
+      },
+      {
+        "headline": "ADNOC Gas Shareholders Approve Record $3.6 Billion Dividend for Full Year 2025 - Adnoc Gas",
+        "label": "neutral",
+        "confidence": 0.8927668929100037,
+        "negative": 0.05237643048167229,
+        "neutral": 0.8927668929100037,
+        "positive": 0.054856665432453156
+      },
+      {
+        "headline": "Middle Eastern Penny Stocks Spotlight: ADNOC Gas And 2 Other Noteworthy Picks - Yahoo Finance",
+        "label": "neutral",
+        "confidence": 0.8931005001068115,
+        "negative": 0.049880608916282654,
+        "neutral": 0.8931005001068115,
+        "positive": 0.05701887235045433
+      },
+      {
+        "headline": "ADNOC Gas Delivers Best-Ever Q3 Results, Demonstrating Resilience and Growth in a Dynamic Market - PR Newswire UK",
+        "label": "neutral",
+        "confidence": 0.8931538462638855,
+        "negative": 0.04875906556844711,
+        "neutral": 0.8931538462638855,
+        "positive": 0.05808714032173157
+      },
+      {
+        "headline": "ADNOC Gas posts 2025 profit at $5.2 billion as UAE demand powers growth - Gulf News",
+        "label": "neutral",
+        "confidence": 0.881881058216095,
+        "negative": 0.05843581259250641,
+        "neutral": 0.881881058216095,
+        "positive": 0.05968306213617325
+      },
+      {
+        "headline": "Adnoc Gas posts record $5.2 billion net income in 2025 - khaleejtimes.com",
+        "label": "neutral",
+        "confidence": 0.8751393556594849,
+        "negative": 0.06129854544997215,
+        "neutral": 0.8751393556594849,
+        "positive": 0.06356214731931686
+      },
+      {
+        "headline": "Adnoc Gas aims to restore 80% of Habshan capacity by end of year after Iran war damage - thenationalnews.com",
+        "label": "neutral",
+        "confidence": 0.8815233707427979,
+        "negative": 0.057246167212724686,
+        "neutral": 0.8815233707427979,
+        "positive": 0.06123044714331627
+      },
+      {
+        "headline": "ADNOC Gas to Join FTSE Emerging Index, Unlocking Over $250 Million in Fund Investment - PR Newswire UK",
+        "label": "neutral",
+        "confidence": 0.553586483001709,
+        "negative": 0.2536044418811798,
+        "neutral": 0.553586483001709,
+        "positive": 0.19280916452407837
+      },
+      {
+        "headline": "ADNOC Gas Announces Record Second Quarter Performance, Demonstrating Resilience in Lower Price Environment - PR Newswire",
+        "label": "neutral",
+        "confidence": 0.8938418030738831,
+        "negative": 0.05315699055790901,
+        "neutral": 0.8938418030738831,
+        "positive": 0.05300111696124077
+      },
+      {
+        "headline": "ADNOC Gas announces Q1 net income of $1.27 billion, up 7% year on year, significantly exceeding market expectations - Plataforma Media",
+        "label": "positive",
+        "confidence": 0.897789716720581,
+        "negative": 0.04971101135015488,
+        "neutral": 0.05249924585223198,
+        "positive": 0.897789716720581
+      },
+      {
+        "headline": "Adnoc Gas Expects Earnings Boost From Rising Gas Demand - WSJ",
+        "label": "positive",
+        "confidence": 0.7206264734268188,
+        "negative": 0.08979210257530212,
+        "neutral": 0.1895814836025238,
+        "positive": 0.7206264734268188
+      },
+      {
+        "headline": "UAE\u2019s ADNOC Gas shares surge 19% in USD 2.5bn IPO - Ag\u00eancia de Not\u00edcias Brasil-\u00c1rabe - ANBA",
+        "label": "neutral",
+        "confidence": 0.7624156475067139,
+        "negative": 0.07522164285182953,
+        "neutral": 0.7624156475067139,
+        "positive": 0.16236266493797302
+      },
+      {
+        "headline": "ADNOC Gas Delivers Record $5 Billion Net Income For 2024, Propelling Sustainable Growth Ambitions - PR Newswire",
+        "label": "positive",
+        "confidence": 0.9023326635360718,
+        "negative": 0.0497635193169117,
+        "neutral": 0.04790380969643593,
+        "positive": 0.9023326635360718
+      },
+      {
+        "headline": "UAE stocks: Which options are likely to be a good buy now? - khaleejtimes.com",
+        "label": "positive",
+        "confidence": 0.6421065926551819,
+        "negative": 0.09196574240922928,
+        "neutral": 0.26592764258384705,
+        "positive": 0.6421065926551819
+      },
+      {
+        "headline": "Adnoc Gas posts record Q2 profit despite low oil prices - thenationalnews.com",
+        "label": "neutral",
+        "confidence": 0.8736241459846497,
+        "negative": 0.06203068792819977,
+        "neutral": 0.8736241459846497,
+        "positive": 0.0643450990319252
+      },
+      {
+        "headline": "ADNOC completes $2.84 billion marketed offering of ADNOC Gas shares - Indian Chemical News",
+        "label": "neutral",
+        "confidence": 0.8947282433509827,
+        "negative": 0.052846867591142654,
+        "neutral": 0.8947282433509827,
+        "positive": 0.05242481082677841
+      },
+      {
+        "headline": "ADNOC Gas will be UAE's first IPO of 2023, dividend set at a substantial $3.25b - Gulf News",
+        "label": "neutral",
+        "confidence": 0.8882739543914795,
+        "negative": 0.056976642459630966,
+        "neutral": 0.8882739543914795,
+        "positive": 0.054749373346567154
+      }
+    ],
+    "news_score": 0.1866,
+    "fin_score": 0.0
+  },
+  "ratios": {
+    "current_ratio": null,
+    "quick_ratio": null,
+    "cash_ratio": null,
+    "ocf_ratio": null,
+    "gross_margin": null,
+    "operating_margin": null,
+    "net_margin": null,
+    "roa": null,
+    "roe": null,
+    "roce": null,
+    "ebitda_margin": null,
+    "de_ratio": null,
+    "da_ratio": null,
+    "interest_coverage": null,
+    "dscr": null,
+    "equity_multiplier": null,
+    "net_debt_ebitda": null,
+    "asset_turnover": null,
+    "inventory_turnover": null,
+    "dio": null,
+    "receivables_turnover": null,
+    "dso": null,
+    "dpo": null,
+    "ccc": null,
+    "fixed_asset_turnover": null,
+    "pe_ratio": null,
+    "pb_ratio": null,
+    "ev_ebitda": null,
+    "ps_ratio": null,
+    "dividend_yield": null,
+    "dividend_payout": null,
+    "eps": null,
+    "fcf": null,
+    "fcf_margin": null,
+    "cf_to_net_income": null,
+    "capex_to_revenue": null,
+    "cash_roic": null
+  },
+  "ratio_score": 50,
+  "final_signal": {
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 67.5,
+    "sentiment_score": 100,
+    "ratio_score": 50
+  },
+  "prediction": {
+    "available": false,
+    "reason": "No current price data"
+  }
+}

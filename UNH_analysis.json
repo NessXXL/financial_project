@@ -1,106 +1,106 @@
 {
   "ticker": "UNH",
-  "timestamp": "2026-07-19T19:57:42.924738",
+  "timestamp": "2026-08-25T17:03:33.300504",
   "profile": {
     "name": "UnitedHealth Group Incorporated",
     "sector": "Healthcare"
   },
   "quote": {
-    "price": 426.09,
-    "change_pct": 0.640085,
-    "marketCap": 386951249920.0
+    "price": 398.76,
+    "change_pct": 2.21733,
+    "marketCap": 357924929536.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0861,
+    "score": 0.0269,
     "breakdown": {
-      "positive": 2,
-      "neutral": 6,
-      "negative": 2
+      "positive": 1,
+      "neutral": 8,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "UnitedHealth CFO sends stark warning after earnings",
+        "headline": "Zacks Industry Outlook UnitedHealth, The Cigna, Humana, Centene and Molina",
         "label": "neutral",
-        "confidence": 0.8304485082626343,
-        "negative": 0.10691200196743011,
-        "neutral": 0.8304485082626343,
-        "positive": 0.06263946741819382
+        "confidence": 0.8664698004722595,
+        "negative": 0.06467501819133759,
+        "neutral": 0.8664698004722595,
+        "positive": 0.06885522603988647
       },
       {
-        "headline": "UnitedHealth Group (UNH) Stock Still Looks Cheap Following Raised 2026 Outlook",
-        "label": "neutral",
-        "confidence": 0.8951278328895569,
-        "negative": 0.05287501960992813,
-        "neutral": 0.8951278328895569,
-        "positive": 0.051997169852256775
-      },
-      {
-        "headline": "UnitedHealth Lost Nearly 1 Million Medicare Members. Here's Why Investors Aren't Worried",
+        "headline": "UnitedHealth Stock's Biggest Risk Sits In The Commercial Book",
         "label": "negative",
-        "confidence": 0.8450028896331787,
-        "negative": 0.8450028896331787,
-        "neutral": 0.09765134751796722,
-        "positive": 0.057345692068338394
+        "confidence": 0.6861364245414734,
+        "negative": 0.6861364245414734,
+        "neutral": 0.23792824149131775,
+        "positive": 0.07593530416488647
       },
       {
-        "headline": "What A Patient Holder Is Really Paying For CVS Health Stock",
+        "headline": "5 HMO Stocks to Watch Amid Steady Premium Flow, Increased Digitization",
         "label": "neutral",
-        "confidence": 0.8968958854675293,
-        "negative": 0.05093681439757347,
-        "neutral": 0.8968958854675293,
-        "positive": 0.052167315036058426
+        "confidence": 0.6277351379394531,
+        "negative": 0.08814742416143417,
+        "neutral": 0.6277351379394531,
+        "positive": 0.2841174304485321
       },
       {
-        "headline": "What's A Strong Quarter Worth When Elevance Health Is Ditching Its Own Markets?",
+        "headline": "What Does UnitedHealth Group (UNH) IRS Tax Scrutiny Mean For Investors?",
         "label": "neutral",
-        "confidence": 0.8111301064491272,
-        "negative": 0.0611109621822834,
-        "neutral": 0.8111301064491272,
-        "positive": 0.1277589499950409
+        "confidence": 0.8973404765129089,
+        "negative": 0.04886852949857712,
+        "neutral": 0.8973404765129089,
+        "positive": 0.053790975362062454
       },
       {
-        "headline": "Jim Cramer Says the Market Is \u201cDead Wrong\u201d About These 5 Oversold Stocks",
-        "label": "negative",
-        "confidence": 0.898799479007721,
-        "negative": 0.898799479007721,
-        "neutral": 0.051688991487026215,
-        "positive": 0.049511462450027466
-      },
-      {
-        "headline": "Stocks making big moves this week: HCA Healthcare, UnitedHealth, CrowdStrike, RXO, and Enovis",
+        "headline": "Is The Pullback In UNH Stock A Glitch Or A Warning?",
         "label": "neutral",
-        "confidence": 0.8600507378578186,
-        "negative": 0.06777866929769516,
-        "neutral": 0.8600507378578186,
-        "positive": 0.07217064499855042
+        "confidence": 0.6784295439720154,
+        "negative": 0.23306971788406372,
+        "neutral": 0.6784295439720154,
+        "positive": 0.0885007455945015
       },
       {
-        "headline": "The First Oral Cholesterol Pill Is Here. Which of These 5 Stocks Benefits Most?",
+        "headline": "Mark Cuban: \u201cNo Chance\u201d Radiologists Get Replaced by AI. He Says the Real Target Is Elsewhere",
+        "label": "neutral",
+        "confidence": 0.9041913151741028,
+        "negative": 0.048398301005363464,
+        "neutral": 0.9041913151741028,
+        "positive": 0.04741037264466286
+      },
+      {
+        "headline": "Is UnitedHealth Finding a Better Path to Medicare Advantage Growth?",
         "label": "positive",
-        "confidence": 0.5480262637138367,
-        "negative": 0.0892544612288475,
-        "neutral": 0.36271926760673523,
-        "positive": 0.5480262637138367
+        "confidence": 0.8814392685890198,
+        "negative": 0.05662436783313751,
+        "neutral": 0.06193634867668152,
+        "positive": 0.8814392685890198
       },
       {
-        "headline": "UnitedHealth Poised for Further Growth Despite Employer Commercial Pressure, RBC Says",
-        "label": "positive",
-        "confidence": 0.5939186811447144,
-        "negative": 0.30290427803993225,
-        "neutral": 0.10317705571651459,
-        "positive": 0.5939186811447144
-      },
-      {
-        "headline": "UnitedHealth Q2 Earnings Call Focuses on Reset and Durable Growth",
+        "headline": "The Hidden Tax Cost of JEPI\u2019s Monthly Income Machine",
         "label": "neutral",
-        "confidence": 0.9121481776237488,
-        "negative": 0.044478870928287506,
-        "neutral": 0.9121481776237488,
-        "positive": 0.043372977524995804
+        "confidence": 0.9049677848815918,
+        "negative": 0.04803316295146942,
+        "neutral": 0.9049677848815918,
+        "positive": 0.04699905961751938
+      },
+      {
+        "headline": "Warren Buffett's Berkshire Hathaway Bought This Dividend Stock for a Reason. Here's Why Greg Abel Won't Sell.",
+        "label": "neutral",
+        "confidence": 0.8937461972236633,
+        "negative": 0.05357319489121437,
+        "neutral": 0.8937461972236633,
+        "positive": 0.0526806116104126
+      },
+      {
+        "headline": "AON Sees No Relief From Health-Cost Inflation: WTW, UNH & CNC in Focus",
+        "label": "neutral",
+        "confidence": 0.9003528952598572,
+        "negative": 0.05136542394757271,
+        "neutral": 0.9003528952598572,
+        "positive": 0.048281628638505936
       }
     ],
-    "news_score": -0.0861,
+    "news_score": 0.0269,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 41.5877,
-    "pe_ratio": 32.0609,
-    "pb_ratio": 3.9527,
-    "ev_ebitda": 17.696,
-    "ps_ratio": 0.8596,
-    "dividend_yield": 2.18,
-    "dividend_payout": 69.9036,
-    "eps": 13.29,
+    "pe_ratio": 25.6437,
+    "pb_ratio": 3.6657,
+    "ev_ebitda": 15.265,
+    "ps_ratio": 0.7945,
+    "dividend_yield": 2.33,
+    "dividend_payout": 69.0916,
+    "eps": 15.55,
     "fcf": 16075000000.0,
     "fcf_margin": 3.5916,
     "cf_to_net_income": 1.6338,
@@ -152,14 +152,14 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 426.09,
+    "current_price": 398.76,
     "horizon": "12 months",
-    "bull_case": 12.0,
-    "base_case": 11.3,
-    "bear_case": -31.1,
-    "price_bull": 477.22,
-    "price_base": 474.45,
-    "price_bear": 293.43,
+    "bull_case": 66.4,
+    "base_case": 9.6,
+    "bear_case": -47.2,
+    "price_bull": 663.54,
+    "price_base": 437.04,
+    "price_bear": 210.55,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,36 +167,39 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 471.65,
+        "target_mean": 475.23,
         "target_low": 313.0,
         "target_high": 529.0,
-        "target_median": 479.0,
-        "upside_mean": 10.7,
-        "upside_low": -26.5,
-        "upside_high": 24.2,
+        "target_median": 490.0,
+        "upside_mean": 19.2,
+        "upside_low": -21.5,
+        "upside_high": 32.7,
         "n_analysts": 26,
         "recommendation": "buy"
       },
       "dcf": {
-        "fair_value": 260.46,
-        "upside": -38.9,
+        "fair_value": 263.52,
+        "upside": -33.9,
         "growth_assumed": "3%",
         "discount_rate": "10%",
-        "fcf_per_share": 17.7,
+        "fcf_per_share": 17.91,
         "fcf_source": "direct"
       },
       "volatility": {
         "high_52w": 461.62,
-        "low_52w": 234.6,
-        "range_pct": 96.8,
-        "position_in_range": 84.3,
-        "upside_estimate": 12.0,
-        "downside_estimate": -28.0,
-        "avg_50d": 402.88,
-        "avg_200d": 341.41,
+        "low_52w": 255.97,
+        "range_pct": 80.3,
+        "position_in_range": 69.4,
+        "annual_vol_pct": 36.6,
+        "center_estimate": 0.0,
+        "upside_estimate": 56.8,
+        "downside_estimate": -56.8,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 413.66,
+        "avg_200d": 348.33,
         "beta": 0.63
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

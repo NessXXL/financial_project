@@ -1,106 +1,106 @@
 {
   "ticker": "COST",
-  "timestamp": "2026-07-19T19:59:21.227275",
+  "timestamp": "2026-08-25T17:05:36.715865",
   "profile": {
     "name": "Costco Wholesale Corporation",
     "sector": "Consumer Defensive"
   },
   "quote": {
-    "price": 940.87,
-    "change_pct": -0.497056,
-    "marketCap": 417255915520.0
+    "price": 971.4,
+    "change_pct": 2.49647,
+    "marketCap": 430795325440.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0371,
+    "score": 0.1494,
     "breakdown": {
-      "positive": 1,
-      "neutral": 8,
+      "positive": 4,
+      "neutral": 5,
       "negative": 1
     },
     "details": [
       {
-        "headline": "Costco makes surprising change that may hurt its bottom line",
-        "label": "negative",
-        "confidence": 0.7752135992050171,
-        "negative": 0.7752135992050171,
-        "neutral": 0.14400362968444824,
-        "positive": 0.08078278601169586
-      },
-      {
-        "headline": "FDA finds outbreak-linked parasite in Taylor Farms lettuce sample",
-        "label": "neutral",
-        "confidence": 0.8930375576019287,
-        "negative": 0.0536138154566288,
-        "neutral": 0.8930375576019287,
-        "positive": 0.0533485971391201
-      },
-      {
-        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
-        "label": "neutral",
-        "confidence": 0.9028205871582031,
-        "negative": 0.04816388711333275,
-        "neutral": 0.9028205871582031,
-        "positive": 0.049015626311302185
-      },
-      {
-        "headline": "How Investors May Respond To Costco Wholesale (COST) Double-Digit June Sales Growth And New Dividend Declaration",
-        "label": "neutral",
-        "confidence": 0.5697881579399109,
-        "negative": 0.10414077341556549,
-        "neutral": 0.5697881579399109,
-        "positive": 0.3260710835456848
-      },
-      {
-        "headline": "Costco Gas Pumps Are So Popular the Retailer Is Building Stand-Alone Stations",
-        "label": "neutral",
-        "confidence": 0.8945150375366211,
-        "negative": 0.053549934178590775,
-        "neutral": 0.8945150375366211,
-        "positive": 0.05193502828478813
-      },
-      {
-        "headline": "Costco Delivers Another Strong Sales Report. Buy COST Stock Now for More Upside Ahead.",
+        "headline": "The Premium On WMT Stock Vs What Its Peers Deliver",
         "label": "positive",
-        "confidence": 0.8984006643295288,
-        "negative": 0.05108584836125374,
-        "neutral": 0.05051351338624954,
-        "positive": 0.8984006643295288
+        "confidence": 0.688319206237793,
+        "negative": 0.07359928637742996,
+        "neutral": 0.23808152973651886,
+        "positive": 0.688319206237793
       },
       {
-        "headline": "Popular beverage chain closing multiple locations nationwide",
-        "label": "neutral",
-        "confidence": 0.8965765833854675,
-        "negative": 0.05253778398036957,
-        "neutral": 0.8965765833854675,
-        "positive": 0.05088568478822708
+        "headline": "Coca-Cola Just Won a Key Consumer Battle",
+        "label": "negative",
+        "confidence": 0.8905228972434998,
+        "negative": 0.8905228972434998,
+        "neutral": 0.057436686009168625,
+        "positive": 0.05204039067029953
       },
       {
-        "headline": "If Volatility Stays Low, Here\u2019s What Happens to DIVO\u2019s Monthly Income",
-        "label": "neutral",
-        "confidence": 0.9032374024391174,
-        "negative": 0.050063736736774445,
-        "neutral": 0.9032374024391174,
-        "positive": 0.04669882357120514
+        "headline": "Costco fights customer\u2019s tariff suit as refunds flow in",
+        "label": "positive",
+        "confidence": 0.5178279280662537,
+        "negative": 0.40743717551231384,
+        "neutral": 0.07473494857549667,
+        "positive": 0.5178279280662537
       },
       {
-        "headline": "Walmart beats Costco at its own game",
-        "label": "neutral",
-        "confidence": 0.8820130228996277,
-        "negative": 0.057013846933841705,
-        "neutral": 0.8820130228996277,
-        "positive": 0.06097307801246643
+        "headline": "Will Costco's AI Search Growth Become a Meaningful Sales Catalyst?",
+        "label": "positive",
+        "confidence": 0.8951188325881958,
+        "negative": 0.05215805768966675,
+        "neutral": 0.05272314324975014,
+        "positive": 0.8951188325881958
       },
       {
-        "headline": "DGRO\u2019s December Rebalance Could Reshape Healthcare Exposure: Here\u2019s What to Watch",
+        "headline": "BJ\u2019s Wholesale Club Is Turning Stronger Fundamentals Into a Bullish Setup",
+        "label": "positive",
+        "confidence": 0.901378333568573,
+        "negative": 0.0487290695309639,
+        "neutral": 0.04989256709814072,
+        "positive": 0.901378333568573
+      },
+      {
+        "headline": "Michael Burry Says LULU Stock Is \u2018Screaming Cheap\u2019 While Apple Shares Are \u2018Permacostly\u2019 Like Costco",
         "label": "neutral",
-        "confidence": 0.8318347930908203,
-        "negative": 0.08503267914056778,
-        "neutral": 0.8318347930908203,
-        "positive": 0.0831325426697731
+        "confidence": 0.9070039391517639,
+        "negative": 0.04626135528087616,
+        "neutral": 0.9070039391517639,
+        "positive": 0.046734802424907684
+      },
+      {
+        "headline": "The Ultimate Growth Stock to Buy With $10,000 Right Now",
+        "label": "neutral",
+        "confidence": 0.9046175479888916,
+        "negative": 0.04804075509309769,
+        "neutral": 0.9046175479888916,
+        "positive": 0.04734170064330101
+      },
+      {
+        "headline": "Target Stock Has Been Crushed. Here\u2019s Why I\u2019m Not Giving Up on It.",
+        "label": "neutral",
+        "confidence": 0.6466317176818848,
+        "negative": 0.26892703771591187,
+        "neutral": 0.6466317176818848,
+        "positive": 0.08444121479988098
+      },
+      {
+        "headline": "Is Costco Wholesale (COST) Fully Valued On Its New Medicare Push?",
+        "label": "neutral",
+        "confidence": 0.7724255323410034,
+        "negative": 0.06428822875022888,
+        "neutral": 0.7724255323410034,
+        "positive": 0.16328619420528412
+      },
+      {
+        "headline": "The Toughest Questions HD Faced On Its Latest Call",
+        "label": "neutral",
+        "confidence": 0.9009209275245667,
+        "negative": 0.05074743553996086,
+        "neutral": 0.9009209275245667,
+        "positive": 0.04833163693547249
       }
     ],
-    "news_score": 0.0371,
+    "news_score": 0.1494,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 7.947,
-    "pe_ratio": 47.399,
-    "pb_ratio": 25.2393,
-    "ev_ebitda": 30.137,
-    "ps_ratio": 1.4212,
+    "pe_ratio": 48.7896,
+    "pb_ratio": 26.0583,
+    "ev_ebitda": 31.116,
+    "ps_ratio": 1.4674,
     "dividend_yield": null,
     "dividend_payout": 32.1973,
-    "eps": 19.85,
+    "eps": 19.91,
     "fcf": 7837000000.0,
     "fcf_margin": 2.8474,
     "cf_to_net_income": 1.6465,
@@ -152,14 +152,14 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 940.87,
+    "current_price": 971.4,
     "horizon": "12 months",
-    "bull_case": 14.5,
-    "base_case": 11.0,
-    "bear_case": -33.2,
-    "price_bull": 1077.3,
-    "price_base": 1044.37,
-    "price_bear": 628.19,
+    "bull_case": 36.2,
+    "base_case": 5.5,
+    "bear_case": -32.3,
+    "price_bull": 1323.53,
+    "price_base": 1024.34,
+    "price_bear": 657.31,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,19 +167,19 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 1076.91,
+        "target_mean": 1077.31,
         "target_low": 740.0,
         "target_high": 1315.0,
         "target_median": 1100.0,
-        "upside_mean": 14.5,
-        "upside_low": -21.3,
-        "upside_high": 39.8,
+        "upside_mean": 10.9,
+        "upside_low": -23.8,
+        "upside_high": 35.4,
         "n_analysts": 35,
-        "recommendation": "buy"
+        "recommendation": "none"
       },
       "dcf": {
         "fair_value": 260.03,
-        "upside": -72.4,
+        "upside": -73.2,
         "growth_assumed": "3%",
         "discount_rate": "10%",
         "fcf_per_share": 17.67,
@@ -189,14 +189,17 @@
         "high_52w": 1096.5,
         "low_52w": 844.06,
         "range_pct": 29.9,
-        "position_in_range": 38.3,
-        "upside_estimate": 7.5,
-        "downside_estimate": -6.0,
-        "avg_50d": 977.44,
-        "avg_200d": 956.74,
-        "beta": 0.87
+        "position_in_range": 50.4,
+        "annual_vol_pct": 19.8,
+        "center_estimate": 0.0,
+        "upside_estimate": 30.8,
+        "downside_estimate": -30.8,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 948.14,
+        "avg_200d": 959.44,
+        "beta": 0.86
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

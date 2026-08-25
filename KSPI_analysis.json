@@ -1,24 +1,40 @@
 {
   "ticker": "KSPI",
-  "timestamp": "2026-07-19T20:02:08.791749",
+  "timestamp": "2026-08-25T17:10:05.903055",
   "profile": {
     "name": "Joint Stock Company Kaspi.kz",
     "sector": "Technology"
   },
   "quote": {
-    "price": 87.91,
-    "change_pct": 0.491541,
-    "marketCap": 16705297408.0
+    "price": 106.46,
+    "change_pct": 0.862147,
+    "marketCap": 20230301696.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": 0.0376,
+    "score": 0.0375,
     "breakdown": {
       "positive": 0,
       "neutral": 10,
       "negative": 0
     },
     "details": [
+      {
+        "headline": "Kaspi.kz JSC (KSPI) (Q2 2026) Earnings Call Highlights: AI-Powered Growth and Strategic ...",
+        "label": "neutral",
+        "confidence": 0.9069522619247437,
+        "negative": 0.046057526022195816,
+        "neutral": 0.9069522619247437,
+        "positive": 0.04699014499783516
+      },
+      {
+        "headline": "Joint Stock Company Kaspi.kz Q2 Earnings Call Highlights",
+        "label": "neutral",
+        "confidence": 0.9002180695533752,
+        "negative": 0.050078894942998886,
+        "neutral": 0.9002180695533752,
+        "positive": 0.04970307648181915
+      },
       {
         "headline": "Sezzle Inc. (SEZL) Hits Fresh High: Is There Still Room to Run?",
         "label": "neutral",
@@ -82,25 +98,9 @@
         "negative": 0.04763336479663849,
         "neutral": 0.9039442539215088,
         "positive": 0.0484224297106266
-      },
-      {
-        "headline": "Joint Stock Company Kaspi.kz Q1 Earnings Call Highlights",
-        "label": "neutral",
-        "confidence": 0.8906422257423401,
-        "negative": 0.05455745756626129,
-        "neutral": 0.8906422257423401,
-        "positive": 0.054800380021333694
-      },
-      {
-        "headline": "Kaspi.kz: The Market's Biggest Mispriced Monopoly--or a Hidden Fragility?",
-        "label": "neutral",
-        "confidence": 0.879629909992218,
-        "negative": 0.059471048414707184,
-        "neutral": 0.879629909992218,
-        "positive": 0.06089910492300987
       }
     ],
-    "news_score": 0.0376,
+    "news_score": 0.0375,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +129,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 12.8316,
-    "pe_ratio": 7.8843,
+    "pe_ratio": 9.0604,
     "pb_ratio": null,
     "ev_ebitda": null,
     "ps_ratio": null,
-    "dividend_yield": 4.08,
-    "dividend_payout": 0.0636,
-    "eps": 11.15,
+    "dividend_yield": 5.39,
+    "dividend_payout": 0.1016,
+    "eps": 11.75,
     "fcf": 491098000000.0,
     "fcf_margin": 12.1926,
     "cf_to_net_income": 0.6277,
     "capex_to_revenue": 4.5313,
     "cash_roic": null
   },
-  "ratio_score": 71.7,
+  "ratio_score": 67.4,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 64.1,
+    "combined_score": 61.3,
     "sentiment_score": 50,
-    "ratio_score": 71.7
+    "ratio_score": 67.4
   },
   "prediction": {
     "available": true,
-    "current_price": 87.91,
+    "current_price": 106.46,
     "horizon": "12 months",
-    "bull_case": 11.3,
-    "base_case": 11.2,
-    "bear_case": -5.2,
-    "price_bull": 97.84,
-    "price_base": 97.8,
-    "price_bear": 83.34,
+    "bull_case": 50.0,
+    "base_case": -1.5,
+    "bear_case": -53.0,
+    "price_bull": 159.69,
+    "price_base": 104.86,
+    "price_bear": 50.04,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 97.87,
-        "target_low": 86.59,
-        "target_high": 122.61,
-        "target_median": 93.48,
-        "upside_mean": 11.3,
-        "upside_low": -1.5,
-        "upside_high": 39.5,
+        "target_mean": 103.28,
+        "target_low": 86.45,
+        "target_high": 126.19,
+        "target_median": 101.88,
+        "upside_mean": -3.0,
+        "upside_low": -18.8,
+        "upside_high": 18.5,
         "n_analysts": 7,
-        "recommendation": "none"
+        "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 99.2,
+        "high_52w": 107.88,
         "low_52w": 68.59,
-        "range_pct": 44.6,
-        "position_in_range": 63.1,
-        "upside_estimate": 11.2,
-        "downside_estimate": -8.9,
-        "avg_50d": 86.97,
-        "avg_200d": 79.23,
-        "beta": 0.09
+        "range_pct": 57.3,
+        "position_in_range": 96.4,
+        "annual_vol_pct": 33.2,
+        "center_estimate": 0.0,
+        "upside_estimate": 51.5,
+        "downside_estimate": -51.5,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 90.31,
+        "avg_200d": 81.55,
+        "beta": 0.08
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

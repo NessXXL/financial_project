@@ -1,106 +1,106 @@
 {
   "ticker": "PEP",
-  "timestamp": "2026-07-19T19:59:02.991116",
+  "timestamp": "2026-08-25T17:05:10.442754",
   "profile": {
     "name": "PepsiCo, Inc.",
     "sector": "Consumer Defensive"
   },
   "quote": {
-    "price": 137.12,
-    "change_pct": -1.65674,
-    "marketCap": 187305918464.0
+    "price": 144.67,
+    "change_pct": 0.829386,
+    "marketCap": 197619220480.0
   },
   "sentiment": {
-    "overall": "negative",
-    "score": -0.2391,
+    "overall": "neutral",
+    "score": 0.0276,
     "breakdown": {
-      "positive": 0,
-      "neutral": 7,
-      "negative": 3
+      "positive": 2,
+      "neutral": 6,
+      "negative": 2
     },
     "details": [
       {
-        "headline": "Another popular soda giant closes warehouse operation, cuts 184 jobs",
+        "headline": "5 Dividend Aristocrats Boomers Should Own for Life",
+        "label": "neutral",
+        "confidence": 0.8945866823196411,
+        "negative": 0.054614339023828506,
+        "neutral": 0.8945866823196411,
+        "positive": 0.05079898238182068
+      },
+      {
+        "headline": "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
         "label": "negative",
-        "confidence": 0.8958480954170227,
-        "negative": 0.8958480954170227,
-        "neutral": 0.05132846161723137,
-        "positive": 0.05282346531748772
+        "confidence": 0.5140235424041748,
+        "negative": 0.5140235424041748,
+        "neutral": 0.39427852630615234,
+        "positive": 0.09169797599315643
       },
       {
-        "headline": "PepsiCo, Inc. (PEP) is Attracting Investor Attention: Here is What You Should Know",
+        "headline": "How Investors May Respond To PepsiCo (PEP) Strengthening South Asia HR Amid Rising Reliance On International Markets",
+        "label": "positive",
+        "confidence": 0.8279281854629517,
+        "negative": 0.07348433881998062,
+        "neutral": 0.09858748316764832,
+        "positive": 0.8279281854629517
+      },
+      {
+        "headline": "Top Research Reports for Amgen, Thermo Fisher & Pepsi",
         "label": "neutral",
-        "confidence": 0.9039763808250427,
-        "negative": 0.04748893529176712,
-        "neutral": 0.9039763808250427,
-        "positive": 0.048534639179706573
+        "confidence": 0.902981698513031,
+        "negative": 0.04662403464317322,
+        "neutral": 0.902981698513031,
+        "positive": 0.05039415508508682
       },
       {
-        "headline": "Why PepsiCo's stock is at a 1-year low",
+        "headline": "How to Build $8,200 a Month in Dividend Income (And the Tax Bill Almost Nobody Plans For)",
+        "label": "neutral",
+        "confidence": 0.755308985710144,
+        "negative": 0.17368283867835999,
+        "neutral": 0.755308985710144,
+        "positive": 0.07100822031497955
+      },
+      {
+        "headline": "How to Build $3,100 a Month in Dividend Income Starting From Zero",
+        "label": "neutral",
+        "confidence": 0.8050264120101929,
+        "negative": 0.10760252922773361,
+        "neutral": 0.8050264120101929,
+        "positive": 0.08737099915742874
+      },
+      {
+        "headline": "Coca-Cola Just Won a Key Consumer Battle",
         "label": "negative",
-        "confidence": 0.9012113809585571,
-        "negative": 0.9012113809585571,
-        "neutral": 0.05316366255283356,
-        "positive": 0.045624990016222
+        "confidence": 0.8905228972434998,
+        "negative": 0.8905228972434998,
+        "neutral": 0.057436686009168625,
+        "positive": 0.05204039067029953
       },
       {
-        "headline": "PepsiCo (PEP) Pushes Sustainable Sourcing To 70% With A 90% Goal By 2030",
+        "headline": "This Consumer Staples Giant's Dividend Streak Rivals PepsiCo. Nobody Talks About It.",
         "label": "neutral",
-        "confidence": 0.6733582615852356,
-        "negative": 0.07533376663923264,
-        "neutral": 0.6733582615852356,
-        "positive": 0.2513079047203064
+        "confidence": 0.9038743376731873,
+        "negative": 0.04885883629322052,
+        "neutral": 0.9038743376731873,
+        "positive": 0.04726686701178551
       },
       {
-        "headline": "Best Dividend Stocks to Buy for Dependable Dividend Growth",
+        "headline": "Is PepsiCo's Growth Story Becoming More Internationally Focused?",
+        "label": "positive",
+        "confidence": 0.8538269996643066,
+        "negative": 0.06253205984830856,
+        "neutral": 0.08364088088274002,
+        "positive": 0.8538269996643066
+      },
+      {
+        "headline": "5 High-Yield Dividend Stocks for Retirement Income",
         "label": "neutral",
-        "confidence": 0.8951678276062012,
-        "negative": 0.052708957344293594,
-        "neutral": 0.8951678276062012,
-        "positive": 0.05212315544486046
-      },
-      {
-        "headline": "Is Primo Brands (PRMB) the Fastest Growing Consumer Stock to Buy Now?",
-        "label": "neutral",
-        "confidence": 0.898152232170105,
-        "negative": 0.050727538764476776,
-        "neutral": 0.898152232170105,
-        "positive": 0.05112024396657944
-      },
-      {
-        "headline": "RBC Capital Keeps Sector Perform Rating on PepsiCo (PEP)",
-        "label": "negative",
-        "confidence": 0.7358733415603638,
-        "negative": 0.7358733415603638,
-        "neutral": 0.192575603723526,
-        "positive": 0.07155106961727142
-      },
-      {
-        "headline": "You Don\u2019t Need a Million Dollars to Retire Comfortably. Here\u2019s Why.",
-        "label": "neutral",
-        "confidence": 0.8890709280967712,
-        "negative": 0.05277092754840851,
-        "neutral": 0.8890709280967712,
-        "positive": 0.058158207684755325
-      },
-      {
-        "headline": "Conagra Just Slashed Its Dividend. 6 More Food Stock Payouts That Are at Risk.",
-        "label": "neutral",
-        "confidence": 0.6291018128395081,
-        "negative": 0.2927195727825165,
-        "neutral": 0.6291018128395081,
-        "positive": 0.07817868143320084
-      },
-      {
-        "headline": "Wall Street Is Sleeping on These 5 Quality Dividend Stocks: Grab Them Now Before It\u2019s Too Late",
-        "label": "neutral",
-        "confidence": 0.8916611671447754,
-        "negative": 0.0518278107047081,
-        "neutral": 0.8916611671447754,
-        "positive": 0.0565110482275486
+        "confidence": 0.737055242061615,
+        "negative": 0.07363657653331757,
+        "neutral": 0.737055242061615,
+        "positive": 0.18930816650390625
       }
     ],
-    "news_score": -0.2391,
+    "news_score": 0.0276,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 2.7912,
-    "pe_ratio": 17.9948,
-    "pb_ratio": 8.7723,
-    "ev_ebitda": 12.172,
-    "ps_ratio": 1.9329,
-    "dividend_yield": 4.32,
+    "pe_ratio": 18.7883,
+    "pb_ratio": 8.9429,
+    "ev_ebitda": 12.717,
+    "ps_ratio": 2.0393,
+    "dividend_yield": 4.09,
     "dividend_payout": 98.1398,
-    "eps": 7.62,
+    "eps": 7.7,
     "fcf": 7672000000.0,
     "fcf_margin": 8.1682,
     "cf_to_net_income": 1.4669,
@@ -144,22 +144,22 @@
   },
   "ratio_score": 66.7,
   "final_signal": {
-    "signal": "SELL / AVOID",
-    "emoji": "\ud83d\udcc9",
-    "combined_score": 43.4,
-    "sentiment_score": 0,
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 60.9,
+    "sentiment_score": 50,
     "ratio_score": 66.7
   },
   "prediction": {
     "available": true,
-    "current_price": 137.12,
+    "current_price": 144.67,
     "horizon": "12 months",
-    "bull_case": 13.6,
-    "base_case": 11.0,
-    "bear_case": -7.5,
-    "price_bull": 155.77,
-    "price_base": 152.2,
-    "price_bear": 126.77,
+    "bull_case": 36.2,
+    "base_case": 3.3,
+    "bear_case": -29.6,
+    "price_bull": 197.09,
+    "price_base": 149.49,
+    "price_bear": 101.9,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,19 +167,19 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 155.73,
+        "target_mean": 155.0,
         "target_low": 124.0,
         "target_high": 183.0,
         "target_median": 155.0,
-        "upside_mean": 13.6,
-        "upside_low": -9.6,
-        "upside_high": 33.5,
+        "upside_mean": 7.1,
+        "upside_low": -14.3,
+        "upside_high": 26.5,
         "n_analysts": 22,
         "recommendation": "hold"
       },
       "dcf": {
         "fair_value": 148.83,
-        "upside": 8.5,
+        "upside": 2.9,
         "growth_assumed": "6%",
         "discount_rate": "10%",
         "fcf_per_share": 5.62,
@@ -187,16 +187,19 @@
       },
       "volatility": {
         "high_52w": 171.48,
-        "low_52w": 134.65,
-        "range_pct": 27.4,
-        "position_in_range": 6.7,
-        "upside_estimate": 10.9,
-        "downside_estimate": -5.5,
-        "avg_50d": 144.13,
-        "avg_200d": 149.99,
-        "beta": 0.37
+        "low_52w": 133.73,
+        "range_pct": 28.2,
+        "position_in_range": 29.0,
+        "annual_vol_pct": 21.2,
+        "center_estimate": 0.0,
+        "upside_estimate": 32.9,
+        "downside_estimate": -32.9,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 140.07,
+        "avg_200d": 148.96,
+        "beta": 0.36
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

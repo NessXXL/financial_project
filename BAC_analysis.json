@@ -1,106 +1,106 @@
 {
   "ticker": "BAC",
-  "timestamp": "2026-07-19T20:01:13.398023",
+  "timestamp": "2026-08-25T17:08:54.548064",
   "profile": {
     "name": "Bank of America Corporation",
     "sector": "Financial Services"
   },
   "quote": {
-    "price": 61.27,
-    "change_pct": -0.357784,
-    "marketCap": 429990871040.0
+    "price": 62.33,
+    "change_pct": 1.03745,
+    "marketCap": 435858014208.0
   },
   "sentiment": {
     "overall": "positive",
-    "score": 0.3108,
+    "score": 0.3557,
     "breakdown": {
-      "positive": 4,
-      "neutral": 5,
+      "positive": 5,
+      "neutral": 4,
       "negative": 1
     },
     "details": [
       {
-        "headline": "BofA on GBP",
-        "label": "positive",
-        "confidence": 0.9005076885223389,
-        "negative": 0.05229819566011429,
-        "neutral": 0.047194186598062515,
-        "positive": 0.9005076885223389
-      },
-      {
-        "headline": "Elizabeth Warren Grills Fed Chair Kevin Warsh Over Stanley Druckenmiller Ties: 'Who Gave You $100 Million?'",
+        "headline": "Is Nvidia (NVDA) Stock a Buy Ahead of Q2 Earnings?",
         "label": "neutral",
-        "confidence": 0.9039373397827148,
-        "negative": 0.04813780263066292,
-        "neutral": 0.9039373397827148,
-        "positive": 0.047924939543008804
+        "confidence": 0.9227234721183777,
+        "negative": 0.039525456726551056,
+        "neutral": 0.9227234721183777,
+        "positive": 0.03775111585855484
       },
       {
-        "headline": "ECB Stays on War Alert Preparing for Next Rate Hike",
+        "headline": "BofA finds AI is creating a credit divide that could reach consumers",
         "label": "neutral",
-        "confidence": 0.8873925805091858,
-        "negative": 0.05420713126659393,
-        "neutral": 0.8873925805091858,
-        "positive": 0.058400291949510574
+        "confidence": 0.8940763473510742,
+        "negative": 0.05307675525546074,
+        "neutral": 0.8940763473510742,
+        "positive": 0.052846841514110565
       },
       {
-        "headline": "Bank of America sends strong verdict on Microsoft stock",
+        "headline": "Jersey Mike's Subs Has Visible Same-Store Sales Drivers for Continued Share Gains, BofA Says",
         "label": "positive",
-        "confidence": 0.8840190768241882,
-        "negative": 0.05732449144124985,
-        "neutral": 0.058656416833400726,
-        "positive": 0.8840190768241882
+        "confidence": 0.7102062106132507,
+        "negative": 0.07449512183666229,
+        "neutral": 0.21529865264892578,
+        "positive": 0.7102062106132507
       },
       {
-        "headline": "Wall Street Raises Expectations for Goldman, Other Banks After Strong Earnings",
+        "headline": "JPMorgan's Card Credit Trends Improve: Are Losses Past Their Peak?",
         "label": "positive",
-        "confidence": 0.8921382427215576,
-        "negative": 0.05238056927919388,
-        "neutral": 0.05548116937279701,
-        "positive": 0.8921382427215576
+        "confidence": 0.8538544774055481,
+        "negative": 0.06700299680233002,
+        "neutral": 0.07914254069328308,
+        "positive": 0.8538544774055481
       },
       {
-        "headline": "BofA sees lost year taking shape for gold",
+        "headline": "BofA starts bullish Alvotech coverage on biosimilar launch cycle",
+        "label": "positive",
+        "confidence": 0.892213761806488,
+        "negative": 0.05170295760035515,
+        "neutral": 0.05608328431844711,
+        "positive": 0.892213761806488
+      },
+      {
+        "headline": "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends",
+        "label": "neutral",
+        "confidence": 0.8952344059944153,
+        "negative": 0.05359973385930061,
+        "neutral": 0.8952344059944153,
+        "positive": 0.051165834069252014
+      },
+      {
+        "headline": "Investor bullishness surges as BofA survey shows cash levels near historic lows",
+        "label": "positive",
+        "confidence": 0.8963499069213867,
+        "negative": 0.0540604330599308,
+        "neutral": 0.0495896190404892,
+        "positive": 0.8963499069213867
+      },
+      {
+        "headline": "What Do SEC Insider Trading Charges Mean For Bank Of America (BAC)?",
         "label": "negative",
-        "confidence": 0.43153780698776245,
-        "negative": 0.43153780698776245,
-        "neutral": 0.17638003826141357,
-        "positive": 0.39208218455314636
+        "confidence": 0.5040836334228516,
+        "negative": 0.5040836334228516,
+        "neutral": 0.07690664380788803,
+        "positive": 0.4190097749233246
       },
       {
-        "headline": "Pepsi, convenience stores faces a snack and gas problem",
-        "label": "neutral",
-        "confidence": 0.8990259766578674,
-        "negative": 0.05099236220121384,
-        "neutral": 0.8990259766578674,
-        "positive": 0.04998165741562843
-      },
-      {
-        "headline": "Berkshire\u2019s Equity Portfolio Is Rallying, but the Apple Sales Still Sting",
+        "headline": "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
         "label": "positive",
-        "confidence": 0.7020123600959778,
-        "negative": 0.07409314811229706,
-        "neutral": 0.22389456629753113,
-        "positive": 0.7020123600959778
+        "confidence": 0.6060193181037903,
+        "negative": 0.0631217360496521,
+        "neutral": 0.3308589458465576,
+        "positive": 0.6060193181037903
       },
       {
-        "headline": "Week\u2019s Best: Where to Invest $100,000 of Speculative Money Now",
+        "headline": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
         "label": "neutral",
-        "confidence": 0.9131419062614441,
-        "negative": 0.04355717450380325,
-        "neutral": 0.9131419062614441,
-        "positive": 0.04330097883939743
-      },
-      {
-        "headline": "Chip Stocks, Tech IPOs, and Wildfire Smoke Are All Clouding the Outlook",
-        "label": "neutral",
-        "confidence": 0.902980625629425,
-        "negative": 0.04766497388482094,
-        "neutral": 0.902980625629425,
-        "positive": 0.04935446009039879
+        "confidence": 0.8989664316177368,
+        "negative": 0.051637109369039536,
+        "neutral": 0.8989664316177368,
+        "positive": 0.049396492540836334
       }
     ],
-    "news_score": 0.3108,
+    "news_score": 0.3557,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +129,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 9.0362,
-    "pe_ratio": 14.1501,
-    "pb_ratio": 1.5574,
+    "pe_ratio": 14.2306,
+    "pb_ratio": 1.5843,
     "ev_ebitda": null,
-    "ps_ratio": 3.7741,
-    "dividend_yield": 1.83,
-    "dividend_payout": 25.7633,
-    "eps": 4.33,
+    "ps_ratio": 3.8256,
+    "dividend_yield": 2.05,
+    "dividend_payout": 29.338,
+    "eps": 4.38,
     "fcf": 12613000000.0,
     "fcf_margin": 11.1524,
     "cf_to_net_income": 0.4134,
     "capex_to_revenue": 0.0,
     "cash_roic": null
   },
-  "ratio_score": 52.6,
+  "ratio_score": 55.3,
   "final_signal": {
-    "signal": "HOLD",
-    "emoji": "\u27a1\ufe0f",
-    "combined_score": 69.2,
+    "signal": "BUY",
+    "emoji": "\ud83d\udcc8",
+    "combined_score": 70.9,
     "sentiment_score": 100,
-    "ratio_score": 52.6
+    "ratio_score": 55.3
   },
   "prediction": {
     "available": true,
-    "current_price": 61.27,
+    "current_price": 62.33,
     "horizon": "12 months",
-    "bull_case": 10.5,
-    "base_case": 8.2,
-    "bear_case": -15.0,
-    "price_bull": 67.7,
-    "price_base": 66.26,
-    "price_bear": 52.08,
+    "bull_case": 38.1,
+    "base_case": 5.2,
+    "bear_case": -27.9,
+    "price_bull": 86.11,
+    "price_base": 65.54,
+    "price_bear": 44.97,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 67.69,
+        "target_mean": 68.77,
         "target_low": 62.0,
         "target_high": 75.0,
-        "target_median": 67.0,
-        "upside_mean": 10.5,
-        "upside_low": 1.2,
-        "upside_high": 22.4,
-        "n_analysts": 21,
+        "target_median": 68.5,
+        "upside_mean": 10.3,
+        "upside_low": -0.5,
+        "upside_high": 20.3,
+        "n_analysts": 22,
         "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 62.12,
-        "low_52w": 44.75,
-        "range_pct": 38.8,
-        "position_in_range": 95.1,
-        "upside_estimate": 5.8,
-        "downside_estimate": -13.6,
-        "avg_50d": 55.12,
-        "avg_200d": 52.99,
-        "beta": 1.18
+        "high_52w": 65.23,
+        "low_52w": 46.12,
+        "range_pct": 41.4,
+        "position_in_range": 84.8,
+        "annual_vol_pct": 21.3,
+        "center_estimate": 0.0,
+        "upside_estimate": 33.0,
+        "downside_estimate": -33.0,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 60.66,
+        "avg_200d": 54.46,
+        "beta": 1.17
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

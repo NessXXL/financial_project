@@ -1,193 +1,196 @@
 {
   "ticker": "MSFT",
-  "timestamp": "2026-07-19T16:30:22.416633",
+  "timestamp": "2026-08-25T16:58:13.577421",
   "profile": {
     "name": "Microsoft Corporation",
     "sector": "Technology"
   },
   "quote": {
-    "price": 393.82,
-    "change_pct": -1.81501,
-    "marketCap": 2925466222592.0
+    "price": 487.31,
+    "change_pct": 0.842233,
+    "marketCap": 3618542714880.0
   },
   "sentiment": {
-    "overall": "positive",
-    "score": 0.1661,
+    "overall": "neutral",
+    "score": -0.0279,
     "breakdown": {
-      "positive": 2,
-      "neutral": 8,
-      "negative": 0
+      "positive": 0,
+      "neutral": 9,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+        "headline": "Jim Cramer says data center backlash favors big tech hyperscalers",
         "label": "neutral",
-        "confidence": 0.9083341956138611,
-        "negative": 0.046524450182914734,
-        "neutral": 0.9083341956138611,
-        "positive": 0.04514128714799881
+        "confidence": 0.9035606980323792,
+        "negative": 0.048201389610767365,
+        "neutral": 0.9035606980323792,
+        "positive": 0.048237890005111694
       },
       {
-        "headline": "Microsoft Stock Is Down 27% From Its All-Time High. 2 Reasons It Could Double by 2030.",
-        "label": "positive",
-        "confidence": 0.889451265335083,
-        "negative": 0.05335179716348648,
-        "neutral": 0.057196952402591705,
-        "positive": 0.889451265335083
-      },
-      {
-        "headline": "Chevron Is Hungry for More Power Deals After Inking a 2.7-Gigawatt Contract With Microsoft. Here's Where the Energy Giant Is Looking Next.",
+        "headline": "Meta\u2019s Hatch Agent Platform and Watermelon Model Signal a Consumer AI Monetization Push",
         "label": "neutral",
-        "confidence": 0.8880552649497986,
-        "negative": 0.05535772442817688,
-        "neutral": 0.8880552649497986,
-        "positive": 0.05658708140254021
+        "confidence": 0.8833088874816895,
+        "negative": 0.05801800265908241,
+        "neutral": 0.8833088874816895,
+        "positive": 0.058673176914453506
       },
       {
-        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
+        "headline": "Most Investors Overlook MSFT's AI Moat. I Think That's a Mistake.",
         "label": "neutral",
-        "confidence": 0.900339663028717,
-        "negative": 0.04917598143219948,
-        "neutral": 0.900339663028717,
-        "positive": 0.050484344363212585
+        "confidence": 0.8764067888259888,
+        "negative": 0.06137968227267265,
+        "neutral": 0.8764067888259888,
+        "positive": 0.06221362575888634
       },
       {
-        "headline": "Bank of America sends strong verdict on Microsoft stock",
-        "label": "positive",
-        "confidence": 0.8840190768241882,
-        "negative": 0.05732449144124985,
-        "neutral": 0.058656416833400726,
-        "positive": 0.8840190768241882
-      },
-      {
-        "headline": "Buy, Sell, or Hold: Ken Griffin\u2019s 3 Mega-Cap Picks at Current Valuations",
+        "headline": "Coinbase\u2019s Tokenized Stocks Are Live on Base. The SEC\u2019s Framework Isn\u2019t.",
         "label": "neutral",
-        "confidence": 0.8956184983253479,
-        "negative": 0.05119083821773529,
-        "neutral": 0.8956184983253479,
-        "positive": 0.05319077521562576
+        "confidence": 0.8888296484947205,
+        "negative": 0.05513705313205719,
+        "neutral": 0.8888296484947205,
+        "positive": 0.056033313274383545
       },
       {
-        "headline": "The AI Capex Question Every QQQ Holder Should Be Asking Right Now",
+        "headline": "India AI Data Center Firm Orders 9,000 Nvidia Vera Rubin Systems",
         "label": "neutral",
-        "confidence": 0.8911913633346558,
-        "negative": 0.0546213798224926,
-        "neutral": 0.8911913633346558,
-        "positive": 0.05418725311756134
+        "confidence": 0.9078525304794312,
+        "negative": 0.04721406102180481,
+        "neutral": 0.9078525304794312,
+        "positive": 0.044933415949344635
       },
       {
-        "headline": "Multiple Compression Is a Real Threat to Microsoft Stock, But Its Core Story Isn\u2019t Broken",
+        "headline": "Forget Nvidia. This ETF Could Be the Next Big Winner From the AI Boom",
         "label": "neutral",
-        "confidence": 0.9012455344200134,
-        "negative": 0.05058027058839798,
-        "neutral": 0.9012455344200134,
-        "positive": 0.048174094408750534
+        "confidence": 0.6040783524513245,
+        "negative": 0.07935541123151779,
+        "neutral": 0.6040783524513245,
+        "positive": 0.3165661692619324
       },
       {
-        "headline": "The S&P 500 Is Becoming a Tech Index in Disguise \u2014 But That May Not Be the Risk Investors Think",
+        "headline": "The data center era that's reshaping America",
         "label": "neutral",
-        "confidence": 0.9062531590461731,
-        "negative": 0.0464271605014801,
-        "neutral": 0.9062531590461731,
-        "positive": 0.047319650650024414
+        "confidence": 0.8897227644920349,
+        "negative": 0.05592626705765724,
+        "neutral": 0.8897227644920349,
+        "positive": 0.05435097590088844
       },
       {
-        "headline": "Amazon\u2019s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying",
+        "headline": "Alibaba\u2019s $10.2 billion AI bet could reach far beyond investors",
         "label": "neutral",
-        "confidence": 0.9141682386398315,
-        "negative": 0.044236261397600174,
-        "neutral": 0.9141682386398315,
-        "positive": 0.04159541428089142
+        "confidence": 0.47394657135009766,
+        "negative": 0.08447671681642532,
+        "neutral": 0.47394657135009766,
+        "positive": 0.44157668948173523
+      },
+      {
+        "headline": "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?",
+        "label": "neutral",
+        "confidence": 0.8966670632362366,
+        "negative": 0.0515475869178772,
+        "neutral": 0.8966670632362366,
+        "positive": 0.051785364747047424
+      },
+      {
+        "headline": "Nvidia customers face 15% AI price shock",
+        "label": "negative",
+        "confidence": 0.9152993559837341,
+        "negative": 0.9152993559837341,
+        "neutral": 0.04143419489264488,
+        "positive": 0.043266501277685165
       }
     ],
-    "news_score": 0.1661,
+    "news_score": -0.0279,
     "fin_score": 0.0
   },
   "ratios": {
-    "current_ratio": 1.3534,
-    "quick_ratio": 0.7092,
-    "cash_ratio": 0.2142,
-    "ocf_ratio": 0.9642,
-    "gross_margin": 68.8237,
-    "operating_margin": 44.7289,
-    "net_margin": 36.146,
-    "roa": 16.451,
-    "roe": 29.6472,
-    "roce": 26.3742,
-    "ebitda_margin": 56.8517,
-    "de_ratio": 0.1764,
-    "da_ratio": 0.0979,
-    "interest_coverage": 52.8352,
-    "dscr": 57.091,
-    "equity_multiplier": 1.8022,
-    "net_debt_ebitda": 0.1895,
-    "asset_turnover": 0.4551,
+    "current_ratio": 1.2303,
+    "quick_ratio": 0.6031,
+    "cash_ratio": 0.124,
+    "ocf_ratio": 1.0836,
+    "gross_margin": 67.9441,
+    "operating_margin": 50.9238,
+    "net_margin": 40.3054,
+    "roa": 17.6362,
+    "roe": 30.2335,
+    "roce": 28.6633,
+    "ebitda_margin": 62.536,
+    "de_ratio": 0.1285,
+    "da_ratio": 0.0749,
+    "interest_coverage": 55.3868,
+    "dscr": 59.959,
+    "equity_multiplier": 1.7143,
+    "net_debt_ebitda": 0.173,
+    "asset_turnover": 0.4376,
     "inventory_turnover": null,
     "dio": null,
-    "receivables_turnover": 4.0301,
-    "dso": 90.5685,
+    "receivables_turnover": 4.1031,
+    "dso": 88.958,
     "dpo": null,
     "ccc": null,
-    "fixed_asset_turnover": 1.226,
-    "pe_ratio": 23.4696,
-    "pb_ratio": 7.0606,
-    "ev_ebitda": 16.116,
-    "ps_ratio": 9.1917,
+    "fixed_asset_turnover": 0.9839,
+    "pe_ratio": 27.1785,
+    "pb_ratio": 8.1811,
+    "ev_ebitda": 18.897,
+    "ps_ratio": 10.9045,
     "dividend_yield": null,
-    "dividend_payout": 26.5531,
-    "eps": 16.78,
-    "fcf": 71611000000.0,
-    "fcf_margin": 25.4188,
-    "cf_to_net_income": 1.3371,
-    "capex_to_revenue": 22.9129,
+    "dividend_payout": 20.2087,
+    "eps": 17.93,
+    "fcf": 66987000000.0,
+    "fcf_margin": 20.1866,
+    "cf_to_net_income": 1.3677,
+    "capex_to_revenue": 34.941,
     "cash_roic": null
   },
-  "ratio_score": 71.4,
+  "ratio_score": 67.9,
   "final_signal": {
-    "signal": "BUY",
-    "emoji": "\ud83d\udcc8",
-    "combined_score": 81.4,
-    "sentiment_score": 100,
-    "ratio_score": 71.4
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 61.6,
+    "sentiment_score": 50,
+    "ratio_score": 67.9
   },
   "prediction": {
     "available": true,
-    "current_price": 393.82,
+    "current_price": 487.31,
     "horizon": "12 months",
-    "bull_case": 41.7,
-    "base_case": 32.7,
-    "bear_case": -5.1,
-    "price_bull": 558.04,
-    "price_base": 522.4,
-    "price_bear": 373.74,
+    "bull_case": 58.0,
+    "base_case": 8.4,
+    "bear_case": -41.0,
+    "price_bull": 769.71,
+    "price_base": 528.49,
+    "price_bear": 287.27,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 558.21,
+        "target_mean": 569.45,
         "target_low": 400.0,
         "target_high": 870.0,
         "target_median": 550.0,
-        "upside_mean": 41.7,
-        "upside_low": 1.6,
-        "upside_high": 120.9,
-        "n_analysts": 55,
+        "upside_mean": 16.9,
+        "upside_low": -17.9,
+        "upside_high": 78.5,
+        "n_analysts": 52,
         "recommendation": "strong_buy"
       },
       "volatility": {
-        "high_52w": 555.45,
+        "high_52w": 553.72,
         "low_52w": 349.2,
-        "range_pct": 59.1,
-        "position_in_range": 21.6,
-        "upside_estimate": 23.6,
-        "downside_estimate": -11.8,
-        "avg_50d": 401.51,
-        "avg_200d": 439.35,
-        "beta": 1.13
+        "range_pct": 58.6,
+        "position_in_range": 67.5,
+        "annual_vol_pct": 31.9,
+        "center_estimate": 0.0,
+        "upside_estimate": 49.5,
+        "downside_estimate": -49.5,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 421.78,
+        "avg_200d": 431.18,
+        "beta": 1.1
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

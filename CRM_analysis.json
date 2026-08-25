@@ -1,106 +1,106 @@
 {
   "ticker": "CRM",
-  "timestamp": "2026-07-19T20:01:31.748528",
+  "timestamp": "2026-08-25T17:09:19.113011",
   "profile": {
     "name": "Salesforce, Inc.",
     "sector": "Technology"
   },
   "quote": {
-    "price": 170.77,
-    "change_pct": -1.10609,
-    "marketCap": 139860639744.0
+    "price": 209.06,
+    "change_pct": -0.0525891,
+    "marketCap": 171220140032.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.13,
+    "score": -0.1067,
     "breakdown": {
-      "positive": 1,
-      "neutral": 6,
-      "negative": 3
+      "positive": 0,
+      "neutral": 9,
+      "negative": 1
     },
     "details": [
       {
-        "headline": "Salesforce vs. Dell Technologies: Which High-Growth Tech Stock Is a Better Buy in 2026?",
+        "headline": "Earnings live updates: Dick's Sporting Goods stock tanks after retailer slashes outlook amid 'challenging conditions'",
         "label": "neutral",
-        "confidence": 0.6843756437301636,
-        "negative": 0.06007065251469612,
-        "neutral": 0.6843756437301636,
-        "positive": 0.2555536925792694
+        "confidence": 0.5386388301849365,
+        "negative": 0.3806931674480438,
+        "neutral": 0.5386388301849365,
+        "positive": 0.08066803216934204
       },
       {
-        "headline": "Salesforce vs. CrowdStrike: Which Technology Growth Stock Is a Better Buy in 2026?",
+        "headline": "Salesforce Faces An Earnings Test As AI Agents Reshape Its Business",
         "label": "neutral",
-        "confidence": 0.8971697688102722,
-        "negative": 0.05197592452168465,
-        "neutral": 0.8971697688102722,
-        "positive": 0.05085436627268791
+        "confidence": 0.8857470154762268,
+        "negative": 0.06134064868092537,
+        "neutral": 0.8857470154762268,
+        "positive": 0.05291236564517021
       },
       {
-        "headline": "Salesforce (CRM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+        "headline": "Salesforce Fiscal Second-Quarter Results Likely to Show Solid Progress in Key Areas, Truist Says",
+        "label": "neutral",
+        "confidence": 0.9021859765052795,
+        "negative": 0.04956014081835747,
+        "neutral": 0.9021859765052795,
+        "positive": 0.04825393483042717
+      },
+      {
+        "headline": "What To Expect From Salesforce\u2019s (CRM) Q2 Earnings",
+        "label": "neutral",
+        "confidence": 0.9025996923446655,
+        "negative": 0.048473190516233444,
+        "neutral": 0.9025996923446655,
+        "positive": 0.048927076160907745
+      },
+      {
+        "headline": "Warsh Speech, Nvidia Earnings: What to Watch This Week",
+        "label": "neutral",
+        "confidence": 0.8978742957115173,
+        "negative": 0.04993307963013649,
+        "neutral": 0.8978742957115173,
+        "positive": 0.05219264701008797
+      },
+      {
+        "headline": "Salesforce vs. CrowdStrike: Which Growth Tech Stock Is a Better Investment in 2026?",
+        "label": "neutral",
+        "confidence": 0.8851818442344666,
+        "negative": 0.0548979789018631,
+        "neutral": 0.8851818442344666,
+        "positive": 0.05992022156715393
+      },
+      {
+        "headline": "NVIDIA and 4 Other Spectacular Earnings Charts You Must See",
+        "label": "neutral",
+        "confidence": 0.7421777248382568,
+        "negative": 0.07879623770713806,
+        "neutral": 0.7421777248382568,
+        "positive": 0.17902599275112152
+      },
+      {
+        "headline": "Update: Nasdaq, S&P 500 Fall as New Sanctions Plan Targets Iran's Trading Partners",
         "label": "negative",
-        "confidence": 0.6543458104133606,
-        "negative": 0.6543458104133606,
-        "neutral": 0.2536456882953644,
-        "positive": 0.09200850874185562
+        "confidence": 0.9036945700645447,
+        "negative": 0.9036945700645447,
+        "neutral": 0.04785994812846184,
+        "positive": 0.048445574939250946
       },
       {
-        "headline": "Did AI Just Cannibalize Microsoft\u2019s Greatest Narrative?",
+        "headline": "Nasdaq Drops as Market Bets Against AI Ahead of Nvidia Earnings",
         "label": "neutral",
-        "confidence": 0.9044634103775024,
-        "negative": 0.04939541220664978,
-        "neutral": 0.9044634103775024,
-        "positive": 0.046141061931848526
+        "confidence": 0.8600088357925415,
+        "negative": 0.07436549663543701,
+        "neutral": 0.8600088357925415,
+        "positive": 0.0656256377696991
       },
       {
-        "headline": "How to Find the Bargains in the Software Stock Wreckage",
+        "headline": "Nvidia-Backed Hugging Face Could Fetch $13 Billion in a Sale",
         "label": "neutral",
-        "confidence": 0.9025868773460388,
-        "negative": 0.04696771129965782,
-        "neutral": 0.9025868773460388,
-        "positive": 0.050445470958948135
-      },
-      {
-        "headline": "ServiceNow Set to Report Q2 Earnings: Buy, Sell or Hold the Stock?",
-        "label": "neutral",
-        "confidence": 0.8944384455680847,
-        "negative": 0.05139518901705742,
-        "neutral": 0.8944384455680847,
-        "positive": 0.05416639894247055
-      },
-      {
-        "headline": "Dan Ives Is Ready to Talk",
-        "label": "neutral",
-        "confidence": 0.8939102292060852,
-        "negative": 0.054553162306547165,
-        "neutral": 0.8939102292060852,
-        "positive": 0.051536645740270615
-      },
-      {
-        "headline": "Oracle is Falling Fast. Here\u2019s Why This Wall Street Firm Believes The Stock Will Triple in 12 Months",
-        "label": "negative",
-        "confidence": 0.8792216181755066,
-        "negative": 0.8792216181755066,
-        "neutral": 0.064405158162117,
-        "positive": 0.056373268365859985
-      },
-      {
-        "headline": "Price Prediction: Two Big Reasons Oracle Stock Could Surge 60% This Year",
-        "label": "positive",
-        "confidence": 0.8275313973426819,
-        "negative": 0.09671899676322937,
-        "neutral": 0.07574954628944397,
-        "positive": 0.8275313973426819
-      },
-      {
-        "headline": "The Real Risk Inside Oracle Stock",
-        "label": "negative",
-        "confidence": 0.8920161128044128,
-        "negative": 0.8920161128044128,
-        "neutral": 0.056161001324653625,
-        "positive": 0.051822785288095474
+        "confidence": 0.8945306539535522,
+        "negative": 0.05313025414943695,
+        "neutral": 0.8945306539535522,
+        "positive": 0.0523390918970108
       }
     ],
-    "news_score": -0.13,
+    "news_score": -0.1067,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +129,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 8.1056,
-    "pe_ratio": 19.8109,
-    "pb_ratio": 4.0853,
-    "ev_ebitda": 13.228,
-    "ps_ratio": 3.2656,
-    "dividend_yield": 1.03,
+    "pe_ratio": 24.2248,
+    "pb_ratio": 5.0013,
+    "ev_ebitda": 15.66,
+    "ps_ratio": 4.1233,
+    "dividend_yield": null,
     "dividend_payout": 19.33,
-    "eps": 8.62,
+    "eps": 8.63,
     "fcf": 14402000000.0,
     "fcf_margin": 34.6827,
     "cf_to_net_income": 2.011,
     "capex_to_revenue": 1.4305,
     "cash_roic": null
   },
-  "ratio_score": 66.7,
+  "ratio_score": 65.4,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 60.9,
+    "combined_score": 60.0,
     "sentiment_score": 50,
-    "ratio_score": 66.7
+    "ratio_score": 65.4
   },
   "prediction": {
     "available": true,
-    "current_price": 170.77,
+    "current_price": 209.06,
     "horizon": "12 months",
-    "bull_case": 43.6,
-    "base_case": 37.8,
-    "bear_case": -11.2,
-    "price_bull": 245.23,
-    "price_base": 235.32,
-    "price_bear": 151.73,
+    "bull_case": 73.2,
+    "base_case": 8.3,
+    "bear_case": -56.6,
+    "price_bull": 362.2,
+    "price_base": 226.52,
+    "price_bear": 90.84,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 245.16,
+        "target_mean": 243.98,
         "target_low": 160.0,
         "target_high": 475.0,
-        "target_median": 238.03,
-        "upside_mean": 43.6,
-        "upside_low": -6.3,
-        "upside_high": 178.2,
-        "n_analysts": 52,
+        "target_median": 236.03,
+        "upside_mean": 16.7,
+        "upside_low": -23.5,
+        "upside_high": 127.2,
+        "n_analysts": 54,
         "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 274.0,
+        "high_52w": 269.11,
         "low_52w": 146.32,
-        "range_pct": 87.3,
-        "position_in_range": 19.1,
-        "upside_estimate": 32.0,
-        "downside_estimate": -16.0,
-        "avg_50d": 171.59,
-        "avg_200d": 208.44,
-        "beta": 1.18
+        "range_pct": 83.9,
+        "position_in_range": 51.1,
+        "annual_vol_pct": 41.8,
+        "center_estimate": 0.0,
+        "upside_estimate": 64.9,
+        "downside_estimate": -64.9,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 175.45,
+        "avg_200d": 200.59,
+        "beta": 1.15
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

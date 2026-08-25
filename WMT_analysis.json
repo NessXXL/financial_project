@@ -1,106 +1,106 @@
 {
   "ticker": "WMT",
-  "timestamp": "2026-07-19T19:57:05.664881",
+  "timestamp": "2026-08-25T17:02:41.439950",
   "profile": {
     "name": "Walmart Inc.",
     "sector": "Consumer Defensive"
   },
   "quote": {
-    "price": 114.24,
-    "change_pct": -0.617659,
-    "marketCap": 909130924032.0
+    "price": 106.49,
+    "change_pct": 2.69045,
+    "marketCap": 847455780864.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0605,
+    "score": 0.1191,
     "breakdown": {
-      "positive": 0,
-      "neutral": 9,
-      "negative": 1
+      "positive": 5,
+      "neutral": 2,
+      "negative": 3
     },
     "details": [
       {
-        "headline": "Cyclospora Parasite Outbreak: Salad Recalls Trigger Sharp Stock Volatility",
-        "label": "neutral",
-        "confidence": 0.8466494679450989,
-        "negative": 0.0949416235089302,
-        "neutral": 0.8466494679450989,
-        "positive": 0.05840891972184181
+        "headline": "Walmart will finally accept Apple Pay. But here's what customers should know.",
+        "label": "positive",
+        "confidence": 0.6976420283317566,
+        "negative": 0.1423041820526123,
+        "neutral": 0.16005386412143707,
+        "positive": 0.6976420283317566
       },
       {
-        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
-        "label": "neutral",
-        "confidence": 0.9028205871582031,
-        "negative": 0.04816388711333275,
-        "neutral": 0.9028205871582031,
-        "positive": 0.049015626311302185
+        "headline": "Walmart Just Reported Earnings. Here's Whether the Dividend Stock Is Still a Buy.",
+        "label": "positive",
+        "confidence": 0.6362606287002563,
+        "negative": 0.09436728060245514,
+        "neutral": 0.26937204599380493,
+        "positive": 0.6362606287002563
       },
       {
-        "headline": "Walmart Removes Four Taylor Farms Salads as Recalls Spread",
+        "headline": "Where is retail drone delivery heading?",
         "label": "neutral",
-        "confidence": 0.6721596717834473,
-        "negative": 0.13886615633964539,
-        "neutral": 0.6721596717834473,
-        "positive": 0.18897420167922974
+        "confidence": 0.70904940366745,
+        "negative": 0.20008566975593567,
+        "neutral": 0.70904940366745,
+        "positive": 0.09086490422487259
       },
       {
-        "headline": "Giant Eagle drops prices on 300 items before its sale",
+        "headline": "'This is what keeps me excited': Walmart is 3D printing its stores \u2014 and the tech could slash construction costs by 15%",
         "label": "negative",
-        "confidence": 0.7546650171279907,
-        "negative": 0.7546650171279907,
-        "neutral": 0.17048871517181396,
-        "positive": 0.0748462826013565
+        "confidence": 0.5494564175605774,
+        "negative": 0.5494564175605774,
+        "neutral": 0.33486127853393555,
+        "positive": 0.11568234860897064
       },
       {
-        "headline": "Amazon\u2019s $25 Billion Bond Sale Created 3 More Reasons for Me to Keep Buying",
-        "label": "neutral",
-        "confidence": 0.9141682386398315,
-        "negative": 0.044236261397600174,
-        "neutral": 0.9141682386398315,
-        "positive": 0.04159541428089142
+        "headline": "Walmart sales miss hides bigger shift in business",
+        "label": "negative",
+        "confidence": 0.8957618474960327,
+        "negative": 0.8957618474960327,
+        "neutral": 0.04939352348446846,
+        "positive": 0.05484467372298241
       },
       {
-        "headline": "Chewy vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
-        "label": "neutral",
-        "confidence": 0.8959215879440308,
-        "negative": 0.05169317498803139,
-        "neutral": 0.8959215879440308,
-        "positive": 0.05238523334264755
+        "headline": "The Premium On WMT Stock Vs What Its Peers Deliver",
+        "label": "positive",
+        "confidence": 0.688319206237793,
+        "negative": 0.07359928637742996,
+        "neutral": 0.23808152973651886,
+        "positive": 0.688319206237793
       },
       {
-        "headline": "Does \u2018token shock\u2019 hurt AI adoption?",
-        "label": "neutral",
-        "confidence": 0.8816481828689575,
-        "negative": 0.06757462024688721,
-        "neutral": 0.8816481828689575,
-        "positive": 0.050777215510606766
+        "headline": "Can Walmart\u2019s (WMT) New Scenario Brand Drive Its Next Phase of Growth?",
+        "label": "positive",
+        "confidence": 0.9062915444374084,
+        "negative": 0.0453675240278244,
+        "neutral": 0.04834091663360596,
+        "positive": 0.9062915444374084
       },
       {
-        "headline": "Publix Closes More Stores in 2026 as Walmart Competition, Rising Costs and Online Grocery Shopping Bite: Here are the Locations Affected",
-        "label": "neutral",
-        "confidence": 0.7658684849739075,
-        "negative": 0.08019432425498962,
-        "neutral": 0.7658684849739075,
-        "positive": 0.15393714606761932
+        "headline": "Walmart\u2019s Rare Comparable-Sales Miss: Should Investors Worry?",
+        "label": "negative",
+        "confidence": 0.8911736607551575,
+        "negative": 0.8911736607551575,
+        "neutral": 0.05415870621800423,
+        "positive": 0.05466761440038681
       },
       {
-        "headline": "Walmart beats Costco at its own game",
+        "headline": "Gen Xers fret over Social Security. \"I will likely be working in retirement.\"",
         "label": "neutral",
-        "confidence": 0.8820130228996277,
-        "negative": 0.057013846933841705,
-        "neutral": 0.8820130228996277,
-        "positive": 0.06097307801246643
+        "confidence": 0.89662104845047,
+        "negative": 0.05376039445400238,
+        "neutral": 0.89662104845047,
+        "positive": 0.049618493765592575
       },
       {
-        "headline": "What A Patient Holder Is Really Paying For CVS Health Stock",
-        "label": "neutral",
-        "confidence": 0.8968958854675293,
-        "negative": 0.05093681439757347,
-        "neutral": 0.8968958854675293,
-        "positive": 0.052167315036058426
+        "headline": "Walmart (WMT) Leans Into AI Shopping And India Delivery Race",
+        "label": "positive",
+        "confidence": 0.8912889361381531,
+        "negative": 0.04907175898551941,
+        "neutral": 0.05963936075568199,
+        "positive": 0.8912889361381531
       }
     ],
-    "news_score": -0.0605,
+    "news_score": 0.1191,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,37 +129,37 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 4.5437,
-    "pe_ratio": 40.2254,
-    "pb_ratio": 9.6421,
-    "ev_ebitda": 21.87,
-    "ps_ratio": 1.2534,
+    "pe_ratio": 37.629,
+    "pb_ratio": 8.988,
+    "ev_ebitda": 19.467,
+    "ps_ratio": 1.1517,
     "dividend_yield": null,
     "dividend_payout": 35.9864,
-    "eps": 2.84,
+    "eps": 2.76,
     "fcf": 14923000000.0,
     "fcf_margin": 2.0925,
     "cf_to_net_income": 1.8986,
     "capex_to_revenue": 3.7358,
     "cash_roic": null
   },
-  "ratio_score": 62.1,
+  "ratio_score": 65.5,
   "final_signal": {
     "signal": "HOLD",
     "emoji": "\u27a1\ufe0f",
-    "combined_score": 57.9,
+    "combined_score": 60.1,
     "sentiment_score": 50,
-    "ratio_score": 62.1
+    "ratio_score": 65.5
   },
   "prediction": {
     "available": true,
-    "current_price": 114.24,
+    "current_price": 106.49,
     "horizon": "12 months",
-    "bull_case": 21.3,
-    "base_case": 15.9,
-    "bear_case": -37.8,
-    "price_bull": 138.57,
-    "price_base": 132.4,
-    "price_bear": 71.1,
+    "bull_case": 50.7,
+    "base_case": 10.3,
+    "bear_case": -32.7,
+    "price_bull": 160.48,
+    "price_base": 117.46,
+    "price_bear": 71.7,
     "methods_used": [
       "analyst",
       "dcf",
@@ -167,19 +167,19 @@
     ],
     "detail": {
       "analyst": {
-        "target_mean": 138.59,
+        "target_mean": 128.43,
         "target_low": 81.0,
         "target_high": 155.0,
-        "target_median": 140.0,
-        "upside_mean": 21.3,
-        "upside_low": -29.1,
-        "upside_high": 35.7,
-        "n_analysts": 41,
+        "target_median": 130.0,
+        "upside_mean": 20.6,
+        "upside_low": -23.9,
+        "upside_high": 45.6,
+        "n_analysts": 40,
         "recommendation": "buy"
       },
       "dcf": {
         "fair_value": 27.59,
-        "upside": -75.8,
+        "upside": -74.1,
         "growth_assumed": "3%",
         "discount_rate": "10%",
         "fcf_per_share": 1.88,
@@ -187,16 +187,19 @@
       },
       "volatility": {
         "high_52w": 135.16,
-        "low_52w": 95.1,
-        "range_pct": 42.1,
-        "position_in_range": 47.8,
-        "upside_estimate": 10.5,
-        "downside_estimate": -8.4,
-        "avg_50d": 119.64,
-        "avg_200d": 117.57,
+        "low_52w": 95.42,
+        "range_pct": 41.6,
+        "position_in_range": 27.9,
+        "annual_vol_pct": 26.0,
+        "center_estimate": 0.0,
+        "upside_estimate": 40.4,
+        "downside_estimate": -40.4,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 113.32,
+        "avg_200d": 118.54,
         "beta": 0.6
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

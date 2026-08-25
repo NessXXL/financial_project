@@ -1,106 +1,162 @@
 {
   "ticker": "AAPL",
-  "timestamp": "2026-07-19T19:53:40.474942",
+  "timestamp": "2026-08-25T16:57:49.573845",
   "profile": {
     "name": "Apple Inc.",
     "sector": "Technology"
   },
   "quote": {
-    "price": 333.74,
-    "change_pct": 0.144026,
-    "marketCap": 4901757779968.0
+    "price": 310.34,
+    "change_pct": 0.320023,
+    "marketCap": 4529157832704.0
   },
   "sentiment": {
-    "overall": "positive",
-    "score": 0.1851,
+    "overall": "neutral",
+    "score": -0.0227,
     "breakdown": {
-      "positive": 2,
-      "neutral": 8,
-      "negative": 0
+      "positive": 3,
+      "neutral": 9,
+      "negative": 5
     },
     "details": [
       {
-        "headline": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It\u2019s Winning)",
+        "headline": "Full Circle Electronics Acquires Mac of All Trades, Expanding Leadership in Refurbished Apple Technology and Circular IT Solutions",
         "label": "neutral",
-        "confidence": 0.9174461364746094,
-        "negative": 0.04040177911520004,
-        "neutral": 0.9174461364746094,
-        "positive": 0.04215212166309357
+        "confidence": 0.5965233445167542,
+        "negative": 0.10293050855398178,
+        "neutral": 0.5965233445167542,
+        "positive": 0.3005461096763611
       },
       {
-        "headline": "Why Worried Investors Should Buy Apple Over Amazon for the Rest of 2026",
+        "headline": "Q2 Earnings Season Winds Down: 3 Companies That Broke Records",
         "label": "neutral",
-        "confidence": 0.8923068642616272,
-        "negative": 0.05087179318070412,
-        "neutral": 0.8923068642616272,
-        "positive": 0.05682133883237839
+        "confidence": 0.849643349647522,
+        "negative": 0.058541469275951385,
+        "neutral": 0.849643349647522,
+        "positive": 0.09181515872478485
       },
       {
-        "headline": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
-        "label": "neutral",
-        "confidence": 0.9132635593414307,
-        "negative": 0.04328992962837219,
-        "neutral": 0.9132635593414307,
-        "positive": 0.04344656690955162
+        "headline": "Apple (AAPL) Cut Its Europe App Store Fees. Its Own Earnings Show Why It Had To",
+        "label": "negative",
+        "confidence": 0.8731069564819336,
+        "negative": 0.8731069564819336,
+        "neutral": 0.07485009729862213,
+        "positive": 0.052042972296476364
       },
       {
-        "headline": "Alibaba\u2019s Qwen Unveils Preview of Flagship AI Model",
-        "label": "neutral",
-        "confidence": 0.9008521437644958,
-        "negative": 0.0501595214009285,
-        "neutral": 0.9008521437644958,
-        "positive": 0.04898837208747864
+        "headline": "Nvidia Earnings Put Rubin Growth Story and AI Financing Strategy Under the Spotlight",
+        "label": "negative",
+        "confidence": 0.3578732907772064,
+        "negative": 0.3578732907772064,
+        "neutral": 0.33154383301734924,
+        "positive": 0.31058284640312195
       },
       {
-        "headline": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
+        "headline": "Nvidia faces growth test as Rubin debut meets AI financing scrutiny",
         "label": "neutral",
-        "confidence": 0.863185465335846,
-        "negative": 0.06533922255039215,
-        "neutral": 0.863185465335846,
-        "positive": 0.07147525995969772
+        "confidence": 0.6009637117385864,
+        "negative": 0.2994765341281891,
+        "neutral": 0.6009637117385864,
+        "positive": 0.09955977648496628
       },
       {
-        "headline": "5 big analyst AI moves: Apple upgraded as HSBC flags \u2019operational turning point\u2019",
+        "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
+        "label": "neutral",
+        "confidence": 0.8915529251098633,
+        "negative": 0.05442050099372864,
+        "neutral": 0.8915529251098633,
+        "positive": 0.054026588797569275
+      },
+      {
+        "headline": "How to Find the Market's Long-Term Winners",
         "label": "positive",
-        "confidence": 0.9041025638580322,
-        "negative": 0.04743422940373421,
-        "neutral": 0.048463206738233566,
-        "positive": 0.9041025638580322
+        "confidence": 0.8254199624061584,
+        "negative": 0.0634550005197525,
+        "neutral": 0.11112505197525024,
+        "positive": 0.8254199624061584
       },
       {
-        "headline": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
+        "headline": "Google plans to move all Pixel manufacturing out of China by 2027: report",
         "label": "neutral",
-        "confidence": 0.900339663028717,
-        "negative": 0.04917598143219948,
-        "neutral": 0.900339663028717,
-        "positive": 0.050484344363212585
+        "confidence": 0.9006059765815735,
+        "negative": 0.049808237701654434,
+        "neutral": 0.9006059765815735,
+        "positive": 0.0495857298374176
       },
       {
-        "headline": "Under Greg Abel, Apple and Alphabet Now Make Up Nearly 30% of Berkshire Hathaway's $348 Billion Stock Portfolio. Here's Why.",
-        "label": "neutral",
-        "confidence": 0.7465007305145264,
-        "negative": 0.06453532725572586,
-        "neutral": 0.7465007305145264,
-        "positive": 0.1889639049768448
-      },
-      {
-        "headline": "These 3 Words From Warren Buffett Are Great News for Alphabet Investors",
-        "label": "neutral",
-        "confidence": 0.9016968011856079,
-        "negative": 0.04944009706377983,
-        "neutral": 0.9016968011856079,
-        "positive": 0.04886314645409584
-      },
-      {
-        "headline": "Apple just raised prices again and the big one is still coming",
+        "headline": "Coinbase Debuts Tokenized Stocks On Base Network",
         "label": "positive",
-        "confidence": 0.9042313694953918,
-        "negative": 0.047509171068668365,
-        "neutral": 0.04825947433710098,
-        "positive": 0.9042313694953918
+        "confidence": 0.8334363698959351,
+        "negative": 0.06475291401147842,
+        "neutral": 0.10181068629026413,
+        "positive": 0.8334363698959351
+      },
+      {
+        "headline": "Monster Run: This Consumer Stock Turned $1,000 Into $1M Over 22 Years",
+        "label": "negative",
+        "confidence": 0.5913804769515991,
+        "negative": 0.5913804769515991,
+        "neutral": 0.16910220682621002,
+        "positive": 0.23951728641986847
+      },
+      {
+        "headline": "Prediction: TSMC Stock Will Soar After Aug. 26 Thanks to Nvidia\u2019s Historic Quarter",
+        "label": "positive",
+        "confidence": 0.8860620260238647,
+        "negative": 0.058485645800828934,
+        "neutral": 0.05545233190059662,
+        "positive": 0.8860620260238647
+      },
+      {
+        "headline": "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
+        "label": "neutral",
+        "confidence": 0.9037240743637085,
+        "negative": 0.04931497573852539,
+        "neutral": 0.9037240743637085,
+        "positive": 0.0469609834253788
+      },
+      {
+        "headline": "Coinbase Enters the Tokenized Stock Wars",
+        "label": "neutral",
+        "confidence": 0.8976932764053345,
+        "negative": 0.05216972157359123,
+        "neutral": 0.8976932764053345,
+        "positive": 0.0501369908452034
+      },
+      {
+        "headline": "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
+        "label": "neutral",
+        "confidence": 0.6736013293266296,
+        "negative": 0.08316358923912048,
+        "neutral": 0.6736013293266296,
+        "positive": 0.24323506653308868
+      },
+      {
+        "headline": "TSMC Slides 2.3% as AI-Chip Confidence Suddenly Cracks",
+        "label": "negative",
+        "confidence": 0.8964672684669495,
+        "negative": 0.8964672684669495,
+        "neutral": 0.05333864316344261,
+        "positive": 0.050194185227155685
+      },
+      {
+        "headline": "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here\u2019s How Income Investors Can Adapt.",
+        "label": "neutral",
+        "confidence": 0.8971092104911804,
+        "negative": 0.05331827700138092,
+        "neutral": 0.8971092104911804,
+        "positive": 0.04957244545221329
+      },
+      {
+        "headline": "Get Paid 12% A Year To Hold NFLX Stock You Already Own",
+        "label": "negative",
+        "confidence": 0.9056971669197083,
+        "negative": 0.9056971669197083,
+        "neutral": 0.04825760796666145,
+        "positive": 0.046045202761888504
       }
     ],
-    "news_score": 0.1851,
+    "news_score": -0.0227,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,65 +185,68 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 8.3509,
-    "pe_ratio": 40.5024,
-    "pb_ratio": 45.9697,
-    "ev_ebitda": 30.742,
-    "ps_ratio": 10.858,
+    "pe_ratio": 35.5894,
+    "pb_ratio": 42.1658,
+    "ev_ebitda": 27.097,
+    "ps_ratio": 9.7021,
     "dividend_yield": null,
-    "dividend_payout": 14.1615,
-    "eps": 8.24,
+    "dividend_payout": 14.0717,
+    "eps": 8.72,
     "fcf": 98767000000.0,
     "fcf_margin": 23.7329,
     "cf_to_net_income": 0.9953,
     "capex_to_revenue": 3.0553,
     "cash_roic": null
   },
-  "ratio_score": 65.4,
+  "ratio_score": 67.3,
   "final_signal": {
-    "signal": "BUY",
-    "emoji": "\ud83d\udcc8",
-    "combined_score": 77.5,
-    "sentiment_score": 100,
-    "ratio_score": 65.4
+    "signal": "HOLD",
+    "emoji": "\u27a1\ufe0f",
+    "combined_score": 61.2,
+    "sentiment_score": 50,
+    "ratio_score": 67.3
   },
   "prediction": {
     "available": true,
-    "current_price": 333.74,
+    "current_price": 310.34,
     "horizon": "12 months",
-    "bull_case": 9.9,
-    "base_case": 2.7,
-    "bear_case": -29.4,
-    "price_bull": 366.78,
-    "price_base": 342.58,
-    "price_bear": 235.62,
+    "bull_case": 41.2,
+    "base_case": 2.2,
+    "bear_case": -36.8,
+    "price_bull": 438.36,
+    "price_base": 317.32,
+    "price_bear": 196.29,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 318.25,
+        "target_mean": 324.45,
         "target_low": 215.0,
         "target_high": 400.0,
-        "target_median": 325.0,
-        "upside_mean": -4.6,
-        "upside_low": -35.6,
-        "upside_high": 19.9,
-        "n_analysts": 43,
+        "target_median": 335.0,
+        "upside_mean": 4.5,
+        "upside_low": -30.7,
+        "upside_high": 28.9,
+        "n_analysts": 39,
         "recommendation": "buy"
       },
       "volatility": {
-        "high_52w": 334.99,
-        "low_52w": 201.5,
-        "range_pct": 66.2,
-        "position_in_range": 99.1,
-        "upside_estimate": 9.9,
-        "downside_estimate": -23.2,
-        "avg_50d": 302.65,
-        "avg_200d": 274.22,
-        "beta": 1.1
+        "high_52w": 344.57,
+        "low_52w": 224.69,
+        "range_pct": 53.4,
+        "position_in_range": 71.4,
+        "annual_vol_pct": 25.2,
+        "center_estimate": 0.0,
+        "upside_estimate": 39.0,
+        "downside_estimate": -39.0,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 310.5,
+        "avg_200d": 281.7,
+        "beta": 1.09
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

@@ -1,106 +1,106 @@
 {
   "ticker": "MCD",
-  "timestamp": "2026-07-19T16:56:04.445293",
+  "timestamp": "2026-08-25T17:08:09.550838",
   "profile": {
     "name": "McDonald's Corporation",
     "sector": "Consumer Cyclical"
   },
   "quote": {
-    "price": 267.71,
-    "change_pct": -2.10268,
-    "marketCap": 190209523712.0
+    "price": 272.54,
+    "change_pct": 0.586823,
+    "marketCap": 192860635136.0
   },
   "sentiment": {
     "overall": "neutral",
-    "score": -0.0326,
+    "score": 0.0164,
     "breakdown": {
-      "positive": 0,
-      "neutral": 9,
-      "negative": 1
+      "positive": 2,
+      "neutral": 6,
+      "negative": 2
     },
     "details": [
       {
-        "headline": "FDA finds outbreak-linked parasite in Taylor Farms lettuce sample",
-        "label": "neutral",
-        "confidence": 0.8930375576019287,
-        "negative": 0.0536138154566288,
-        "neutral": 0.8930375576019287,
-        "positive": 0.0533485971391201
+        "headline": "Starbucks Stock Gains 27% YTD: Should You Buy, Sell or Hold?",
+        "label": "positive",
+        "confidence": 0.8664482235908508,
+        "negative": 0.0708901658654213,
+        "neutral": 0.0626615583896637,
+        "positive": 0.8664482235908508
       },
       {
-        "headline": "Lettuce Supplier Linked to Cyclospora Outbreak Is a Global Salad Giant",
+        "headline": "Wendy\u2019s names Tariq Hassan chief marketing and customer growth officer",
         "label": "neutral",
-        "confidence": 0.9028205871582031,
-        "negative": 0.04816388711333275,
-        "neutral": 0.9028205871582031,
-        "positive": 0.049015626311302185
+        "confidence": 0.894162118434906,
+        "negative": 0.05322232097387314,
+        "neutral": 0.894162118434906,
+        "positive": 0.05261549726128578
       },
       {
-        "headline": "The Portfolio That Gives You a $2,000 Raise Every Year",
-        "label": "neutral",
-        "confidence": 0.8124264478683472,
-        "negative": 0.060776084661483765,
-        "neutral": 0.8124264478683472,
-        "positive": 0.12679745256900787
-      },
-      {
-        "headline": "DGRO\u2019s December Rebalance Could Reshape Healthcare Exposure: Here\u2019s What to Watch",
-        "label": "neutral",
-        "confidence": 0.8318347930908203,
-        "negative": 0.08503267914056778,
-        "neutral": 0.8318347930908203,
-        "positive": 0.0831325426697731
-      },
-      {
-        "headline": "Factbox-US restaurant chains hit by foodborne illness outbreaks",
-        "label": "neutral",
-        "confidence": 0.8410237431526184,
-        "negative": 0.05193391069769859,
-        "neutral": 0.8410237431526184,
-        "positive": 0.10704239457845688
-      },
-      {
-        "headline": "2 Reasons to Like MCD and 1 to Stay Skeptical",
-        "label": "neutral",
-        "confidence": 0.8313389420509338,
-        "negative": 0.06297427415847778,
-        "neutral": 0.8313389420509338,
-        "positive": 0.1056867316365242
-      },
-      {
-        "headline": "Lettuce Grower Taylor Farms to Pull Parasite-Linked Products",
-        "label": "neutral",
-        "confidence": 0.8992335200309753,
-        "negative": 0.05085776746273041,
-        "neutral": 0.8992335200309753,
-        "positive": 0.049908630549907684
-      },
-      {
-        "headline": "Parasite concerns cast a shadow over fast-food stocks",
+        "headline": "Domino's Stock Slips 15% in 6 Months: Should You Buy, Hold or Sell?",
         "label": "negative",
-        "confidence": 0.569406270980835,
-        "negative": 0.569406270980835,
-        "neutral": 0.3497943878173828,
-        "positive": 0.08079933375120163
+        "confidence": 0.8928144574165344,
+        "negative": 0.8928144574165344,
+        "neutral": 0.0544707328081131,
+        "positive": 0.05271484702825546
       },
       {
-        "headline": "MasTec and Papa John's International have been highlighted as Zacks Bull and Bear of the Day",
+        "headline": "Wendy\u2019s CEO Aims for Chain to Get Back in the Burger Fight",
         "label": "neutral",
-        "confidence": 0.8955677151679993,
-        "negative": 0.051384467631578445,
-        "neutral": 0.8955677151679993,
-        "positive": 0.05304782837629318
+        "confidence": 0.9035295844078064,
+        "negative": 0.04987359046936035,
+        "neutral": 0.9035295844078064,
+        "positive": 0.04659677669405937
       },
       {
-        "headline": "McDonald's Earnings Preview: What to Expect",
+        "headline": "Wendy\u2019s hires ex-McDonald\u2019s CMO as chief marketing, customer growth officer",
         "label": "neutral",
-        "confidence": 0.9062219858169556,
-        "negative": 0.047097980976104736,
-        "neutral": 0.9062219858169556,
-        "positive": 0.04668000712990761
+        "confidence": 0.9076552391052246,
+        "negative": 0.04627254977822304,
+        "neutral": 0.9076552391052246,
+        "positive": 0.04607221856713295
+      },
+      {
+        "headline": "McDonald\u2019s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
+        "label": "neutral",
+        "confidence": 0.8937385082244873,
+        "negative": 0.05475226789712906,
+        "neutral": 0.8937385082244873,
+        "positive": 0.051509302109479904
+      },
+      {
+        "headline": "How Durable Is CAVA's 9% Comps Growth Amid Food-Safety Concerns?",
+        "label": "negative",
+        "confidence": 0.7136921286582947,
+        "negative": 0.7136921286582947,
+        "neutral": 0.21180711686611176,
+        "positive": 0.07450077682733536
+      },
+      {
+        "headline": "Trump\u2019s 90-Day Inflation Band-Aid: Why His Beef Tariff Pause Won\u2019t Help Consumers",
+        "label": "neutral",
+        "confidence": 0.8934566378593445,
+        "negative": 0.05377928167581558,
+        "neutral": 0.8934566378593445,
+        "positive": 0.052764151245355606
+      },
+      {
+        "headline": "Will Loyalty Perks and Menu Tie-Ins Change McDonald\u2019s (MCD) U.S. Traffic Narrative?",
+        "label": "neutral",
+        "confidence": 0.9046943187713623,
+        "negative": 0.04808776453137398,
+        "neutral": 0.9046943187713623,
+        "positive": 0.04721794277429581
+      },
+      {
+        "headline": "Pro-DEI Companies Are Doing Just Fine According To New Study",
+        "label": "positive",
+        "confidence": 0.9047433137893677,
+        "negative": 0.047391731292009354,
+        "neutral": 0.047864992171525955,
+        "positive": 0.9047433137893677
       }
     ],
-    "news_score": -0.0326,
+    "news_score": 0.0164,
     "fin_score": 0.0
   },
   "ratios": {
@@ -129,13 +129,13 @@
     "dpo": null,
     "ccc": null,
     "fixed_asset_turnover": 0.6275,
-    "pe_ratio": 22.0701,
+    "pe_ratio": 22.1218,
     "pb_ratio": null,
-    "ev_ebitda": 16.406,
-    "ps_ratio": 6.9303,
-    "dividend_yield": 2.78,
-    "dividend_payout": 61.7326,
-    "eps": 12.13,
+    "ev_ebitda": 16.52,
+    "ps_ratio": 6.962,
+    "dividend_yield": 2.73,
+    "dividend_payout": 61.4837,
+    "eps": 12.32,
     "fcf": 7186000000.0,
     "fcf_margin": 26.7287,
     "cf_to_net_income": 1.2322,
@@ -152,42 +152,45 @@
   },
   "prediction": {
     "available": true,
-    "current_price": 267.71,
+    "current_price": 272.54,
     "horizon": "12 months",
-    "bull_case": 22.0,
-    "base_case": 16.9,
-    "bear_case": -6.2,
-    "price_bull": 326.61,
-    "price_base": 312.95,
-    "price_bear": 250.98,
+    "bull_case": 36.2,
+    "base_case": 8.0,
+    "bear_case": -20.2,
+    "price_bull": 371.2,
+    "price_base": 294.34,
+    "price_bear": 217.49,
     "methods_used": [
       "analyst",
       "volatility"
     ],
     "detail": {
       "analyst": {
-        "target_mean": 326.65,
+        "target_mean": 316.06,
         "target_low": 250.0,
         "target_high": 407.0,
-        "target_median": 320.0,
-        "upside_mean": 22.0,
-        "upside_low": -6.6,
-        "upside_high": 52.0,
+        "target_median": 306.0,
+        "upside_mean": 16.0,
+        "upside_low": -8.3,
+        "upside_high": 49.3,
         "n_analysts": 31,
         "recommendation": "buy"
       },
       "volatility": {
         "high_52w": 341.75,
-        "low_52w": 264.09,
-        "range_pct": 29.4,
-        "position_in_range": 4.7,
-        "upside_estimate": 11.8,
-        "downside_estimate": -5.9,
-        "avg_50d": 277.01,
-        "avg_200d": 302.03,
+        "low_52w": 260.96,
+        "range_pct": 31.0,
+        "position_in_range": 14.3,
+        "annual_vol_pct": 18.2,
+        "center_estimate": 0.0,
+        "upside_estimate": 28.2,
+        "downside_estimate": -28.2,
+        "method": "calibrated volatility (1.55 sigma, 84% coverage)",
+        "avg_50d": 272.28,
+        "avg_200d": 297.82,
         "beta": 0.42
       }
     },
-    "disclaimer": "These are estimates based on analyst targets, DCF valuation, and historical volatility. NOT a guarantee."
+    "disclaimer": "Estimates from analyst targets, DCF and a volatility band calibrated on historical data (measured coverage ~84%). The central value is not more accurate than assuming an unchanged price. NOT a guarantee."
   }
 }

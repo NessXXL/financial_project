@@ -433,7 +433,7 @@ nav{border-bottom:1px solid var(--line);background:rgba(255,255,255,.92)}
 
 footer{border-top:1px solid var(--line);background:#F7F9FA}
 
-#vc-nav{display:flex;align-items:center;gap:7px;margin-left:14px}
+#vc-nav{display:flex;align-items:center;gap:6px;margin-left:6px}
 .vc-pill{display:none;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;
   background:var(--green-bg);border:1px solid #CBE6D6;
   font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted);
@@ -1609,7 +1609,7 @@ function analyze(t){
       d.ratios[g].map(([n,v,s])=>`<div class="ritem ${stClass(s)}"><span class="rn">${n}</span><span class="rv">${v}</span></div>`).join("");
   }
   const heads=d.sentiment.heads.map(([h,l,c])=>
-    `<div class="hl-row"><span class="pill ${l}">${l==="pos"?"POSITIVE":l==="neg"?"NEGATIVE":"NEUTRAL"}</span><span>${h}</span><span class="hl-conf">${c}%</span></div>`).join("");
+    `<div class="hl-row"><span class="pill ${l}">${l==="pos"?"POSITIVE":l==="neg"?"NEGATIVE":"NEUTRAL"}</span><span>${(typeof attnHTML==="function"?attnHTML(h):h)}</span><span class="hl-conf">${c}%</span></div>`).join("");
 
   dash.innerHTML=`
   <div class="card">
@@ -1637,7 +1637,7 @@ function analyze(t){
     <div class="sec-title">📰 News sentiment <span class="tag" style="color:${sentColor};border-color:currentColor">${d.sentiment.overall} ${d.sentiment.sc}</span>
     <span class="tag">▲${d.sentiment.pos} =${d.sentiment.neu} ▼${d.sentiment.neg}</span></div>
     ${heads}
-    <p class="disclaim">Classified live by our BiLSTM+CNN+Attention model — 91.6% test accuracy</p>
+    <div class="attn-legend">Highlight = what the model paid attention to <i></i> low → high</div><p class="disclaim">Classified live by our BiLSTM+CNN+Attention model — 91.6% test accuracy</p>
   </div>
 
   <div class="card">
@@ -1830,7 +1830,7 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
   /* панель сохранённых — над дашбордом */
   var panel = document.createElement("div");
   panel.id = "wl-panel";
-  panel.innerHTML = '<div class="wl-title">\u2605 MY WATCHLIST</div><div class="wl-chips"></div>';
+  panel.innerHTML = '<div class="wl-title">\u2605 MY PORTFOLIO</div><div class="wl-chips"></div>';
   dashEl.parentElement.insertBefore(panel, dashEl);
 
   function renderPanel(){
@@ -1858,7 +1858,7 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
     if (b && currentT){
       var on = wlHas(currentT);
       b.classList.toggle("on", on);
-      b.innerHTML = (on ? "\u2605 Watching" : "\u2606 Watch");
+      b.innerHTML = (on ? "\u2605 In portfolio" : "\u2606 Add to Portfolio");
     }
   }
   function addBtn(t){
@@ -1958,6 +1958,237 @@ document.querySelectorAll('#research-plots figure img').forEach(function(im){
 })();
 </script>
 <!-- ═══ end nav counters ═══ -->
+
+
+<!-- ═══ features: attention + compare + portfolio ═══ -->
+<script src="attention.js"></script>
+<style>
+.attn-w{border-radius:4px;padding:0 2px;transition:background .15s}
+.attn-legend{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);
+  margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.attn-legend i{display:inline-block;width:52px;height:9px;border-radius:4px;
+  background:linear-gradient(90deg,rgba(15,123,69,.06),rgba(15,123,69,.42))}
+#tools{max-width:1100px;margin:22px auto 0;padding:0 18px;display:flex;gap:9px;flex-wrap:wrap}
+.tool-btn{display:inline-flex;align-items:center;gap:7px;padding:9px 16px;border-radius:999px;
+  background:#fff;border:1px solid var(--line);font-weight:600;font-size:13.5px;
+  cursor:pointer;color:var(--ink);box-shadow:var(--shadow-sm);transition:background .12s}
+.tool-btn:hover{background:var(--green-bg);border-color:#BFE2CC}
+.tool-btn.on{background:var(--green-bg);border-color:#BFE2CC;color:var(--green)}
+#tool-panel{max-width:1100px;margin:14px auto 0;padding:0 18px;display:none}
+#tool-panel.on{display:block}
+.tp-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow-sm);padding:20px 22px}
+.tp-card h4{font-size:17px;font-weight:800;margin-bottom:4px}
+.tp-hint{font-size:12.5px;color:var(--muted);margin-bottom:14px}
+.tp-picks{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}
+.tp-pick{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;
+  font-family:'JetBrains Mono',monospace;font-size:12px;cursor:pointer}
+.tp-pick.sel{background:var(--green-bg);border-color:#BFE2CC;color:var(--green);font-weight:700}
+.tp-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.tp-num{width:74px;padding:8px 11px;border:1px solid var(--line);border-radius:9px;
+  font:600 14px 'Inter';outline:none}
+.tp-num:focus{border-color:#8FCBA6}
+.cmp-wrap{overflow-x:auto;margin-top:16px}
+table.cmp{border-collapse:collapse;width:100%;font-size:13px}
+table.cmp th,table.cmp td{border-bottom:1px solid var(--line);padding:8px 12px;text-align:left;
+  white-space:nowrap}
+table.cmp th{font-weight:700;background:#F7F9FA;position:sticky;top:0}
+table.cmp td.metric{color:var(--muted)}
+table.cmp tr.grp td{background:#F7F9FA;font-family:'JetBrains Mono',monospace;font-size:11px;
+  letter-spacing:1.4px;color:var(--muted);text-transform:uppercase}
+.cmp-sig{font-weight:800;padding:3px 10px;border-radius:6px;font-size:12px}
+.cmp-sig.buy{color:var(--green);background:var(--green-bg)}
+.cmp-sig.hold{color:var(--amber);background:var(--amber-bg)}
+.cmp-sig.sell{color:var(--red);background:var(--red-bg)}
+.pf-item{display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid var(--line)}
+.pf-item:first-of-type{border-top:0}
+.pf-rank{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted);width:26px}
+.pf-tick{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;
+  background:var(--ink);color:#fff;border-radius:7px;padding:4px 9px;min-width:74px;
+  text-align:center;cursor:pointer}
+.pf-name{flex:1;font-size:13.5px;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.pf-score{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px}
+.pf-note{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.6}
+</style>
+<script>
+(function(){
+  /* ───── attention highlighting ───── */
+  window.attnHTML = function(text){
+    try{
+      if (typeof ATTN === "undefined" || !ATTN[text]) return text;
+      var pairs = ATTN[text];
+      var used = 0, outHtml = "", low = text.toLowerCase();
+      for (var i = 0; i < pairs.length; i++){
+        var tok = pairs[i][0], w = pairs[i][1];
+        var at = low.indexOf(tok, used);
+        if (at === -1) continue;
+        outHtml += escapeHtml(text.slice(used, at));
+        var alpha = (0.05 + 0.40 * w).toFixed(3);
+        var bold = w > 0.75 ? "font-weight:700;" : "";
+        outHtml += '<span class="attn-w" style="background:rgba(15,123,69,' + alpha + ');'
+                 + bold + '" title="attention ' + Math.round(w * 100) + '%">'
+                 + escapeHtml(text.substr(at, tok.length)) + '</span>';
+        used = at + tok.length;
+      }
+      outHtml += escapeHtml(text.slice(used));
+      return outHtml || text;
+    }catch(e){ return text; }
+  };
+  function escapeHtml(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  }
+
+  /* ───── tools: compare + portfolio ───── */
+  var dash = document.getElementById("dash");
+  if (!dash || typeof DATA === "undefined") return;
+
+  var bar = document.createElement("div");
+  bar.id = "tools";
+  bar.innerHTML =
+    '<button class="tool-btn" id="btn-cmp">\u2696\ufe0f Compare companies</button>' +
+    '<button class="tool-btn" id="btn-pf">\ud83d\udcca Build portfolio</button>';
+  var panel = document.createElement("div");
+  panel.id = "tool-panel";
+  dash.parentElement.insertBefore(bar, dash);
+  dash.parentElement.insertBefore(panel, dash);
+
+  var tickers = Object.keys(DATA).filter(function(t){
+    var d = DATA[t];
+    return d && typeof d.score === "number" && d.ratios;
+  }).sort();
+
+  var selected = [];
+  var mode = null;
+
+  function nameOf(t){ return (DATA[t] && DATA[t].name) ? DATA[t].name : t; }
+  function sigClass(s){ return s === "BUY" ? "buy" : (s === "SELL" ? "sell" : "hold"); }
+
+  function openPanel(which){
+    if (mode === which){ mode = null; panel.classList.remove("on"); syncBtns(); return; }
+    mode = which; panel.classList.add("on"); syncBtns();
+    if (which === "cmp") renderCompare(); else renderPortfolio();
+  }
+  function syncBtns(){
+    document.getElementById("btn-cmp").classList.toggle("on", mode === "cmp");
+    document.getElementById("btn-pf").classList.toggle("on", mode === "pf");
+  }
+  document.getElementById("btn-cmp").onclick = function(){ openPanel("cmp"); };
+  document.getElementById("btn-pf").onclick  = function(){ openPanel("pf"); };
+
+  /* ── compare ── */
+  function renderCompare(){
+    var picks = tickers.map(function(t){
+      return '<span class="tp-pick' + (selected.indexOf(t) > -1 ? ' sel' : '') +
+             '" data-t="' + t + '">' + t + '</span>';
+    }).join("");
+    panel.innerHTML =
+      '<div class="tp-card"><h4>Compare companies</h4>' +
+      '<div class="tp-hint">Pick 2\u20133 tickers \u2014 same metrics, side by side.</div>' +
+      '<div class="tp-picks">' + picks + '</div>' +
+      '<div id="cmp-out"></div></div>';
+    panel.querySelectorAll(".tp-pick").forEach(function(el){
+      el.onclick = function(){
+        var t = el.dataset.t, i = selected.indexOf(t);
+        if (i > -1) selected.splice(i, 1);
+        else { if (selected.length >= 3) selected.shift(); selected.push(t); }
+        renderCompare();
+      };
+    });
+    var out = document.getElementById("cmp-out");
+    if (selected.length < 2){
+      out.innerHTML = '<div class="tp-hint">Select at least two companies.</div>';
+      return;
+    }
+    var ds = selected.map(function(t){ return DATA[t]; });
+    var html = '<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Metric</th>';
+    selected.forEach(function(t){ html += '<th>' + t + '</th>'; });
+    html += '</tr></thead><tbody>';
+    html += '<tr><td class="metric">Company</td>';
+    ds.forEach(function(d){ html += '<td>' + (d.name || "") + '</td>'; });
+    html += '</tr><tr><td class="metric">Signal</td>';
+    ds.forEach(function(d){
+      html += '<td><span class="cmp-sig ' + sigClass(d.sig) + '">' + d.sig + '</span></td>';
+    });
+    html += '</tr><tr><td class="metric">Combined score</td>';
+    ds.forEach(function(d){ html += '<td><b>' + d.score + '</b>/100</td>'; });
+    html += '</tr><tr><td class="metric">News sentiment</td>';
+    ds.forEach(function(d){ html += '<td>' + d.sent + '/100</td>'; });
+    html += '</tr><tr><td class="metric">Ratio health</td>';
+    ds.forEach(function(d){ html += '<td>' + d.ratio + '/100</td>'; });
+    html += '</tr>';
+
+    var groups = Object.keys(ds[0].ratios || {});
+    groups.forEach(function(g){
+      html += '<tr class="grp"><td colspan="' + (selected.length + 1) + '">' + g + '</td></tr>';
+      var names = (ds[0].ratios[g] || []).map(function(r){ return r[0]; });
+      names.forEach(function(mname){
+        html += '<tr><td class="metric">' + mname + '</td>';
+        ds.forEach(function(d){
+          var arr = (d.ratios && d.ratios[g]) || [];
+          var hit = null;
+          for (var i = 0; i < arr.length; i++){ if (arr[i][0] === mname){ hit = arr[i]; break; } }
+          if (!hit){ html += '<td>\u2014</td>'; return; }
+          var col = hit[2] === 1 ? "var(--green)" : (hit[2] === -1 ? "var(--red)" :
+                    (hit[2] === 0 ? "var(--amber)" : "var(--na)"));
+          html += '<td style="color:' + col + '">' + hit[1] + '</td>';
+        });
+        html += '</tr>';
+      });
+    });
+    html += '</tbody></table></div>';
+    out.innerHTML = html;
+  }
+
+  /* ── build portfolio ── */
+  function renderPortfolio(){
+    panel.innerHTML =
+      '<div class="tp-card"><h4>Build portfolio</h4>' +
+      '<div class="tp-hint">How many companies? We rank all ' + tickers.length +
+      ' analysed tickers by their combined score and show the top N.</div>' +
+      '<div class="tp-row"><input class="tp-num" id="pf-n" type="number" min="1" max="' +
+      tickers.length + '" value="5">' +
+      '<button class="tool-btn" id="pf-go">Build</button></div>' +
+      '<div id="pf-out"></div></div>';
+    document.getElementById("pf-go").onclick = buildPf;
+    document.getElementById("pf-n").addEventListener("keydown", function(e){
+      if (e.key === "Enter") buildPf();
+    });
+    buildPf();
+  }
+  function buildPf(){
+    var n = parseInt(document.getElementById("pf-n").value, 10);
+    if (isNaN(n) || n < 1) n = 5;
+    n = Math.min(n, tickers.length);
+    var ranked = tickers.slice().sort(function(a, b){ return DATA[b].score - DATA[a].score; })
+                        .slice(0, n);
+    var html = "";
+    ranked.forEach(function(t, i){
+      var d = DATA[t];
+      var col = d.score >= 70 ? "var(--green)" : (d.score >= 45 ? "var(--amber)" : "var(--red)");
+      html += '<div class="pf-item"><span class="pf-rank">' + (i + 1) + '</span>' +
+              '<span class="pf-tick" data-t="' + t + '">' + t + '</span>' +
+              '<span class="pf-name">' + nameOf(t) + '</span>' +
+              '<span class="cmp-sig ' + sigClass(d.sig) + '">' + d.sig + '</span>' +
+              '<span class="pf-score" style="color:' + col + '">' + d.score + '</span></div>';
+    });
+    var avg = ranked.reduce(function(s, t){ return s + DATA[t].score; }, 0) / (ranked.length || 1);
+    var buys = ranked.filter(function(t){ return DATA[t].sig === "BUY"; }).length;
+    html += '<div class="pf-note">Average score <b>' + avg.toFixed(1) + '</b>/100 \u00b7 ' +
+            buys + ' of ' + ranked.length + ' rated BUY.<br>' +
+            'Ranked by <b>0.35 \u00d7 news sentiment + 0.65 \u00d7 financial ratios</b> across ' +
+            'companies already analysed on this site \u2014 not a recommendation, ' +
+            'and not the whole market. Always do your own research.</div>';
+    document.getElementById("pf-out").innerHTML = html;
+    document.querySelectorAll(".pf-tick").forEach(function(el){
+      el.onclick = function(){
+        if (typeof pick === "function") pick(el.dataset.t);
+        else if (typeof analyze === "function") analyze(el.dataset.t);
+      };
+    });
+  }
+})();
+</script>
+<!-- ═══ end features ═══ -->
 
 </body>
 </html>
